@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:arbok",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:arbok",
+      "model": "cobblemon:arbok.geo",
+      "texture": "cobblemon:textures/pokemon/0024_arbok/arbok_twilight.png",
+      "layers": [
+        {
+          "name": "pattern",
+          "texture": "cobblemon:textures/pokemon/0024_arbok/arbok_pattern_twilight.png",
+          "emissive": false
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0024_arbok/arbok_twilight_shiny.png"
+    }
+  ]
+}

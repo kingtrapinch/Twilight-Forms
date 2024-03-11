@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:crustle",
+  "order": 2,
+  "variations": [
+    {
+      "aspects": ["brick-mazestone"],
+      "poser": "cobblemon:crustle",
+      "model": "cobblemon:crustle.geo",
+      "texture": "cobblemon:textures/pokemon/0558_crustle/crustle_mazestone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "brick-mazestone",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0558_crustle/crustle_mazestone_shiny.png"
+    }
+  ]
+}

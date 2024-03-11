@@ -1,0 +1,11 @@
+{
+  "type": "choice",
+  "keys": ["brick"],
+  "default": false,
+  "choices": [
+    "underbrick",
+    "mazestone"
+  ],
+  "isAspect": true,
+  "aspectFormat": "brick-{{choice}}"
+}

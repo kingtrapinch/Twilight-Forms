@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:golett",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:golett",
+      "model": "cobblemon:golett_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_twilight.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_twilight_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_twilight_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_twilight_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

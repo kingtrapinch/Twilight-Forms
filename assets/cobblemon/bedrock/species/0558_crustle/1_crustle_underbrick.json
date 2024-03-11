@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:crustle",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["brick-underbrick"],
+      "poser": "cobblemon:crustle",
+      "model": "cobblemon:crustle.geo",
+      "texture": "cobblemon:textures/pokemon/0558_crustle/crustle_underbrick.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "brick-underbrick",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0558_crustle/crustle_underbrick_shiny.png"
+    }
+  ]
+}

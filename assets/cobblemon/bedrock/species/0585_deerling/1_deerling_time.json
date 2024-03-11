@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:deerling",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:deerling",
+      "model": "cobblemon:deerling.geo",
+      "texture": "cobblemon:textures/pokemon/0585_deerling/deerling_time.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0585_deerling/deerling_time_shiny.png"
+    }
+  ]
+}

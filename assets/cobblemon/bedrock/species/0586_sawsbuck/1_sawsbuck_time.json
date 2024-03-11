@@ -1,0 +1,21 @@
+{
+  "species": "cobblemon:sawsbuck",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:sawsbuck",
+      "model": "cobblemon:sawsbuck_autumn.geo",
+      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_time.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "model": "cobblemon:sawsbuck_autumn.geo",
+      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_time_shiny.png"
+    }
+  ]
+}

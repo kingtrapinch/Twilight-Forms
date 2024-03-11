@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:golett",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:golett",
+      "model": "cobblemon:golett.geo",
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0622_golett/golett_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0622_golett/golett_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

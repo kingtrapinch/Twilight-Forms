@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:golurk",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:golurk",
+      "model": "cobblemon:golurk.geo",
+      "texture": "cobblemon:textures/pokemon/0623_golurk/golurk.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_shiny.png",
+      "layers": [
+        {
+          "name": "color",
+          "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

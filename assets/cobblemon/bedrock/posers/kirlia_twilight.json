@@ -1,0 +1,64 @@
+{
+  "head": "head",
+  "portraitScale": 1.55,
+  "portraitTranslation": [0.15, 0.55, 0],
+  "profileScale": 0.7,
+  "profileTranslation": [0, 0.65, 0],
+  "faint": "bedrock(kirlia_twilight, faint, true)",
+  "cry": "bedrock(kirlia_twilight, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(kirlia_twilight, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(kirlia_twilight, blink)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "bedrock(kirlia_twilight, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(kirlia_twilight, blink)"
+          ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "transformTicks": 10,
+      "poseTypes": [
+        "WALK"
+      ],
+      "animations": [
+        "bedrock(kirlia_twilight, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(kirlia_twilight, blink)"
+          ]
+        }
+      ]
+    }
+  }
+ }

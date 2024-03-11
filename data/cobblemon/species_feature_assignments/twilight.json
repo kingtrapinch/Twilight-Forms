@@ -1,0 +1,22 @@
+{
+    "pokemon": [ "ekans",
+                 "arbok",
+                 "paras",
+                 "parasect",
+                 "tropius",
+                 "ralts",
+                 "kirlia",
+                 "gardevoir",
+                 "gallade",
+                 "venipede",
+                 "whirlipede",
+                 "scolipede",
+                 "deerling",
+                 "sawsbuck",
+                 "golett",
+                 "golurk",
+                 "wooloo",
+                 "dubwool" 
+                ],
+    "features": [ "twilight" ]
+}

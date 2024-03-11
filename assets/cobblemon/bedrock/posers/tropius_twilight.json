@@ -1,0 +1,82 @@
+{
+    "head": "head",
+    "portraitScale": 0.58,
+    "portraitTranslation": [-0.75, 1.85, 0],
+    "profileScale": 0.31,
+    "profileTranslation": [0, 1.3, 0],
+    "poses": {
+      "standing": {
+        "poseName": "standing",
+        "transformTicks": 10,
+        "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+        "animations": [
+          "look",
+          "bedrock(tropius, ground_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(tropius, blink)"]
+          }
+        ]
+      },
+      "walking": {
+        "poseName": "walking",
+        "transformTicks": 10,
+        "poseTypes": ["WALK"],
+        "animations": [
+          "look",
+          "bedrock(tropius, ground_move)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(tropius, blink)"]
+          }
+        ]
+		},
+	   "hovering": {
+        "poseName": "hovering",
+        "transformTicks": 10,
+        "poseTypes": ["HOVER"],
+        "animations": [
+          "look",
+          "bedrock(tropius, air_idle)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(tropius, blink)"]
+          }
+        ]
+      },
+	   "flying": {
+        "poseName": "flying",
+        "transformTicks": 10,
+        "poseTypes": ["FLY"],
+        "animations": [
+          "look",
+          "bedrock(tropius, air_move)"
+        ],
+        "quirks": [
+          {
+            "name": "blink",
+            "animations": ["bedrock(tropius, blink)"]
+          },
+          {
+            "name": "wingflap",
+            "animations": ["bedrock(tropius, wingflap)"]
+          }
+        ]
+      },
+	   "sleeping": {
+        "poseName": "sleeping",
+        "transformTicks": 15,
+        "poseTypes": ["SLEEP"],
+        "animations": [
+          "look",
+          "bedrock(tropius, sleep)"
+        ]
+      }
+  }
+}
