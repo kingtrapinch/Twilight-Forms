@@ -1,2 +1,25 @@
 # Twilight-Forms
-A Minecraft Cobblemon datapack that adds Pokemon dimensional forms to be used with the Twilight Forest mod
+A Minecraft Cobblemon datapack that adds Pokemon dimensional forms to be used with the Twilight Forest mod. Requires the Cobblemon and Twilight Forest mods.
+
+Discord thread post: TBD
+Modrinth page: TBD
+
+For suggestions, post on the discord thread here: https://discord.com/channels/934267676354834442/1195373518095921233
+
+Link to Github repo: https://github.com/kingtrapinch/Twilight-Forms
+
+List of Pokemon Forms:
+- Torterra (Canopy, Twilight Oak, Fireswamp, and Darkwood)
+- Ekans & Arbok (Poison/Steel)
+- Paras & Parasect (Bug/Poison w/ Water Bubble)
+- Ralts, Kirlia, Gallade, and Gardevoir (Ghost/Fight and Ghost/Fairy)
+- Tropius (Grass/Dragon)
+- Venipede, Whirlipede, Scolipede (Psychic/Dark)
+- Dwebble & Crustle (Underbrick & Mazestone)
+- Deerling & Sawsbuck (Grass/Psychic)
+- Golett & Golurk (Grass/Electric)
+- Wooloo & Dubwool (Fairy/Fight)
+
+Read stats.txt for changed stats, evolution info, and movesets.
+
+To report bugs or suggest improvements to models, visit the github repo's issue page: https://github.com/kingtrapinch/Twilight-Forms/issues
