@@ -1,0 +1,26 @@
+{
+  "type": "choice",
+  "keys": ["tree"],
+  "default": "false",
+  "choices": [
+    "oak",
+    "birch",
+    "darkoak",
+    "acacia",
+    "azalea",
+    "swamp",
+    "jungle",
+    "spruce",
+    "mangrove",
+    "cherry",
+    "apricorn",
+    "crimson",
+    "warped",
+    "fireswamp",
+    "canopy",
+    "twilightoak",
+    "darkwood"
+  ],
+  "isAspect": true,
+  "aspectFormat": "tree-{{choice}}"
+}
