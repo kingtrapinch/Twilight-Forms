@@ -57,7 +57,15 @@
         "entries": [
           {
             "item": "minecraft:echo_shard",
-            "percentage": 20.0
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:life_orb",
+            "percentage": 1.0
+          },
+          {
+            "item": "cobblemon:tanga_berry",
+            "percentage": 1.0
           }
         ]
       },

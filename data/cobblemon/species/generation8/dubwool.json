@@ -21,7 +21,7 @@
   "shoulderMountable": false,
   "forms": [
     {
-      "name": "Twilight",
+      "name": "Twilight Dubwool",
       "primaryType": "fairy",
       "secondaryType": "fighting",
       "abilities": [
@@ -29,6 +29,18 @@
         "runaway",
         "h:bulletproof"
       ],
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:mutton",
+            "quantityRange": "1-2"
+          },
+          {
+            "item": "minecraft:pink_wool"
+          }
+        ]
+      },
       "baseStats": {
         "hp": 102,
         "attack": 95,
@@ -55,32 +67,28 @@
         "field"
       ],
       "moves": [
-        "1:tackle",
-        "1:copycat",
-        "1:charm",
         "1:wideguard",
         "1:craftyshield",
+        "1:rocksmash",
+        "1:charm",
         "1:defensecurl",
-        "1:lowkick",
         "1:playrough",
-        "10:disarmingvoice",
-        "12:guardsplit",
-        "16:doublekick",
-        "21:headbutt",        
-        "23:mistyterrain",
+        "8:disarmingvoice",
+        "10:doublekick",
+        "13:guardsplit",
+        "16:jumpkick",
+        "21:headbutt",
+        "23:playrough",
         "25:circlethrow",
-        "27:bodypress",
-        "30:bulkup",
-        "32:guardswap",
-        "35:jumpkick",
-        "38:reversal",
-        "40:cottonguard",
-        "44:highjumpkick",
-        "47:moonblast",
-        "50:doubleedge",
-        "54:spiritbreak",
-        "60:thunderouskick",
-        "66:mistyexplosion",
+        "28:guardswap",
+        "32:bodypress",
+        "36:cottonguard",
+        "40:spiritbreak",
+        "43:highjumpkick",
+        "47:aromaticmist",
+        "50:superpower",
+        "54:mistyterrain",
+        "54:mistyexplosion",
         "egg:counter",
         "egg:stomp",
         "egg:swagger",

@@ -40,14 +40,14 @@
     {"name": "base"},
     {
       "implemented": true,
-      "name": "Twilight",
+      "name": "Twilight Deerling",
       "nationalPokedexNumber": 585,
       "primaryType": "grass",
       "secondaryType": "psychic",
       "abilities": [
         "forewarn",
-        "serenegrace",
-        "h:grassysurge"
+        "grassysurge",
+        "h:serenegrace"
       ],
       "drops": {
         "amount": 2,

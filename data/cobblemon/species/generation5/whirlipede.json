@@ -58,11 +58,19 @@
         "h:speedboost"
       ],
       "drops": {
-        "amount": 2,
+        "amount": 3,
         "entries": [
           {
             "item": "minecraft:echo_shard",
-            "percentage": 20.0
+            "quantityRange": "1-3"
+          },
+          {
+            "item": "cobblemon:life_orb",
+            "percentage": 2.5
+          },
+          {
+            "item": "cobblemon:tanga_berry",
+            "percentage": 2.5
           }
         ]
       },

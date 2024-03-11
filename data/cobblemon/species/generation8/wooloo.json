@@ -21,13 +21,26 @@
   "shoulderMountable": false,
   "forms": [
     {
-      "name": "Twilight",
+      "name": "Twilight Wooloo",
       "primaryType": "fairy",
+      "secondaryType": "fighting",
       "abilities": [
         "fluffy",
         "runaway",
         "h:bulletproof"
       ],
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:mutton",
+            "quantityRange": "1-2"
+          },
+          {
+            "item": "minecraft:pink_wool"
+          }
+        ]
+      },
       "baseStats": {
         "hp": 42,
         "attack": 40,
@@ -58,21 +71,22 @@
         "1:tackle",
         "1:defensecurl",
         "1:charm",
-        "4:copycat",
-        "8:lowkick",
-        "10:disarmingvoice",
+        "4:rocksmash",
+        "8:disarmingvoice",
+        "10:doublekick",
         "13:guardsplit",
-        "16:doublekick",
+        "16:jumpkick",
         "21:headbutt",
-        "23:mistyterrain",
-        "25:takedown",
+        "23:playrough",
+        "25:cottonguard",
         "28:guardswap",
-        "32:reversal",
-        "36:cottonguard",
-        "40:doubleedge",
-        "43:spiritbreak",
+        "32:circlethrow",
+        "36:bodypress",
+        "40:spiritbreak",
+        "43:highjumpkick",
         "47:aromaticmist",
-        "50:dazzlinggleam",
+        "50:superpower",
+        "54:mistyterrain",
         "54:mistyexplosion",
         "egg:counter",
         "egg:stomp",

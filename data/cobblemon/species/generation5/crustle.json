@@ -151,8 +151,18 @@
       "aspects": [
         "brick-underbrick"
       ],
-      "preEvolution": "dwebble",
-      "evolutions": [],
+      "preEvolution": "dwebble brick=underbrick",
+      "evolutions": [
+        {
+          "id": "crustle_transform_mazestone",
+          "variant": "item_interact",
+          "result": "crustle brick=mazestone",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:mazestone_brick"
+        }
+      ],
       "baseScale": 1.3,
       "hitbox": {
         "width": 1.1,
@@ -180,10 +190,10 @@
         "wonderguard"
       ],
       "drops": {
-        "amount": 3,
+        "amount": 1,
         "entries": [
           {
-            "item": "twilightforest:mazestone",
+            "item": "twilightforest:mazestone_brick",
             "percentage": 95.0
           }
         ]

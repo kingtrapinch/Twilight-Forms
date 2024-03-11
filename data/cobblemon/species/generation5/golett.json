@@ -61,15 +61,11 @@
         "amount": 3,
         "entries": [
           {
-            "item": "minecraft:clay_ball",
-            "quantityRange": "0-1"
+            "item": "twilightforest:carminite",
+            "quantityRange": "1-2"
           },
           {
-            "item": "cobblemon:light_clay",
-            "percentage": 2.5
-          },
-          {
-            "item": "cobblemon:colbur_berry",
+            "item": "cobblemon:occa_berry",
             "percentage": 2.5
           }
         ]

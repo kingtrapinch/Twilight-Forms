@@ -49,7 +49,7 @@
   "forms": [
     {
       "implemented": true,
-      "name": "Scolipede",
+      "name": "Twilight Scolipede",
       "nationalPokedexNumber": 545,
       "primaryType": "psychic",
       "secondaryType": "dark",
@@ -58,11 +58,19 @@
         "h:speedboost"
       ],
       "drops": {
-        "amount": 2,
+        "amount": 5,
         "entries": [
           {
             "item": "minecraft:echo_shard",
-            "percentage": 20.0
+            "quantityRange": "2-5"
+          },
+          {
+            "item": "cobblemon:life_orb",
+            "percentage": 5.0
+          },
+          {
+            "item": "cobblemon:tanga_berry",
+            "percentage": 5.0
           }
         ]
       },

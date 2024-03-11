@@ -166,6 +166,15 @@
               "minLevel": 34
             }
           ]
+        },
+        {
+          "id": "dwebble_transform_mazestone",
+          "variant": "item_interact",
+          "result": "dwebble brick=mazestone",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:mazestone_brick"
         }
       ],
       "baseScale": 0.8,
@@ -200,8 +209,8 @@
         "amount": 1,
         "entries": [
           {
-            "item": "twilightforest:mazestone",
-            "percentage": 80.0
+            "item": "twilightforest:mazestone_brick",
+            "percentage": 75.0
           }
         ]
       },
