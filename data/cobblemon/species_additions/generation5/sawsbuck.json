@@ -1,4 +1,6 @@
 {
+  "target": "cobblemon:sawsbuck",
+  "features": ["season","twilight"],
   "implemented": true,
   "name": "Sawsbuck",
   "nationalPokedexNumber": 586,
@@ -30,9 +32,6 @@
     "special_defence": 70,
     "speed": 95
   },
-  "features": [
-    "season"
-  ],
   "catchRate": 75,
   "maleRatio": 0.5,
   "shoulderMountable": false,

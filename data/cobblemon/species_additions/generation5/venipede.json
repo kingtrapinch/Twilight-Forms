@@ -1,7 +1,9 @@
 {
+  "target": "cobblemon:venipede",
+  "features": ["twilight"],
   "implemented": true,
-  "name": "Scolipede",
-  "nationalPokedexNumber": 545,
+  "name": "Venipede",
+  "nationalPokedexNumber": 543,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -14,28 +16,23 @@
     "entries": [
       {
         "item": "cobblemon:poison_barb",
-        "percentage": 10.0
+        "percentage": 2.5
       },
       {
         "item": "cobblemon:pecha_berry",
-        "percentage": 10.0
+        "percentage": 2.5
       }
     ]
   },
   "baseStats": {
-    "hp": 60,
-    "attack": 100,
-    "defence": 89,
-    "special_attack": 55,
-    "special_defence": 69,
-    "speed": 112
+    "hp": 30,
+    "attack": 45,
+    "defence": 59,
+    "special_attack": 30,
+    "special_defence": 39,
+    "speed": 57
   },
   "behaviour": {
-    "moving": {
-      "walk": {
-        "walkSpeed": 0.24
-      }
-    },
     "resting": {
       "canSleep": true,
       "willSleepOnBed": true,
@@ -43,14 +40,14 @@
       "light": "11-15"
     }
   },
-  "catchRate": 45,
+  "catchRate": 255,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Scolipede",
-      "nationalPokedexNumber": 545,
+      "name": "Twilight Venipede",
+      "nationalPokedexNumber": 543,
       "primaryType": "psychic",
       "secondaryType": "dark",
       "abilities": [
@@ -58,36 +55,31 @@
         "h:speedboost"
       ],
       "drops": {
-        "amount": 5,
+        "amount": 2,
         "entries": [
           {
             "item": "minecraft:echo_shard",
-            "quantityRange": "2-5"
+            "quantityRange": "0-2"
           },
           {
             "item": "cobblemon:life_orb",
-            "percentage": 5.0
+            "percentage": 1.0
           },
           {
             "item": "cobblemon:tanga_berry",
-            "percentage": 5.0
+            "percentage": 1.0
           }
         ]
       },
       "baseStats": {
-        "hp": 60,
-        "attack": 100,
-        "defence": 89,
-        "special_attack": 55,
-        "special_defence": 69,
-        "speed": 112
+        "hp": 30,
+        "attack": 45,
+        "defence": 59,
+        "special_attack": 30,
+        "special_defence": 39,
+        "speed": 57
       },
       "behaviour": {
-        "moving": {
-          "walk": {
-            "walkSpeed": 0.24
-          }
-        },
         "resting": {
           "canSleep": false,
           "willSleepOnBed": false,
@@ -95,264 +87,245 @@
           "light": "11-15"
         }
       },
-      "catchRate": 45,
+      "catchRate": 255,
       "maleRatio": 0.5,
       "shoulderMountable": false,
-      "baseExperienceYield": 243,
+      "baseExperienceYield": 52,
       "experienceGroup": "medium_slow",
-      "eggCycles": 20,
+      "eggCycles": 15,
       "eggGroups": [
         "bug"
       ],
       "moves": [
-        "1:batonpass",
         "1:defensecurl",
-        "1:irondefense",
         "1:powertrip",
-        "1:obstruct",
-        "1:rollout",
+        "4:rollout",
+        "8:obstruct",
         "12:psybeam",
         "12:pursuit",
         "16:cosmicpower",
         "20:brutalswing",
-        "26:zenheadbutt",
-        "34:powertrick",
-        "39:lashout",
-        "42:agility",
-        "48:psychicterrain",
-        "50:psychicfangs",
-        "58:swordsdance",
-        "66:darkestlariat",
-        "74:kowtowcleave",
+        "24:zenheadbutt",
+        "28:powertrick",
+        "32:agility",
+        "33:lashout",
+        "36:psychicterrain",
+        "38:psychicfangs",
+        "40:swordsdance",
+        "44:darkestlariat",
+        "egg:bite",
+        "egg:furycutter",
+        "egg:pinmissile",
+        "egg:rockclimb",
+        "egg:spikes",
+        "egg:takedown",
+        "egg:toxicspikes",
+        "egg:twineedle",
         "tm:agility",
-        "tm:assurance",
         "tm:attract",
-        "tm:batonpass",
-        "tm:bulldoze",
         "tm:confide",
-        "tm:crosspoison",
-        "tm:cut",
-        "tm:dig",
         "tm:doubleteam",
-        "tm:earthquake",
         "tm:endure",
         "tm:facade",
         "tm:frustration",
-        "tm:gigaimpact",
         "tm:gyroball",
         "tm:hex",
         "tm:hiddenpower",
-        "tm:hyperbeam",
         "tm:infestation",
         "tm:irondefense",
-        "tm:irontail",
-        "tm:megahorn",
         "tm:payback",
         "tm:pinmissile",
         "tm:poisonjab",
         "tm:protect",
         "tm:rest",
         "tm:return",
-        "tm:rockslide",
         "tm:rocksmash",
-        "tm:rocktomb",
         "tm:round",
         "tm:screech",
         "tm:secretpower",
         "tm:sleeptalk",
         "tm:sludgebomb",
-        "tm:smartstrike",
         "tm:snore",
         "tm:solarbeam",
         "tm:spikes",
-        "tm:stompingtantrum",
-        "tm:strength",
         "tm:strugglebug",
         "tm:substitute",
         "tm:sunnyday",
-        "tm:superpower",
         "tm:swagger",
-        "tm:swordsdance",
-        "tm:throatchop",
         "tm:toxic",
         "tm:toxicspikes",
         "tm:venomdrench",
         "tm:venoshock",
-        "tm:xscissor",
-        "tutor:aquatail",
         "tutor:bugbite",
         "tutor:endeavor",
         "tutor:irondefense",
-        "tutor:irontail",
-        "tutor:poisontail",
         "tutor:signalbeam",
         "tutor:skittersmack",
         "tutor:sleeptalk",
-        "tutor:snatch",
         "tutor:snore",
-        "tutor:steelroller",
-        "tutor:stompingtantrum",
-        "tutor:superpower",
-        "tutor:throatchop",
-        "tutor:toxicspikes"
+        "tutor:steelroller"
       ],
       "labels": [
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.scolipede.desc"
+        "cobblemon.species.venipede.desc"
       ],
-      "preEvolution": "whirlipede form=twilight",
-      "evolutions": [],
-      "baseScale": 1.0,
+      "aspects": [
+        "twilight"
+      ],
+      "evolutions": [
+        {
+          "id": "venipede_whirlipede_twilight",
+          "variant": "level_up",
+          "result": "whirlipede form=twilight",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "irondefense"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 22
+            }
+          ]
+        }
+      ],
+      "baseScale": 0.6,
       "hitbox": {
-        "width": 2.5,
-        "height": 3.0,
+        "width": 1,
+        "height": 0.9,
         "fixed": false
       },
       "baseFriendship": 50,
       "evYield": {
         "hp": 0,
         "attack": 0,
-        "defence": 0,
+        "defence": 1,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 3
+        "speed": 0
       },
-      "height": 25,
-      "weight": 2005,
-      "aspects": [
-        "twilight"
-      ],
+      "height": 4,
+      "weight": 53,
       "cannotDynamax": false
     }
   ],
-  "baseExperienceYield": 243,
+  "baseExperienceYield": 52,
   "experienceGroup": "medium_slow",
-  "eggCycles": 20,
+  "eggCycles": 15,
   "eggGroups": [
     "bug"
   ],
-  "features": [
-    "twilight"
-  ],
   "moves": [
-    "1:batonpass",
     "1:defensecurl",
-    "1:irondefense",
     "1:poisonsting",
-    "1:protect",
-    "1:rollout",
+    "4:rollout",
+    "8:protect",
     "12:poisontail",
     "12:pursuit",
     "16:screech",
     "20:bugbite",
-    "26:venoshock",
-    "34:takedown",
-    "39:steamroller",
-    "42:agility",
-    "50:rockclimb",
-    "50:toxic",
-    "58:venomdrench",
-    "66:doubleedge",
-    "74:megahorn",
+    "24:venoshock",
+    "28:takedown",
+    "32:agility",
+    "33:steamroller",
+    "36:toxic",
+    "40:rockclimb",
+    "40:venomdrench",
+    "44:doubleedge",
+    "egg:bite",
+    "egg:furycutter",
+    "egg:pinmissile",
+    "egg:rockclimb",
+    "egg:spikes",
+    "egg:takedown",
+    "egg:toxicspikes",
+    "egg:twineedle",
     "tm:agility",
-    "tm:assurance",
     "tm:attract",
-    "tm:batonpass",
-    "tm:bulldoze",
     "tm:confide",
-    "tm:crosspoison",
-    "tm:cut",
-    "tm:dig",
     "tm:doubleteam",
-    "tm:earthquake",
     "tm:endure",
     "tm:facade",
     "tm:frustration",
-    "tm:gigaimpact",
     "tm:gyroball",
     "tm:hex",
     "tm:hiddenpower",
-    "tm:hyperbeam",
     "tm:infestation",
     "tm:irondefense",
-    "tm:irontail",
-    "tm:megahorn",
     "tm:payback",
     "tm:pinmissile",
     "tm:poisonjab",
     "tm:protect",
     "tm:rest",
     "tm:return",
-    "tm:rockslide",
     "tm:rocksmash",
-    "tm:rocktomb",
     "tm:round",
     "tm:screech",
     "tm:secretpower",
     "tm:sleeptalk",
     "tm:sludgebomb",
-    "tm:smartstrike",
     "tm:snore",
     "tm:solarbeam",
     "tm:spikes",
-    "tm:stompingtantrum",
-    "tm:strength",
     "tm:strugglebug",
     "tm:substitute",
     "tm:sunnyday",
-    "tm:superpower",
     "tm:swagger",
-    "tm:swordsdance",
-    "tm:throatchop",
     "tm:toxic",
     "tm:toxicspikes",
     "tm:venomdrench",
     "tm:venoshock",
-    "tm:xscissor",
-    "tutor:aquatail",
     "tutor:bugbite",
     "tutor:endeavor",
     "tutor:irondefense",
-    "tutor:irontail",
-    "tutor:poisontail",
     "tutor:signalbeam",
     "tutor:skittersmack",
     "tutor:sleeptalk",
-    "tutor:snatch",
     "tutor:snore",
-    "tutor:steelroller",
-    "tutor:stompingtantrum",
-    "tutor:superpower",
-    "tutor:throatchop",
-    "tutor:toxicspikes"
+    "tutor:steelroller"
   ],
   "labels": [
     "gen5"
   ],
   "pokedex": [
-    "cobblemon.species.scolipede.desc"
+    "cobblemon.species.venipede.desc"
   ],
-  "preEvolution": "whirlipede",
-  "evolutions": [],
-  "baseScale": 1.0,
+  "evolutions": [
+    {
+      "id": "venipede_whirlipede",
+      "variant": "level_up",
+      "result": "whirlipede",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "irondefense"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 22
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.6,
   "hitbox": {
-    "width": 2.5,
-    "height": 3.0,
+    "width": 1,
+    "height": 0.9,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 0,
+    "defence": 1,
     "special_attack": 0,
     "special_defence": 0,
-    "speed": 3
+    "speed": 0
   },
-  "height": 25,
-  "weight": 2005,
+  "height": 4,
+  "weight": 53,
   "aspects": [],
   "cannotDynamax": false
 }

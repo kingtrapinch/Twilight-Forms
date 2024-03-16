@@ -1,4 +1,6 @@
 {
+  "target": "cobblemon:paras",
+  "features": ["twilight"],
   "implemented": true,
   "name": "Paras",
   "nationalPokedexNumber": 46,

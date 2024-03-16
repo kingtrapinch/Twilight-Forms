@@ -1,7 +1,9 @@
 {
+  "target": "cobblemon:kirlia",
+  "features": ["twilight"],
   "implemented": true,
-  "name": "Gardevoir",
-  "nationalPokedexNumber": 282,
+  "name": "Kirlia",
+  "nationalPokedexNumber": 281,
   "primaryType": "psychic",
   "secondaryType": "fairy",
   "abilities": [
@@ -10,126 +12,82 @@
     "h:telepathy"
   ],
   "drops": {
-    "amount": 6,
+    "amount": 5,
     "entries": [
       {
         "item": "minecraft:ender_pearl",
-        "quantityRange": "0-3"
+        "quantityRange": "0-2"
       },
       {
         "item": "cobblemon:dawn_stone",
-        "percentage": 10.0
+        "percentage": 5.0
       },
       {
         "item": "cobblemon:twisted_spoon",
-        "percentage": 10.0
+        "percentage": 5.0
       },
       {
         "item": "cobblemon:kasib_berry",
-        "percentage": 10.0
+        "percentage": 5.0
       }
     ]
   },
   "baseStats": {
-    "hp": 68,
-    "attack": 65,
-    "defence": 65,
-    "special_attack": 125,
-    "special_defence": 115,
-    "speed": 80
+    "hp": 38,
+    "attack": 35,
+    "defence": 35,
+    "special_attack": 65,
+    "special_defence": 55,
+    "speed": 50
   },
-  "catchRate": 45,
+  "catchRate": 120,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
-      "name": "Mega",
-      "primaryType": "psychic",
-      "secondaryType": "fairy",
-      "abilities": [
-        "pixilate"
-      ],
-      "baseStats": {
-        "hp": 68,
-        "attack": 85,
-        "defence": 65,
-        "special_attack": 165,
-        "special_defence": 135,
-        "speed": 100
-      },
-      "catchRate": 45,
-      "maleRatio": 0.5,
-      "baseExperienceYield": 259,
-      "baseFriendship": 35,
-      "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 3,
-        "special_defence": 0,
-        "speed": 0
-      },
-      "experienceGroup": "slow",
-      "eggCycles": 20,
-      "eggGroups": [
-        "amorphous"
-      ],
-      "labels": [
-        "gen6",
-        "mega"
-      ],
-      "aspects": [
-        "mega"
-      ],
-      "height": 16,
-      "weight": 484,
-      "evolutions": [],
-      "cannotDynamax": false,
-      "battleOnly": true
-    },
-    {
       "implemented": true,
-      "name": "Twilight Gardevoir",
-      "nationalPokedexNumber": 282,
+      "name": "Twilight Kirlia",
+      "nationalPokedexNumber": 281,
       "primaryType": "ghost",
-      "secondaryType": "fairy",
+      "secondaryType": "fighting",
       "abilities": [
-        "queenlymajesty",
-        "h:competitive"
+        "hustle",
+        "battlearmor",
+        "h:telepathy"
       ],
       "drops": {
-        "amount": 6,
+        "amount": 4,
         "entries": [
           {
-            "item": "minecraft:glowstone_dust",
-            "quantityRange": "3-5"
+            "item": "twilightforest:armor_shard",
+            "quantityRange": "3-4"
           },
           {
             "item": "cobblemon:dawn_stone",
-            "percentage": 10.0
+            "percentage": 5.0
           },
           {
             "item": "cobblemon:spell_tag",
-            "percentage": 10.0
+            "percentage": 5.0
           },
           {
-            "item": "minecraft:goat_horn",
-            "percentage": 10.0
+            "item": "cobblemon:roseli_berry",
+            "percentage": 5.0
           }
         ]
       },
       "baseStats": {
-        "hp": 68,
+        "hp": 38,
         "attack": 65,
-        "defence": 65,
-        "special_attack": 125,
-        "special_defence": 115,
-        "speed": 80
+        "defence": 55,
+        "special_attack": 35,
+        "special_defence": 35,
+        "speed": 50
       },
-      "catchRate": 45,
-      "maleRatio": 0,
+      "catchRate": 120,
+      "maleRatio": 0.5,
       "shoulderMountable": false,
-      "baseExperienceYield": 259,
+      "baseExperienceYield": 97,
       "experienceGroup": "slow",
       "eggCycles": 20,
       "eggGroups": [
@@ -137,34 +95,27 @@
         "amorphous"
       ],
       "moves": [
-        "1:growl",
-        "1:faketears",
-        "1:mistyterrain",
-        "1:flatter",
-        "1:yawn",
-        "1:mysticalfire",
-        "1:doubleteam",
-        "1:charm",
-        "1:nightshade",
-        "1:disarmingvoice",
-        "1:confuseray",
-        "9:hypnosis",
-        "12:drainingkiss",
-        "15:spite",
-        "17:magicalleaf",
-        "18:ominouswind",
+        "1:lowkick",
+        "1:astonish",
+        "1:focusenergy",
+        "1:harden",
+        "9:bulkup",
+        "12:shadowsneak",
+        "14:spite",
+        "15:lowsweep",
+        "17:headbutt",
+        "18:shadowpunch",
         "23:grudge",
-        "28:hex",
-        "32:nastyplot",
-        "35:willowisp",
-        "42:shadowball",
-        "44:nightmare",
-        "49:moonblast",
-        "56:dreameater",
-        "63:perishsong",
+        "28:revenge",
+        "33:irondefense",
+        "33:smartstrike",
+        "38:shadowclaw",
+        "43:swordsdance",
+        "48:submission",
+        "51:phantomforce",
+        "53:meteormash",
         "tm:allyswitch",
         "tm:attract",
-        "tm:aurasphere",
         "tm:bodyslam",
         "tm:calmmind",
         "tm:captivate",
@@ -180,17 +131,13 @@
         "tm:echoedvoice",
         "tm:encore",
         "tm:endure",
-        "tm:energyball",
         "tm:facade",
         "tm:firepunch",
         "tm:flash",
         "tm:fling",
-        "tm:focusblast",
         "tm:frustration",
         "tm:futuresight",
-        "tm:gigaimpact",
         "tm:grassknot",
-        "tm:guardswap",
         "tm:helpinghand",
         "tm:hiddenpower",
         "tm:hyperbeam",
@@ -205,10 +152,7 @@
         "tm:megapunch",
         "tm:metronome",
         "tm:mistyterrain",
-        "tm:mysticalfire",
         "tm:naturalgift",
-        "tm:nightshade",
-        "tm:powerswap",
         "tm:protect",
         "tm:psybeam",
         "tm:psychic",
@@ -250,32 +194,23 @@
         "tm:zenheadbutt",
         "tutor:allyswitch",
         "tutor:bodyslam",
-        "tutor:calmmind",
-        "tutor:dazzlinggleam",
         "tutor:defensecurl",
         "tutor:doubleedge",
         "tutor:dreameater",
         "tutor:endure",
         "tutor:expandingforce",
         "tutor:firepunch",
-        "tutor:focusblast",
         "tutor:headbutt",
-        "tutor:healbell",
         "tutor:helpinghand",
         "tutor:hypervoice",
-        "tutor:hypnosis",
         "tutor:icepunch",
         "tutor:icywind",
-        "tutor:laserfocus",
         "tutor:magiccoat",
         "tutor:magicroom",
         "tutor:mimic",
-        "tutor:mistyexplosion",
-        "tutor:moonblast",
         "tutor:mudslap",
         "tutor:nightmare",
         "tutor:painsplit",
-        "tutor:psychic",
         "tutor:psychup",
         "tutor:recycle",
         "tutor:shockwave",
@@ -284,12 +219,10 @@
         "tutor:sleeptalk",
         "tutor:snatch",
         "tutor:snore",
-        "tutor:storedpower",
         "tutor:substitute",
         "tutor:swagger",
         "tutor:swift",
         "tutor:telekinesis",
-        "tutor:thunderbolt",
         "tutor:thunderpunch",
         "tutor:thunderwave",
         "tutor:trick",
@@ -301,32 +234,62 @@
         "gen3"
       ],
       "pokedex": [
-        "cobblemon.species.gardevoir.desc"
+        "cobblemon.species.kirlia.desc"
       ],
-      "preEvolution": "kirlia form=twilight",
-      "evolutions": [],
-      "baseScale": 0.9,
+      "preEvolution": "ralts form=twilight",
+      "evolutions": [
+        {
+          "id": "kirlia_gallade_twilight",
+          "variant": "level_up",
+          "result": "gallade form=twilight",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "sacredsword"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 30
+            }
+          ]
+        },
+        {
+          "id": "kirlia_gardevoir_twilight",
+          "variant": "item_interact",
+          "result": "gardevoir form=twilight",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "properties",
+              "target": "gender=female"
+            }
+          ],
+          "requiredContext": "cobblemon:dawn_stone"
+        }
+      ],
+      "baseScale": 0.8,
       "hitbox": {
-        "width": 0.6,
-        "height": 2.2,
+        "width": 0.5,
+        "height": 1.4,
         "fixed": false
       },
       "baseFriendship": 35,
       "evYield": {
         "hp": 0,
-        "attack": 0,
+        "attack": 2,
         "defence": 0,
-        "special_attack": 3,
+        "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
-      "height": 16,
-      "weight": 484,
+      "height": 8,
+      "weight": 252,
       "aspects": ["twilight"],
       "cannotDynamax": false
     }
   ],
-  "baseExperienceYield": 259,
+  "baseExperienceYield": 97,
   "experienceGroup": "slow",
   "eggCycles": 20,
   "eggGroups": [
@@ -334,33 +297,27 @@
     "amorphous"
   ],
   "moves": [
-    "1:charm",
     "1:confusion",
     "1:disarmingvoice",
     "1:doubleteam",
     "1:growl",
-    "1:healingwish",
-    "1:healpulse",
-    "1:mistyterrain",
-    "1:mysticalfire",
-    "1:storedpower",
     "9:hypnosis",
     "12:drainingkiss",
+    "14:luckychant",
     "15:teleport",
     "17:magicalleaf",
     "18:psybeam",
     "23:lifedew",
-    "28:wish",
-    "35:calmmind",
-    "35:imprison",
-    "42:psychic",
-    "44:captivate",
-    "49:moonblast",
-    "56:dreameater",
-    "63:futuresight",
+    "28:charm",
+    "33:calmmind",
+    "33:imprison",
+    "38:psychic",
+    "43:healpulse",
+    "48:dreameater",
+    "51:storedpower",
+    "53:futuresight",
     "tm:allyswitch",
     "tm:attract",
-    "tm:aurasphere",
     "tm:bodyslam",
     "tm:calmmind",
     "tm:captivate",
@@ -376,17 +333,13 @@
     "tm:echoedvoice",
     "tm:encore",
     "tm:endure",
-    "tm:energyball",
     "tm:facade",
     "tm:firepunch",
     "tm:flash",
     "tm:fling",
-    "tm:focusblast",
     "tm:frustration",
     "tm:futuresight",
-    "tm:gigaimpact",
     "tm:grassknot",
-    "tm:guardswap",
     "tm:helpinghand",
     "tm:hiddenpower",
     "tm:hyperbeam",
@@ -401,10 +354,7 @@
     "tm:megapunch",
     "tm:metronome",
     "tm:mistyterrain",
-    "tm:mysticalfire",
     "tm:naturalgift",
-    "tm:nightshade",
-    "tm:powerswap",
     "tm:protect",
     "tm:psybeam",
     "tm:psychic",
@@ -446,32 +396,23 @@
     "tm:zenheadbutt",
     "tutor:allyswitch",
     "tutor:bodyslam",
-    "tutor:calmmind",
-    "tutor:dazzlinggleam",
     "tutor:defensecurl",
     "tutor:doubleedge",
     "tutor:dreameater",
     "tutor:endure",
     "tutor:expandingforce",
     "tutor:firepunch",
-    "tutor:focusblast",
     "tutor:headbutt",
-    "tutor:healbell",
     "tutor:helpinghand",
     "tutor:hypervoice",
-    "tutor:hypnosis",
     "tutor:icepunch",
     "tutor:icywind",
-    "tutor:laserfocus",
     "tutor:magiccoat",
     "tutor:magicroom",
     "tutor:mimic",
-    "tutor:mistyexplosion",
-    "tutor:moonblast",
     "tutor:mudslap",
     "tutor:nightmare",
     "tutor:painsplit",
-    "tutor:psychic",
     "tutor:psychup",
     "tutor:recycle",
     "tutor:shockwave",
@@ -480,12 +421,10 @@
     "tutor:sleeptalk",
     "tutor:snatch",
     "tutor:snore",
-    "tutor:storedpower",
     "tutor:substitute",
     "tutor:swagger",
     "tutor:swift",
     "tutor:telekinesis",
-    "tutor:thunderbolt",
     "tutor:thunderpunch",
     "tutor:thunderwave",
     "tutor:trick",
@@ -497,14 +436,44 @@
     "gen3"
   ],
   "pokedex": [
-    "cobblemon.species.gardevoir.desc"
+    "cobblemon.species.kirlia.desc"
   ],
-  "preEvolution": "kirlia",
-  "evolutions": [],
-  "baseScale": 0.9,
+  "preEvolution": "ralts",
+  "evolutions": [
+    {
+      "id": "kirlia_gardevoir",
+      "variant": "level_up",
+      "result": "gardevoir",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "dazzlinggleam"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 30
+        }
+      ]
+    },
+    {
+      "id": "kirlia_gallade",
+      "variant": "item_interact",
+      "result": "gallade",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "gender=male"
+        }
+      ],
+      "requiredContext": "cobblemon:dawn_stone"
+    }
+  ],
+  "baseScale": 0.8,
   "hitbox": {
-    "width": 0.6,
-    "height": 2.2,
+    "width": 0.5,
+    "height": 1.4,
     "fixed": false
   },
   "baseFriendship": 35,
@@ -512,12 +481,12 @@
     "hp": 0,
     "attack": 0,
     "defence": 0,
-    "special_attack": 3,
+    "special_attack": 2,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 16,
-  "weight": 484,
+  "height": 8,
+  "weight": 202,
   "aspects": [],
   "cannotDynamax": false
 }

@@ -1,7 +1,9 @@
 {
+  "target": "cobblemon:arbok",
+  "features": ["twilight","snake-pattern"],
   "implemented": true,
-  "name": "Ekans",
-  "nationalPokedexNumber": 23,
+  "name": "Arbok",
+  "nationalPokedexNumber": 24,
   "primaryType": "poison",
   "abilities": [
     "intimidate",
@@ -9,12 +11,12 @@
     "h:unnerve"
   ],
   "baseStats": {
-    "hp": 35,
-    "attack": 60,
-    "defence": 44,
-    "special_attack": 40,
-    "special_defence": 54,
-    "speed": 55
+    "hp": 60,
+    "attack": 95,
+    "defence": 69,
+    "special_attack": 65,
+    "special_defence": 79,
+    "speed": 80
   },
   "behaviour": {
     "resting": {
@@ -24,17 +26,15 @@
       "light": "0-4"
     }
   },
-  "features": [
-    "snake-pattern"
-  ],
-  "catchRate": 255,
+  "standingEyeHeight": 1,
+  "catchRate": 90,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Ekans",
-      "nationalPokedexNumber": 23,
+      "name": "Twilight Arbok",
+      "nationalPokedexNumber": 24,
       "primaryType": "poison",
       "secondaryType": "steel",
       "abilities": [
@@ -42,12 +42,12 @@
         "h:multiscale"
       ],
       "baseStats": {
-        "hp": 45,
-        "attack": 60,
-        "defence": 64,
-        "special_attack": 20,
-        "special_defence": 54,
-        "speed": 55
+        "hp": 75,
+        "attack": 95,
+        "defence": 99,
+        "special_attack": 45,
+        "special_defence": 79,
+        "speed": 80
       },
       "behaviour": {
         "resting": {
@@ -57,12 +57,13 @@
           "light": "0-4"
         }
       },
+      "standingEyeHeight": 1,
       "features": [
       ],
-      "catchRate": 255,
+      "catchRate": 90,
       "maleRatio": 0.5,
       "shoulderMountable": false,
-      "baseExperienceYield": 58,
+      "baseExperienceYield": 157,
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
       "eggGroups": [
@@ -70,46 +71,38 @@
         "dragon"
       ],
       "drops": {
-        "amount": 2,
+        "amount": 3,
         "entries": [
           {
             "item": "twilightforest:naga_scale",
-            "quantityRange": "0-2"
+            "quantityRange": "0-3"
           },
           {
             "item": "cobblemon:razor_fang",
-            "percentage": 1.0
+            "percentage": 2.5
           }
         ]
       },
       "moves": [
+        "1:metalburst",
+        "1:crunch",
+        "1:firefang",
+        "1:icefang",
         "1:leer",
-        "1:wrap",
-        "4:poisonfang",
-        "9:bite",
+        "1:poisonfang",
+        "1:thunderfang",
+        "1:mortalspin",
         "12:glare",
         "17:screech",
         "20:gyroball",
-        "25:irondefense",
-        "28:ironhead",
-        "33:poisontail",
-        "36:irontail",
-        "38:poisonjab",
-        "41:steelroller",
-        "44:coil",
-        "49:gunkshot",
-        "egg:beatup",
-        "egg:disable",
-        "egg:irontail",
-        "egg:poisonfang",
-        "egg:poisontail",
-        "egg:pursuit",
-        "egg:scaryface",
-        "egg:slam",
-        "egg:snatch",
-        "egg:spite",
-        "egg:suckerpunch",
-        "egg:switcheroo",
+        "27:irondefense",
+        "32:ironhead",
+        "39:poisontail",
+        "44:irontail",
+        "48:poisonjab",
+        "51:steelroller",
+        "56:coil",
+        "63:gunkshot",
         "tm:attract",
         "tm:brutalswing",
         "tm:bulldoze",
@@ -118,12 +111,15 @@
         "tm:darkpulse",
         "tm:dig",
         "tm:doubleteam",
+        "tm:dragontail",
         "tm:earthquake",
         "tm:endure",
         "tm:facade",
         "tm:frustration",
         "tm:gigadrain",
+        "tm:gigaimpact",
         "tm:hiddenpower",
+        "tm:hyperbeam",
         "tm:infestation",
         "tm:irontail",
         "tm:naturalgift",
@@ -152,7 +148,6 @@
         "tutor:acid",
         "tutor:aquatail",
         "tutor:attract",
-        "tutor:beatup",
         "tutor:bide",
         "tutor:bind",
         "tutor:bite",
@@ -163,6 +158,7 @@
         "tutor:dig",
         "tutor:doubleedge",
         "tutor:doubleteam",
+        "tutor:dragontail",
         "tutor:earthquake",
         "tutor:endure",
         "tutor:facade",
@@ -175,6 +171,7 @@
         "tutor:haze",
         "tutor:headbutt",
         "tutor:hiddenpower",
+        "tutor:hyperbeam",
         "tutor:irontail",
         "tutor:leer",
         "tutor:megadrain",
@@ -182,8 +179,8 @@
         "tutor:poisonjab",
         "tutor:poisonsting",
         "tutor:protect",
-        "tutor:pursuit",
         "tutor:rage",
+        "tutor:refresh",
         "tutor:rest",
         "tutor:return",
         "tutor:rockslide",
@@ -196,12 +193,15 @@
         "tutor:snatch",
         "tutor:snore",
         "tutor:spite",
+        "tutor:stompingtantrum",
         "tutor:strength",
         "tutor:substitute",
+        "tutor:suckerpunch",
         "tutor:sunnyday",
         "tutor:swagger",
         "tutor:takedown",
         "tutor:thief",
+        "tutor:throatchop",
         "tutor:toxic",
         "tutor:wrap"
       ],
@@ -209,47 +209,34 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.ekans.desc"
+        "cobblemon.species.arbok.desc"
       ],
       "aspects": [
         "twilight"
       ],
-      "evolutions": [
-        {
-          "id": "ekans_arbok_twilight",
-          "variant": "level_up",
-          "result": "arbok form=twilight",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": 22
-            }
-          ]
-        }
-      ],
-      "baseScale": 0.8,
+      "preEvolution": "ekans form=twilight",
+      "evolutions": [],
+      "baseScale": 1,
       "hitbox": {
-        "width": 1.7,
-        "height": 0.4,
+        "width": 1,
+        "height": 1.8,
         "fixed": false
       },
       "baseFriendship": 70,
       "evYield": {
         "hp": 0,
         "attack": 0,
-        "defence": 1,
+        "defence": 2,
         "special_attack": 0,
         "special_defence": 0,
         "speed": 0
       },
-      "height": 20,
-      "weight": 69,
+      "height": 35,
+      "weight": 650,
       "cannotDynamax": false
     }
   ],
-  "baseExperienceYield": 58,
+  "baseExperienceYield": 157,
   "experienceGroup": "medium_fast",
   "eggCycles": 20,
   "eggGroups": [
@@ -261,40 +248,32 @@
     "entries": [
       {
         "item": "cobblemon:razor_fang",
-        "percentage": 2.5
+        "percentage": 5.0
       }
     ]
   },
   "moves": [
+    "1:bite",
+    "1:crunch",
+    "1:firefang",
+    "1:icefang",
     "1:leer",
+    "1:poisonsting",
+    "1:thunderfang",
     "1:wrap",
-    "4:poisonsting",
-    "9:bite",
     "12:glare",
     "17:screech",
     "20:acid",
-    "25:spitup",
-    "25:stockpile",
-    "25:swallow",
-    "28:acidspray",
-    "33:mudbomb",
-    "36:gastroacid",
-    "38:belch",
-    "41:haze",
-    "44:coil",
-    "49:gunkshot",
-    "egg:beatup",
-    "egg:disable",
-    "egg:irontail",
-    "egg:poisonfang",
-    "egg:poisontail",
-    "egg:pursuit",
-    "egg:scaryface",
-    "egg:slam",
-    "egg:snatch",
-    "egg:spite",
-    "egg:suckerpunch",
-    "egg:switcheroo",
+    "27:spitup",
+    "27:stockpile",
+    "27:swallow",
+    "32:acidspray",
+    "39:mudbomb",
+    "44:gastroacid",
+    "48:belch",
+    "51:haze",
+    "56:coil",
+    "63:gunkshot",
     "tm:attract",
     "tm:brutalswing",
     "tm:bulldoze",
@@ -303,12 +282,15 @@
     "tm:darkpulse",
     "tm:dig",
     "tm:doubleteam",
+    "tm:dragontail",
     "tm:earthquake",
     "tm:endure",
     "tm:facade",
     "tm:frustration",
     "tm:gigadrain",
+    "tm:gigaimpact",
     "tm:hiddenpower",
+    "tm:hyperbeam",
     "tm:infestation",
     "tm:irontail",
     "tm:naturalgift",
@@ -337,7 +319,6 @@
     "tutor:acid",
     "tutor:aquatail",
     "tutor:attract",
-    "tutor:beatup",
     "tutor:bide",
     "tutor:bind",
     "tutor:bite",
@@ -348,6 +329,7 @@
     "tutor:dig",
     "tutor:doubleedge",
     "tutor:doubleteam",
+    "tutor:dragontail",
     "tutor:earthquake",
     "tutor:endure",
     "tutor:facade",
@@ -360,6 +342,7 @@
     "tutor:haze",
     "tutor:headbutt",
     "tutor:hiddenpower",
+    "tutor:hyperbeam",
     "tutor:irontail",
     "tutor:leer",
     "tutor:megadrain",
@@ -367,8 +350,8 @@
     "tutor:poisonjab",
     "tutor:poisonsting",
     "tutor:protect",
-    "tutor:pursuit",
     "tutor:rage",
+    "tutor:refresh",
     "tutor:rest",
     "tutor:return",
     "tutor:rockslide",
@@ -381,12 +364,15 @@
     "tutor:snatch",
     "tutor:snore",
     "tutor:spite",
+    "tutor:stompingtantrum",
     "tutor:strength",
     "tutor:substitute",
+    "tutor:suckerpunch",
     "tutor:sunnyday",
     "tutor:swagger",
     "tutor:takedown",
     "tutor:thief",
+    "tutor:throatchop",
     "tutor:toxic",
     "tutor:wrap"
   ],
@@ -394,40 +380,27 @@
     "gen1"
   ],
   "pokedex": [
-    "cobblemon.species.ekans.desc"
+    "cobblemon.species.arbok.desc"
   ],
-  "evolutions": [
-    {
-      "id": "ekans_arbok",
-      "variant": "level_up",
-      "result": "arbok",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 22
-        }
-      ]
-    }
-  ],
-  "baseScale": 0.8,
+  "preEvolution": "ekans",
+  "evolutions": [],
+  "baseScale": 1,
   "hitbox": {
-    "width": 1.7,
-    "height": 0.4,
+    "width": 1,
+    "height": 1.8,
     "fixed": false
   },
   "baseFriendship": 70,
   "evYield": {
     "hp": 0,
-    "attack": 1,
+    "attack": 2,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 20,
-  "weight": 69,
+  "height": 35,
+  "weight": 650,
   "aspects": [],
   "cannotDynamax": false
 }

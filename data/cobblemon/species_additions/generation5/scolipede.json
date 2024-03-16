@@ -1,7 +1,9 @@
 {
+  "target": "cobblemon:scolipede",
+  "features": ["twilight"],
   "implemented": true,
-  "name": "Whirlipede",
-  "nationalPokedexNumber": 544,
+  "name": "Scolipede",
+  "nationalPokedexNumber": 545,
   "primaryType": "bug",
   "secondaryType": "poison",
   "abilities": [
@@ -14,26 +16,26 @@
     "entries": [
       {
         "item": "cobblemon:poison_barb",
-        "percentage": 5.0
+        "percentage": 10.0
       },
       {
         "item": "cobblemon:pecha_berry",
-        "percentage": 5.0
+        "percentage": 10.0
       }
     ]
   },
   "baseStats": {
-    "hp": 40,
-    "attack": 55,
-    "defence": 99,
-    "special_attack": 40,
-    "special_defence": 79,
-    "speed": 47
+    "hp": 60,
+    "attack": 100,
+    "defence": 89,
+    "special_attack": 55,
+    "special_defence": 69,
+    "speed": 112
   },
   "behaviour": {
     "moving": {
       "walk": {
-        "walkSpeed": 0.47
+        "walkSpeed": 0.24
       }
     },
     "resting": {
@@ -43,14 +45,14 @@
       "light": "11-15"
     }
   },
-  "catchRate": 120,
+  "catchRate": 45,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Whirlipede",
-      "nationalPokedexNumber": 544,
+      "name": "Twilight Scolipede",
+      "nationalPokedexNumber": 545,
       "primaryType": "psychic",
       "secondaryType": "dark",
       "abilities": [
@@ -58,34 +60,34 @@
         "h:speedboost"
       ],
       "drops": {
-        "amount": 3,
+        "amount": 5,
         "entries": [
           {
             "item": "minecraft:echo_shard",
-            "quantityRange": "1-3"
+            "quantityRange": "2-5"
           },
           {
             "item": "cobblemon:life_orb",
-            "percentage": 2.5
+            "percentage": 5.0
           },
           {
             "item": "cobblemon:tanga_berry",
-            "percentage": 2.5
+            "percentage": 5.0
           }
         ]
       },
       "baseStats": {
-        "hp": 40,
-        "attack": 55,
-        "defence": 99,
-        "special_attack": 40,
-        "special_defence": 79,
-        "speed": 47
+        "hp": 60,
+        "attack": 100,
+        "defence": 89,
+        "special_attack": 55,
+        "special_defence": 69,
+        "speed": 112
       },
       "behaviour": {
         "moving": {
           "walk": {
-            "walkSpeed": 0.47
+            "walkSpeed": 0.24
           }
         },
         "resting": {
@@ -95,16 +97,17 @@
           "light": "11-15"
         }
       },
-      "catchRate": 120,
+      "catchRate": 45,
       "maleRatio": 0.5,
       "shoulderMountable": false,
-      "baseExperienceYield": 126,
+      "baseExperienceYield": 243,
       "experienceGroup": "medium_slow",
-      "eggCycles": 15,
+      "eggCycles": 20,
       "eggGroups": [
         "bug"
       ],
       "moves": [
+        "1:batonpass",
         "1:defensecurl",
         "1:irondefense",
         "1:powertrip",
@@ -115,112 +118,125 @@
         "16:cosmicpower",
         "20:brutalswing",
         "26:zenheadbutt",
-        "32:powertrick",
-        "37:lashout",
-        "38:agility",
-        "44:psychicterrain",
-        "46:psychicfangs",
-        "50:swordsdance",
-        "56:darkestlariat",
+        "34:powertrick",
+        "39:lashout",
+        "42:agility",
+        "48:psychicterrain",
+        "50:psychicfangs",
+        "58:swordsdance",
+        "66:darkestlariat",
+        "74:kowtowcleave",
         "tm:agility",
+        "tm:assurance",
         "tm:attract",
+        "tm:batonpass",
+        "tm:bulldoze",
         "tm:confide",
+        "tm:crosspoison",
+        "tm:cut",
+        "tm:dig",
         "tm:doubleteam",
+        "tm:earthquake",
         "tm:endure",
         "tm:facade",
         "tm:frustration",
+        "tm:gigaimpact",
         "tm:gyroball",
         "tm:hex",
         "tm:hiddenpower",
+        "tm:hyperbeam",
         "tm:infestation",
         "tm:irondefense",
+        "tm:irontail",
+        "tm:megahorn",
         "tm:payback",
         "tm:pinmissile",
         "tm:poisonjab",
         "tm:protect",
         "tm:rest",
         "tm:return",
+        "tm:rockslide",
         "tm:rocksmash",
+        "tm:rocktomb",
         "tm:round",
         "tm:screech",
         "tm:secretpower",
         "tm:sleeptalk",
         "tm:sludgebomb",
+        "tm:smartstrike",
         "tm:snore",
         "tm:solarbeam",
         "tm:spikes",
+        "tm:stompingtantrum",
+        "tm:strength",
         "tm:strugglebug",
         "tm:substitute",
         "tm:sunnyday",
+        "tm:superpower",
         "tm:swagger",
+        "tm:swordsdance",
+        "tm:throatchop",
         "tm:toxic",
         "tm:toxicspikes",
         "tm:venomdrench",
         "tm:venoshock",
+        "tm:xscissor",
+        "tutor:aquatail",
         "tutor:bugbite",
         "tutor:endeavor",
         "tutor:irondefense",
+        "tutor:irontail",
+        "tutor:poisontail",
         "tutor:signalbeam",
         "tutor:skittersmack",
         "tutor:sleeptalk",
+        "tutor:snatch",
         "tutor:snore",
-        "tutor:steelroller"
+        "tutor:steelroller",
+        "tutor:stompingtantrum",
+        "tutor:superpower",
+        "tutor:throatchop",
+        "tutor:toxicspikes"
       ],
       "labels": [
         "gen5"
       ],
-      "aspects": [
-        "twilight"
-      ],
       "pokedex": [
-        "cobblemon.species.whirlipede.desc"
+        "cobblemon.species.scolipede.desc"
       ],
-      "preEvolution": "venipede",
-      "evolutions": [
-        {
-          "id": "whirlipede_scolipede-twilight",
-          "variant": "level_up",
-          "result": "scolipede form=twilight",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": 30
-            }
-          ]
-        }
-      ],
-      "baseScale": 0.9,
+      "preEvolution": "whirlipede form=twilight",
+      "evolutions": [],
+      "baseScale": 1.0,
       "hitbox": {
-        "width": 1.3,
-        "height": 1.6,
+        "width": 2.5,
+        "height": 3.0,
         "fixed": false
       },
       "baseFriendship": 50,
       "evYield": {
         "hp": 0,
         "attack": 0,
-        "defence": 2,
+        "defence": 0,
         "special_attack": 0,
         "special_defence": 0,
-        "speed": 0
+        "speed": 3
       },
-      "height": 12,
-      "weight": 585,
+      "height": 25,
+      "weight": 2005,
+      "aspects": [
+        "twilight"
+      ],
       "cannotDynamax": false
     }
   ],
-  "baseExperienceYield": 126,
+  "baseExperienceYield": 243,
   "experienceGroup": "medium_slow",
-  "eggCycles": 15,
+  "eggCycles": 20,
   "eggGroups": [
     "bug"
   ],
-  "features": [
-    "twilight"
-  ],
   "moves": [
+    "1:batonpass",
     "1:defensecurl",
     "1:irondefense",
     "1:poisonsting",
@@ -231,96 +247,111 @@
     "16:screech",
     "20:bugbite",
     "26:venoshock",
-    "32:takedown",
-    "37:steamroller",
-    "38:agility",
-    "44:toxic",
-    "46:rockclimb",
-    "50:venomdrench",
-    "56:doubleedge",
+    "34:takedown",
+    "39:steamroller",
+    "42:agility",
+    "50:rockclimb",
+    "50:toxic",
+    "58:venomdrench",
+    "66:doubleedge",
+    "74:megahorn",
     "tm:agility",
+    "tm:assurance",
     "tm:attract",
+    "tm:batonpass",
+    "tm:bulldoze",
     "tm:confide",
+    "tm:crosspoison",
+    "tm:cut",
+    "tm:dig",
     "tm:doubleteam",
+    "tm:earthquake",
     "tm:endure",
     "tm:facade",
     "tm:frustration",
+    "tm:gigaimpact",
     "tm:gyroball",
     "tm:hex",
     "tm:hiddenpower",
+    "tm:hyperbeam",
     "tm:infestation",
     "tm:irondefense",
+    "tm:irontail",
+    "tm:megahorn",
     "tm:payback",
     "tm:pinmissile",
     "tm:poisonjab",
     "tm:protect",
     "tm:rest",
     "tm:return",
+    "tm:rockslide",
     "tm:rocksmash",
+    "tm:rocktomb",
     "tm:round",
     "tm:screech",
     "tm:secretpower",
     "tm:sleeptalk",
     "tm:sludgebomb",
+    "tm:smartstrike",
     "tm:snore",
     "tm:solarbeam",
     "tm:spikes",
+    "tm:stompingtantrum",
+    "tm:strength",
     "tm:strugglebug",
     "tm:substitute",
     "tm:sunnyday",
+    "tm:superpower",
     "tm:swagger",
+    "tm:swordsdance",
+    "tm:throatchop",
     "tm:toxic",
     "tm:toxicspikes",
     "tm:venomdrench",
     "tm:venoshock",
+    "tm:xscissor",
+    "tutor:aquatail",
     "tutor:bugbite",
     "tutor:endeavor",
     "tutor:irondefense",
+    "tutor:irontail",
+    "tutor:poisontail",
     "tutor:signalbeam",
     "tutor:skittersmack",
     "tutor:sleeptalk",
+    "tutor:snatch",
     "tutor:snore",
-    "tutor:steelroller"
+    "tutor:steelroller",
+    "tutor:stompingtantrum",
+    "tutor:superpower",
+    "tutor:throatchop",
+    "tutor:toxicspikes"
   ],
   "labels": [
     "gen5"
   ],
   "pokedex": [
-    "cobblemon.species.whirlipede.desc"
+    "cobblemon.species.scolipede.desc"
   ],
-  "preEvolution": "venipede",
-  "evolutions": [
-    {
-      "id": "whirlipede_scolipede",
-      "variant": "level_up",
-      "result": "scolipede",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 30
-        }
-      ]
-    }
-  ],
-  "baseScale": 0.9,
+  "preEvolution": "whirlipede",
+  "evolutions": [],
+  "baseScale": 1.0,
   "hitbox": {
-    "width": 1.3,
-    "height": 1.6,
+    "width": 2.5,
+    "height": 3.0,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 2,
+    "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
-    "speed": 0
+    "speed": 3
   },
-  "height": 12,
-  "weight": 585,
+  "height": 25,
+  "weight": 2005,
   "aspects": [],
   "cannotDynamax": false
 }

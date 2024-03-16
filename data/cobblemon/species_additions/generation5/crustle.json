@@ -1,7 +1,9 @@
 {
+  "target": "cobblemon:crustle",
   "implemented": true,
-  "name": "Dwebble",
-  "nationalPokedexNumber": 557,
+  "name": "Crustle",
+  "features": ["twilight"],
+  "nationalPokedexNumber": 558,
   "primaryType": "bug",
   "secondaryType": "rock",
   "abilities": [
@@ -14,26 +16,24 @@
     "entries": [
       {
         "item": "cobblemon:hard_stone",
-        "percentage": 2.5
+        "percentage": 5.0
       }
     ]
   },
   "baseStats": {
-    "hp": 50,
-    "attack": 65,
-    "defence": 85,
-    "special_attack": 35,
-    "special_defence": 35,
-    "speed": 55
+    "hp": 70,
+    "attack": 105,
+    "defence": 125,
+    "special_attack": 65,
+    "special_defence": 75,
+    "speed": 45
   },
-  "catchRate": 190,
+  "catchRate": 75,
   "maleRatio": 0.5,
   "shoulderMountable": false,
   "forms": [
     {
-      "implemented": true,
-      "name": "Dwebble Underbrick",
-      "nationalPokedexNumber": 557,
+      "name": "Crustle Underbrick",
       "primaryType": "bug",
       "secondaryType": "rock",
       "abilities": [
@@ -42,26 +42,26 @@
         "h:weakarmor"
       ],
       "drops": {
-        "amount": 1,
+        "amount": 3,
         "entries": [
           {
             "item": "twilightforest:underbrick",
-            "percentage": 80.0
+            "percentage": 95.0
           }
         ]
       },
       "baseStats": {
-        "hp": 50,
-        "attack": 65,
-        "defence": 35,
-        "special_attack": 35,
-        "special_defence": 85,
-        "speed": 55
+        "hp": 70,
+        "attack": 105,
+        "defence": 75,
+        "special_attack": 65,
+        "special_defence": 125,
+        "speed": 45
       },
-      "catchRate": 190,
+      "catchRate": 75,
       "maleRatio": 0.5,
       "shoulderMountable": false,
-      "baseExperienceYield": 65,
+      "baseExperienceYield": 170,
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
       "eggGroups": [
@@ -71,8 +71,8 @@
       "moves": [
         "1:furycutter",
         "1:sandattack",
-        "4:withdraw",
-        "8:smackdown",
+        "1:smackdown",
+        "1:withdraw",
         "12:bugbite",
         "13:feintattack",
         "16:flail",
@@ -80,23 +80,13 @@
         "24:rockslide",
         "28:stealthrock",
         "32:rockblast",
-        "36:xscissor",
-        "40:rockpolish",
-        "44:shellsmash",
-        "48:rockwrecker",
-        "egg:block",
-        "egg:counter",
-        "egg:curse",
-        "egg:endure",
-        "egg:irondefense",
-        "egg:knockoff",
-        "egg:nightslash",
-        "egg:rototiller",
-        "egg:sandtomb",
-        "egg:spikes",
-        "egg:wideguard",
+        "38:xscissor",
+        "44:rockpolish",
+        "50:shellsmash",
+        "56:rockwrecker",
         "tm:aerialace",
         "tm:attract",
+        "tm:bodypress",
         "tm:bulldoze",
         "tm:confide",
         "tm:cut",
@@ -106,8 +96,11 @@
         "tm:endure",
         "tm:facade",
         "tm:frustration",
+        "tm:gigaimpact",
+        "tm:heavyslam",
         "tm:hiddenpower",
         "tm:honeclaws",
+        "tm:hyperbeam",
         "tm:irondefense",
         "tm:naturepower",
         "tm:poisonjab",
@@ -128,8 +121,10 @@
         "tm:smackdown",
         "tm:snore",
         "tm:solarbeam",
+        "tm:solarblade",
         "tm:spikes",
         "tm:stealthrock",
+        "tm:stompingtantrum",
         "tm:stoneedge",
         "tm:strength",
         "tm:strugglebug",
@@ -140,12 +135,17 @@
         "tm:xscissor",
         "tutor:block",
         "tutor:bugbite",
+        "tutor:counter",
         "tutor:irondefense",
         "tutor:knockoff",
+        "tutor:meteorbeam",
+        "tutor:nightslash",
+        "tutor:rockslide",
         "tutor:skittersmack",
         "tutor:sleeptalk",
         "tutor:snore",
-        "tutor:stealthrock"
+        "tutor:stealthrock",
+        "tutor:stompingtantrum"
       ],
       "labels": [
         "gen5"
@@ -153,34 +153,22 @@
       "aspects": [
         "brick-underbrick"
       ],
+      "preEvolution": "dwebble brick=underbrick",
       "evolutions": [
         {
-          "id": "dwebble_crustle_underbrick",
-          "variant": "level_up",
-          "result": "crustle brick=underbrick",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": 34
-            }
-          ]
-        },
-        {
-          "id": "dwebble_transform_mazestone",
+          "id": "crustle_transform_mazestone",
           "variant": "item_interact",
-          "result": "dwebble brick=mazestone",
+          "result": "crustle brick=mazestone",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
           "requiredContext": "twilightforest:mazestone_brick"
         }
       ],
-      "baseScale": 0.8,
+      "baseScale": 1.3,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.7,
+        "width": 1.1,
+        "height": 1,
         "fixed": false
       },
       "baseFriendship": 50,
@@ -189,17 +177,15 @@
         "attack": 0,
         "defence": 0,
         "special_attack": 0,
-        "special_defence": 1,
+        "special_defence": 2,
         "speed": 0
       },
-      "height": 3,
-      "weight": 145,
+      "height": 14,
+      "weight": 2000,
       "cannotDynamax": false
     },
     {
-      "implemented": true,
-      "name": "Dwebble Mazestone",
-      "nationalPokedexNumber": 557,
+      "name": "Crustle mazestone",
       "primaryType": "bug",
       "secondaryType": "rock",
       "abilities": [
@@ -210,22 +196,22 @@
         "entries": [
           {
             "item": "twilightforest:mazestone_brick",
-            "percentage": 75.0
+            "percentage": 95.0
           }
         ]
       },
       "baseStats": {
-        "hp": 50,
-        "attack": 65,
-        "defence": 85,
-        "special_attack": 35,
-        "special_defence": 85,
-        "speed": 55
+        "hp": 70,
+        "attack": 105,
+        "defence": 125,
+        "special_attack": 65,
+        "special_defence": 125,
+        "speed": 45
       },
-      "catchRate": 190,
+      "catchRate": 75,
       "maleRatio": 0.5,
       "shoulderMountable": false,
-      "baseExperienceYield": 65,
+      "baseExperienceYield": 170,
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
       "eggGroups": [
@@ -235,8 +221,8 @@
       "moves": [
         "1:furycutter",
         "1:sandattack",
-        "4:withdraw",
-        "8:smackdown",
+        "1:smackdown",
+        "1:withdraw",
         "12:bugbite",
         "13:feintattack",
         "16:flail",
@@ -244,23 +230,13 @@
         "24:rockslide",
         "28:stealthrock",
         "32:rockblast",
-        "36:xscissor",
-        "40:rockpolish",
-        "44:shellsmash",
-        "48:rockwrecker",
-        "egg:block",
-        "egg:counter",
-        "egg:curse",
-        "egg:endure",
-        "egg:irondefense",
-        "egg:knockoff",
-        "egg:nightslash",
-        "egg:rototiller",
-        "egg:sandtomb",
-        "egg:spikes",
-        "egg:wideguard",
+        "38:xscissor",
+        "44:rockpolish",
+        "50:shellsmash",
+        "56:rockwrecker",
         "tm:aerialace",
         "tm:attract",
+        "tm:bodypress",
         "tm:bulldoze",
         "tm:confide",
         "tm:cut",
@@ -270,8 +246,11 @@
         "tm:endure",
         "tm:facade",
         "tm:frustration",
+        "tm:gigaimpact",
+        "tm:heavyslam",
         "tm:hiddenpower",
         "tm:honeclaws",
+        "tm:hyperbeam",
         "tm:irondefense",
         "tm:naturepower",
         "tm:poisonjab",
@@ -292,8 +271,10 @@
         "tm:smackdown",
         "tm:snore",
         "tm:solarbeam",
+        "tm:solarblade",
         "tm:spikes",
         "tm:stealthrock",
+        "tm:stompingtantrum",
         "tm:stoneedge",
         "tm:strength",
         "tm:strugglebug",
@@ -304,12 +285,17 @@
         "tm:xscissor",
         "tutor:block",
         "tutor:bugbite",
+        "tutor:counter",
         "tutor:irondefense",
         "tutor:knockoff",
+        "tutor:meteorbeam",
+        "tutor:nightslash",
+        "tutor:rockslide",
         "tutor:skittersmack",
         "tutor:sleeptalk",
         "tutor:snore",
-        "tutor:stealthrock"
+        "tutor:stealthrock",
+        "tutor:stompingtantrum"
       ],
       "labels": [
         "gen5"
@@ -317,42 +303,29 @@
       "aspects": [
         "brick-mazestone"
       ],
-      "evolutions": [
-        {
-          "id": "dwebble_crustle_mazestone",
-          "variant": "level_up",
-          "result": "crustle brick=mazestone",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": 34
-            }
-          ]
-        }
-      ],
-      "baseScale": 0.8,
+      "preEvolution": "dwebble",
+      "evolutions": [],
+      "baseScale": 1.3,
       "hitbox": {
-        "width": 0.9,
-        "height": 0.7,
+        "width": 1.1,
+        "height": 1,
         "fixed": false
       },
       "baseFriendship": 50,
       "evYield": {
         "hp": 0,
         "attack": 0,
-        "defence": 0,
+        "defence": 1,
         "special_attack": 0,
         "special_defence": 1,
         "speed": 0
       },
-      "height": 3,
-      "weight": 145,
+      "height": 14,
+      "weight": 2000,
       "cannotDynamax": false
     }
   ],
-  "baseExperienceYield": 65,
+  "baseExperienceYield": 170,
   "experienceGroup": "medium_fast",
   "eggCycles": 20,
   "eggGroups": [
@@ -362,8 +335,8 @@
   "moves": [
     "1:furycutter",
     "1:sandattack",
-    "4:withdraw",
-    "8:smackdown",
+    "1:smackdown",
+    "1:withdraw",
     "12:bugbite",
     "13:feintattack",
     "16:flail",
@@ -371,23 +344,13 @@
     "24:rockslide",
     "28:stealthrock",
     "32:rockblast",
-    "36:xscissor",
-    "40:rockpolish",
-    "44:shellsmash",
-    "48:rockwrecker",
-    "egg:block",
-    "egg:counter",
-    "egg:curse",
-    "egg:endure",
-    "egg:irondefense",
-    "egg:knockoff",
-    "egg:nightslash",
-    "egg:rototiller",
-    "egg:sandtomb",
-    "egg:spikes",
-    "egg:wideguard",
+    "38:xscissor",
+    "44:rockpolish",
+    "50:shellsmash",
+    "56:rockwrecker",
     "tm:aerialace",
     "tm:attract",
+    "tm:bodypress",
     "tm:bulldoze",
     "tm:confide",
     "tm:cut",
@@ -397,8 +360,11 @@
     "tm:endure",
     "tm:facade",
     "tm:frustration",
+    "tm:gigaimpact",
+    "tm:heavyslam",
     "tm:hiddenpower",
     "tm:honeclaws",
+    "tm:hyperbeam",
     "tm:irondefense",
     "tm:naturepower",
     "tm:poisonjab",
@@ -419,8 +385,10 @@
     "tm:smackdown",
     "tm:snore",
     "tm:solarbeam",
+    "tm:solarblade",
     "tm:spikes",
     "tm:stealthrock",
+    "tm:stompingtantrum",
     "tm:stoneedge",
     "tm:strength",
     "tm:strugglebug",
@@ -431,51 +399,43 @@
     "tm:xscissor",
     "tutor:block",
     "tutor:bugbite",
+    "tutor:counter",
     "tutor:irondefense",
     "tutor:knockoff",
+    "tutor:meteorbeam",
+    "tutor:nightslash",
+    "tutor:rockslide",
     "tutor:skittersmack",
     "tutor:sleeptalk",
     "tutor:snore",
-    "tutor:stealthrock"
+    "tutor:stealthrock",
+    "tutor:stompingtantrum"
   ],
   "labels": [
     "gen5"
   ],
   "pokedex": [
-    "cobblemon.species.dwebble.desc"
+    "cobblemon.species.crustle.desc"
   ],
-  "evolutions": [
-    {
-      "id": "dwebble_crustle",
-      "variant": "level_up",
-      "result": "crustle",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 34
-        }
-      ]
-    }
-  ],
-  "baseScale": 0.8,
+  "preEvolution": "dwebble",
+  "evolutions": [],
+  "baseScale": 1.3,
   "hitbox": {
-    "width": 0.9,
-    "height": 0.7,
+    "width": 1.1,
+    "height": 1,
     "fixed": false
   },
   "baseFriendship": 50,
   "evYield": {
     "hp": 0,
     "attack": 0,
-    "defence": 1,
+    "defence": 2,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "height": 3,
-  "weight": 145,
+  "height": 14,
+  "weight": 2000,
   "aspects": [],
   "cannotDynamax": false
 }

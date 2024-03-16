@@ -1,4 +1,6 @@
 {
+  "target": "cobblemon:gallade",
+  "features": ["twilight"],
   "implemented": true,
   "name": "Gallade",
   "nationalPokedexNumber": 475,

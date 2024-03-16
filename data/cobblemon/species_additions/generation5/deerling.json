@@ -1,4 +1,6 @@
 {
+  "target": "cobblemon:deerling",
+  "features": ["season","twilight"],
   "implemented": true,
   "name": "Deerling",
   "nationalPokedexNumber": 585,
@@ -30,9 +32,6 @@
     "special_defence": 50,
     "speed": 75
   },
-  "features": [
-    "season"
-  ],
   "catchRate": 190,
   "maleRatio": 0.5,
   "shoulderMountable": false,

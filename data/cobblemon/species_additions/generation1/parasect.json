@@ -1,4 +1,6 @@
 {
+  "target": "cobblemon:parasect",
+  "features": ["twilight"],
   "implemented": true,
   "name": "Parasect",
   "nationalPokedexNumber": 47,

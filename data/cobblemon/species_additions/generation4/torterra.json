@@ -1,4 +1,6 @@
 {
+  "target": "cobblemon:torterra",
+  "features": ["tree"],
   "implemented": true,
   "name": "Torterra",
   "nationalPokedexNumber": 389,
@@ -25,9 +27,6 @@
     "special_defence": 85,
     "speed": 56
   },
-  "features": [
-    "tree"
-  ],
   "catchRate": 45,
   "maleRatio": 0.875,
   "shoulderMountable": false,

@@ -1,4 +1,5 @@
 {
+  "target": "cobblemon:grotle",
   "implemented": true,
   "name": "Grotle",
   "nationalPokedexNumber": 388,
