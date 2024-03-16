@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "skeledirge-twilight-1",
+            "pokemon": "skeledirge",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "32-53",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:fire_swamp"
+                ]
+            }
+        }
+    ]
+}

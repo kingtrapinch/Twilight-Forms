@@ -1,0 +1,19 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "snivy-twilight-1",
+            "pokemon": "snivy",
+            "presets": [
+                "naga_courtyard"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 50.0
+        }
+    ]
+}
