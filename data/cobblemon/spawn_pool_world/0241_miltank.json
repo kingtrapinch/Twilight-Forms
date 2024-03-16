@@ -1,0 +1,37 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "miltank-mooshtank-red-1",
+            "pokemon": "miltank mooshtank=red",
+            "presets": [
+                "labyrinth_mushroom"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 20.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+		{
+            "id": "miltank-mooshtank-brown-1",
+            "pokemon": "miltank mooshtank=brown",
+            "presets": [
+                "labyrinth_mushroom"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 20.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        }
+    ]
+}
