@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gallade-twilight-1",
+            "pokemon": "gallade twilight",
+            "presets": [
+                "knight_stronghold"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        }
+    ]
+}

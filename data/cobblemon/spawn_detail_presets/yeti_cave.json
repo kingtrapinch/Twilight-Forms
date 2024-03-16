@@ -1,0 +1,17 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:yeti_cave"
+      ],
+      "neededBaseBlocks": [
+        "minecraft:packed_ice"
+      ],
+      "neededNearbyBlocks": [
+        "minecraft:packed_ice",
+        "minecraft:stone",
+        "minecraft:ice",
+        "minecraft:blue_ice",
+        "minecraft:snow_block"
+      ]
+    }
+  }

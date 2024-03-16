@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "parasect-twilight-1",
+            "pokemon": "parasect twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-30",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        },
+        {
+            "id": "parasect-twilight-2",
+            "pokemon": "parasect twilight",
+            "presets": [
+                "hollow_hills"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-35",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "parasect-twilight-3",
+            "pokemon": "parasect twilight",
+            "presets": [
+                "labyrinth"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        }
+    ]
+}

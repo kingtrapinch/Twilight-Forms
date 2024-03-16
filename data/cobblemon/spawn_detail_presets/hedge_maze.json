@@ -1,0 +1,13 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:hedge_maze"
+      ],
+      "neededBaseBlocks": [
+        "minecraft:grass_block"
+      ],
+      "neededNearbyBlocks": [
+        "twilightforest:hedge"
+      ]
+    }
+  }

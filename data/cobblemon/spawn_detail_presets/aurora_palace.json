@@ -1,0 +1,21 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:aurora_palace"
+      ],
+      "neededBaseBlocks": [
+        "minecraft:birch_planks",
+        "minecraft:packed_ice",
+        "twilightforest:aurora_block",
+        "twilightforest:aurora_pillar",
+        "minecraft:birch_slab"
+      ],
+      "neededNearbyBlocks": [
+        "minecraft:birch_planks",
+        "minecraft:packed_ice",
+        "twilightforest:aurora_block",
+        "twilightforest:aurora_pillar",
+        "minecraft:birch_slab"
+      ]
+    }
+  }

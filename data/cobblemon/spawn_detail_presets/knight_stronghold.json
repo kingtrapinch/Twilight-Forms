@@ -1,0 +1,25 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:knight_stronghold"
+      ],
+      "neededBaseBlocks": [
+        "minecraft:stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:cracked_stone_bricks",
+        "twilightforest:underbrick",
+        "twilightforest:mossy_underbrick",
+        "twilightforest:cracked_underbrick",
+        "minecraft:stone_brick_stairs"
+      ],
+      "neededNearbyBlocks": [
+        "minecraft:stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:cracked_stone_bricks",
+        "twilightforest:underbrick",
+        "twilightforest:mossy_underbrick",
+        "twilightforest:cracked_underbrick",
+        "minecraft:stone_brick_stairs"
+      ]
+    }
+  }

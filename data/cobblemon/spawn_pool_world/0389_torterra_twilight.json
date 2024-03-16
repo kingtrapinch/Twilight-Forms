@@ -1,0 +1,79 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "torterra-twilight-canopy",
+            "pokemon": "torterra tree=canopy",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-53",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        },
+        {
+            "id": "torterra-twilight-twilightoak",
+            "pokemon": "torterra tree=twilightoak",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-53",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:oak_savannah",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "torterra-twilight-fireswamp",
+            "pokemon": "torterra tree=fireswamp",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-53",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:fire_swamp"
+                ]
+            }
+        },
+        {
+            "id": "torterra-twilight-darkwood",
+            "pokemon": "torterra tree=darkwood",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-53",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "condition": {
+      "minY": 150,
+      "neededBaseBlocks": [
+        "twilightforest:wispy_cloud",
+        "twilightforest:fluffy_cloud",
+        "twilightforest:rainy_cloud",
+        "twilightforest:snowy_cloud"
+      ],
+      "neededNearbyBlocks": [
+        "twilightforest:wispy_cloud",
+        "twilightforest:fluffy_cloud",
+        "twilightforest:rainy_cloud",
+        "twilightforest:snowy_cloud",
+        "twilightforest:giant_cobblestone",
+        "twilightforest:giant_leaves",
+        "twilightforest:giant_log"
+      ]
+    }
+  }

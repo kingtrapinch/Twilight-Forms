@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "venipede-twilight-1",
+            "pokemon": "venipede twilight",
+            "presets": [
+                "final_castle_upper"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "50-60",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:final_plateau"
+                ]
+            }
+        },
+        {
+            "id": "venipede-twilight-2",
+            "pokemon": "venipede twilight",
+            "presets": [
+                "final_castle_lower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "50-75",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:final_plateau"
+                ]
+            }
+        }
+    ]
+}

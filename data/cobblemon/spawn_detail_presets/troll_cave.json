@@ -1,0 +1,28 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:troll_cave"
+      ],
+      "maxY": 0,
+      "neededBaseBlocks": [
+        "minecraft:stone",
+        "minecraft:dirt",      
+        "minecraft:mycelium",
+        "twilightforest:uberous_soil",
+        "twilightforest:trollsteinn"
+
+    ],
+      "neededNearbyBlocks": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:mycelium",
+        "twilightforest:uberous_soil",
+        "twilightforest:trollsteinn",
+        "twilightforest:huge_mushgloom",
+        "twilightforest:huge_mushgloom_stem",
+        "minecraft:mushroom_stem",
+        "minecraft:brown_mushroom_block",
+        "minecraft:red_mushroom_block"
+      ]
+    }
+  }

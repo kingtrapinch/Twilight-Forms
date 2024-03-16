@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:is_ocean",
+    "#cobblemon:is_freshwater",
+    "twilightforest:lake",
+    "twilightforest:swamp"
+  ]
+}

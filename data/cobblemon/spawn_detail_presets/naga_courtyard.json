@@ -1,0 +1,25 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:naga_courtyard"
+      ],
+      "neededBaseBlocks": [
+        "twilightforest:etched_nagastone",
+        "twilightforest:mossy_etched_nagastone",
+        "minecraft:grass_block",
+        "twilightforest:cracked_etched_nagastone"
+      ],
+      "neededNearbyBlocks": [
+        "twilightforest:nagastone_head",
+        "twilightforest:spiral_bricks",
+        "twilightforest:nagastone_pillar",
+        "twilightforest:etched_nagastone",
+        "twilightforest:mossy_etched_nagastone",
+        "minecraft:grass_block",
+        "twilightforest:cracked_etched_nagastone",
+        "minecraft:cracked_stone_bricks",
+        "minecraft:mossy_stone_bricks",
+        "minecraft:stone_bricks"
+      ]
+    }
+  }

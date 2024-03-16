@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "whirlipede-twilight-1",
+            "pokemon": "whirlipede twilight",
+            "presets": [
+                "final_castle_upper"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "60-70",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:final_plateau"
+                ]
+            }
+        },
+        {
+            "id": "whirlipede-twilight-2",
+            "pokemon": "whirlipede twilight",
+            "presets": [
+                "final_castle_lower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "60-80",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:dark_tower"
+      ],
+      "neededBaseBlocks": [
+        "twilightforest:encased_towerwood",
+        "twilightforest:towerwood",
+        "twilightforest:cracked_towerwood",
+        "twilightforest:mossy_towerwood",
+        "twilightforest:infested_towerwood"
+      ],
+      "neededNearbyBlocks": [
+        "twilightforest:encased_towerwood",
+        "twilightforest:towerwood",
+        "twilightforest:cracked_towerwood",
+        "twilightforest:mossy_towerwood",
+        "twilightforest:infested_towerwood"
+      ]
+    }
+  }

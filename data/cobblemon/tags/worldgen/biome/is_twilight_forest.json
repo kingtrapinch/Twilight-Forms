@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "twilightforest:forest",
+    "twilightforest:dense_forest",
+    "twilightforest:mushroom_forest",
+    "twilightforest:dense_mushroom_forest",
+    "twilightforest:firefly_forest"
+  ]
+}

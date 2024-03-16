@@ -1,0 +1,29 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:final_castle"
+      ],
+      "minY": 90,
+      "neededBaseBlocks": [
+        "twilightforest:castle_brick",
+        "twilightforest:worn_castle_brick",
+        "twilightforest:cracked_castle_brick",
+        "twilightforest:mossy_castle_brick",
+        "minecraft:quartz_stairs"
+      ],
+      "neededNearbyBlocks": [
+        "twilightforest:castle_brick",
+        "twilightforest:worn_castle_brick",
+        "twilightforest:cracked_castle_brick",
+        "twilightforest:mossy_castle_brick",
+        "minecraft:quartz_stairs",
+        "twilightforest:deadrock",
+        "twilightforest:yellow_castle_rune_brick",
+        "twilightforest:green_force_field",
+        "twilightforest:pink_castle_rune_brick",
+        "twilightforest:pink_force_field",
+        "twilightforest:blue_castle_rune_brick",
+        "twilightforest:blue_force_field"
+      ]
+    }
+  }

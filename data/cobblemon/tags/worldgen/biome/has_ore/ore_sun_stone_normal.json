@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_badlands",
+    "#cobblemon:is_dripstone",
+    "#cobblemon:is_grassland",
+    "twilightforest:oak_savannah",
+    "twilightforest:clearing"
+  ]
+}
