@@ -7,7 +7,7 @@
             "id": "paras-twilight-1",
             "pokemon": "paras twilight",
             "presets": [
-                "natural"
+                "twilight_underground"
             ],
             "type": "pokemon",
             "context": "grounded",
