@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "murkrow-twilight-1",
+            "pokemon": "murkrow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-32",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight_forest"
+                ]
+            }
+        }
+    ]
+}

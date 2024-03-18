@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "volbeat-twilight",
+            "pokemon": "volbeat",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        }
+    ]
+}

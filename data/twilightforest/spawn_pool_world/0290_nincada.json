@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "nincada-twilight-1",
+            "pokemon": "nincada",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight_forest"
+                ]
+            }
+        }
+    ]
+}
