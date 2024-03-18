@@ -6,7 +6,6 @@
       "neededBaseBlocks": [
         "twilightforest:etched_nagastone",
         "twilightforest:mossy_etched_nagastone",
-        "minecraft:grass_block",
         "twilightforest:cracked_etched_nagastone"
       ],
       "neededNearbyBlocks": [

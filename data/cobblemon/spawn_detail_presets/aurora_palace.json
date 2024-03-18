@@ -5,17 +5,19 @@
       ],
       "neededBaseBlocks": [
         "minecraft:birch_planks",
+        "minecraft:birch_slab",
         "minecraft:packed_ice",
+        "minecraft:ice",
         "twilightforest:aurora_block",
-        "twilightforest:aurora_pillar",
-        "minecraft:birch_slab"
+        "twilightforest:aurora_pillar"
       ],
       "neededNearbyBlocks": [
         "minecraft:birch_planks",
+        "minecraft:birch_slab",
         "minecraft:packed_ice",
+        "minecraft:ice",
         "twilightforest:aurora_block",
-        "twilightforest:aurora_pillar",
-        "minecraft:birch_slab"
+        "twilightforest:aurora_pillar"
       ]
     }
   }
