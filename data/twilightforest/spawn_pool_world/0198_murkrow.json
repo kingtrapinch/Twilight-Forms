@@ -12,11 +12,13 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "5-32",
+            "level": "5-15",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest"
+                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:oak_savannah",
+                    "twilightforest:spooky_forest"
                 ]
             }
         },
@@ -28,12 +30,12 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "5-15",
+            "bucket": "uncommon",
+            "level": "25-35",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:spooky_forest"
+                    "twilightforest:dark_forest"
                 ]
             }
         }
