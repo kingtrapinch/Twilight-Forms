@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "rapidash-galarian-1",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+        {
+            "id": "rapidash-galarian-2",
+            "pokemon": "rapidash galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        }
+    ]
+}

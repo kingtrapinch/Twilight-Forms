@@ -46,10 +46,10 @@
     "amount": 5,
     "entries": [
       {
-        "item": "twilightforest:huge_lilypad"
+        "item": "twilightforest:huge_lily_pad"
       },
       {
-        "item": "twilightforest:huge_waterlily",
+        "item": "twilightforest:huge_water_lily",
         "quantityRange": "0-1"
       },
       {

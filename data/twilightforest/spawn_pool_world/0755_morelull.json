@@ -1,0 +1,62 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "morelull-twilight-1",
+            "pokemon": "morelull",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest",
+                    "twilightforest:firefly_forest",
+                    "twilightforest:underground"
+                ]
+            }
+        },
+        {
+            "id": "morelull-twilight-2",
+            "pokemon": "morelull",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 40.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest",
+                    "twilightforest:mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "morelull-twilight-3",
+            "pokemon": "morelull",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

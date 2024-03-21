@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "vulpix-alolan-twilight-1",
+            "pokemon": "vulpix alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 10.0,
+            "condition": {
+                "maxY": 30,
+                "biomes": [
+                    "twilightforest:snowy_forest"
+                ]
+            }
+        }
+    ]
+}

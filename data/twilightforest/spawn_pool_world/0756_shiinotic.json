@@ -1,0 +1,62 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shiinotic-twilight-1",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "14-25",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest",
+                    "twilightforest:firefly_forest",
+                    "twilightforest:underground"
+                ]
+            }
+        },
+        {
+            "id": "shiinotic-twilight-2",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "14-30",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest",
+                    "twilightforest:mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "shiinotic-twilight-3",
+            "pokemon": "shiinotic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,43 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "ponyta-galarian-1",
+            "pokemon": "ponyta galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+        {
+            "id": "ponyta-galarian-2",
+            "pokemon": "ponyta galarian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        }
+    ]
+}
