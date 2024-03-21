@@ -1,7 +1,7 @@
 {
     "condition": {
       "structures": [
-        "twilightforest:aurora_palace"
+        "twilightforest:lich_tower"
       ],
       "minY": 5,
       "neededBaseBlocks": [
@@ -9,20 +9,24 @@
         "minecraft:mossy_stone_bricks",
         "minecraft:cracked_stone_bricks",
         "minecraft:smooth_stone_slab",
-        "minecraft:birch_slab",
+        "minecraft:bookshelf",
         "minecraft:birch_planks",
+        "minecraft:birch_slab",
+        "minecraft:oak_planks",
         "minecraft:oak_slab",
-        "minecraft:oak_planks"
+        "minecraft:oak_fence"
       ],
       "neededNearbyBlocks": [
         "minecraft:stone_bricks",
         "minecraft:mossy_stone_bricks",
         "minecraft:cracked_stone_bricks",
         "minecraft:smooth_stone_slab",
+        "minecraft:bookshelf",
         "minecraft:birch_planks",
         "minecraft:birch_slab",
         "minecraft:oak_planks",
-        "minecraft:oak_slab"
+        "minecraft:oak_slab",
+        "minecraft:oak_fence"
       ]
     }
   }
