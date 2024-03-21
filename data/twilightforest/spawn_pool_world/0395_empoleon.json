@@ -12,7 +12,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "32-53",
+            "level": "45-65",
             "weight": 10.0,
             "condition": {
                 "biomes": [

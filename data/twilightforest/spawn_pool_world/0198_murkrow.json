@@ -11,12 +11,29 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "5-32",
             "weight": 10.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_twilight_forest"
+                ]
+            }
+        },
+        {
+            "id": "murkrow-twilight-2",
+            "pokemon": "murkrow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
                 ]
             }
         }

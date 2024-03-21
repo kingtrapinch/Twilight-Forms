@@ -53,6 +53,23 @@
                     "twilightforest:underground"
                 ]
             }
+        },
+        {
+            "id": "parasect-twilight-4",
+            "pokemon": "parasect twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "40-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
         }
     ]
 }

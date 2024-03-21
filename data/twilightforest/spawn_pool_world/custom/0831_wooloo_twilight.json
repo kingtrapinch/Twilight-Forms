@@ -32,7 +32,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "4-20",
-            "weight": 10.0,
+            "weight": 20.0,
             "condition": {
                 "biomes": [
                     "twilightforest:enchanted_forest"

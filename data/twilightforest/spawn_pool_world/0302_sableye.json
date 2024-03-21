@@ -31,7 +31,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "15-30",
-            "weight": 30.0,
+            "weight": 50.0,
             "condition": {
                 "canSeeSky": false
             }
