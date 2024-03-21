@@ -1,0 +1,69 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ariados-twilight-1",
+            "pokemon": "ariados",
+            "presets": [
+                "hedge_maze"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-30",
+            "weight": 100.0
+        },
+        {
+            "id": "ariados-twilight-2",
+            "pokemon": "ariados",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 30.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "ariados-twilight-3",
+            "pokemon": "ariados",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-55",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "ariados-twilight-1",
+            "pokemon": "ariados",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        }
+    ]
+}

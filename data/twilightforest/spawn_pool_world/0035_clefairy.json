@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "clefairy-twilight-1",
+            "pokemon": "clefairy",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-16",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:clearing"
+                ]
+            }
+        }
+    ]
+}

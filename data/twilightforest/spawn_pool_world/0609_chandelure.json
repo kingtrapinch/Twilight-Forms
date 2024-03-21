@@ -1,0 +1,39 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "chandelure-twilight-1",
+            "pokemon": "chandelure",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "40-55",
+            "weight": 130.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "chandelure-twilight-1",
+            "pokemon": "chandelure",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-65",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

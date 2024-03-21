@@ -1,0 +1,69 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "spinarak-twilight-1",
+            "pokemon": "spinarak",
+            "presets": [
+                "hedge_maze"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 100.0
+        },
+        {
+            "id": "spinarak-twilight-2",
+            "pokemon": "spinarak",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 50.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "spinarak-twilight-3",
+            "pokemon": "spinarak",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-35",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        },
+        {
+            "id": "spinarak-twilight-4",
+            "pokemon": "spinarak",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        }
+    ]
+}

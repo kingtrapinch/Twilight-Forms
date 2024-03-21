@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "yanmega-twilight-1",
+            "pokemon": "yanmega",
+            "presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
+        }
+    ]
+}

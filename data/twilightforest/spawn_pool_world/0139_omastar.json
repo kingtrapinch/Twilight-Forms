@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "omastar-twilight-1",
+            "pokemon": "omastar",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        }
+    ]
+}

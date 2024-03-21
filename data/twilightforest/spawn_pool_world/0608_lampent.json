@@ -1,0 +1,39 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lampent-twilight-1",
+            "pokemon": "lampent",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 120.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "lampent-twilight-1",
+            "pokemon": "lampent",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "35-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

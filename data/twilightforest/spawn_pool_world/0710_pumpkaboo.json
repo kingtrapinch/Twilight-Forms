@@ -1,56 +1,61 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "misdreavus-twilight-1",
-            "pokemon": "misdreavus",
-            "presets": [
-                "labyrinth"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "30-40",
-            "weight": 10.0,
-            "condition": {
-                "biomes": [
-                    "twilightforest:underground"
-                ]
-            }
-        },
-        {
-            "id": "misdreavus-twilight-2",
-            "pokemon": "misdreavus",
+            "id": "pumpkaboo-1",
+            "pokemon": "pumpkaboo",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "30-40",
-            "weight": 10.0,
+            "level": "9-24",
+            "weight": 50.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:swamp"
+                    "#cobblemon:is_twilight_forest"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:pumpkin",
+                    "minecraft:carved_pumpkin",
+                    "minecraft:jack_o_lantern"
                 ]
             }
         },
         {
-            "id": "misdreavus-twilight-3",
-            "pokemon": "misdreavus",
+            "id": "pumpkaboo-twilight-2",
+            "pokemon": "pumpkaboo",
             "presets": [
-                "water_surface"
+                "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "30-40",
+            "level": "9-20",
+            "weight": 40.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        },
+        {
+            "id": "pumpkaboo-twilight-3",
+            "pokemon": "pumpkaboo",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:swamp"
+                    "twilightforest:dark_forest"
                 ]
             }
         }

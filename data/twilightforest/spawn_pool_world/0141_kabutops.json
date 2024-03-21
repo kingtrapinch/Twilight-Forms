@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "kabutops-twilight-1",
+            "pokemon": "kabutops",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
+        }
+    ]
+}

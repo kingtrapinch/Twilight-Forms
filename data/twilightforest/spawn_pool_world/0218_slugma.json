@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "slugma-twilight",
+            "pokemon": "slugma",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:fire_swamp"
+                ]
+            }
+        }
+    ]
+}

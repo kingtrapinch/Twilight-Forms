@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "slowpoke-twilight-1",
+            "pokemon": "slowpoke",
+            "presets": [
+                "underwater"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "5-15",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        }
+    ]
+}

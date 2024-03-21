@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rhydon-twilight-1",
+            "pokemon": "rhydon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:oak_savannah"
+                ]
+            }
+        }
+    ]
+}

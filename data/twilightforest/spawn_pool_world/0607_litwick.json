@@ -1,0 +1,39 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "litwick-twilight-1",
+            "pokemon": "litwick",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 120.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "litwick-twilight-1",
+            "pokemon": "litwick",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

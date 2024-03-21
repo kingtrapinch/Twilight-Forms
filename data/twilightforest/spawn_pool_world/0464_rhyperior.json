@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rhyperior-twilight-1",
+            "pokemon": "rhyperior",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-60",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:oak_savannah"
+                ]
+            }
+        }
+    ]
+}
