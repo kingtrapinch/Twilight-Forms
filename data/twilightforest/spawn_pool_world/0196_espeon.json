@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "espeon-twilight",
+            "pokemon": "espeon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "glaceon-twilight",
+            "pokemon": "glaceon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:snowy_forest",
+                    "twilightforest:glacier"
+                ]
+            }
+        }
+    ]
+}
