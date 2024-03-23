@@ -4,25 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ninjask-twilight-1",
-            "pokemon": "ninjask",
+            "id": "whismur-twilight-1",
+            "pokemon": "whismur",
             "presets": [
-                "natural"
+                "labyrinth"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
+            "bucket": "uncommon",
             "level": "20-30",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest",
-                    "twilightforest:oak_savannah"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "twilightforest:firefly_forest"
+                    "twilightforest:underground"
                 ]
             }
         }

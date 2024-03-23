@@ -4,20 +4,20 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sylveon-twilight",
-            "pokemon": "sylveon",
+            "id": "seaking-twilight-1",
+            "pokemon": "seaking",
             "presets": [
-                "natural"
+                "underwater"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "rare",
-            "level": "35-50",
+            "context": "submerged",
+            "bucket": "uncommon",
+            "level": "15-35",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:enchanted_forest",
-                    "twilightforest:firefly"
+                    "twilightforest:stream",
+                    "twilightforest:lake"
                 ]
             }
         }

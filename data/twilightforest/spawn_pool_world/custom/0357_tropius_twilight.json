@@ -4,37 +4,37 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "joltik-twilight-1",
-            "pokemon": "joltik",
+            "id": "tropius-twilight-1",
+            "pokemon": "tropius twilight",
             "presets": [
-                "dark_tower"
+                "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "30-40",
+            "bucket": "rare",
+            "level": "4-20",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:dark_forest_center"
+                    "twilightforest:forest",
+                    "twilightforest:firefly_forest"
                 ]
             }
         },
         {
-            "id": "joltik-twilight-2",
-            "pokemon": "joltik",
+            "id": "tropius-twilight-2",
+            "pokemon": "tropius twilight",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "10-30",
-            "weight": 10.0,
+            "level": "4-20",
+            "weight": 20.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:highlands"
+                    "twilightforest:dense_forest"
                 ]
             }
         }

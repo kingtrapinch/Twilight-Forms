@@ -1,28 +1,22 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ninjask-twilight-1",
-            "pokemon": "ninjask",
+            "id": "ursaluna-twilight-1",
+            "pokemon": "ursaluna",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "20-30",
+            "level": "60-75",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest",
-                    "twilightforest:oak_savannah"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "twilightforest:firefly_forest"
+                    "twilightforest:highlands"
                 ]
             }
         }

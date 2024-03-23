@@ -1,43 +1,38 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
-            "id": "ponyta-galarian-1",
-            "pokemon": "ponyta galarian",
+        {
+            "id": "cottonee-twilight-1",
+            "pokemon": "cottonee",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "5-20",
+            "level": "3-20",
             "weight": 10.0,
             "condition": {
                 "biomes": [
+                    "twilightforest:firefly_forest",
+                    "twilightforest:oak_savannah",
                     "twilightforest:enchanted_forest"
                 ]
             }
         },
         {
-            "id": "ponyta-galarian-2",
-            "pokemon": "ponyta galarian",
+            "id": "cottonee-twilight-2",
+            "pokemon": "cottonee",
             "presets": [
-                "natural"
+                "cloud_cottage"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "5-20",
-            "weight": 10.0,
-            "condition": {
-                "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest"
-                ]
-            }
+            "level": "33-50",
+            "weight": 10.0
         }
     ]
 }

@@ -1,0 +1,38 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "whimsicott-twilight-1",
+            "pokemon": "whimsicott",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "23-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:firefly_forest",
+                    "twilightforest:oak_savannah",
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+        {
+            "id": "whimsicott-twilight-2",
+            "pokemon": "whimsicott",
+            "presets": [
+                "cloud_cottage"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-65",
+            "weight": 10.0
+        }
+    ]
+}

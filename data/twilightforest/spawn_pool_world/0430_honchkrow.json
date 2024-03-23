@@ -19,6 +19,23 @@
                     "twilightforest:highlands"
                 ]
             }
+        },
+        {
+            "id": "honchkrow-twilight-2",
+            "pokemon": "honchkrow",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
         }
     ]
 }

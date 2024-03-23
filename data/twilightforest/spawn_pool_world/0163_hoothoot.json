@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "nincada-twilight-1",
-            "pokemon": "nincada",
+            "id": "hoothoot-twilight-1",
+            "pokemon": "hoothoot",
             "presets": [
                 "natural"
             ],
@@ -16,13 +16,11 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:dense_mushroom_forest",
                     "twilightforest:oak_savannah"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "twilightforest:firefly_forest"
                 ]
             }
         }

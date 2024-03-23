@@ -1,40 +1,39 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "joltik-twilight-1",
-            "pokemon": "joltik",
-            "presets": [
-                "dark_tower"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "30-40",
-            "weight": 10.0,
-            "condition": {
-                "canSeeSky": false,
-                "biomes": [
-                    "twilightforest:dark_forest_center"
-                ]
-            }
-        },
-        {
-            "id": "joltik-twilight-2",
-            "pokemon": "joltik",
+            "id": "breloom-twilight-1",
+            "pokemon": "breloom",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "10-30",
+            "level": "14-30",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:highlands"
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "breloom-twilight-2",
+            "pokemon": "breloom",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-39",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:mushroom_forest"
                 ]
             }
         }

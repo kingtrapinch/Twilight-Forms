@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lapras-twilight-1",
+            "pokemon": "lapras",
+			"presets": [
+                "water_surface"
+            ],
+            "type": "pokemon",
+            "bucket": "uncommon",
+            "level": "29-54",
+            "condition": {
+                "biomes": [
+                    "twilightforest:lake"
+                ]
+            }
+        }
+    ]
+}

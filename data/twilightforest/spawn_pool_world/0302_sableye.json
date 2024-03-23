@@ -35,6 +35,23 @@
             "condition": {
                 "canSeeSky": false
             }
+        },
+        {
+            "id": "sableye-twilight-1",
+            "pokemon": "sableye",
+            "presets": [
+                "labyrinth"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
         }
     ]
 }

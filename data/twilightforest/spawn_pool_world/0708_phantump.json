@@ -4,43 +4,43 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "morelull-twilight-1",
-            "pokemon": "morelull",
+            "id": "phantump-twilight-1",
+            "pokemon": "phantump",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "4-20",
+            "level": "9-24",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:underground"
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest"
                 ]
             }
         },
         {
-            "id": "morelull-twilight-2",
-            "pokemon": "morelull",
+            "id": "phantump-twilight-2",
+            "pokemon": "phantump",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "4-29",
-            "weight": 20.0,
+            "level": "9-20",
+            "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:dense_mushroom_forest"
+                    "twilightforest:spooky_forest"
                 ]
             }
         },
         {
-            "id": "morelull-twilight-3",
-            "pokemon": "morelull",
+            "id": "phantump-twilight-3",
+            "pokemon": "phantump",
             "presets": [
                 "natural"
             ],

@@ -35,7 +35,7 @@
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:underground"
+                    "twilightforest:final_plateau"
                 ]
             }
         }

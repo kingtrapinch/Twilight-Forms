@@ -4,20 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "sylveon-twilight",
-            "pokemon": "sylveon",
+            "id": "elekid-twilight-1",
+            "pokemon": "elekid",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "35-50",
+            "bucket": "uncommon",
+            "level": "10-30",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:enchanted_forest",
-                    "twilightforest:firefly"
+                    "twilightforest:highlands"
                 ]
             }
         }

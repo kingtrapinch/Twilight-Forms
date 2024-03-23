@@ -29,13 +29,13 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "70-80",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:underground"
+                    "twilightforest:final_plateau"
                 ]
             }
         }

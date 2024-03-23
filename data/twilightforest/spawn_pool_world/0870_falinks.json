@@ -4,25 +4,20 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "nincada-twilight-1",
-            "pokemon": "nincada",
+            "id": "falinks-twilight-1",
+            "pokemon": "falinks",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "5-20",
+            "bucket": "uncommon",
+            "level": "11-30",
             "weight": 10.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_twilight_forest",
                     "twilightforest:oak_savannah"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "twilightforest:firefly_forest"
                 ]
             }
         }

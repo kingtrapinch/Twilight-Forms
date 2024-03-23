@@ -16,9 +16,7 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:dense_forest",
-                    "twilightforest:firefly_forest",
+                    "twilightforest:mushroom_forest",
                     "twilightforest:underground"
                 ]
             }
@@ -36,8 +34,7 @@
             "weight": 20.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:dense_mushroom_forest",
-                    "twilightforest:mushroom_forest"
+                    "twilightforest:dense_mushroom_forest"
                 ]
             }
         },

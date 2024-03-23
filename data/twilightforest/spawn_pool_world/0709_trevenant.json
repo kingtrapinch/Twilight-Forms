@@ -4,50 +4,50 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "morelull-twilight-1",
-            "pokemon": "morelull",
+            "id": "trevenant-twilight-1",
+            "pokemon": "trevenant",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "4-20",
+            "bucket": "rare",
+            "level": "15-30",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:underground"
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest"
                 ]
             }
         },
         {
-            "id": "morelull-twilight-2",
-            "pokemon": "morelull",
+            "id": "trevenant-twilight-2",
+            "pokemon": "trevenant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "14-30",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        },
+        {
+            "id": "trevenant-twilight-3",
+            "pokemon": "trevenant",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "4-29",
-            "weight": 20.0,
-            "condition": {
-                "biomes": [
-                    "twilightforest:dense_mushroom_forest"
-                ]
-            }
-        },
-        {
-            "id": "morelull-twilight-3",
-            "pokemon": "morelull",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "20-40",
+            "level": "40-50",
             "weight": 10.0,
             "condition": {
                 "biomes": [

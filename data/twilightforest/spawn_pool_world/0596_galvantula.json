@@ -20,6 +20,23 @@
                     "twilightforest:dark_forest_center"
                 ]
             }
+        },
+        {
+            "id": "galvantula-twilight-2",
+            "pokemon": "galvantula",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "50-66",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:highlands"
+                ]
+            }
         }
     ]
 }

@@ -19,6 +19,11 @@
                     "#cobblemon:is_twilight_forest",
                     "twilightforest:oak_savannah"
                 ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "twilightforest:firefly_forest"
+                ]
             }
         }
     ]

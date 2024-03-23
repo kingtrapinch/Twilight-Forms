@@ -4,25 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ninjask-twilight-1",
-            "pokemon": "ninjask",
+            "id": "exploud-twilight-1",
+            "pokemon": "exploud",
             "presets": [
-                "natural"
+                "labyrinth"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "20-30",
+            "level": "45-55",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest",
-                    "twilightforest:oak_savannah"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "twilightforest:firefly_forest"
+                    "twilightforest:underground"
                 ]
             }
         }

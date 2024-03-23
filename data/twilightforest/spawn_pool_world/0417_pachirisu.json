@@ -17,7 +17,7 @@
             "condition": {
                 "biomes": [
                     "#cobblemon:is_twilight_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:enchanted_forest"
                 ]
             }
         }
