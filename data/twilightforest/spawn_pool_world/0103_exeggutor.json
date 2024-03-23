@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "exeggutor-alolan-twilight-1",
+            "pokemon": "exeggutor alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_forest",
+					"twilightforest:dense_mushroom_forest"
+                ]
+            }
+        }
+    ]
+}
