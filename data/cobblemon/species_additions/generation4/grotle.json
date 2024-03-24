@@ -305,27 +305,6 @@
       ]
     },
     {
-      "id": "grotle_torterra_twilight_fireswamp",
-      "variant": "level_up",
-      "result": "torterra tree=fireswamp",
-      "consumeHeldItem": true,
-      "learnableMoves": ["firelash"],
-      "requirements": [
-        {
-          "variant": "level",
-          "minLevel": 32
-        },
-        {
-          "variant": "held_item",
-          "itemCondition": "twilightforest:twilight_oak_sapling"
-        },
-        {
-          "variant": "biome",
-          "biomeCondition": "twilightforest:fire_swamp"
-        }
-      ]
-    },
-    {
       "id": "grotle_torterra_twilight_canopy",
       "variant": "level_up",
       "result": "torterra tree=canopy",
@@ -343,11 +322,32 @@
       ]
     },
     {
+      "id": "grotle_torterra_twilight_fireswamp",
+      "variant": "level_up",
+      "result": "torterra tree=fireswamp",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        },
+        {
+          "variant": "held_item",
+          "itemCondition": "twilightforest:twilight_oak_sapling"
+        },
+        {
+          "variant": "biome",
+          "biomeCondition": "twilightforest:fire_swamp"
+        }
+      ]
+    },
+    {
       "id": "grotle_torterra_twilight_darkwood",
       "variant": "level_up",
       "result": "torterra tree=darkwood",
       "consumeHeldItem": true,
-      "learnableMoves": ["jawlock"],
+      "learnableMoves": [],
       "requirements": [
         {
           "variant": "level",
