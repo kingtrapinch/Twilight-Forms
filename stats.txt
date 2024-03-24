@@ -503,65 +503,6 @@ Grotle
 	Darkwood
           variant: held_item
           itemCondition: twilightforest:darkwood_sapling
-        
-Torterra
-      Fire Swamp Form
-        primaryType: grass
-        secondaryType: fire
-        abilities: 
-          flamebody
-          h:shellarmor
-        
-        moves: 
-          1:absorb
-          1:earthquake
-          1:blastburn
-          1:razorleaf
-          1:tackle
-          1:woodhammer
-          1:withdraw
-          1:firelash
-          1:sunnyday
-          17:curse
-          22:bite
-          27:megadrain
-          32:earthquake
-          33:leechseed
-          39:synthesis
-          42:willowisp
-          45:crunch
-          51:gigadrain
-          54:heatcrash
-          57:leafstorm
-
-      Darkwood Form
-        primaryType: grass
-        secondaryType: dark
-        abilities: 
-          cursedbody
-          h:shellarmor
-   
-        moves: 
-          1:absorb
-          1:taunt
-          1:earthquake
-          1:jawlock
-          1:woodhammer
-          1:bite
-          1:razorleaf
-          1:withdraw
-          1:obstruct
-          17:curse
-          22:brutalswing
-          27:megadrain
-          32:earthquake
-          33:suckerpunch
-          39:leechseed
-          42:crunch
-          45:comeuppance
-          51:gigadrain
-          54:wickedblow
-          57:leafstorm
 
 
   Twilight Venipede
