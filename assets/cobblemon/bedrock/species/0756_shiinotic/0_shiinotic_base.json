@@ -1,0 +1,34 @@
+{
+  "species": "cobblemon:shiinotic",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:shiinotic",
+      "model": "cobblemon:shiinotic.geo",
+      "texture": "cobblemon:textures/pokemon/0756_shiinotic/shiinotic.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0756_shiinotic/shiinotic_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0756_shiinotic/shiinotic_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0756_shiinotic/shiinotic_shiny_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
