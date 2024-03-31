@@ -12,6 +12,7 @@
             "type": "pokemon",
             "bucket": "uncommon",
             "level": "29-54",
+            "weight": 10.0,
             "condition": {
                 "biomes": [
                     "twilightforest:lake"
