@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:marowak",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:marowak",
+      "model": "cobblemon:marowak_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0105_marowak/marowak_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0105_marowak/marowak_twilight_shiny.png"
+    }
+  ]
+}

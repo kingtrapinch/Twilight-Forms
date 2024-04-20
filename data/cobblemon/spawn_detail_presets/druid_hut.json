@@ -1,0 +1,20 @@
+{
+    "condition": {
+      "biomes": [
+        "#cobblemon:is_twilight_forest",
+        "twilightforest:oak_savannah",
+        "twilightforest:clearing"
+      ],
+      "neededBaseBlocks": [
+        "minecraft:grass_block",
+        "minecraft:dirt",
+        "minecraft:jungle_planks",
+        "twilightforest:dark_planks",
+        "twilightforest:canopy_planks"
+      ],
+      "neededNearbyBlocks": [
+        "minecraft:bricks",
+        "minecraft:polished_andesite"
+      ]
+    }
+  }

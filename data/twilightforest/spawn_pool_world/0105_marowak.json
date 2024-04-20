@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "marowak-1",
+            "pokemon": "marowak",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-43",
+            "weight": 0.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            }
+        },
+		{
+            "id": "marowak-alolan-1",
+            "pokemon": "marowak",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "28-43",
+            "weight": 0.6,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_nether_desert",
+					"#cobblemon:is_nether_soul_fire"
+                ]
+            }
+        },
+        {
+            "id": "marowak-twilight-1",
+            "pokemon": "marowak twilight",
+            "presets": [
+                "druid_hut"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "17-42",
+            "weight": 100.0
+        },
+        {
+            "id": "marowak-twilight-2",
+            "pokemon": "marowak twilight",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "17-42",
+            "weight": 100.0
+        },
+        {
+            "id": "marowak-twilight-3",
+            "pokemon": "marowak twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "17-42",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "species": "cobblemon:necromarrow",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:marowak",
+      "model": "cobblemon:necromarrow.geo",
+      "texture": "cobblemon:textures/pokemon/0105_necromarrow/necromarrow.png",
+      "layers": [
+        {
+          "name": "transparent",
+          "texture": "cobblemon:textures/pokemon/0105_necromarrow/necromarrow_emissive.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0105_necromarrow/necromarrow_shiny.png"
+    }
+  ]
+}

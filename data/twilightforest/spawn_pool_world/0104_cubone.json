@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cubone-1",
+            "pokemon": "cubone",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 1.8,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_sandy"
+                ]
+            }
+        },
+		{
+            "id": "cubone-alolan-1",
+            "pokemon": "cubone",
+            "presets": [
+                "natural",
+				"wild"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 5.4,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_nether_desert",
+					"#cobblemon:is_nether_soul_fire"
+                ]
+            }
+        },
+        {
+            "id": "cubone-twilight-1",
+            "pokemon": "cubone twilight",
+            "presets": [
+                "druid_hut"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 100.0
+        },
+        {
+            "id": "cubone-twilight-2",
+            "pokemon": "cubone twilight",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 100.0
+        },
+        {
+            "id": "cubone-twilight-3",
+            "pokemon": "cubone twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "7-32",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        }
+    ]
+}

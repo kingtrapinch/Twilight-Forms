@@ -1,0 +1,19 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "necromarrow-1",
+            "pokemon": "necromarrow",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "27-52",
+            "weight": 100.0
+        }
+    ]
+}
