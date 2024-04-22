@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:lairon",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:lairon",
+      "model": "cobblemon:lairon.geo",
+      "texture": "cobblemon:textures/pokemon/0305_lairon/lairon_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "twilight","shiny" ],
+      "texture": "cobblemon:textures/pokemon/0305_lairon/lairon_twilight_shiny.png"
+    }
+  ]
+}

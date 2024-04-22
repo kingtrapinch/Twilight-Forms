@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:aggron",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:aggron",
+      "model": "cobblemon:aggron.geo",
+      "texture": "cobblemon:textures/pokemon/0306_aggron/aggron_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "twilight","shiny" ],
+      "texture": "cobblemon:textures/pokemon/0306_aggron/aggron_twilight_shiny.png"
+    }
+  ]
+}
