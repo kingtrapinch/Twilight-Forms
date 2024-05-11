@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "blastoise-shadow-1",
+            "pokemon": "blastoise shadow",
+            "presets": [
+                "final_castle_lower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "70-80",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:final_plateau"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,253 @@
+{
+  "target": "cobblemon:wartortle",
+  "implemented": true,
+  "name": "Wartortle",
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Shadow",
+      "nationalPokedexNumber": 8,
+      "primaryType": "dark",
+      "secondaryType": "water",
+      "abilities": [
+        "darkaura"
+      ],
+      "baseStats": {
+        "hp": 91,
+        "attack": 95,
+        "defence": 113,
+        "special_attack": 98,
+        "special_defence": 113,
+        "speed": 90
+      },
+      "catchRate": 15,
+      "maleRatio": 0.875,
+      "shoulderMountable": false,
+      "baseExperienceYield": 142,
+      "experienceGroup": "medium_slow",
+      "eggCycles": 20,
+      "eggGroups": [
+        "monster",
+        "water_1"
+      ],
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:netherite_scrap",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:mystic_water",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "behaviour": {
+        "resting": {
+          "canSleep": false
+        },
+        "moving": {
+          "moving": {
+            "walk": {
+              "walkSpeed": 0.29
+            }
+          },
+          "swim": {
+            "canSwimInWater": true,
+            "canBreatheUnderwater": true
+          }
+        }
+      },
+      "moves": [
+        "1:pursuit",
+        "1:screech",
+        "4:watergun",
+        "7:faketears",
+        "9:rapidspin",
+        "12:bite",
+        "13:bubble",
+        "15:waterpulse",
+        "20:protect",
+        "25:crunch",
+        "30:aquatail",
+        "33:flashcannon",
+        "35:shellsmash",
+        "42:irondefense",
+        "49:darkpulse",
+        "56:skullbash",
+        "60:foulplay",
+        "62:hydropump",
+        "64:obstruct",
+        "66:wavecrash",
+        "68:falsesurrender",
+        "70:hydrocannon",
+        "tm:attract",
+        "tm:aurasphere",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:brickbreak",
+        "tm:brine",
+        "tm:captivate",
+        "tm:confide",
+        "tm:dig",
+        "tm:dive",
+        "tm:doubleteam",
+        "tm:dragonpulse",
+        "tm:endure",
+        "tm:facade",
+        "tm:falseswipe",
+        "tm:fling",
+        "tm:focuspunch",
+        "tm:frustration",
+        "tm:gyroball",
+        "tm:hail",
+        "tm:helpinghand",
+        "tm:hiddenpower",
+        "tm:hydropump",
+        "tm:icebeam",
+        "tm:icepunch",
+        "tm:icywind",
+        "tm:irondefense",
+        "tm:irontail",
+        "tm:megakick",
+        "tm:megapunch",
+        "tm:muddywater",
+        "tm:naturalgift",
+        "tm:poweruppunch",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:scald",
+        "tm:secretpower",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:strength",
+        "tm:substitute",
+        "tm:surf",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:waterfall",
+        "tm:waterpulse",
+        "tm:weatherball",
+        "tm:whirlpool",
+        "tm:workup",
+        "tm:zenheadbutt",
+        "tutor:aquatail",
+        "tutor:attract",
+        "tutor:bide",
+        "tutor:bite",
+        "tutor:blizzard",
+        "tutor:bodyslam",
+        "tutor:brickbreak",
+        "tutor:bubble",
+        "tutor:bubblebeam",
+        "tutor:counter",
+        "tutor:curse",
+        "tutor:defensecurl",
+        "tutor:dig",
+        "tutor:dive",
+        "tutor:doubleedge",
+        "tutor:doubleteam",
+        "tutor:dragonpulse",
+        "tutor:dynamicpunch",
+        "tutor:endure",
+        "tutor:facade",
+        "tutor:flipturn",
+        "tutor:focuspunch",
+        "tutor:frustration",
+        "tutor:headbutt",
+        "tutor:hiddenpower",
+        "tutor:hydropump",
+        "tutor:icebeam",
+        "tutor:icepunch",
+        "tutor:icywind",
+        "tutor:irondefense",
+        "tutor:irontail",
+        "tutor:megakick",
+        "tutor:megapunch",
+        "tutor:mimic",
+        "tutor:mudslap",
+        "tutor:outrage",
+        "tutor:protect",
+        "tutor:rage",
+        "tutor:raindance",
+        "tutor:rapidspin",
+        "tutor:reflect",
+        "tutor:rest",
+        "tutor:return",
+        "tutor:rockslide",
+        "tutor:rocksmash",
+        "tutor:rollout",
+        "tutor:scald",
+        "tutor:seismictoss",
+        "tutor:skullbash",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:strength",
+        "tutor:submission",
+        "tutor:substitute",
+        "tutor:surf",
+        "tutor:swagger",
+        "tutor:tackle",
+        "tutor:tailwhip",
+        "tutor:takedown",
+        "tutor:toxic",
+        "tutor:waterfall",
+        "tutor:watergun",
+        "tutor:waterpledge",
+        "tutor:waterpulse",
+        "tutor:whirlpool",
+        "tutor:withdraw",
+        "tutor:zenheadbutt"
+      ],
+      "labels": [
+        "gen1"
+      ],
+      "pokedex": [
+        "cobblemon.species.wartortle.desc"
+      ],
+      "preEvolution": "squirtle shadow",
+      "evolutions": [
+        {
+          "id": "wartortle_blastoise_shadow",
+          "variant": "level_up",
+          "result": "blastoise shadow",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "flashcannon"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 64
+            }
+          ]
+        }
+      ],
+      "baseScale": 0.9,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.5,
+        "fixed": false
+      },
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "height": 10,
+      "weight": 225,
+      "aspects": ["shadow"],
+      "cannotDynamax": false
+    }
+  ]
+}
