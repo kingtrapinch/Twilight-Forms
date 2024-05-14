@@ -42,17 +42,15 @@
             "id": "shiinotic-twilight-3",
             "pokemon": "shiinotic",
             "presets": [
-                "natural"
+                "troll_cave"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "40-50",
+            "level": "60-75",
             "weight": 10.0,
             "condition": {
-                "biomes": [
-                    "twilightforest:dark_forest"
-                ]
+                "canSeeSky": false
             }
         }
     ]

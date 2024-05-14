@@ -42,17 +42,15 @@
             "id": "morelull-twilight-3",
             "pokemon": "morelull",
             "presets": [
-                "natural"
+                "troll_cave"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "20-40",
+            "level": "40-55",
             "weight": 10.0,
             "condition": {
-                "biomes": [
-                    "twilightforest:dark_forest"
-                ]
+                "canSeeSky": false
             }
         }
     ]
