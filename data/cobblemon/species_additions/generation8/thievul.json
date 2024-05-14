@@ -1,0 +1,137 @@
+{
+  "target": "cobblemon:thievul",
+  "implemented": true,
+  "name": "Thievul",
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Twilight",
+      "nationalPokedexNumber": 828,
+      "primaryType": "dark",
+      "secondaryType": "ghost",
+      "abilities": [
+        "infiltrator",
+        "clearbody",
+        "h:shadowshield"
+      ],
+      "drops": {
+        "amount": 7,
+        "entries": [
+          {
+            "item": "minecraft:black_dye",
+            "quantityRange": "1-6"
+          },
+          {
+            "item": "minecraft:emerald",
+            "percentage": 10
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 70,
+        "attack": 58,
+        "defence": 58,
+        "special_attack": 87,
+        "special_defence": 92,
+        "speed": 90
+      },
+      "catchRate": 127,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 159,
+      "experienceGroup": "fast",
+      "eggCycles": 15,
+      "eggGroups": [
+        "field"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": false
+        }
+      },
+      "moves": [
+        "1:beatup",
+        "1:honeclaws",
+        "1:thief",
+        "1:shadowsneak",
+        "1:leer",
+        "12:snarl",
+        "16:assurance",
+        "22:mist",
+        "28:suckerpunch",
+        "34:nightslash",
+        "40:phantomforce",
+        "46:foulplay",
+        "52:partingshot",
+        "60:spectralthief",
+        "tm:acrobatics",
+        "tm:agility",
+        "tm:assurance",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:beatup",
+        "tm:crunch",
+        "tm:darkpulse",
+        "tm:dig",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:firefang",
+        "tm:foulplay",
+        "tm:gigaimpact",
+        "tm:grassknot",
+        "tm:hyperbeam",
+        "tm:icefang",
+        "tm:mudshot",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:protect",
+        "tm:psychic",
+        "tm:rest",
+        "tm:round",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:shadowclaw",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailslap",
+        "tm:taunt",
+        "tm:thief",
+        "tm:thunderfang",
+        "tm:uturn",
+        "tutor:burningjealousy",
+        "tutor:lashout"
+      ],
+      "labels": [
+        "gen8"
+      ],
+      "pokedex": [
+        "cobblemon.species.thievul.desc"
+      ],
+      "preEvolution": "nickit twilight",
+      "evolutions": [],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 1.2,
+        "height": 2.0,
+        "fixed": false
+      },
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 2,
+        "speed": 0
+      },
+      "height": 12,
+      "weight": 199,
+      "aspects": ["twilight"],
+      "cannotDynamax": false
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "target": "cobblemon:nickit",
+  "implemented": true,
+  "name": "Nickit",
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Twilight",
+      "nationalPokedexNumber": 827,
+      "primaryType": "dark",
+      "secondaryType": "ghost",
+      "abilities": [
+        "infiltrator",
+        "clearbody",
+        "h:shadowshield"
+      ],
+      "drops": {
+        "amount": 5,
+        "entries": [
+          {
+            "item": "minecraft:black_dye",
+            "quantityRange": "1-4"
+          },
+          {
+            "item": "minecraft:emerald",
+            "percentage": 5
+          }
+        ]
+      },
+      "baseStats": {
+        "hp": 40,
+        "attack": 28,
+        "defence": 28,
+        "special_attack": 47,
+        "special_defence": 52,
+        "speed": 50
+      },
+      "catchRate": 255,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 49,
+      "experienceGroup": "fast",
+      "eggCycles": 15,
+      "eggGroups": [
+        "field"
+      ],
+      "behaviour": {
+        "resting": {
+          "canSleep": false
+        }
+      },
+      "moves": [
+        "1:shadowsneak",
+        "1:leer",
+        "4:beatup",
+        "8:honeclaws",
+        "12:snarl",
+        "16:assurance",
+        "20:mist",
+        "24:suckerpunch",
+        "28:nightslash",
+        "32:phantomforce",
+        "36:foulplay",
+        "50:spectralthief",
+        "egg:howl",
+        "egg:knockoff",
+        "egg:quickguard",
+        "egg:torment",
+        "tm:agility",
+        "tm:assurance",
+        "tm:attract",
+        "tm:batonpass",
+        "tm:beatup",
+        "tm:dig",
+        "tm:endure",
+        "tm:facade",
+        "tm:faketears",
+        "tm:foulplay",
+        "tm:mudshot",
+        "tm:nastyplot",
+        "tm:playrough",
+        "tm:protect",
+        "tm:rest",
+        "tm:round",
+        "tm:screech",
+        "tm:sleeptalk",
+        "tm:snarl",
+        "tm:snore",
+        "tm:substitute",
+        "tm:swift",
+        "tm:tailslap",
+        "tm:taunt",
+        "tm:thief",
+        "tutor:lashout"
+      ],
+      "labels": [
+        "gen8"
+      ],
+      "pokedex": [
+        "cobblemon.species.nickit.desc"
+      ],
+      "evolutions": [
+        {
+          "id": "nickit_thievul_twilight",
+          "variant": "level_up",
+          "result": "thievul",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "thief"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 18
+            }
+          ]
+        }
+      ],
+      "baseScale": 0.7,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.1,
+        "fixed": false
+      },
+      "baseFriendship": 50,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 0
+      },
+      "height": 6,
+      "weight": 89,
+      "aspects": ["twilight"],
+      "cannotDynamax": false
+    }
+  ]
+}
