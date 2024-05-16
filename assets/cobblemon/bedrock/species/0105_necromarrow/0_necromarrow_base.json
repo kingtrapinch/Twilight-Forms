@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": [],
-      "poser": "cobblemon:marowak",
+      "poser": "cobblemon:necromarrow",
       "model": "cobblemon:necromarrow.geo",
       "texture": "cobblemon:textures/pokemon/0105_necromarrow/necromarrow.png",
       "layers": [

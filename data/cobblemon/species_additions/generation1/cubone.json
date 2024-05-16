@@ -247,15 +247,6 @@
       "evolutions": [
         {
           "id": "cubone_marowak_twilight",
-          "variant": "item_interact",
-          "result": "marowak twilight=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "cobblemon:dusk_stone"
-        },
-        {
-          "id": "cubone_marowak_twilight",
           "variant": "level_up",
           "result": "marowak twilight",
           "consumeHeldItem": false,
