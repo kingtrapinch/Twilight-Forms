@@ -6,7 +6,7 @@
       "aspects": ["twilight"],
       "poser": "cobblemon:sawsbuck",
       "model": "cobblemon:sawsbuck_autumn.geo",
-      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_time.png",
+      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_twilight.png",
       "layers": []
     },
     {
@@ -15,7 +15,7 @@
         "shiny"
       ],
       "model": "cobblemon:sawsbuck_autumn.geo",
-      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_time_shiny.png"
+      "texture": "cobblemon:textures/pokemon/0586_sawsbuck/sawsbuck_twilight_shiny.png"
     }
   ]
 }

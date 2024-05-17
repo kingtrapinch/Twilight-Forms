@@ -6,7 +6,7 @@
       "aspects": ["twilight"],
       "poser": "cobblemon:deerling",
       "model": "cobblemon:deerling.geo",
-      "texture": "cobblemon:textures/pokemon/0585_deerling/deerling_time.png",
+      "texture": "cobblemon:textures/pokemon/0585_deerling/deerling_twilight.png",
       "layers": []
     },
     {
@@ -14,7 +14,7 @@
         "twilight",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0585_deerling/deerling_time_shiny.png"
+      "texture": "cobblemon:textures/pokemon/0585_deerling/deerling_twilight_shiny.png"
     }
   ]
 }

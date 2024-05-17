@@ -4,8 +4,8 @@
   "variations": [
     {
       "aspects": ["twilight"],
-      "poser": "cobblemon:tropius_twilight",
-      "model": "cobblemon:tropius_twilight.geo",
+      "poser": "cobblemon:tropius",
+      "model": "cobblemon:tropius.geo",
       "texture": "cobblemon:textures/pokemon/0357_tropius/tropius_twilight.png",
       "layers": []
     },
@@ -14,7 +14,7 @@
         "twilight",
         "shiny" 
       ],
-      "model": "cobblemon:tropius_twilight.geo",
+      "model": "cobblemon:tropius.geo",
       "texture": "cobblemon:textures/pokemon/0357_tropius/tropius_twilight_shiny.png"
     }
   ]
