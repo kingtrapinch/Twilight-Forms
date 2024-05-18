@@ -25,7 +25,10 @@
             "context": "grounded",
             "bucket": "uncommon",
             "level": "17-32",
-            "weight": 100.0
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": false
+            }
         },
         {
             "id": "marowak-twilight-3",

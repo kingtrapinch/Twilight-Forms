@@ -13,7 +13,10 @@
             "context": "grounded",
             "bucket": "rare",
             "level": "27-52",
-            "weight": 100.0
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": false
+            }
         }
     ]
 }

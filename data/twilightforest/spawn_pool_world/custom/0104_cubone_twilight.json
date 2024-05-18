@@ -25,7 +25,10 @@
             "context": "grounded",
             "bucket": "common",
             "level": "7-20",
-            "weight": 100.0
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": false
+            }
         },
         {
             "id": "cubone-twilight-3",
