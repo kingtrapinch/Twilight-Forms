@@ -1,0 +1,30 @@
+{
+  "species": "cobblemon:grimmsnarl",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:grimmsnarl",
+      "model": "cobblemon:grimmsnarl.geo",
+      "texture": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": ["shiny"],
+      "texture": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0861_grimmsnarl/grimmsnarl_shiny.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}
