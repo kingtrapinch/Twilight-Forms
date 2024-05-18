@@ -1,39 +1,37 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
-            "id": "eevee-twilight-1",
-            "pokemon": "eevee",
+        {
+            "id": "delphox-twilight-1",
+            "pokemon": "delphox",
             "presets": [
-                "natural"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-20",
-            "weight": 10.0,
+            "bucket": "rare",
+            "level": "45-65",
+            "weight": 100.0,
             "condition": {
-                "biomes": [
-                    "twilightforest:enchanted_forest"
-                ]
+                "canSeeSky": false
             }
         },
         {
-            "id": "eevee-twilight-2",
-            "pokemon": "eevee",
+            "id": "delphox-twilight-2",
+            "pokemon": "delphox",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "5-20",
+            "level": "45-65",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest"
+                    "twilightforest:enchanted_forest"
                 ]
             }
         }

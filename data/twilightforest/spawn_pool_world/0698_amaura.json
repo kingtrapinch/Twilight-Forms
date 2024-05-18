@@ -4,36 +4,36 @@
     "neededUninstalledMods": [],
     "spawns": [
 		{
-            "id": "eevee-twilight-1",
-            "pokemon": "eevee",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "uncommon",
-            "level": "5-20",
-            "weight": 10.0,
-            "condition": {
-                "biomes": [
-                    "twilightforest:enchanted_forest"
-                ]
-            }
-        },
-        {
-            "id": "eevee-twilight-2",
-            "pokemon": "eevee",
+            "id": "amaura-twilight-1",
+            "pokemon": "amaura",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "5-20",
+            "level": "25-35",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest"
+                    "twilightforest:snowy_forest"
+                ]
+            }
+        },
+        {
+            "id": "amaura-twilight-2",
+            "pokemon": "amaura",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:glacier"
                 ]
             }
         }

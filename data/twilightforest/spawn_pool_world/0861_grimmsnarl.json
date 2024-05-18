@@ -4,22 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swellow-twilight-1",
-            "pokemon": "swellow",
+            "id": "grimmsnarl-twilight-1",
+            "pokemon": "grimmsnarl",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "15-30",
-            "weight": 10.0,
+            "level": "45-62",
+            "weight": 10,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:dark_forest"
                 ]
             }
         }

@@ -1,39 +1,45 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
-            "id": "eevee-twilight-1",
-            "pokemon": "eevee",
+        {
+            "id": "mightyena-twilight-1",
+            "pokemon": "mightyena",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "5-20",
+            "level": "15-34",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:enchanted_forest"
+                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:oak_savannah"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "twilightforest:firefly_forest"
                 ]
             }
         },
         {
-            "id": "eevee-twilight-2",
-            "pokemon": "eevee",
+            "id": "mightyena-twilight-2",
+            "pokemon": "mightyena",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "5-20",
+            "bucket": "common",
+            "level": "32-42",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest"
+                    "twilightforest:dark_forest"
                 ]
             }
         }

@@ -4,21 +4,18 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swellow-twilight-1",
-            "pokemon": "swellow",
+            "id": "vibrava-twilight-1",
+            "pokemon": "vibrava",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "15-30",
+            "level": "27-45",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
                     "twilightforest:oak_savannah"
                 ]
             }

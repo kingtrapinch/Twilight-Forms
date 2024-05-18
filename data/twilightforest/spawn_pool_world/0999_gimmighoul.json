@@ -3,22 +3,21 @@
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
-            "id": "exeggutor-alolan-twilight-1",
-            "pokemon": "exeggutor alolan",
+        {
+            "id": "gimmighoul-twilight-1",
+            "pokemon": "gimmighoul",
             "presets": [
-                "natural"
+                "knight_stronghold"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "25-40",
+            "bucket": "common",
+            "level": "25-33",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:dense_forest",
-                    "twilightforest:forest",
-                    "twilightforest:firefly_forest"
+                    "twilightforest:underground"
                 ]
             }
         }

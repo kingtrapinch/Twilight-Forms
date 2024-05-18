@@ -1,25 +1,23 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swellow-twilight-1",
-            "pokemon": "swellow",
+            "id": "electrode-twilight-1",
+            "pokemon": "electrode hisuian",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "15-30",
-            "weight": 10.0,
+            "level": "21-39",
+            "weight": 10,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:dense_forest",
+                    "twilightforest:dense_mushroom_forest"
                 ]
             }
         }

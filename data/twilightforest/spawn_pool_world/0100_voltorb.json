@@ -3,22 +3,21 @@
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
-            "id": "exeggutor-alolan-twilight-1",
-            "pokemon": "exeggutor alolan",
+        {
+            "id": "voltorb-twilight-1",
+            "pokemon": "voltorb hisuian",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "25-40",
-            "weight": 10.0,
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 10,
             "condition": {
                 "biomes": [
                     "twilightforest:dense_forest",
-                    "twilightforest:forest",
-                    "twilightforest:firefly_forest"
+                    "twilightforest:dense_mushroom_forest"
                 ]
             }
         }

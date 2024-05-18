@@ -4,22 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swellow-twilight-1",
-            "pokemon": "swellow",
+            "id": "carbink-twilight-1",
+            "pokemon": "carbink",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "15-30",
+            "bucket": "common",
+            "level": "20-40",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:glacier"
                 ]
             }
         }

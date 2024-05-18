@@ -17,7 +17,8 @@
             "condition": {
                 "biomes": [
                     "twilightforest:dense_forest",
-					"twilightforest:dense_mushroom_forest"
+                    "twilightforest:forest",
+                    "twilightforest:firefly_forest"
                 ]
             }
         }

@@ -4,22 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "taillow-twilight-1",
-            "pokemon": "taillow",
+            "id": "impidimp-twilight-1",
+            "pokemon": "impidimp",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "5-20",
-            "weight": 10.0,
+            "level": "35-40",
+            "weight": 10,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:dark_forest"
                 ]
             }
         }

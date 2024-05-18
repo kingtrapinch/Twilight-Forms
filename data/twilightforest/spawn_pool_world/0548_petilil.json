@@ -1,25 +1,25 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "swellow-twilight-1",
-            "pokemon": "swellow",
+            "id": "petilil-twilight-1",
+            "pokemon": "petilil region_bias=hisui",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "15-30",
-            "weight": 10.0,
+            "bucket": "common",
+            "level": "3-28",
+            "weight": 10,
             "condition": {
                 "biomes": [
                     "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
+                    "twilightforest:dense_forest",
                     "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:enchanted_forest"
                 ]
             }
         }

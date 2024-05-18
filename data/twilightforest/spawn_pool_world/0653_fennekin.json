@@ -1,28 +1,26 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-		{
-            "id": "eevee-twilight-1",
-            "pokemon": "eevee",
+        {
+            "id": "fennekin-twilight-1",
+            "pokemon": "fennekin",
             "presets": [
-                "natural"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "5-20",
-            "weight": 10.0,
+            "weight": 100.0,
             "condition": {
-                "biomes": [
-                    "twilightforest:enchanted_forest"
-                ]
+                "canSeeSky": false
             }
         },
         {
-            "id": "eevee-twilight-2",
-            "pokemon": "eevee",
+            "id": "fennekin-twilight-2",
+            "pokemon": "fennekin",
             "presets": [
                 "natural"
             ],
@@ -33,7 +31,7 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest"
+                    "twilightforest:enchanted_forest"
                 ]
             }
         }

@@ -1,25 +1,23 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-        {
-            "id": "swellow-twilight-1",
-            "pokemon": "swellow",
+		{
+            "id": "dewgong-twilight-1",
+            "pokemon": "dewgong",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "15-30",
+            "level": "35-45",
             "weight": 10.0,
             "condition": {
+                "maxY": 30,
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:snowy_forest"
                 ]
             }
         }

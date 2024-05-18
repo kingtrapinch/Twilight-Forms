@@ -4,22 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "taillow-twilight-1",
-            "pokemon": "taillow",
+            "id": "morgrem-twilight-1",
+            "pokemon": "morgrem",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "5-20",
-            "weight": 10.0,
+            "level": "41-52",
+            "weight": 10,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:firefly_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:dark_forest"
                 ]
             }
         }

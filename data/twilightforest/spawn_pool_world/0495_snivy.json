@@ -14,6 +14,23 @@
             "bucket": "rare",
             "level": "5-20",
             "weight": 50.0
+        },
+        {
+            "id": "snivy-twilight-2",
+            "pokemon": "snivy",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:clearing"
+                ]
+            }
         }
     ]
 }
