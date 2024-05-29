@@ -123,7 +123,7 @@
       "labels": [
         "gen9"
       ],
-      "aspects": [],
+      "aspects": ["twilight"],
       "height": 5,
       "weight": 149,
       "preEvolution": "fidough",
