@@ -23,6 +23,7 @@ Shadow Forms:
 - Bulbasaur line (Dark/Grass)
 - Charmander line (Dark/Fire)
 - Squirtle line (Dark/Water)
+- Mewtwo (Dark/Psychic)
 
 Added in 1.0: 
 
