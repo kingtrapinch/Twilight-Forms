@@ -3,33 +3,6 @@
   "features": ["tree"],
   "implemented": true,
   "name": "Torterra",
-  "nationalPokedexNumber": 389,
-  "primaryType": "grass",
-  "secondaryType": "ground",
-  "abilities": [
-    "overgrow",
-    "h:shellarmor"
-  ],
-  "drops": {
-    "amount": 1,
-    "entries": [
-      {
-        "item": "cobblemon:miracle_seed",
-        "percentage": 25.0
-      }
-    ]
-  },
-  "baseStats": {
-    "hp": 95,
-    "attack": 109,
-    "defence": 105,
-    "special_attack": 75,
-    "special_defence": 85,
-    "speed": 56
-  },
-  "catchRate": 45,
-  "maleRatio": 0.875,
-  "shoulderMountable": false,
   "forms": [
     {"name": "base"},
     {
