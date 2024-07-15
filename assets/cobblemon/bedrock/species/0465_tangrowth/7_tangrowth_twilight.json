@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:tangrowth",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:tangrowth",
+      "model": "cobblemon:tangrowth_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0465_tangrowth/tangrowth_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0465_tangrowth/tangrowth_twilight_shiny.png"
+    }
+  ]
+}
