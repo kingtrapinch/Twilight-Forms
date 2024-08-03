@@ -1,0 +1,61 @@
+{
+  "species": "cobblemon:heracross",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:heracross",
+      "model": "cobblemon:heracross_female.geo",
+      "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_twilight.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0214_heracross/fire/normal/1.png",
+              "cobblemon:textures/pokemon/0214_heracross/fire/normal/2.png",
+              "cobblemon:textures/pokemon/0214_heracross/fire/normal/3.png",
+              "cobblemon:textures/pokemon/0214_heracross/fire/normal/4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "wings",
+          "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_transparency.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_twilight_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0214_heracross/fire/shiny/1.png",
+              "cobblemon:textures/pokemon/0214_heracross/fire/shiny/2.png",
+              "cobblemon:textures/pokemon/0214_heracross/fire/shiny/3.png",
+              "cobblemon:textures/pokemon/0214_heracross/fire/shiny/4.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
+          "emissive": true
+        },
+        {
+          "name": "wings",
+          "texture": "cobblemon:textures/pokemon/0214_heracross/heracross_transparency.png",
+          "translucent": true
+        }
+      ]
+    }
+  ]
+}
