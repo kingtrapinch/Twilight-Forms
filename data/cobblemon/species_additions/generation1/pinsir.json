@@ -14,12 +14,12 @@
         "h:moxie"
       ],
       "baseStats": {
-        "hp": 65,
-        "attack": 125,
+        "hp": 80,
+        "attack": 130,
         "defence": 100,
-        "special_attack": 55,
-        "special_defence": 70,
-        "speed": 85
+        "special_attack": 35,
+        "special_defence": 75,
+        "speed": 80
       },
       "behaviour": {
         "resting": {
