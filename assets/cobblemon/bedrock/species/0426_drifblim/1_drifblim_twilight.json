@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:drifblim",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:drifblim",
+      "model": "cobblemon:drifblim.geo",
+      "texture": "cobblemon:textures/pokemon/0426_drifblim/drifblim_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0426_drifblim/drifblim_twilight_shiny.png"
+    }
+  ]
+}
