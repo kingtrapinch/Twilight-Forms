@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:deino",
+  "order": 1,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:deino",
+      "model": "cobblemon:deino_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0633_deino/deino_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0633_deino/deino_twilight_shiny.png"
+    }
+  ]
+}
