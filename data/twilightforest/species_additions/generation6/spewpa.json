@@ -1,0 +1,24 @@
+{
+    "target": "cobblemon:spewpa",
+    "evolutions": [
+        {
+            "id": "spewpa_vivillon_twilight",
+            "variant": "level_up",
+            "result": "vivillon twilight",
+            "consumeHeldItem": false,
+            "learnableMoves": [
+              "gust"
+            ],
+            "requirements": [
+                {
+                  "variant": "level",
+                  "minLevel": 12
+                },
+                {
+                  "variant": "biome",
+                  "biomeCondition": "#cobblemon:is_twilight"
+                }
+            ]
+        }
+    ]
+}

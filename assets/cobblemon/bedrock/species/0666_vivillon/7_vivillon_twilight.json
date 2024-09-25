@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:vivillon",
+    "order": 7,
+    "variations": [
+        {
+            "aspects": [ "twilight" ],
+            "layers": [
+              {
+                "name": "wings",
+                "texture": "cobblemon:textures/pokemon/0666_vivillon/vivillon_wings_twilight.png"
+              },
+              {
+                "name": "wings-emissive",
+                "emissive": true,
+                "texture": "cobblemon:textures/pokemon/0666_vivillon/vivillon_wings_twilight_emissive.png"
+              }
+            ]
+        }
+    ]
+}
