@@ -158,7 +158,17 @@
         "cobblemon.species.tangrowth.desc"
       ],
       "preEvolution": "tangela twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "tangrowth_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "tangrowth twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 2,
       "hitbox": {
         "width": 0.9,
@@ -179,5 +189,16 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }    
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "tangrowth_to_twilight",
+          "variant": "item_interact",
+          "result": "tangrowth twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

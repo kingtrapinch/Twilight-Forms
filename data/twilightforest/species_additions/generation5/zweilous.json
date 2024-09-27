@@ -155,6 +155,15 @@
               "minLevel": 64
             }
           ]
+        },
+        {
+          "id": "zweilous_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "zweilous twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 0.75,
@@ -177,5 +186,16 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }    
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "zweilous_to_twilight",
+          "variant": "item_interact",
+          "result": "zweilous twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

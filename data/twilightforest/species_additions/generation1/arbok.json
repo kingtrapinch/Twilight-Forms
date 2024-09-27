@@ -188,7 +188,17 @@
         "twilight"
       ],
       "preEvolution": "ekans form=twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "arbok_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "arbok twilight=false snake_pattern=elusive",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 1,
       "hitbox": {
         "width": 1,
@@ -208,5 +218,16 @@
       "weight": 650,
       "cannotDynamax": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "arbok_to_twilight",
+          "variant": "item_interact",
+          "result": "arbok twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

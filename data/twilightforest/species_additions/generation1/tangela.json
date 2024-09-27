@@ -211,6 +211,15 @@
               "move": "obstruct"
             }
           ]
+        },
+        {
+          "id": "tangela_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "tangela twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 1.5,
@@ -233,5 +242,16 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }    
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "tangela_to_twilight",
+          "variant": "item_interact",
+          "result": "tangela twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

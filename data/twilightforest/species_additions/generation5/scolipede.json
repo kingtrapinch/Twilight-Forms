@@ -159,7 +159,17 @@
         "cobblemon.species.scolipede.desc"
       ],
       "preEvolution": "whirlipede form=twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "scolipede_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "scolipede twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 1.0,
       "hitbox": {
         "width": 2.5,
@@ -182,5 +192,16 @@
       ],
       "cannotDynamax": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "scolipede_to_twilight",
+          "variant": "item_interact",
+          "result": "scolipede twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

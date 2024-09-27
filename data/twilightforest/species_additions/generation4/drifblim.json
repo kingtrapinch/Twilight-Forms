@@ -188,7 +188,17 @@
         "cobblemon.species.drifblim.desc"
       ],
       "preEvolution": "drifloon twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "drifblim_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "drifblim twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 1.2,
       "hitbox": {
         "width": 1.6,
@@ -209,5 +219,16 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }    
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "drifblim_to_twilight",
+          "variant": "item_interact",
+          "result": "drifblim twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

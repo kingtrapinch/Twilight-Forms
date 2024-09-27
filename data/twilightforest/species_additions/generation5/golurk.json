@@ -194,7 +194,17 @@
         "twilight"
       ],
       "preEvolution": "golett form=twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "golurk_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "golurk twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 1.65,
       "hitbox": {
         "width": 1.4,
@@ -214,5 +224,16 @@
       "weight": 3300,
       "cannotDynamax": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "golurk_to_twilight",
+          "variant": "item_interact",
+          "result": "golurk twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

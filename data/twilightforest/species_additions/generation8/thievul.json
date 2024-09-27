@@ -112,7 +112,17 @@
         "cobblemon.species.thievul.desc"
       ],
       "preEvolution": "nickit twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "thievul_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "thievul twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 0.7,
       "hitbox": {
         "width": 1.2,
@@ -133,5 +143,16 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "thievul_to_twilight",
+          "variant": "item_interact",
+          "result": "thievul twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

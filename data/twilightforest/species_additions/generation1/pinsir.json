@@ -198,7 +198,17 @@
       "pokedex": [
         "cobblemon.species.pinsir.desc"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "pinsir_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "pinsir twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 1.0,
       "hitbox": {
         "width": 1,
@@ -228,5 +238,16 @@
         ]
       }
     }    
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "pinsir_to_twilight",
+          "variant": "item_interact",
+          "result": "pinsir twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

@@ -230,6 +230,15 @@
               "minLevel": 20
             }
           ]
+        },
+        {
+          "id": "ralts_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "ralts twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 0.8,
@@ -252,5 +261,16 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "ralts_to_twilight",
+          "variant": "item_interact",
+          "result": "ralts twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

@@ -129,9 +129,29 @@
       "height": 13,
       "weight": 430,
       "evolutions": [
+        {
+          "id": "dubwool_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "dubwool twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
       ],
       "cannotDynamax": false,
       "battleOnly": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "dubwool_to_twilight",
+          "variant": "item_interact",
+          "result": "dubwool twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

@@ -138,6 +138,15 @@
               "minLevel": 26
             }
           ]
+        },
+        {
+          "id": "fidough_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "fidough twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "cannotDynamax": false,
@@ -145,5 +154,16 @@
         "cobblemon.species.fidough.desc"
       ]
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "fidough_to_twilight",
+          "variant": "item_interact",
+          "result": "fidough twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

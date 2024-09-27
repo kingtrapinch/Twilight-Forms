@@ -127,11 +127,32 @@
       "height": 5,
       "weight": 149,
       "preEvolution": "fidough",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "dachsbun_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "dachsbun twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "cannotDynamax": false,
       "pokedex": [
         "cobblemon.species.dachsbun.desc"
       ]
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "dachsbun_to_twilight",
+          "variant": "item_interact",
+          "result": "dachsbun twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

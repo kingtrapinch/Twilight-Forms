@@ -190,7 +190,17 @@
         "twilight"
       ],
       "preEvolution": "paras form=twilight",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "parasect_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "parasect twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 0.8,
       "hitbox": {
         "width": 1.2,
@@ -210,5 +220,16 @@
       "weight": 295,
       "cannotDynamax": false
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "parasect_to_twilight",
+          "variant": "item_interact",
+          "result": "parasect twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

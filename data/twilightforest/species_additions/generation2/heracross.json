@@ -212,7 +212,17 @@
       "pokedex": [
         "cobblemon.species.heracross.desc"
       ],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "heracross_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "heracross twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 1,
       "hitbox": {
         "width": 1.05,
@@ -246,6 +256,16 @@
         ]
       }
     }
-    
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "heracross_to_twilight",
+          "variant": "item_interact",
+          "result": "heracross twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

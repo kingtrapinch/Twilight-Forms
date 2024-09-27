@@ -162,6 +162,15 @@
               "minLevel": 32
             }
           ]
+        },
+        {
+          "id": "aron_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "aron twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 1,
@@ -197,5 +206,16 @@
         ]
       }
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "aron_to_twilight",
+          "variant": "item_interact",
+          "result": "aron twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }
