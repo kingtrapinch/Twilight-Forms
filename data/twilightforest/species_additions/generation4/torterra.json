@@ -4,7 +4,6 @@
   "implemented": true,
   "name": "Torterra",
   "forms": [
-    {"name": "base"},
     {
       "name": "Fireswamp",
       "primaryType": "grass",

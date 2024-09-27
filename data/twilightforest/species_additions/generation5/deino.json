@@ -10,7 +10,7 @@
       "primaryType": "dragon",
       "secondaryType": "fire",
       "abilities": [
-        "marvelscale"
+        "multiscale"
       ],
       "drops": {
         "amount": 2,

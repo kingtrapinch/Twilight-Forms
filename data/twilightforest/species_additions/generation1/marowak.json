@@ -2,24 +2,6 @@
   "target": "cobblemon:marowak",
   "implemented": true,
   "name": "Marowak",
-  "nationalPokedexNumber": 105,
-  "primaryType": "ground",
-  "abilities": [
-    "rockhead",
-    "lightningrod",
-    "h:battlearmor"
-  ],
-  "baseStats": {
-    "hp": 60,
-    "attack": 80,
-    "defence": 110,
-    "special_attack": 50,
-    "special_defence": 80,
-    "speed": 45
-  },
-  "catchRate": 75,
-  "maleRatio": 0.5,
-  "shoulderMountable": false,
   "forms": [
     {
       "name": "Twilight",
@@ -234,39 +216,5 @@
       "cannotDynamax": false,
       "battleOnly": false
     }
-  ],
-  "baseExperienceYield": 149,
-  "experienceGroup": "medium_fast",
-  "eggCycles": 20,
-  "eggGroups": [
-    "monster"
-  ],
-  "labels": [
-    "gen1",
-    "kanto_regional"
-  ],
-  "pokedex": [
-    "cobblemon.species.marowak.desc"
-  ],
-  "features": [
-    "twilight"
-  ],
-  "preEvolution": "cubone",
-  "baseScale": 0.8,
-  "hitbox": {
-    "width": 0.9,
-    "height": 1.3,
-    "fixed": false
-  },
-  "baseFriendship": 50,
-  "evYield": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 2,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
-  },
-  "height": 10,
-  "weight": 450
+  ]
 }
