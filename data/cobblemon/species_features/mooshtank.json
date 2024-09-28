@@ -1,0 +1,12 @@
+{
+  "type": "choice",
+  "keys": ["mooshtank"],
+  "default": "false",
+  "choices": [
+    "red",
+    "brown",
+    "false"
+  ],
+  "isAspect": true,
+  "aspectFormat": "mooshtank-{{choice}}"
+}

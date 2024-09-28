@@ -265,7 +265,31 @@
         "cobblemon.species.miltank.desc"
       ],
       "aspects": ["mooshtank-red"],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "miltank_red_to_brown",
+          "variant": "item_interact",
+          "result": "miltank mooshtank=brown",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:brown_mushroom"
+            }
+          ],
+          "requiredContext": "twilightforest:transformation_powder"
+        },
+        {
+          "id": "miltank_to_normal_red",
+          "variant": "item_interact",
+          "result": "miltank mooshtank=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 0.75,
       "hitbox": {
         "width": 1.1,
@@ -522,7 +546,31 @@
         "cobblemon.species.miltank.desc"
       ],
       "aspects": ["mooshtank-brown"],
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "miltank_brown_to_red",
+          "variant": "item_interact",
+          "result": "miltank mooshtank=red",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "minecraft:red_mushroom"
+            }
+          ],
+          "requiredContext": "twilightforest:transformation_powder"
+        },
+        {
+          "id": "miltank_to_normal_brown",
+          "variant": "item_interact",
+          "result": "miltank mooshtank=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "baseScale": 0.75,
       "hitbox": {
         "width": 1.1,
@@ -748,7 +796,36 @@
   "pokedex": [
     "cobblemon.species.miltank.desc"
   ],
-  "evolutions": [],
+  "evolutions": [
+    {
+      "id": "miltank_to_red",
+      "variant": "item_interact",
+      "result": "miltank mooshtank=red",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:red_mushroom"
+        }
+      ],
+      "requiredContext": "twilightforest:transformation_powder"
+    },
+    {
+      "id": "miltank_to_brown",
+      "variant": "item_interact",
+      "result": "miltank mooshtank=brown",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "minecraft:brown_mushroom"
+        }
+      ],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ],
   "baseScale": 0.75,
   "hitbox": {
     "width": 1.1,
@@ -766,6 +843,6 @@
   },
   "height": 12,
   "weight": 755,
-  "aspects": [],
+  "aspects": ["mooshtank-false"],
   "cannotDynamax": false
 }

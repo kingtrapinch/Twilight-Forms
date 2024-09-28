@@ -145,7 +145,17 @@
       "height": 17,
       "weight": 800,
       "preEvolution": "ponyta form=galar",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "rapidash_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "rapidash galarian=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "cannotDynamax": false,
       "battleOnly": false
     }
@@ -322,7 +332,17 @@
     "cobblemon.species.rapidash.desc"
   ],
   "preEvolution": "ponyta",
-  "evolutions": [],
+  "evolutions": [
+    {
+      "id": "rapidash_to_twilight",
+      "variant": "item_interact",
+      "result": "rapidash galarian=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ],
   "baseScale": 1.2,
   "hitbox": {
     "width": 0.9,

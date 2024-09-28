@@ -199,7 +199,17 @@
       "height": 11,
       "weight": 199,
       "preEvolution": "vulpix form=alola",
-      "evolutions": [],
+      "evolutions": [
+        {
+          "id": "ninetales_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "ninetales alolan=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
       "cannotDynamax": false,
       "battleOnly": false
     }
@@ -374,7 +384,17 @@
     "alolan"
   ],
   "preEvolution": "vulpix",
-  "evolutions": [],
+  "evolutions": [
+    {
+      "id": "ninetales_to_twilight",
+      "variant": "item_interact",
+      "result": "ninetales alolan=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ],
   "baseScale": 0.8,
   "hitbox": {
     "width": 1.1,

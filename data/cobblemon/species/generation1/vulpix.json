@@ -213,6 +213,15 @@
           ],
           "requirements": [],
           "requiredContext": "cobblemon:ice_stone"
+        },
+        {
+          "id": "vulpix_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "vulpix alolan=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "cannotDynamax": false,
@@ -409,6 +418,15 @@
       "learnableMoves": [],
       "requirements": [],
       "requiredContext": "cobblemon:fire_stone"
+    },
+    {
+      "id": "vulpix_to_twilight",
+      "variant": "item_interact",
+      "result": "vulpix alolan=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
     }
   ],
   "baseScale": 0.7,
