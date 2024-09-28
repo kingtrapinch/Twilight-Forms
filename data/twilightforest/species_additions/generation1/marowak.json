@@ -37,6 +37,23 @@
       "eggGroups": [
         "monster"
       ],
+      "drops": {
+        "amount": 5,
+        "entries": [
+          {
+            "item": "minecraft:gold_hoe",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:vivichoke_seeds",
+            "quantityRange": "2-4"
+          },
+          {
+            "item": "cobblemon:leppa_berry",
+            "percentage": 10.0
+          }
+        ]
+      },
       "moves": [
         "1:substitute",
         "1:nastyplot",

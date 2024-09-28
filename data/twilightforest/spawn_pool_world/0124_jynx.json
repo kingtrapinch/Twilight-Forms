@@ -4,17 +4,18 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "carbink-twilight-1",
-            "pokemon": "carbink",
+            "id": "jynx-twilight-1",
+            "pokemon": "jynx",
             "presets": [
-                "natural"
+                "aurora_palace"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "20-40",
+            "level": "30-50",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": false,
                 "biomes": [
                     "twilightforest:glacier"
                 ]
