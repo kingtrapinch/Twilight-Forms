@@ -1,23 +1,22 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "probopass-twilight",
-            "pokemon": "probopass",
+            "id": "zweilous-twilight",
+            "pokemon": "zweilous twilight",
             "presets": [
-                "labyrinth"
+                "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-50",
+            "bucket": "rare",
+            "level": "50-65",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:underground"
+                    "twilightforest:fire_swamp"
                 ]
             }
         }

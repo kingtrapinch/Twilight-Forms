@@ -4,20 +4,21 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "probopass-twilight",
-            "pokemon": "probopass",
+            "id": "drifblim-twilight-1",
+            "pokemon": "drifblim twilight",
             "presets": [
-                "labyrinth"
+                "dark_tower"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "40-50",
-            "weight": 10.0,
+            "level": "40-55",
+            "weight": 100.0,
             "condition": {
-                "canSeeSky": false,
+                "maxY": 150,
+                "canSeeSky": true,
                 "biomes": [
-                    "twilightforest:underground"
+                    "twilightforest:dark_forest_center"
                 ]
             }
         }

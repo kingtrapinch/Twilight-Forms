@@ -4,19 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "heracross-twilight-1",
-            "pokemon": "heracross",
+            "id": "tangela-twilight-1",
+            "pokemon": "tangela twilight",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "10-20",
+            "bucket": "common",
+            "level": "42-53",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:dense_mushroom_forest"
+                    "twilightforest:highlands"
                 ]
             }
         }

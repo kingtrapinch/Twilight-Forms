@@ -1,23 +1,23 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "probopass-twilight",
-            "pokemon": "probopass",
+            "id": "scatterbug-twilight-1",
+            "pokemon": "scatterbug",
             "presets": [
-                "labyrinth"
+                "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-50",
+            "bucket": "common",
+            "level": "2-15",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:underground"
+                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:oak_savannah"
                 ]
             }
         }

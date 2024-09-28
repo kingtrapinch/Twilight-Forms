@@ -1,21 +1,20 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "probopass-twilight",
-            "pokemon": "probopass",
+            "id": "pinsir-twilight-1",
+            "pokemon": "pinsir twilight",
             "presets": [
                 "labyrinth"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "40-50",
-            "weight": 10.0,
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 5.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
                     "twilightforest:underground"
                 ]

@@ -13,10 +13,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "30-40",
-            "weight": 50.0,
-            "condition": {
-                "canSeeSky": false
-            }
+            "weight": 50.0
         },
 		{
             "id": "miltank-mooshtank-brown-1",
@@ -28,10 +25,7 @@
             "context": "grounded",
             "bucket": "common",
             "level": "30-40",
-            "weight": 50.0,
-            "condition": {
-                "canSeeSky": false
-            }
+            "weight": 50.0
         }
     ]
 }

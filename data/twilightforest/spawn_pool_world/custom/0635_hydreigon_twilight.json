@@ -1,22 +1,22 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "pinsir-twilight-1",
-            "pokemon": "pinsir",
+            "id": "hydreigon-twilight",
+            "pokemon": "hydreigon twilight",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "10-20",
+            "bucket": "rare",
+            "level": "65-70",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:dense_forest"
+                    "twilightforest:fire_swamp"
                 ]
             }
         }

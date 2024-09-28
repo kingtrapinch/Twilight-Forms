@@ -4,20 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "probopass-twilight",
-            "pokemon": "probopass",
+            "id": "tangrowth-twilight-1",
+            "pokemon": "tangrowth twilight",
             "presets": [
-                "labyrinth"
+                "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "40-50",
+            "level": "60-75",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:underground"
+                    "twilightforest:highlands"
                 ]
             }
         }
