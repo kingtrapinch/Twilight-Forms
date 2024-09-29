@@ -14,6 +14,7 @@ List of Pokemon Forms:
 Added in 3.0: 
 
 - Tangela line (Grass / Steel)
+- Drifloon line ( Ghost / Fire)
 - Pinsir (Bug / Dark)
 - Heracross (Bug / Fire)
 - Deino line (Dragon / Fire)
