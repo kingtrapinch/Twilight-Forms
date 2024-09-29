@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:gallade",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:gallade",
+      "model": "cobblemon:gallade_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0475_gallade/gallade_twilight_shiny.png"
+    }
+  ]
+}

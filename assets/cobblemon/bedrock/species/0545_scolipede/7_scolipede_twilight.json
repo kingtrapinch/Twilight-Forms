@@ -1,0 +1,32 @@
+{
+  "species": "cobblemon:scolipede",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:scolipede",
+      "model": "cobblemon:scolipede.geo",
+      "texture": "cobblemon:textures/pokemon/0545_scolipede/scolipede_twilight.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0545_scolipede/scolipede_twilight_emissive.png",
+          "emissive": true
+        }
+        ]
+    },
+    {
+      "aspects": [
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0545_scolipede/scolipede_twilight_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0545_scolipede/scolipede_twilight_shiny_emissive.png",
+          "emissive": true
+        }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:drifloon",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:drifloon",
+      "model": "cobblemon:drifloon_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0425_drifloon/drifloon_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0425_drifloon/drifloon_twilight_shiny.png"
+    }
+  ]
+}

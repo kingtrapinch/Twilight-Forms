@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 8,
+  "variations": [
+    {
+      "aspects": ["brick-mazestone"],
+      "poser": "cobblemon:dwebble",
+      "model": "cobblemon:dwebble.geo",
+      "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_mazestone.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "brick-mazestone",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_mazestone_shiny.png"
+    }
+  ]
+}
