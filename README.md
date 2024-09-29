@@ -11,14 +11,15 @@ Link to Github repo: https://github.com/kingtrapinch/Twilight-Forms
 
 List of Pokemon Forms:
 
-Added in 1.2: 
+Added in 3.0: 
 
 - Tangela line (Grass / Steel)
 - Pinsir (Bug / Dark)
 - Heracross (Bug / Fire)
 - Deino line (Dragon / Fire)
+- Twilight Vivillon form
 
-Added in 1.1: 
+Added in 2.0: 
 
 - Cubone and Marowak (Grass / Ghost)
 - Necromarrow (Marowak evo, Psychic / Ghost)
