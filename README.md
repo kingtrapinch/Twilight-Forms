@@ -11,6 +11,13 @@ Link to Github repo: https://github.com/kingtrapinch/Twilight-Forms
 
 List of Pokemon Forms:
 
+Added in 1.2: 
+
+- Tangela line (Grass / Steel)
+- Pinsir (Bug / Dark)
+- Heracross (Bug / Fire)
+- Deino line (Dragon / Fire)
+
 Added in 1.1: 
 
 - Cubone and Marowak (Grass / Ghost)
