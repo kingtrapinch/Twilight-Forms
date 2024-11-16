@@ -16,9 +16,25 @@
             "weight": 10,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
                     "twilightforest:dense_forest",
-                    "twilightforest:firefly_forest",
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        },
+        {
+            "id": "lilligant-twilight-2",
+            "pokemon": "lilligant hisuian",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 20,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest",
                     "twilightforest:enchanted_forest"
                 ]
             }

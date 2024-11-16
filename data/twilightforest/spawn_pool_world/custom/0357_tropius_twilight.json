@@ -31,7 +31,7 @@
             "context": "grounded",
             "bucket": "uncommon",
             "level": "4-20",
-            "weight": 20.0,
+            "weight": 10.0,
             "condition": {
                 "biomes": [
                     "twilightforest:dense_forest"

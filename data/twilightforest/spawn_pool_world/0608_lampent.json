@@ -19,10 +19,10 @@
             }
         },
         {
-            "id": "lampent-twilight-1",
+            "id": "lampent-twilight-2",
             "pokemon": "lampent",
             "presets": [
-                "natural"
+                "knight_stronghold"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -30,8 +30,9 @@
             "level": "35-50",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:dark_forest"
+                    "twilightforest:underground"
                 ]
             }
         }

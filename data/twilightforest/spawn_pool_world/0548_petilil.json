@@ -16,10 +16,26 @@
             "weight": 10,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
                     "twilightforest:dense_forest",
                     "twilightforest:firefly_forest",
                     "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+        {
+            "id": "petilil-twilight-2",
+            "pokemon": "petilil region_bias=hisui",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:forest"
                 ]
             }
         }

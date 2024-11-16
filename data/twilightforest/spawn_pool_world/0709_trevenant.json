@@ -29,7 +29,7 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
+            "bucket": "uncommon",
             "level": "14-30",
             "weight": 10.0,
             "condition": {

@@ -16,9 +16,25 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:dense_forest",
                     "twilightforest:forest",
                     "twilightforest:firefly_forest"
+                ]
+            }
+        },
+        {
+            "id": "exeggutor-alolan-twilight-2",
+            "pokemon": "exeggutor alolan",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-40",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_forest"
                 ]
             }
         }

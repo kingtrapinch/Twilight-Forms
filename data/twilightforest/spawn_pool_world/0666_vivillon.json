@@ -16,8 +16,28 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:dense_mushroom_forest",
                     "twilightforest:oak_savannah"
+                ]
+            }
+        },
+        {
+            "id": "vivillon-twilight-2",
+            "pokemon": "vivillon twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "13-32",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:firefly_forest"
                 ]
             }
         }

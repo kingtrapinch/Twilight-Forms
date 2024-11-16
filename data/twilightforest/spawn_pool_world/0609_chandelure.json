@@ -18,11 +18,11 @@
                 "canSeeSky": false
             }
         },
-        {
+ {
             "id": "chandelure-twilight-1",
             "pokemon": "chandelure",
             "presets": [
-                "natural"
+                "knight_stronghold"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -30,8 +30,9 @@
             "level": "45-65",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:dark_forest"
+                    "twilightforest:underground"
                 ]
             }
         }

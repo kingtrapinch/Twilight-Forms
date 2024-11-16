@@ -19,19 +19,20 @@
             }
         },
         {
-            "id": "litwick-twilight-1",
+            "id": "litwick-twilight-2",
             "pokemon": "litwick",
             "presets": [
-                "natural"
+                "knight_stronghold"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "25-35",
+            "level": "10-20",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:dark_forest"
+                    "twilightforest:underground"
                 ]
             }
         }
