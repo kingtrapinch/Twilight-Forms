@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:shiinotic",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.shiinotic.desc"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "twilightforest:mushgloom",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

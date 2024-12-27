@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:mismagius",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.mismagius.desc"
+  ],
+  "drops": {
+    "amount": 15,
+    "entries": [
+      {
+        "item": "twilightforest:red_thread",
+        "quantityRange": "5-15"
+      },
+      {
+        "item": "cobblemon:spell_tag",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "target": "cobblemon:nincada",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.nincada.desc"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "twilightforest:cicada"
+      },
+      {
+        "item": "cobblemon:soft_sand",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "implemented": true,
   "name": "Petilil",
   "nationalPokedexNumber": 548,
@@ -83,7 +84,7 @@
       },
       "catchRate": 190,
       "maleRatio": 0,
-      "shoulderMountable": false,
+      "shoulderMountable": true,
       "baseExperienceYield": 56,
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
@@ -240,7 +241,7 @@
   ],
   "catchRate": 190,
   "maleRatio": 0,
-  "shoulderMountable": false,
+  "shoulderMountable": true,
   "baseExperienceYield": 56,
   "experienceGroup": "medium_fast",
   "eggCycles": 20,
@@ -347,7 +348,7 @@
       "requirements": [
         {
           "variant": "biome",
-          "biomeCondition": "#cobblemon:is_hills"
+          "biomeCondition": "#cobblemon:evolution/lilligant_hisuian"
         },
         {
           "variant": "biome",

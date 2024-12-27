@@ -1,0 +1,23 @@
+{
+  "target": "cobblemon:volbeat",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.volbeat.desc"
+  ],
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "twilightforest:firefly"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:razz_berry",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

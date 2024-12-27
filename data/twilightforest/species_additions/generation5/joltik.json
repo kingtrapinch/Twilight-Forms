@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:joltik",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.joltik.desc"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "twilightforest:borer_essence",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

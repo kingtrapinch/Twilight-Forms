@@ -1,0 +1,20 @@
+{
+  "target": "cobblemon:morelull",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.morelull.desc"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "twilightforest:mushgloom",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:kebia_berry",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

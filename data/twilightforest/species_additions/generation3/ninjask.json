@@ -1,0 +1,19 @@
+{
+  "target": "cobblemon:ninjask",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.ninjask.desc"
+  ],
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "twilightforest:cicada"
+      },
+      {
+        "item": "cobblemon:cheri_berry",
+        "percentage": 2.5
+      }
+    ]
+  }
+}

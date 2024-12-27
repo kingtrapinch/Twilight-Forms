@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:galvantula",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.galvantula.desc"
+  ],
+  "drops": {
+    "amount": 7,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "twilightforest:borer_essence",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:nanab_berry",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

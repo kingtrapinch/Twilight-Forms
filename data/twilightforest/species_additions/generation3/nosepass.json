@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:nosepass",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.nosepass.desc"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:flint",
+        "quantityRange": "1-2"
+      },
+      {
+        "item": "twilightforest:ore_magnet",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "cobblemon:hard_stone",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:magnet",
+        "percentage": 2.5
+      }
+    ]
+  }
+}
