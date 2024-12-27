@@ -54,6 +54,7 @@
         "28:stealthrock",
         "32:rockblast",
         "36:xscissor",
+        "38:recycle",
         "40:rockpolish",
         "44:shellsmash",
         "48:rockwrecker",
@@ -176,7 +177,9 @@
       "primaryType": "bug",
       "secondaryType": "rock",
       "abilities": [
-        "wonderguard"
+        "sturdy",
+        "shellarmor",
+        "h:solidrock"
       ],
       "drops": {
         "amount": 1,
@@ -218,6 +221,7 @@
         "28:stealthrock",
         "32:rockblast",
         "36:xscissor",
+        "38:recycle",
         "40:rockpolish",
         "44:shellsmash",
         "48:rockwrecker",
