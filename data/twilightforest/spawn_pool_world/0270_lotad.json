@@ -7,10 +7,10 @@
             "id": "lotad-twilight",
             "pokemon": "lotad",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "common",
             "level": "20-40",
             "weight": 10.0,

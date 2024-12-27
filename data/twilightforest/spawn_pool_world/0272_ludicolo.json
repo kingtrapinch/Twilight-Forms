@@ -7,10 +7,10 @@
             "id": "ludicolo-twilight",
             "pokemon": "ludicolo",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "rare",
             "level": "35-50",
             "weight": 10.0,

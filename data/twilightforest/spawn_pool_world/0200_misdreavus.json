@@ -41,10 +41,10 @@
             "id": "misdreavus-twilight-3",
             "pokemon": "misdreavus",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "common",
             "level": "30-40",
             "weight": 10.0,

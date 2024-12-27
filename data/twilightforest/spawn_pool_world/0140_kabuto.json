@@ -7,7 +7,7 @@
             "id": "kabuto-twilight-1",
             "pokemon": "kabuto",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
             "context": "submerged",

@@ -7,7 +7,7 @@
             "id": "lanturn-twilight-1",
             "pokemon": "lanturn",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
             "context": "submerged",

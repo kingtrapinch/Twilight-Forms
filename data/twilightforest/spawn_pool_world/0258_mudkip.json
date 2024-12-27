@@ -7,10 +7,10 @@
             "id": "mudkip-twilight",
             "pokemon": "mudkip",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "uncommon",
             "level": "20-40",
             "weight": 10.0,

@@ -7,10 +7,10 @@
             "id": "marshtomp-twilight",
             "pokemon": "marshtomp",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "rare",
             "level": "30-50",
             "weight": 10.0,

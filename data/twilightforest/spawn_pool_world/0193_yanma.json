@@ -7,10 +7,10 @@
             "id": "yanma-twilight-1",
             "pokemon": "yanma",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "common",
             "level": "14-39",
             "weight": 10.0,

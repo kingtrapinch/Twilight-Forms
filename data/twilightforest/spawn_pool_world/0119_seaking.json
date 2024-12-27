@@ -7,7 +7,7 @@
             "id": "seaking-twilight-1",
             "pokemon": "seaking",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
             "context": "submerged",

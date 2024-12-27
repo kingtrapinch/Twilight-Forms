@@ -6,10 +6,11 @@
         {
             "id": "lapras-twilight-1",
             "pokemon": "lapras",
-			"presets": [
-                "water_surface"
+            "presets": [
+                "water"
             ],
             "type": "pokemon",
+            "context": "surface",
             "bucket": "uncommon",
             "level": "29-54",
             "weight": 10.0,

@@ -7,7 +7,7 @@
             "id": "chinchou-twilight-1",
             "pokemon": "chinchou",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
             "context": "submerged",

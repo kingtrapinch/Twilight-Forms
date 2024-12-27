@@ -7,7 +7,7 @@
             "id": "slowbro-twilight-1",
             "pokemon": "slowbro",
             "presets": [
-                "underwater"
+                "water"
             ],
             "type": "pokemon",
             "context": "submerged",

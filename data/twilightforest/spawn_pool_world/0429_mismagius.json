@@ -24,10 +24,10 @@
             "id": "mismagius-twilight-2",
             "pokemon": "mismagius",
             "presets": [
-                "water_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "context": "surface",
             "bucket": "rare",
             "level": "40-50",
             "weight": 10.0,
