@@ -17,6 +17,7 @@
     },
     {
       "aspects": [
+        "twilight",
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/0543_venipede/venipede_twilight_shiny.png",

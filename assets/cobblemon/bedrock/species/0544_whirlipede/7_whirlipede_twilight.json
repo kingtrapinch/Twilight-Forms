@@ -17,6 +17,7 @@
     },
     {
       "aspects": [
+        "twilight",
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/0544_whirlipede/whirlipede_twilight_shiny.png",
