@@ -206,12 +206,6 @@
       ],
       "preEvolution": "ivysaur shadow",
       "evolutions": [],
-      "baseScale": 2,
-      "hitbox": {
-        "width": 1.5,
-        "height": 1.4,
-        "fixed": false
-      },
       "baseFriendship": 50,
       "evYield": {
         "hp": 0,

@@ -229,12 +229,6 @@
           ]
         }
       ],
-      "baseScale": 0.9,
-      "hitbox": {
-        "width": 0.7,
-        "height": 1.5,
-        "fixed": false
-      },
       "baseFriendship": 50,
       "evYield": {
         "hp": 0,

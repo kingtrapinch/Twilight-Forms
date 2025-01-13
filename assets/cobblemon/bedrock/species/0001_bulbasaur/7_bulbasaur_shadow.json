@@ -6,7 +6,23 @@
       "aspects": ["shadow"],
       "poser": "cobblemon:bulbasaur",
       "model": "cobblemon:bulbasaur.geo",
-      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow.png",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_m.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow",
+        "female"
+      ],
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_f.png",
       "layers": [
         {
           "name": "emissive",
@@ -20,7 +36,33 @@
         "shadow",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_shiny.png"
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_m.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_shiny_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow",
+        "female",
+        "shiny"
+      ],
+      "poser": "cobblemon:bulbasaur",
+      "model": "cobblemon:bulbasaur.geo",
+      "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_shiny_f.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0001_bulbasaur/bulbasaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }

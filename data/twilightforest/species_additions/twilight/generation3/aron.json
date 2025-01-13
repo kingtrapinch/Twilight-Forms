@@ -173,12 +173,6 @@
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
-      "baseScale": 1,
-      "hitbox": {
-        "width": 1,
-        "height": 1,
-        "fixed": false
-      },
       "baseFriendship": 35,
       "evYield": {
         "hp": 0,

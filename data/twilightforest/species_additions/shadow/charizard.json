@@ -275,12 +275,6 @@
       ],
       "preEvolution": "charmeleon shadow",
       "evolutions": [],
-      "baseScale": 1.35,
-      "hitbox": {
-        "width": 1,
-        "height": 2.1,
-        "fixed": false
-      },
       "baseFriendship": 50,
       "evYield": {
         "hp": 0,

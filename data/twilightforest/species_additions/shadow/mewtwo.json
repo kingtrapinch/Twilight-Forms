@@ -323,12 +323,6 @@
         "cobblemon.species.mewtwo.desc"
       ],
       "evolutions": [],
-      "baseScale": 1.2,
-      "hitbox": {
-        "width": 0.75,
-        "height": 1.7,
-        "fixed": false
-      },
       "baseFriendship": 0,
       "evYield": {
         "hp": 0,

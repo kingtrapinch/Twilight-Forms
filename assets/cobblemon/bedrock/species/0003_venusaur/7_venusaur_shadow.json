@@ -5,8 +5,24 @@
     {
       "aspects": ["shadow"],
       "poser": "cobblemon:venusaur",
-      "model": "cobblemon:venusaur_male.geo",
-      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow.png",
+      "model": "cobblemon:venusaur.geo",
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_m.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_emissive.png",
+          "emissive": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "shadow",
+        "female"
+      ],
+      "poser": "cobblemon:venusaur",
+      "model": "cobblemon:venusaur.geo",
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_f.png",
       "layers": [
         {
           "name": "emissive",
@@ -20,19 +36,13 @@
         "shadow",
         "shiny"
       ],
-      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_shiny.png"
-    },
-    {
-      "aspects": [
-        "shadow",
-        "female"
-      ],
-      "model": "cobblemon:venusaur_female.geo",
-      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow.png",
+      "poser": "cobblemon:venusaur",
+      "model": "cobblemon:venusaur.geo",
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_m.png",
       "layers": [
         {
           "name": "emissive",
-          "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_emissive.png",
+          "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_shiny_emissive.png",
           "emissive": true
         }
       ]
@@ -43,8 +53,9 @@
         "female",
         "shiny"
       ],
-      "model": "cobblemon:venusaur_female.geo",
-      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_shiny.png",
+      "poser": "cobblemon:venusaur",
+      "model": "cobblemon:venusaur.geo",
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_shiny_f.png",
       "layers": [
         {
           "name": "emissive",
