@@ -123,6 +123,9 @@
       "labels": [
         "gen8"
       ],
+      "pokedex": [
+        "cobblemon.species.dubwool-twilight.desc"
+      ],
       "aspects": [
         "twilight"
       ],

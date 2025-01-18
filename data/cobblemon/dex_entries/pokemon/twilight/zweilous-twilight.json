@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:zweilous-twilight",
+  "speciesId": "cobblemon:zweilous",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:squirtle-shadow",
+    "speciesId": "cobblemon:squirtle",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Shadow",
+        "unlockForms": [
+          "Shadow"
+        ]
+      }
+    ],
+    "variations": []
+  }

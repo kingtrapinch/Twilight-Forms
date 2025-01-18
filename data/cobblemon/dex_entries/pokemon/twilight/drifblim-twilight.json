@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:drifblim-twilight",
+  "speciesId": "cobblemon:drifblim",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

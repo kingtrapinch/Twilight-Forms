@@ -5,7 +5,7 @@
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Golett",
+      "name": "Twilight",
       "nationalPokedexNumber": 622,
       "primaryType": "electric",
       "secondaryType": "grass",
@@ -160,7 +160,7 @@
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.golett.desc"
+        "cobblemon.species.golett-twilight.desc"
       ],
       "aspects": [
         "twilight"

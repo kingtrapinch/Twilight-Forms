@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:lairon-twilight",
+  "speciesId": "cobblemon:lairon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

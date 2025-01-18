@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:whirlipede-twilight",
+  "speciesId": "cobblemon:whirlipede",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

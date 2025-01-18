@@ -193,7 +193,7 @@
         "gen3"
       ],
       "pokedex": [
-        "cobblemon.species.kirlia.desc"
+        "cobblemon.species.kirlia-twilight.desc"
       ],
       "preEvolution": "ralts form=twilight",
       "evolutions": [

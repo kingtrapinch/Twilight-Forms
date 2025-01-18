@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:blastoise-shadow",
+    "speciesId": "cobblemon:blastoise",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Shadow",
+        "unlockForms": [
+          "Shadow"
+        ]
+      }
+    ],
+    "variations": []
+  }

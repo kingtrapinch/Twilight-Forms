@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:charmeleon-shadow",
+    "speciesId": "cobblemon:charmeleon",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Shadow",
+        "unlockForms": [
+          "Shadow"
+        ]
+      }
+    ],
+    "variations": []
+  }

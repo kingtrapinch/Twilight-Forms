@@ -6,7 +6,7 @@
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Arbok",
+      "name": "Twilight",
       "nationalPokedexNumber": 24,
       "primaryType": "poison",
       "secondaryType": "steel",
@@ -182,7 +182,7 @@
         "gen1"
       ],
       "pokedex": [
-        "cobblemon.species.arbok.desc"
+        "cobblemon.species.arbok-twilight.desc"
       ],
       "aspects": [
         "twilight"

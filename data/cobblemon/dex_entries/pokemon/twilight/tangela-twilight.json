@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:tangela-twilight",
+  "speciesId": "cobblemon:tangela",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

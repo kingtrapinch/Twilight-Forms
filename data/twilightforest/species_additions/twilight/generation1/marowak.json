@@ -211,6 +211,9 @@
       "labels": [
         "gen7"
       ],
+      "pokedex": [
+        "cobblemon.species.marowak-twilight.desc"
+      ],
       "aspects": [
         "twilight"
       ],

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:golett-twilight",
+  "speciesId": "cobblemon:golett",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deerling-twilight",
+  "speciesId": "cobblemon:deerling",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

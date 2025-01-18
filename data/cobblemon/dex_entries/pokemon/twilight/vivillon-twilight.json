@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:vivillon-twilight",
+  "speciesId": "cobblemon:vivillon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}
