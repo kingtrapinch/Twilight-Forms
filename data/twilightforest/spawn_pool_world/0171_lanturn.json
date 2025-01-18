@@ -20,6 +20,22 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "lanturn-twilight-2",
+            "pokemon": "lanturn",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "27-56",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight",
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

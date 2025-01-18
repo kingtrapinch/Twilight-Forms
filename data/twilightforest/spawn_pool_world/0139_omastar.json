@@ -20,6 +20,21 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "omastar-twilight-2",
+            "pokemon": "omastar",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

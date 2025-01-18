@@ -19,6 +19,20 @@
                     "twilightforest:swamp"
                 ]
             }
+        },
+        {
+            "id": "kabutops-twilight-2",
+            "pokemon": "kabutops",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
         }
     ]
 }

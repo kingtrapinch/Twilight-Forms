@@ -20,6 +20,21 @@
                     "twilightforest:snowy_forest"
                 ]
             }
+        },
+        {
+            "id": "dewgong-twilight-2",
+            "pokemon": "dewgong",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:snowy_forest",
+                    "twilightforest:glacier"
+                ]
+            }
         }
     ]
 }

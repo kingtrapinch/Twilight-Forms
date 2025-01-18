@@ -20,6 +20,21 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "slowbro-twilight-2",
+            "pokemon": "slowbro",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "15-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

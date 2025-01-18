@@ -20,6 +20,21 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "vaporeon-twilight-2",
+            "pokemon": "vaporeon",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "rare",
+            "level": "35-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

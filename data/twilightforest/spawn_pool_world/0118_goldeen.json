@@ -21,6 +21,22 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "goldeen-twilight-2",
+            "pokemon": "goldeen",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

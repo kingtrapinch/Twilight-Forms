@@ -20,6 +20,21 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "omanyte-twilight-2",
+            "pokemon": "omanyte",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

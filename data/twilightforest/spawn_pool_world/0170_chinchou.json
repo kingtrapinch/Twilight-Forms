@@ -20,6 +20,22 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "chinchou-twilight-2",
+            "pokemon": "chinchou",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "4-44",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight",
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
         }
     ]
 }

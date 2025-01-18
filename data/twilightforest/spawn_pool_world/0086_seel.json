@@ -20,6 +20,21 @@
                     "twilightforest:snowy_forest"
                 ]
             }
+        },
+        {
+            "id": "seel-twilight-2",
+            "pokemon": "seel",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "common",
+            "level": "25-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:snowy_forest",
+                    "twilightforest:glacier"
+                ]
+            }
         }
     ]
 }
