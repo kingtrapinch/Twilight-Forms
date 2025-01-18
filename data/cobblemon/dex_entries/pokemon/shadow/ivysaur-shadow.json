@@ -1,0 +1,15 @@
+{
+    "id": "cobblemon:ivysaur-shadow",
+    "speciesId": "cobblemon:ivysaur",
+    "displayAspects": [],
+    "conditionAspects": [],
+    "forms": [
+      {
+        "displayForm": "Shadow",
+        "unlockForms": [
+          "Shadow"
+        ]
+      }
+    ],
+    "variations": []
+  }

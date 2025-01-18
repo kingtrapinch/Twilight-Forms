@@ -122,6 +122,9 @@
       "labels": [
         "gen8"
       ],
+      "pokedex": [
+        "cobblemon.species.wooloo-twilight.desc"
+      ],
       "aspects": [
         "twilight"
       ],

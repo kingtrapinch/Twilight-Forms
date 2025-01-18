@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ralts-twilight",
+  "speciesId": "cobblemon:ralts",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

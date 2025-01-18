@@ -5,7 +5,7 @@
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Scolipede",
+      "name": "Twilight",
       "nationalPokedexNumber": 545,
       "primaryType": "psychic",
       "secondaryType": "dark",
@@ -156,7 +156,7 @@
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.scolipede.desc"
+        "cobblemon.species.scolipede-twilight.desc"
       ],
       "preEvolution": "whirlipede form=twilight",
       "evolutions": [

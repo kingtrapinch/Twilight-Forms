@@ -233,7 +233,7 @@
           "gen4"
         ],
         "pokedex": [
-          "cobblemon.species.gallade.desc"
+          "cobblemon.species.gallade-twilight.desc"
         ],
         "preEvolution": "kirlia form=twilight",
         "evolutions": [

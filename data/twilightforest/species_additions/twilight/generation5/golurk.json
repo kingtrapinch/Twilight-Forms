@@ -5,7 +5,7 @@
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Golurk",
+      "name": "Twilight",
       "nationalPokedexNumber": 623,
       "primaryType": "electric",
       "secondaryType": "grass",
@@ -188,7 +188,7 @@
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.golurk.desc"
+        "cobblemon.species.golurk-twilight.desc"
       ],
       "aspects": [
         "twilight"

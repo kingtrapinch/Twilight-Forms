@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aggron-twilight",
+  "speciesId": "cobblemon:aggron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

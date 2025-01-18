@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:ekans-twilight",
+  "speciesId": "cobblemon:ekans",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

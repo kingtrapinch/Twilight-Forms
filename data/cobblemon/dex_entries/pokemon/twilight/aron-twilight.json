@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aron-twilight",
+  "speciesId": "cobblemon:aron",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

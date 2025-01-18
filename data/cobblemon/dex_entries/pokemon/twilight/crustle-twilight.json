@@ -1,0 +1,24 @@
+{
+  "id": "cobblemon:crustle-twilight",
+  "speciesId": "cobblemon:crustle",
+  "displayAspects": ["brick"],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "brick-underbrick",
+      "unlockForms": [
+        "brick-underbrick"
+      ]
+    }
+  ],
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.brick",
+      "icon": "cobblemon:textures/gui/pokedex/variation/material.png",
+      "aspects": [
+        "brick-underbrick",
+        "brick-mazestone"
+      ]
+    }
+  ]
+}

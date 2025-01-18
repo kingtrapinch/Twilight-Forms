@@ -217,7 +217,7 @@
         "gen3"
       ],
       "pokedex": [
-        "cobblemon.species.gardevoir.desc"
+        "cobblemon.species.gardevoir-twilight.desc"
       ],
       "preEvolution": "kirlia form=twilight",
       "evolutions": [

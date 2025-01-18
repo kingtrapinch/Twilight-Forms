@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:hydreigon-twilight",
+  "speciesId": "cobblemon:hydreigon",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

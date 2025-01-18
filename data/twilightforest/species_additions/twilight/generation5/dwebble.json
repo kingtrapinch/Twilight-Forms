@@ -124,6 +124,9 @@
       "labels": [
         "gen5"
       ],
+      "pokedex": [
+        "cobblemon.species.crustle-twilight.desc"
+      ],
       "aspects": [
         "brick-underbrick"
       ],
@@ -290,6 +293,9 @@
       ],
       "labels": [
         "gen5"
+      ],
+      "pokedex": [
+        "cobblemon.species.crustle-twilight.desc"
       ],
       "aspects": [
         "brick-mazestone"

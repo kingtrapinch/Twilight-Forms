@@ -31,7 +31,7 @@
   "forms": [
     {
       "implemented": true,
-      "name": "Miltank Mooshtank=Red",
+      "name": "Mooshtank Red",
       "nationalPokedexNumber": 241,
       "primaryType": "normal",
       "secondaryType": "grass",
@@ -263,7 +263,7 @@
         "gen2"
       ],
       "pokedex": [
-        "cobblemon.species.miltank.desc"
+        "cobblemon.species.mooshtank.desc"
       ],
       "aspects": ["mooshtank-red"],
       "evolutions": [
@@ -312,7 +312,7 @@
     },
     {
       "implemented": true,
-      "name": "Miltank Mooshtank=Brown",
+      "name": "Mooshtank Brown",
       "nationalPokedexNumber": 241,
       "primaryType": "normal",
       "secondaryType": "grass",
@@ -544,7 +544,7 @@
         "gen2"
       ],
       "pokedex": [
-        "cobblemon.species.miltank.desc"
+        "cobblemon.species.mooshtank.desc"
       ],
       "aspects": ["mooshtank-brown"],
       "evolutions": [

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:deino-twilight",
+  "speciesId": "cobblemon:deino",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

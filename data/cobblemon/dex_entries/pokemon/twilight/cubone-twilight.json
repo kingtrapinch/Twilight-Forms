@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:cubone-twilight",
+  "speciesId": "cobblemon:cubone",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}
