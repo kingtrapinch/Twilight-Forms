@@ -38,11 +38,11 @@
       ],
       "poser": "cobblemon:venusaur",
       "model": "cobblemon:venusaur.geo",
-      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_m.png",
+      "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_shiny_m.png",
       "layers": [
         {
           "name": "emissive",
-          "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_shiny_emissive.png",
+          "texture": "cobblemon:textures/pokemon/0003_venusaur/venusaur_shadow_emissive.png",
           "emissive": true
         }
       ]
