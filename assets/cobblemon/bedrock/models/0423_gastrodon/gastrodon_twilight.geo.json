@@ -193,7 +193,7 @@
 					"rotation": [-32.5, 0, 0]
 				},
 				{
-					"name": "horn_left",
+					"name": "crown",
 					"parent": "horns",
 					"pivot": [-0.2, 29.24905, -8.70638],
 					"rotation": [90, -62.5, -90],
@@ -202,8 +202,8 @@
 					]
 				},
 				{
-					"name": "horn_left2",
-					"parent": "horn_left",
+					"name": "crown2",
+					"parent": "crown",
 					"pivot": [5.8, 27.74905, -8.70638],
 					"rotation": [0, 0, 20],
 					"cubes": [
@@ -211,8 +211,8 @@
 					]
 				},
 				{
-					"name": "horn_left3",
-					"parent": "horn_left2",
+					"name": "crown3",
+					"parent": "crown2",
 					"pivot": [5.8, 32.74905, -8.70638],
 					"rotation": [0, 0, -17.5],
 					"cubes": [
@@ -220,7 +220,7 @@
 					]
 				},
 				{
-					"name": "horn_right",
+					"name": "crown4",
 					"parent": "horns",
 					"pivot": [-0.2, 29.24905, -8.70638],
 					"rotation": [-90, -70, 90],
@@ -229,8 +229,8 @@
 					]
 				},
 				{
-					"name": "horn_right2",
-					"parent": "horn_right",
+					"name": "crown5",
+					"parent": "crown4",
 					"pivot": [-6.2, 27.74905, -8.70638],
 					"rotation": [0, 0, -20],
 					"cubes": [
@@ -238,8 +238,8 @@
 					]
 				},
 				{
-					"name": "horn_right3",
-					"parent": "horn_right2",
+					"name": "crown6",
+					"parent": "crown5",
 					"pivot": [-6.2, 32.74905, -8.70638],
 					"rotation": [0, 0, 17.5],
 					"cubes": [
@@ -247,7 +247,7 @@
 					]
 				},
 				{
-					"name": "horn_left4",
+					"name": "crown7",
 					"parent": "horns",
 					"pivot": [0, 29.25, -8.75],
 					"rotation": [13.71217, -26.94622, -28.30005],
@@ -256,8 +256,8 @@
 					]
 				},
 				{
-					"name": "horn_left5",
-					"parent": "horn_left4",
+					"name": "crown8",
+					"parent": "crown7",
 					"pivot": [6, 27.75, -8.75],
 					"rotation": [0, 0, 20],
 					"cubes": [
@@ -265,8 +265,8 @@
 					]
 				},
 				{
-					"name": "horn_left6",
-					"parent": "horn_left5",
+					"name": "crown9",
+					"parent": "crown8",
 					"pivot": [6, 32.75, -8.75],
 					"rotation": [0, 0, -17.5],
 					"cubes": [
@@ -274,7 +274,7 @@
 					]
 				},
 				{
-					"name": "horn_right4",
+					"name": "crown10",
 					"parent": "horns",
 					"pivot": [0, 29.25, -8.75],
 					"rotation": [-13.71217, -26.94622, 28.30005],
@@ -283,8 +283,8 @@
 					]
 				},
 				{
-					"name": "horn_right5",
-					"parent": "horn_right4",
+					"name": "crown11",
+					"parent": "crown10",
 					"pivot": [-6, 27.75, -8.75],
 					"rotation": [0, 0, -20],
 					"cubes": [
@@ -292,8 +292,8 @@
 					]
 				},
 				{
-					"name": "horn_right6",
-					"parent": "horn_right5",
+					"name": "crown12",
+					"parent": "crown11",
 					"pivot": [-6, 32.75, -8.75],
 					"rotation": [0, 0, 17.5],
 					"cubes": [
@@ -301,7 +301,7 @@
 					]
 				},
 				{
-					"name": "horn_right7",
+					"name": "crown13",
 					"parent": "horns",
 					"pivot": [0, 29.25, -8.75],
 					"rotation": [13.71217, 26.94622, 28.30005],
@@ -310,8 +310,8 @@
 					]
 				},
 				{
-					"name": "horn_right8",
-					"parent": "horn_right7",
+					"name": "crown14",
+					"parent": "crown13",
 					"pivot": [-6, 27.75, -8.75],
 					"rotation": [0, 0, -20],
 					"cubes": [
@@ -319,8 +319,8 @@
 					]
 				},
 				{
-					"name": "horn_right9",
-					"parent": "horn_right8",
+					"name": "crown15",
+					"parent": "crown14",
 					"pivot": [-6, 32.75, -8.75],
 					"rotation": [0, 0, 17.5],
 					"cubes": [
@@ -328,7 +328,7 @@
 					]
 				},
 				{
-					"name": "horn_left7",
+					"name": "crown16",
 					"parent": "horns",
 					"pivot": [0, 29.25, -8.75],
 					"rotation": [-13.71217, 26.94622, -28.30005],
@@ -337,8 +337,8 @@
 					]
 				},
 				{
-					"name": "horn_left8",
-					"parent": "horn_left7",
+					"name": "crown17",
+					"parent": "crown16",
 					"pivot": [6, 27.75, -8.75],
 					"rotation": [0, 0, 20],
 					"cubes": [
@@ -346,8 +346,8 @@
 					]
 				},
 				{
-					"name": "horn_left9",
-					"parent": "horn_left8",
+					"name": "crown18",
+					"parent": "crown17",
 					"pivot": [6, 32.75, -8.75],
 					"rotation": [0, 0, -17.5],
 					"cubes": [
