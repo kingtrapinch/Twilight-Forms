@@ -1,0 +1,177 @@
+{
+  "target": "cobblemon:aegislash",
+  "implemented": true,
+  "forms": [
+  {
+    "implemented": true,
+    "name": "Aegislash Twilight",
+    "nationalPokedexNumber": 681,
+    "primaryType": "fire",
+    "secondaryType": "steel",
+    "abilities": [
+      "flamebody"
+    ],
+    "baseStats": {
+      "hp": 60,
+      "attack": 140,
+      "defence": 50,
+      "special_attack": 140,
+      "special_defence": 50,
+      "speed": 75
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 250,
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 2,
+      "defence": 0,
+      "special_attack": 1,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+      "mineral"
+    ],
+    "drops": {
+      "amount": 5,
+      "entries": [
+        {
+          "item": "twilightforest:fiery_ingot",
+          "quantityRange": "0-2"
+        },
+        {
+          "item": "twilightforest:fiery_sword",
+          "percentage": 25.0
+        }
+      ]
+    },
+    "moves": [
+      "1:razorleaf",
+      "1:leafblade",
+      "1:tripleaxel",
+      "1:icespinner",
+      "1:metalsound",
+      "1:autotomize",
+      "1:irondefense",
+      "1:shadowsneak",
+      "1:shadowclaw",
+      "1:pursuit",
+      "1:nightslash",
+      "1:furycutter",
+      "1:retaliate",
+      "1:sacredsword",
+      "1:shelltrap",
+      "1:slash",
+      "1:flamewheel",
+      "1:swordsdance",
+      "24:flareblitz",
+      "30:irontail",
+      "45:fireblast",
+      "50:burnup",
+      "60:blizzard",
+      "62:leafstorm",
+      "tm:aerialace",
+      "tm:airslash",
+      "tm:attract",
+      "tm:brickbreak",
+      "tm:brutalswing",
+      "tm:closecombat",
+      "tm:confide",
+      "tm:cut",
+      "tm:doubleteam",
+      "tm:endure",
+      "tm:facade",
+      "tm:falseswipe",
+      "tm:flashcannon",
+      "tm:frustration",
+      "tm:gigaimpact",
+      "tm:gyroball",
+      "tm:hiddenpower",
+      "tm:hyperbeam",
+      "tm:irondefense",
+      "tm:ironhead",
+      "tm:protect",
+      "tm:psychocut",
+      "tm:raindance",
+      "tm:reflect",
+      "tm:rest",
+      "tm:retaliate",
+      "tm:return",
+      "tm:reversal",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:round",
+      "tm:screech",
+      "tm:secretpower",
+      "tm:shadowball",
+      "tm:shadowclaw",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:solarblade",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swordsdance",
+      "tm:toxic",
+      "tutor:afteryou",
+      "tutor:block",
+      "tutor:flashcannon",
+      "tutor:irondefense",
+      "tutor:ironhead",
+      "tutor:kingsshield",
+      "tutor:laserfocus",
+      "tutor:magnetrise",
+      "tutor:shadowball",
+      "tutor:shockwave",
+      "tutor:snore",
+      "tutor:spite",
+      "tutor:steelbeam",
+      "tutor:wideguard"
+    ],
+    "labels": [
+      "gen6"
+    ],
+    "pokedex": [
+      "cobblemon.species.aegislash.desc"
+    ],
+    "height": 17,
+    "weight": 530,
+    "preEvolution": "doublade",
+    "evolutions": [
+      {
+        "id": "aegislash_twilight_to_normal",
+        "variant": "item_interact",
+        "result": "aegislash twilight=false",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "twilightforest:transformation_powder"
+      }
+    ],
+    "baseScale": 0.9,
+    "hitbox": {
+      "width": 1.1,
+      "height": 1.9,
+      "fixed": false
+    },
+    "aspects": ["twilight"],
+    "cannotDynamax": false
+  }
+],
+"evolutions": [
+      {
+        "id": "aegislash_to_twilight",
+        "variant": "item_interact",
+        "result": "aegislash twilight=true",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "twilightforest:transformation_powder"
+      }
+    ]
+}

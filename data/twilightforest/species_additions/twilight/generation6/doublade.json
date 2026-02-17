@@ -1,0 +1,171 @@
+{
+  "target": "cobblemon:doublade",
+  "implemented": true,
+  "forms": [
+  {
+    "implemented": true,
+    "name": "Doublade Twilight",
+    "nationalPokedexNumber": 680,
+    "primaryType": "ice",
+    "secondaryType": "ghost",
+    "abilities": [
+      "wonderguard"
+    ],
+    "baseStats": {
+      "hp": 5,
+      "attack": 110,
+      "defence": 5,
+      "special_attack": 85,
+      "special_defence": 5,
+      "speed": 59
+    },
+    "catchRate": 90,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    "baseExperienceYield": 157,
+    "experienceGroup": "medium_fast",
+    "eggCycles": 20,
+    "eggGroups": [
+      "mineral"
+    ],
+    "drops": {
+      "amount": 1,
+      "entries": [
+        {
+          "item": "minecraft:ice",
+          "percentage": 5.0
+        }
+      ]
+    },
+    "moves": [
+      "1:razorleaf",
+      "1:leafblade",
+      "1:furycutter",
+      "1:shadowsneak",
+      "1:tackle",
+      "12:aerialace",
+      "13:pursuit",
+      "16:slash",
+      "20:tripleaxel",
+      "24:nightslash",
+      "28:retaliate",
+      "32:shadowclaw",
+      "38:icespinner",
+      "44:autotomize",
+      "50:swordsdance",
+      "56:sacredsword",
+      "60:blizzard",
+      "tm:aerialace",
+      "tm:attract",
+      "tm:brickbreak",
+      "tm:brutalswing",
+      "tm:closecombat",
+      "tm:confide",
+      "tm:cut",
+      "tm:doubleteam",
+      "tm:endure",
+      "tm:facade",
+      "tm:falseswipe",
+      "tm:flashcannon",
+      "tm:frustration",
+      "tm:gyroball",
+      "tm:hiddenpower",
+      "tm:irondefense",
+      "tm:ironhead",
+      "tm:protect",
+      "tm:psychocut",
+      "tm:raindance",
+      "tm:reflect",
+      "tm:rest",
+      "tm:retaliate",
+      "tm:return",
+      "tm:reversal",
+      "tm:rockslide",
+      "tm:rocksmash",
+      "tm:round",
+      "tm:screech",
+      "tm:secretpower",
+      "tm:shadowclaw",
+      "tm:sleeptalk",
+      "tm:snore",
+      "tm:solarblade",
+      "tm:substitute",
+      "tm:swagger",
+      "tm:swordsdance",
+      "tm:toxic",
+      "tutor:afteryou",
+      "tutor:irondefense",
+      "tutor:ironhead",
+      "tutor:laserfocus",
+      "tutor:magnetrise",
+      "tutor:shockwave",
+      "tutor:snore",
+      "tutor:spite",
+      "tutor:steelbeam"
+    ],
+    "labels": [
+      "gen6"
+    ],
+    "pokedex": [
+      "cobblemon.species.doublade.desc"
+    ],
+    "preEvolution": "honedge",
+    "evolutions": [
+      {
+        "id": "doublade_aegislash_twilight",
+        "variant": "trade",
+        "result": "aegislash",
+        "consumeHeldItem": false,
+        "learnableMoves": [
+          "flamewheel"
+        ],
+        "requirements": [
+          {
+            "variant": "held_item",
+            "itemCondition": "twilightforest:fiery_block"
+          }
+        ]
+      },
+      {
+        "id": "doublade_twilight_to_normal",
+        "variant": "item_interact",
+        "result": "doublade twilight=false",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "twilightforest:transformation_powder"
+      }
+    ],
+    "baseScale": 0.8,
+    "hitbox": {
+      "width": 1.4,
+      "height": 1.8,
+      "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+      "hp": 0,
+      "attack": 2,
+      "defence": 0,
+      "special_attack": 0,
+      "special_defence": 0,
+      "speed": 0
+    },
+    "height": 8,
+    "weight": 45,
+    "aspects": ["twilight"],
+    "cannotDynamax": false
+  }
+],
+"evolutions": [
+      {
+        "id": "doublade_to_twilight",
+        "variant": "item_interact",
+        "result": "doublade twilight=true",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "twilightforest:transformation_powder"
+      }
+    ]
+}
