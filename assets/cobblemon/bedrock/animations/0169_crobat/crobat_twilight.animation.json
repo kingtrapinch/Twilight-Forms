@@ -256,13 +256,16 @@
 				},
 				"foot_left": {
 					"rotation": ["40-math.cos(q.anim_time*90*6+45)*16", "math.cos(q.anim_time*90*6+45)*4", 0],
-					"position": [0, -0.5, 0]
+					"position": [0, 0.5, 0]
 				},
 				"ear_left_rotation": {
 					"rotation": ["-math.cos(q.anim_time*90*6+95)*8", 0, "math.cos(q.anim_time*90*6+95)*8"]
 				},
 				"ear_right_rotation": {
 					"rotation": ["-math.cos(q.anim_time*90*6+95)*8", 0, "-math.cos(q.anim_time*90*6+95)*8"]
+				},
+				"leg_left": {
+					"position": [0, 0, 0]
 				}
 			}
 		},
