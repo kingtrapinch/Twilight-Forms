@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:doublade",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:doublade",
+      "model": "cobblemon:doublade.geo",
+      "texture": "cobblemon:textures/pokemon/0680_doublade/doublade_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0680_doublade/doublade_twilight_shiny.png"
+    }
+  ]
+}
