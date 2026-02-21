@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:golbat",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:golbat_twilight",
+      "model": "cobblemon:golbat_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0042_golbat/golbat_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0042_golbat/golbat_twilight_shiny.png"
+    }
+  ]
+}

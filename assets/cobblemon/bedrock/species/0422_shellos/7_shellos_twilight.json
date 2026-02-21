@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:shellos",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:shellos_twilight",
+      "model": "cobblemon:shellos_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0422_shellos/shellos_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0422_shellos/shellos_twilight_shiny.png"
+    }
+  ]
+}

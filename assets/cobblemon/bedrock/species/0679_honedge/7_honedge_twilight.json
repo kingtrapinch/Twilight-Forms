@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:honedge",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:honedge",
+      "model": "cobblemon:honedge.geo",
+      "texture": "cobblemon:textures/pokemon/0679_honedge/honedge_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0679_honedge/honedge_twilight_shiny.png"
+    }
+  ]
+}
