@@ -1,0 +1,241 @@
+{
+  "target":"cobblemon:crobat",
+  "implemented": true,
+  "forms": [
+    {
+      "implemented": true,
+      "aspects": ["twilight"],
+      "nationalPokedexNumber": 169,
+      "name": "Twilight",
+      "primaryType": "ice",
+      "secondaryType": "dark",
+      "maleRatio": 0.5,
+      "height": 18,
+      "weight": 750,
+      "pokedex": [
+        "cobblemon.species.crobat.desc"
+      ],
+      "labels": [
+        "gen2"
+      ],
+      "abilities": [
+        "furcoat",
+        "h:unburden"
+      ],
+      "eggGroups": [
+        "flying"
+      ],
+      "baseStats": {
+        "hp": 90,
+        "attack": 100,
+        "defence": 65,
+        "special_attack": 70,
+        "special_defence": 80,
+        "speed": 85
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 3
+      },
+      "baseExperienceYield": 268,
+      "experienceGroup": "medium_fast",
+      "catchRate": 90,
+      "eggCycles": 15,
+      "baseFriendship": 50,
+      "baseScale": 1,
+      "hitbox": {
+        "height": 2.2,
+        "fixed": false,
+        "width": 1
+      },
+      "behaviour": {
+        "herd": {
+          "maxSize": "9",
+          "toleratedLeaders": [
+            {
+              "pokemon": "crobat",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "twilightforest:alpha_yeti_fur",
+            "quantityRange": "0-2"
+          },
+          {
+            "item": "cobblemon:razor_fang",
+            "percentage": 10.0
+          }
+        ]
+      },
+      "moves": [
+        "1:iciclecrash",
+        "1:screech",
+        "1:supersonic",
+        "1:astonish",
+        "1:wingattack",
+        "1:meanlook",
+        "1:tailwind",
+        "1:absorb",
+        "1:tripleaxel",
+        "15:icefang",
+        "20:hail",
+        "27:dualwingbeat",
+        "34:bite",
+        "41:mist",
+        "48:avalanche",
+        "55:confuseray",
+        "58:bounce",
+        "62:crunch",
+        "69:leechlife",
+        "egg:curse",
+        "egg:defog",
+        "egg:feintattack",
+        "egg:gust",
+        "egg:hypnosis",
+        "egg:pursuit",
+        "egg:quickattack",
+        "egg:whirlwind",
+        "egg:wingattack",
+        "tm:acrobatics",
+        "tm:aerialace",
+        "tm:agility",
+        "tm:aircutter",
+        "tm:airslash",
+        "tm:assurance",
+        "tm:bravebird",
+        "tm:confuseray",
+        "tm:crosspoison",
+        "tm:crunch",
+        "tm:curse",
+        "tm:darkpulse",
+        "tm:defog",
+        "tm:dualwingbeat",
+        "tm:endure",
+        "tm:facade",
+        "tm:fly",
+        "tm:gigadrain",
+        "tm:gigaimpact",
+        "tm:haze",
+        "tm:heatwave",
+        "tm:hex",
+        "tm:hurricane",
+        "tm:hyperbeam",
+        "tm:leechlife",
+        "tm:nastyplot",
+        "tm:ominouswind",
+        "tm:payback",
+        "tm:pluck",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:roost",
+        "tm:screech",
+        "tm:shadowball",
+        "tm:skyattack",
+        "tm:sleeptalk",
+        "tm:sludgebomb",
+        "tm:snatch",
+        "tm:steelwing",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superfang",
+        "tm:swift",
+        "tm:tailwind",
+        "tm:taunt",
+        "tm:terablast",
+        "tm:thief",
+        "tm:torment",
+        "tm:toxic",
+        "tm:twister",
+        "tm:uproar",
+        "tm:uturn",
+        "tm:venomdrench",
+        "tm:venoshock",
+        "tm:xscissor",
+        "tm:zenheadbutt",
+        "tutor:aerialace",
+        "tutor:aircutter",
+        "tutor:darkpulse",
+        "tutor:defog",
+        "tutor:dualwingbeat",
+        "tutor:gigadrain",
+        "tutor:gigaimpact",
+        "tutor:heatwave",
+        "tutor:hyperbeam",
+        "tutor:leechlife",
+        "tutor:ominouswind",
+        "tutor:rest",
+        "tutor:roost",
+        "tutor:shadowball",
+        "tutor:skyattack",
+        "tutor:sleeptalk",
+        "tutor:sludgebomb",
+        "tutor:snatch",
+        "tutor:superfang",
+        "tutor:swift",
+        "tutor:tailwind",
+        "tutor:twister",
+        "tutor:uproar",
+        "tutor:xscissor",
+        "tutor:zenheadbutt",
+        "legacy:attract",
+        "legacy:bide",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:detect",
+        "legacy:doubleedge",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:headbutt",
+        "legacy:hiddenpower",
+        "legacy:megadrain",
+        "legacy:mimic",
+        "legacy:naturalgift",
+        "legacy:rage",
+        "legacy:razorwind",
+        "legacy:return",
+        "legacy:round",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:takedown"
+      ],
+      "preEvolution": "golbat",
+      "evolutions": []
+    }
+  ]
+}
