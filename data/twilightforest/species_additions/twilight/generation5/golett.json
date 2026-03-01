@@ -18,12 +18,12 @@
         "amount": 3,
         "entries": [
           {
-            "item": "twilightforest:carminite",
+            "item": "twilightforest:tower_wood",
             "quantityRange": "1-2"
           },
           {
-            "item": "cobblemon:occa_berry",
-            "percentage": 2.5
+            "item": "twilightforest:carminite",
+            "percentage": 50
           }
         ]
       },

@@ -5,26 +5,55 @@
     {
       "aspects": ["twilight"],
       "poser": "cobblemon:golurk",
-      "model": "cobblemon:golurk_twilight.geo",
-      "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_twilight.png",
+      "model": "cobblemon:golurk.geo",
+      "texture": {
+        "frames": [
+          "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_1.png",
+          "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_2.png",
+          "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_3.png"
+        ],
+        "fps": 10,
+        "loop": true
+      },
       "layers": [
         {
           "name": "color",
-          "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_emissive.png",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_emissive_1.png",
+              "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_emissive_2.png",
+              "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_emissive_3.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
           "emissive": true
         }
       ]
     },
     {
-      "aspects": [
-        "twilight",
-        "shiny"
-      ],
-      "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny.png",
+      "aspects": ["twilight","shiny"],
+      "texture": {
+        "frames": [
+          "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_1.png",
+          "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_2.png",
+          "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_3.png"
+        ],
+        "fps": 10,
+        "loop": true
+      },
       "layers": [
         {
           "name": "color",
-          "texture": "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_emissive.png",
+          "texture": {
+            "frames": [
+              "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_emissive_1.png",
+              "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_emissive_2.png",
+              "cobblemon:textures/pokemon/0623_golurk/golurk_twilight_shiny_emissive_3.png"
+            ],
+            "fps": 10,
+            "loop": true
+          },
           "emissive": true
         }
       ]
