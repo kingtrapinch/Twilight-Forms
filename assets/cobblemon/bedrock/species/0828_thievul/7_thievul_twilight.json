@@ -10,7 +10,7 @@
       "layers": [
         {
           "name": "emissive",
-          "texture": "cobblemon:textures/pokemon/0828_thievul/thievul_twilight_emissive.png",
+          "texture": "cobblemon:textures/pokemon/0828_thievul/thievul_twilight.png",
           "emissive": true,
           "translucent": true
         }
@@ -25,7 +25,7 @@
       "layers": [
         {
           "name": "emissive",
-          "texture": "cobblemon:textures/pokemon/0828_thievul/thievul_twilight_shiny_emissive.png",
+          "texture": "cobblemon:textures/pokemon/0828_thievul/thievul_twilight_shiny.png",
           "emissive": true,
           "translucent": true
         }
