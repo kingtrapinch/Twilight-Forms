@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["twilight"],
-      "poser": "cobblemon:shellos_twilight",
+      "poser": "cobblemon:shellos_east",
       "model": "cobblemon:shellos_twilight.geo",
       "texture": "cobblemon:textures/pokemon/0422_shellos/shellos_twilight.png",
       "layers": []

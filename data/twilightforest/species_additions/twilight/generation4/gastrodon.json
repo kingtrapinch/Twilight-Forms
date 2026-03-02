@@ -21,7 +21,7 @@
         ],
         "abilities": [
           "dryskin",
-          "solarpower
+          "solarpower",
           "h:watercompaction"
         ],
         "eggGroups": [
@@ -61,14 +61,14 @@
               "key": "cobblemon:land/horse",
               "rideSounds": [],
               "stats": {
-                "ACCELERATION": "70-90",
+                "ACCELERATION": "90-110",
                 "JUMP": "0-10",
                 "SKILL": "0-15",
-                "SPEED": "5-10",
+                "SPEED": "10-20",
                 "STAMINA": "10-20"
               }
             }
-          },
+        },
           "seats": [
             {
               "offset": {
@@ -152,21 +152,40 @@
           ]
         },
         "behaviour": {
-          "combat": {
-            "willDefendOwner": true
-          },
           "moving": {
-            "swim": {
-            "avoidsWater": true
-            },
+          "swim": {
+            "canBreatheUnderlava": true,
+            "canSwimInLava": true,
+            "canWalkOnLava": true,
+            "avoidsWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": false,
+            "swimSpeed": 0.2
+          },
+
             "walk": {
+              "avoidsLand": false,
               "walkSpeed": "0.4"
             }
           },
           "resting": {
             "drowsyChance": 0.0333,
             "rouseChance": 0.0042
-          }
+          },
+           "herd": {
+              "maxSize": "3",
+              "toleratedLeaders": [
+                {
+                  "pokemon": "magcargo",
+                  "tier": 1
+                }
+              ]
+            },
+            "combat": {
+              "willDefendOwner": true
+            },
+            "fireImmune": true
+
         },
         "drops": {
           "amount": 3,

@@ -20,7 +20,7 @@
     ],
     "abilities": [
       "dryskin",
-      "solarpower
+      "solarpower",
       "h:watercompaction"
     ],
     "eggGroups": [
@@ -61,8 +61,13 @@
           "walkSpeed": "0.5"
         },
           "swim": {
-            "avoidsWater": true
-          },
+            "canBreatheUnderlava": true,
+            "canSwimInLava": true,
+            "canWalkOnLava": false,
+            "avoidsWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": false
+          }
       },
       "resting": {
         "willSleepOnBed": true,

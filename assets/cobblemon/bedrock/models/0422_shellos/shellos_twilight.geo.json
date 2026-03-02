@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.shellos_east",
+				"identifier": "geometry.shellos_twilight",
 				"texture_width": 64,
 				"texture_height": 64,
 				"visible_bounds_width": 2,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "shellos_east",
+					"name": "shellos_twilight",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "shellos_east",
+					"parent": "shellos_twilight",
 					"pivot": [0, 2, 0]
 				},
 				{

@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["twilight"],
-      "poser": "cobblemon:gastrodon_twilight",
+      "poser": "cobblemon:gastrodon_east",
       "model": "cobblemon:gastrodon_twilight.geo",
       "texture": "cobblemon:textures/pokemon/0423_gastrodon/gastrodon_twilight.png",
       "layers": []

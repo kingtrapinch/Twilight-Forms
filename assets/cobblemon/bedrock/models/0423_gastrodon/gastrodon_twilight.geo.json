@@ -3,7 +3,7 @@
 	"minecraft:geometry": [
 		{
 			"description": {
-				"identifier": "geometry.gastrodon_west",
+				"identifier": "geometry.gastrodon_twilight",
 				"texture_width": 128,
 				"texture_height": 64,
 				"visible_bounds_width": 4,
@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "gastrodon_west",
+					"name": "gastrodon_twilight",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "gastrodon_west",
+					"parent": "gastrodon_twilight",
 					"pivot": [0, 5, 0]
 				},
 				{
