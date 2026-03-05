@@ -15,6 +15,7 @@
             "level": "20-40",
             "weight": 40.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
                     "twilightforest:glacier"
                 ]
