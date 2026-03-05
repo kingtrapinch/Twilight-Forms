@@ -1,17 +1,17 @@
 {
     "enabled": true,
-    "neededInstalledMods": [],
+    "neededInstalledMods": ["shadowedhearts"],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "blastoise-shadow-1",
-            "pokemon": "blastoise shadow",
+            "pokemon": "blastoise sh_shadow",
             "presets": [
                 "final_castle_lower"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
+            "bucket": "ultra-rare",
             "level": "70-80",
             "weight": 10.0,
             "condition": {

@@ -1,17 +1,17 @@
 {
     "enabled": true,
-    "neededInstalledMods": [],
+    "neededInstalledMods": ["shadowedhearts"],
     "neededUninstalledMods": [],
     "spawns": [
         {
             "id": "charizard-shadow-1",
-            "pokemon": "charizard shadow",
+            "pokemon": "charizard sh_shadow",
             "presets": [
                 "final_castle_lower"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
+            "bucket": "ultra-rare",
             "level": "70-80",
             "weight": 10.0,
             "condition": {
