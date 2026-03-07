@@ -4,18 +4,18 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "eiscue-twilight-1",
-            "pokemon": "eiscue",
+            "id": "hatenna-twilight-1",
+            "pokemon": "hatenna twilight",
             "presets": [
-                "natural"
+                "aurora_palace"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "20-40",
-            "weight": 40.0,
+            "bucket": "uncommon",
+            "level": "25-34",
+            "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
                     "twilightforest:glacier"
                 ]

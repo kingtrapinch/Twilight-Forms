@@ -4,20 +4,19 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "eiscue-twilight-1",
-            "pokemon": "eiscue",
+            "id": "gastrodon-twilight-1",
+            "pokemon": "gastrodon twilight",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "20-40",
-            "weight": 40.0,
+            "level": "39-46",
+            "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
                 "biomes": [
-                    "twilightforest:glacier"
+                    "twilightforest:fire_swamp"
                 ]
             }
         }

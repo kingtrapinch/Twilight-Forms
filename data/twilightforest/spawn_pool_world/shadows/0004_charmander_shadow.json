@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": ["shadowedhearts"],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "charmander-shadow-1",
+            "pokemon": "charmander sh_shadow",
+            "presets": [
+                "final_castle_lower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-40",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:final_plateau"
+                ]
+            }
+        }
+    ]
+}
