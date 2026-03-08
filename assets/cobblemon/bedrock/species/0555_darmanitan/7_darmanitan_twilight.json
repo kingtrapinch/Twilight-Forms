@@ -1,0 +1,64 @@
+{
+    "species": "cobblemon:darmanitan",
+    "order": 7,
+    "variations": [
+        {
+            "aspects": ["twilight"],
+            "poser": "cobblemon:darmanitan",
+            "model": "cobblemon:darmanitan.geo",
+            "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_twilight.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_twilight_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "twilight",
+                "shiny"
+            ],
+            "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_twilight_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_twilight_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "twilight",
+                "zen-mode"
+            ],
+            "poser": "cobblemon:darmanitan_zen",
+            "model": "cobblemon:darmanitan_zen.geo",
+            "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_zen.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_zen_emissive.png",
+                    "emissive": true
+                }
+            ]
+        },
+        {
+            "aspects": [
+                "twilight",
+                "shiny",
+                "zen-mode"
+            ],
+            "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_zen_shiny.png",
+            "layers": [
+                {
+                    "name": "emissive",
+                    "texture": "cobblemon:textures/pokemon/0555_darmanitan/darmanitan_zen_emissive.png",
+                    "emissive": true
+                }
+            ]
+        }
+    ]
+}
