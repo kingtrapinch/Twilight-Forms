@@ -15,6 +15,7 @@
             "level": "25-35",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
                     "twilightforest:snowy_forest"
                 ]

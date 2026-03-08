@@ -15,6 +15,7 @@
             "level": "45-55",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
                     "twilightforest:snowy_forest"
                 ]
@@ -32,6 +33,7 @@
             "level": "45-55",
             "weight": 10.0,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
                     "twilightforest:glacier"
                 ]

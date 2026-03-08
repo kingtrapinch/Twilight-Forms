@@ -1,24 +1,23 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "glaceon-twilight",
-            "pokemon": "glaceon",
+            "id": "darmanitan-twilight-1",
+            "pokemon": "darmanitan twilight",
             "presets": [
-                "natural"
+                "yeti_cave"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "35-50",
+            "bucket": "uncommon",
+            "level": "30-50",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:snowy_forest",
-                    "twilightforest:glacier"
+                    "twilightforest:snowy_forest"
                 ]
             }
         }

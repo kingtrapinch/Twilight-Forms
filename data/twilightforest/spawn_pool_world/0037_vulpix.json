@@ -16,6 +16,7 @@
             "weight": 10.0,
             "condition": {
                 "maxY": 30,
+                "canSeeSky": true,
                 "biomes": [
                     "twilightforest:snowy_forest"
                 ]

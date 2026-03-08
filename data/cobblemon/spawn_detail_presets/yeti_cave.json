@@ -6,12 +6,15 @@
       "neededBaseBlocks": [
         "minecraft:packed_ice"
       ],
+      "canSeeSky": false,
+      "maxSkyLight": "1"
+    },
+    "anticondition": {
       "neededNearbyBlocks": [
-        "minecraft:packed_ice",
-        "minecraft:stone",
-        "minecraft:ice",
-        "minecraft:blue_ice",
-        "minecraft:snow_block"
+        "minecraft:snow",
+        "minecraft:snow_block",
+        "minecraft:spruce_log",
+        "minecraft:spruce_leaves"
       ]
     }
   }

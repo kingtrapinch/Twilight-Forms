@@ -1,24 +1,23 @@
 {
-    "enabled": true,
+    "enabled": "true",
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "glaceon-twilight",
-            "pokemon": "glaceon",
+            "id": "zubat-twilight-1",
+            "pokemon": "zubat twilight",
             "presets": [
-                "natural"
+                "yeti_cave"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "rare",
-            "level": "35-50",
+            "bucket": "common",
+            "level": "20-32",
             "weight": 10.0,
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
-                    "twilightforest:snowy_forest",
-                    "twilightforest:glacier"
+                    "twilightforest:snowy_forest"
                 ]
             }
         }
