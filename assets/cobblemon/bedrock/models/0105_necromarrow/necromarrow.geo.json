@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "marowak",
+					"name": "necromarrow",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "marowak",
+					"parent": "necromarrow",
 					"pivot": [0, 0, 0]
 				},
 				{
@@ -281,7 +281,7 @@
 				},
 				{
 					"name": "bone_body",
-					"parent": "marowak",
+					"parent": "necromarrow",
 					"pivot": [0, 0, 0]
 				},
 				{
@@ -337,7 +337,7 @@
 				},
 				{
 					"name": "shields",
-					"parent": "marowak",
+					"parent": "necromarrow",
 					"pivot": [0, 0, 0]
 				},
 				{
