@@ -4,7 +4,7 @@
   "variations": [
     {
       "aspects": ["twilight"],
-      "poser": "cobblemon:zubat_twilight",
+      "poser": "cobblemon:zubat",
       "model": "cobblemon:zubat_twilight.geo",
       "texture": "cobblemon:textures/pokemon/0041_zubat/zubat_twilight.png",
       "layers": []

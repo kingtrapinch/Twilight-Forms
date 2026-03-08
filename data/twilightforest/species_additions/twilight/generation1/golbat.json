@@ -100,7 +100,7 @@
           {
             "item": "twilightforest:arctic_fur",
             "quantityRange": "1-2"
-          }
+          },
           {
             "item": "cobblemon:razor_fang",
             "percentage": 5.0
@@ -240,8 +240,28 @@
           ],
           "requirements": [],
         "requiredContext": "twilightforest:fiery_blood"
+        },
+        {
+          "id": "golbat_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "golbat twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ]
     }
-  ]
+  ],
+  "evolutions": [
+        {
+          "id": "golbat_to_twilight",
+          "variant": "item_interact",
+          "result": "golbat twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.crobat.ground_walk": {
+		"animation.crobat_twilight.ground_walk": {
 			"loop": true,
 			"bones": {
 				"body": {
@@ -126,7 +126,7 @@
 				}
 			}
 		},
-		"animation.crobat.ground_idle": {
+		"animation.crobat_twilight.ground_idle": {
 			"loop": true,
 			"bones": {
 				"tail": {
@@ -194,7 +194,7 @@
 				}
 			}
 		},
-		"animation.crobat.air_idle": {
+		"animation.crobat_twilight.air_idle": {
 			"loop": true,
 			"animation_length": 1.3333,
 			"bones": {
@@ -269,7 +269,7 @@
 				}
 			}
 		},
-		"animation.crobat.ground_run": {
+		"animation.crobat_twilight.ground_run": {
 			"loop": true,
 			"animation_length": 1.3333,
 			"bones": {
@@ -345,7 +345,7 @@
 				}
 			}
 		},
-		"animation.crobat.air_fly": {
+		"animation.crobat_twilight.air_fly": {
 			"loop": true,
 			"animation_length": 1.3333,
 			"bones": {
@@ -421,7 +421,7 @@
 				}
 			}
 		},
-		"animation.crobat.battle_idle": {
+		"animation.crobat_twilight.battle_idle": {
 			"loop": true,
 			"animation_length": 1.3333,
 			"bones": {
@@ -497,7 +497,7 @@
 				}
 			}
 		},
-		"animation.crobat.sleep": {
+		"animation.crobat_twilight.sleep": {
 			"loop": true,
 			"bones": {
 				"eyelid_left": {
@@ -558,7 +558,7 @@
 				}
 			}
 		},
-		"animation.crobat.roost": {
+		"animation.crobat_twilight.roost": {
 			"loop": true,
 			"animation_length": 2.5417,
 			"bones": {
@@ -632,7 +632,7 @@
 				}
 			}
 		},
-		"animation.crobat.blink": {
+		"animation.crobat_twilight.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -651,7 +651,7 @@
 				}
 			}
 		},
-		"animation.crobat.cry": {
+		"animation.crobat_twilight.cry": {
 			"animation_length": 2,
 			"bones": {
 				"body": {
@@ -816,7 +816,7 @@
 				}
 			}
 		},
-		"animation.crobat.happy": {
+		"animation.crobat_twilight.happy": {
 			"loop": true,
 			"bones": {
 				"mouth_closed": {
