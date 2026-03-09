@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shellos-twilight",
+  "speciesId": "cobblemon:shellos",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

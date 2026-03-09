@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:nickit-twilight",
+  "speciesId": "cobblemon:nickit",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

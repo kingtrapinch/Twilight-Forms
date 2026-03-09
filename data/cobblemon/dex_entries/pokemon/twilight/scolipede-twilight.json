@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:scolipede-twilight",
+  "speciesId": "cobblemon:scolipede",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

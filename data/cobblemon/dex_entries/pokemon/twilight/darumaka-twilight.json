@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:darumaka-twilight",
+  "speciesId": "cobblemon:darumaka",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

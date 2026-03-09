@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:darmanitan-twilight",
+  "speciesId": "cobblemon:darmanitan",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:thievul-twilight",
+  "speciesId": "cobblemon:thievul",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

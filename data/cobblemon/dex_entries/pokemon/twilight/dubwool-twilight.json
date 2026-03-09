@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dubwool-twilight",
+  "speciesId": "cobblemon:dubwool",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

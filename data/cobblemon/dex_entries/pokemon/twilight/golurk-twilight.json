@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:golurk-twilight",
+  "speciesId": "cobblemon:golurk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

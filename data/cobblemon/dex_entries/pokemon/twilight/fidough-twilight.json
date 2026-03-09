@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:fidough-twilight",
+  "speciesId": "cobblemon:fidough",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

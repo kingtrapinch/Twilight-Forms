@@ -1,0 +1,25 @@
+{
+  "id": "cobblemon:miltank-mooshtank",
+  "speciesId": "cobblemon:miltank",
+  "displayAspects": ["mooshtank"],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm":"Mooshtank Red",
+      "unlockForms": [
+        "Mooshtank Red",
+        "Mooshtank Brown"
+      ]
+    }
+  ],
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.mushroom",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+        "mooshtank-red",
+        "mooshtank-brown"
+      ]
+    }
+  ]
+}
