@@ -4,15 +4,15 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "wartortle-shadow-1",
-            "pokemon": "wartortle sh_shadow",
+            "id": "rowlet-twilight-shadow-1",
+            "pokemon": "rowlet sh_shadow",
             "presets": [
                 "final_castle_lower"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "50-60",
+            "level": "40-50",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": false,

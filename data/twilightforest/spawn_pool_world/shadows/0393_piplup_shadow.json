@@ -4,15 +4,15 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "ivysaur-shadow-1",
-            "pokemon": "ivysaur sh_shadow",
+            "id": "piplup-twilight-shadow-1",
+            "pokemon": "piplup sh_shadow",
             "presets": [
                 "final_castle_lower"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "50-60",
+            "level": "40-50",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": false,

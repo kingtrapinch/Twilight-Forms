@@ -4,15 +4,15 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "charmander-shadow-1",
-            "pokemon": "charmander sh_shadow",
+            "id": "snivy-twilight-shadow-1",
+            "pokemon": "snivy sh_shadow",
             "presets": [
                 "final_castle_lower"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "rare",
-            "level": "30-40",
+            "level": "40-50",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": false,

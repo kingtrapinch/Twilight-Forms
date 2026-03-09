@@ -4,15 +4,15 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "blastoise-shadow-1",
-            "pokemon": "blastoise sh_shadow",
+            "id": "mudkip-twilight-shadow-1",
+            "pokemon": "mudkip sh_shadow",
             "presets": [
                 "final_castle_lower"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "70-80",
+            "bucket": "rare",
+            "level": "40-50",
             "weight": 10.0,
             "condition": {
                 "canSeeSky": false,
