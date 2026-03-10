@@ -63,8 +63,8 @@
     "cobblemon:volbeat",
     "cobblemon:illumise",
 
-    "cobblemon:ponyta-galarian",
-    "cobblemon:rapidash-galarian",
+    "cobblemon:ponyta-galar",
+    "cobblemon:rapidash-galar",
     "cobblemon:swablu",
     "cobblemon:altaria",
     "cobblemon:munna",
@@ -73,11 +73,11 @@
     "cobblemon:meowstic",
 
     "cobblemon:petilil",
-    "cobblemon:lilligant-hisuian",
-    "cobblemon:voltorb-hisuian",
-    "cobblemon:electrode-hisuian",
+    "cobblemon:lilligant-hisui",
+    "cobblemon:voltorb-hisui",
+    "cobblemon:electrode-hisui",
     "cobblemon:exeggcute",
-    "cobblemon:exeggutor-alolan",
+    "cobblemon:exeggutor-alola",
     "cobblemon:tropius-twilight",
 
     "cobblemon:trapinch",
@@ -96,7 +96,7 @@
     "cobblemon:gourgeist",
     "cobblemon:turtwig",
     "cobblemon:grotle",
-    "cobblemon:torterra",
+    "cobblemon:torterra-twilight",
 
     "cobblemon:goldeen",
     "cobblemon:seaking",
@@ -182,8 +182,8 @@
     "cobblemon:hydreigon-twilight",
 
 
-    "cobblemon:vulpix-alolan",
-    "cobblemon:ninetales-alolan",
+    "cobblemon:vulpix-alola",
+    "cobblemon:ninetales-alola",
     "cobblemon:cubchoo",
     "cobblemon:beartic",
     "cobblemon:seel",

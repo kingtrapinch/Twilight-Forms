@@ -1,12 +1,10 @@
 {
   "target": "cobblemon:arbok",
-  "features": ["twilight","snake-pattern"],
   "implemented": true,
-  "name": "Arbok",
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Arbok",
+      "name": "Twilight",
       "nationalPokedexNumber": 24,
       "primaryType": "poison",
       "secondaryType": "steel",

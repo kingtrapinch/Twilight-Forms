@@ -4,21 +4,11 @@
   "forms": [
   {
     "implemented": true,
-    "name": "Aegislash Twilight",
+    "name": "Twilight",
     "nationalPokedexNumber": 681,
     "primaryType": "fire",
     "secondaryType": "steel",
-    "abilities": [
-      "flamebody"
-    ],
-    "baseStats": {
-      "hp": 60,
-      "attack": 140,
-      "defence": 50,
-      "special_attack": 140,
-      "special_defence": 50,
-      "speed": 75
-    },
+    "aspects": ["twilight"],
     "catchRate": 45,
     "maleRatio": 0.5,
     "shoulderMountable": false,
@@ -64,6 +54,7 @@
       "1:nightslash",
       "1:furycutter",
       "1:retaliate",
+      "1:kingsshield",
       "1:sacredsword",
       "1:shelltrap",
       "1:slash",
@@ -159,7 +150,6 @@
       "height": 1.9,
       "fixed": false
     },
-    "aspects": ["twilight"],
     "cannotDynamax": false
   }
 ],

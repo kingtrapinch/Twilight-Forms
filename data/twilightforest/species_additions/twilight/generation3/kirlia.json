@@ -35,6 +35,39 @@
           }
         ]
       },
+       "behaviour": {
+        "resting": {
+          "canSleep": false
+        },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.6
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "herd": {
+          "maxSize": "3",
+          "toleratedLeaders": [
+            {
+              "pokemon": "kirlia twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "gallade twilight",
+              "tier": 2
+            },
+            {
+              "pokemon": "gardevoir twilight",
+              "tier": 4
+            }
+          ]
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
       "baseStats": {
         "hp": 38,
         "attack": 65,
