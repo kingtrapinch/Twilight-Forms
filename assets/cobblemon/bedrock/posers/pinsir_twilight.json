@@ -3,7 +3,7 @@
   "portraitTranslation": [-0.18,0.5,0],
   "profileScale": 0.6,
   "profileTranslation": [-0.02,0.84,0],
-  "rootBone": "pinsir",
+  "rootBone": "pinsir_twilight",
   "animations": {
     "cry": "q.bedrock_stateful('pinsir', 'cry')"
   },
@@ -15,10 +15,10 @@
       "isBattle": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('pinsir', 'battle_idle')"
+        "q.bedrock('pinsir_twilight', 'battle_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('pinsir', 'blink')"
+        "q.bedrock_quirk('pinsir_twilight', 'blink')"
       ]
     },
     "standing": {
@@ -31,10 +31,10 @@
       "isBattle": false,
       "animations": [
         "q.look('head')",
-        "q.bedrock('pinsir', 'ground_idle')"
+        "q.bedrock('pinsir_twilight', 'ground_idle')"
       ],
       "quirks": [
-        "q.bedrock_quirk('pinsir', 'blink')"
+        "q.bedrock_quirk('pinsir_twilight', 'blink')"
       ]
     },
     "walking": {
@@ -43,10 +43,10 @@
       ],
       "animations": [
         "q.look('head')",
-        "q.bedrock('pinsir', 'ground_walk')"
+        "q.bedrock('pinsir_twilight', 'ground_walk')"
       ],
       "quirks": [
-        "q.bedrock_quirk('pinsir', 'blink')"
+        "q.bedrock_quirk('pinsir_twilight', 'blink')"
       ]
     },
     "sleep": {
@@ -54,7 +54,7 @@
         "SLEEP"
       ],
       "animations": [
-        "q.bedrock('pinsir', 'sleep')"
+        "q.bedrock('pinsir_twilight', 'sleep')"
       ]
     }
   }
