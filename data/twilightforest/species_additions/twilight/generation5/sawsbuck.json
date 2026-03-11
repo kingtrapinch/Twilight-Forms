@@ -136,7 +136,7 @@
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.sawsbuck.desc"
+        "cobblemon.species.sawsbuck-twilight.desc"
       ],
       "preEvolution": "deerling form=twilight",
       "evolutions": [

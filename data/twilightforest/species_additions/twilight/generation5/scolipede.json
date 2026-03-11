@@ -156,7 +156,7 @@
         "gen5"
       ],
       "pokedex": [
-        "cobblemon.species.scolipede.desc"
+        "cobblemon.species.scolipede-twilight.desc"
       ],
       "preEvolution": "whirlipede form=twilight",
       "evolutions": [

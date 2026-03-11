@@ -13,7 +13,7 @@
       "maleRatio": 0.5,
       "height": 17,
       "weight": 530,
-      "pokedex": ["cobblemon.species.aegislash-blade.desc"],
+      "pokedex": ["cobblemon.species.aegislash-twilight.desc"],
       "labels": ["gen6"],
       "aspects": [
         "twilight", 
@@ -156,7 +156,7 @@
       "maleRatio": 0.5,
       "height": 17,
       "weight": 530,
-      "pokedex": ["cobblemon.species.aegislash-blade.desc"],
+      "pokedex": ["cobblemon.species.aegislash-twilight.desc"],
       "labels": ["gen6"],
       "aspects": [
         "twilight", 

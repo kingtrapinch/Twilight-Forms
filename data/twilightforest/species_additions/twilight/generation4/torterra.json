@@ -52,7 +52,7 @@
         "gen4"
       ],
       "pokedex": [
-        "cobblemon.species.torterra.desc"
+        "cobblemon.species.torterra-twilight.desc"
       ],
       "preEvolution": "grotle",
       "evolutions": [],
@@ -126,7 +126,7 @@
         "gen4"
       ],
       "pokedex": [
-        "cobblemon.species.torterra.desc"
+        "cobblemon.species.torterra-twilight.desc"
       ],
       "preEvolution": "grotle",
       "evolutions": [],
@@ -168,7 +168,7 @@
         ]
       },
       "pokedex": [
-        "cobblemon.species.torterra.desc"
+        "cobblemon.species.torterra-twilight.desc"
       ],
       "aspects": ["tree-canopy"]
     },
@@ -190,7 +190,7 @@
         ]
       },
       "pokedex": [
-        "cobblemon.species.torterra.desc"
+        "cobblemon.species.torterra-twilight.desc"
       ],
       "aspects": ["tree-twilightoak"]
     }
@@ -302,7 +302,7 @@
     "gen4"
   ],
   "pokedex": [
-    "cobblemon.species.torterra.desc"
+    "cobblemon.species.torterra-twilight.desc"
   ],
   "preEvolution": "grotle",
   "evolutions": [],
