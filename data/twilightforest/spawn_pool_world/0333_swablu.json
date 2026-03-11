@@ -1,0 +1,36 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "swablu-twilight-1",
+            "pokemon": "swablu",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-18",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+        {
+            "id": "swablu-twilight-2",
+            "pokemon": "swablu",
+            "presets": [
+                "cloud_cottage"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 20.0
+        }
+    ]
+}

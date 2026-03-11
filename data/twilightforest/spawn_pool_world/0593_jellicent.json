@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "jellicent-twilight-1",
+            "pokemon": "jellicent",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:stream",
+                    "twilightforest:lake"
+                ]
+            }
+        }
+    ]
+}

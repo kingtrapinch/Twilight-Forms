@@ -1,0 +1,41 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "toedscruel-twilight-1",
+            "pokemon": "toedscruel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "14-30",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "toedscruel-twilight-2",
+            "pokemon": "toedscruel",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-39",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:mushroom_forest"
+                ]
+            }
+        }
+    ]
+}

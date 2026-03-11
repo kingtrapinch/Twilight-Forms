@@ -1,22 +1,24 @@
 {
-    "enabled": "true",
+    "enabled": true,
     "neededInstalledMods": [],
     "neededUninstalledMods": [],
     "spawns": [
-        {
-            "id": "hippopotas-twilight-1",
-            "pokemon": "hippopotas",
+		{
+            "id": "swadloon-twilight-1",
+            "pokemon": "swadloon",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
-            "level": "35-45",
+            "bucket": "uncommon",
+            "level": "10-23",
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:fire_swamp"
+                    "twilightforest:forest",
+                    "twilightforest:dense_forest",
+                    "twilightforest:firefly_forest"
                 ]
             }
         }

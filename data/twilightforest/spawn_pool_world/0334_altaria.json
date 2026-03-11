@@ -1,0 +1,36 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "altaria-twilight-1",
+            "pokemon": "altaria",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "23-38",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        },
+        {
+            "id": "altaria-twilight-2",
+            "pokemon": "altaria",
+            "presets": [
+                "cloud_cottage"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "45-65",
+            "weight": 40.0
+        }
+    ]
+}

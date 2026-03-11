@@ -1,0 +1,26 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "musharna-twilight-1",
+            "pokemon": "musharna",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "25-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                      "twilightforest:mushroom_forest",
+                      "twilightforest:dense_mushroom_forest",
+                      "twilightforest:enchanted_forest"
+                ]
+            }
+        }
+    ]
+}
