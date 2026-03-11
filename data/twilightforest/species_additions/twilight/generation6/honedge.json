@@ -9,16 +9,9 @@
     "primaryType": "grass",
     "secondaryType": "ghost",
     "abilities": [
-      "wonderguard"
+      "noguard",
+      "h:noguard"
     ],
-    "baseStats": {
-      "hp": 5,
-      "attack": 80,
-      "defence": 5,
-      "special_attack": 75,
-      "special_defence": 5,
-      "speed": 45
-    },
     "catchRate": 180,
     "maleRatio": 0.5,
     "shoulderMountable": false,

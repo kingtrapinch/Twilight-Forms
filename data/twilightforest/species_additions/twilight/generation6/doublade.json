@@ -9,16 +9,9 @@
     "primaryType": "ice",
     "secondaryType": "ghost",
     "abilities": [
-      "wonderguard"
+      "noguard",
+      "h:noguard"
     ],
-    "baseStats": {
-      "hp": 5,
-      "attack": 110,
-      "defence": 5,
-      "special_attack": 85,
-      "special_defence": 5,
-      "speed": 59
-    },
     "catchRate": 90,
     "maleRatio": 0.5,
     "shoulderMountable": false,
@@ -33,7 +26,11 @@
       "entries": [
         {
           "item": "minecraft:ice",
-          "percentage": 5.0
+          "percentage": 50.0
+        },
+        {
+          "item": "twilightforest:ice_sword",
+          "percentage": 5
         }
       ]
     },
