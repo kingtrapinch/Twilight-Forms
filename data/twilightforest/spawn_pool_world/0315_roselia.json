@@ -17,7 +17,14 @@
             "condition": {
                 "biomes": [
                     "#cobblemon:is_twilight_forest",
-                    "twilightforest:oak_savannah"
+                    "twilightforest:oak_savannah",
+                    "twilightforest:enchanted_forest"
+
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest"
                 ]
             }
         }

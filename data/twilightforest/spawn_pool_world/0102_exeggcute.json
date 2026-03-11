@@ -16,8 +16,8 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:dense_forest",
                     "twilightforest:forest",
+                    "twilightforest:dense_forest",
                     "twilightforest:firefly_forest"
                 ]
             }

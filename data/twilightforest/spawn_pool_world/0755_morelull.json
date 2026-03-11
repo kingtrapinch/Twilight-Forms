@@ -17,29 +17,14 @@
             "condition": {
                 "biomes": [
                     "twilightforest:mushroom_forest",
+                    "twilightforest:dense_mushroom_forest",
+                    "twilightforest:firefly_forest",
                     "twilightforest:underground"
                 ]
             }
         },
         {
             "id": "morelull-twilight-2",
-            "pokemon": "morelull",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "4-29",
-            "weight": 20.0,
-            "condition": {
-                "biomes": [
-                    "twilightforest:dense_mushroom_forest"
-                ]
-            }
-        },
-        {
-            "id": "morelull-twilight-3",
             "pokemon": "morelull",
             "presets": [
                 "troll_cave"

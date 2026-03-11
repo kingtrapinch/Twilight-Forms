@@ -19,6 +19,38 @@
                     "twilightforest:oak_savannah"
                 ]
             }
+        },
+        {
+            "id": "rhyperior-twilight-2",
+            "pokemon": "rhyperior",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "55-70",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:highlands"
+                ]
+            }
+        },
+        {
+            "id": "rhyperior-twilight-3",
+            "pokemon": "rhyperior",
+            "presets": [
+                "troll_cave"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "60-75",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
         }
     ]
 }

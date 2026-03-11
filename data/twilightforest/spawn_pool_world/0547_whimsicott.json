@@ -16,7 +16,6 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:firefly_forest",
                     "twilightforest:oak_savannah",
                     "twilightforest:enchanted_forest"
                 ]
