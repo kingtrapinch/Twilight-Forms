@@ -1,14 +1,16 @@
 {
-  "target":"cobblemon:hatterene",
+  "target": "cobblemon:hatterene",
   "implemented": true,
   "forms": [
     {
-      "aspects": ["twilight"],
+      "aspects": [
+        "twilight"
+      ],
       "implemented": true,
       "nationalPokedexNumber": 858,
       "name": "Twilight",
-      "primaryType": "ice",
-      "secondaryType": "psychic",
+      "primaryType": "psychic",
+      "secondaryType": "ice",
       "maleRatio": 0,
       "height": 21,
       "weight": 51,
@@ -78,7 +80,6 @@
         "46:psychic",
         "55:blizzard",
         "64:freezingglare",
-
         "egg:afteryou",
         "egg:aromaticmist",
         "egg:mysticalfire",
@@ -171,16 +172,130 @@
         "legacy:round",
         "legacy:snore"
       ],
-      "preEvolution": "hattrem",
-      "evolutions": [],
+      "preEvolution": "hattrem twilight",
+      "evolutions": [
+        {
+          "id": "hatterene_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "hatterene twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
+      "riding": {
+          "behaviours": {
+            "AIR": {
+              "key": "cobblemon:air/hover",
+              "rideSounds": [],
+              "stats": {
+                "ACCELERATION": "65-90",
+                "JUMP": "45-65",
+                "SKILL": "35-50",
+                "SPEED": "30-45",
+                "STAMINA": "5-15"
+              }
+            }
+          },
+          "seats": [
+            {
+              "offset": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+              },
+              "poseOffsets": [
+                {
+                  "offset": {
+                    "x": 0.019022975,
+                    "y": -1.2183496,
+                    "z": 0.24997671
+                  },
+                  "poseTypes": [
+                    "STAND"
+                  ]
+                },
+                {
+                  "offset": {
+                    "x": 0.023236014,
+                    "y": -1.2679962,
+                    "z": 0.12823626
+                  },
+                  "poseTypes": [
+                    "WALK"
+                  ]
+                },
+                {
+                  "offset": {
+                    "x": 0.019022975,
+                    "y": -1.2183496,
+                    "z": 0.24997671
+                  },
+                  "poseTypes": [
+                    "HOVER"
+                  ]
+                },
+                {
+                  "offset": {
+                    "x": 0.023236014,
+                    "y": -1.2679962,
+                    "z": 0.12823626
+                  },
+                  "poseTypes": [
+                    "FLY"
+                  ]
+                },
+                {
+                  "offset": {
+                    "x": 0.019022975,
+                    "y": -1.2183496,
+                    "z": 0.24997671
+                  },
+                  "poseTypes": [
+                    "FLOAT"
+                  ]
+                },
+                {
+                  "offset": {
+                    "x": 0.023236014,
+                    "y": -1.2679962,
+                    "z": 0.12823626
+                  },
+                  "poseTypes": [
+                    "SWIM"
+                  ]
+                },
+                {
+                  "offset": {
+                    "x": 0.019022975,
+                    "y": -1.2183496,
+                    "z": 0.24997671
+                  },
+                  "poseTypes": [
+                    "GLIDE"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+
       "behaviour": {
         "herd": {
           "maxSize": "4"
         },
         "moving": {
-          "swim": {
-            "avoidsWater": true
-          }
+            "fly": {
+              "canFly": true
+            },
+            "swim": {
+              "avoidsWater": true
+            },
+            "walk": {
+              "canWalk": false
+            }
+
         },
         "combat": {
           "willDefendSelf": true,
@@ -196,5 +311,16 @@
         }
       }
     }
-  ]
+  ],
+    "evolutions": [
+        {
+          "id": "hatterene_to_twilight",
+          "variant": "item_interact",
+          "result": "hatterene twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

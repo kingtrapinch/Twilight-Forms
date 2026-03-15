@@ -21,6 +21,22 @@
 					"pivot": [0, 10, 0]
 				},
 				{
+					"name": "locator_seat_1",
+					"parent": "whole",
+					"pivot": [0, 25, -12],
+					"locators": {
+						"seat_1": [0, 25, -12]
+					}
+				},
+				{
+					"name": "locator_middle",
+					"parent": "whole",
+					"pivot": [0, 10, 0],
+					"locators": {
+						"middle": [0, 36, 0]
+					}
+				},
+				{
 					"name": "body",
 					"parent": "whole",
 					"pivot": [0, 10, 0],
@@ -138,6 +154,23 @@
 						{"origin": [3, 59, -6.5], "size": [1, 2, 0], "inflate": 0.01, "uv": [0, 0]},
 						{"origin": [1.25, 58.75, -6.5], "size": [1, 2, 0], "inflate": 0.01, "pivot": [3, 58.75, -6.5], "rotation": [0, 0, -2.5], "uv": [7, 0]}
 					]
+				},
+				{
+					"name": "locator_head",
+					"parent": "head_inside",
+					"pivot": [0, 57.5, -3.5],
+					"locators": {
+						"head": [0, 57.5, -3.5]
+					}
+				},
+				{
+					"name": "locator_face",
+					"parent": "head_inside",
+					"pivot": [0, 57, -7],
+					"locators": {
+						"face": [0, 57, -7],
+						"physical": [0, 57, -7]
+					}
 				},
 				{
 					"name": "mouth_open",
@@ -390,6 +423,14 @@
 					]
 				},
 				{
+					"name": "locator_tera_hat",
+					"parent": "hat",
+					"pivot": [0, 84, 5],
+					"locators": {
+						"tera_hat": [0, 84, 5]
+					}
+				},
+				{
 					"name": "cone",
 					"parent": "hat",
 					"pivot": [0, 68, 2],
@@ -522,6 +563,22 @@
 						{"origin": [-21, 9, -12.3], "size": [16, 16, 16], "uv": [3, 219]},
 						{"origin": [-14, 9, 3.7], "size": [16, 16, 16], "uv": [3, 219]}
 					]
+				},
+				{
+					"name": "locator_root",
+					"parent": "hatterene_twilight",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"root": [0, 0, 0]
+					}
+				},
+				{
+					"name": "locator_top",
+					"parent": "hatterene_twilight",
+					"pivot": [0, 84.5, 4],
+					"locators": {
+						"top": [0, 84.5, 4]
+					}
 				}
 			]
 		}

@@ -1,11 +1,11 @@
 {
-  "portraitScale": 1.75,
-  "portraitTranslation": [-1.14, 3.45, 0],
-  "profileScale": 0.34,
+  "portraitScale": 1.45,
+  "portraitTranslation": [-1.14, 3.75, 0],
+  "profileScale": 0.24,
   "profileTranslation": [0.0, 1.29, 0],
   "rootBone": "hatterene_twilight",
   "firstPersonCameraOffset": {
-    "seat_1": [0, 0.45, 0]
+    "seat_1": [0.3, 1.45, 0]
   },
   "thirdPersonCameraOffset": {
     "seat_1": [0, 0.3, 0],
@@ -21,46 +21,33 @@
     "status": "q.bedrock_primary('hatterene_twilight', 'status', q.curve('symmetrical_wide'))"
   },
   "poses": {
-    "standing": {
-      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE", "PORTRAIT", "PROFILE"],
-      "isBattle": false,
-      "animations": [
-        "q.bedrock('hatterene_twilight', 'ground_idle')",
+   "hover": {
+      "poseTypes": ["HOVER", "STAND", "FLOAT", "NONE", "PORTRAIT", "PROFILE"],
+      "transformTicks": 10,
+      "animations": ["q.bedrock('hatterene_twilight', 'air_idle')",
         {
           "condition": "q.is_ridden",
-          "animation": "q.bedrock('hatterene_twilight', 'ride_mount_run')"
+          "animation": "q.bedrock('hatterene_twilight', 'mount_walk')"
         }
       ],
-      "quirks": [
-        "q.bedrock_quirk('hatterene_twilight', 'idle_quirk')"
+      "quirks": ["q.bedrock_quirk('hatterene_twilight', 'quirk')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY", "SWIM", "WALK"],
+      "transformTicks": 10,
+      "animations": ["q.bedrock('hatterene_twilight', 'air_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('hatterene_twilight', 'mount_walk')"
+        }
       ]
     },
     "battle-standing": {
-      "poseTypes": ["STAND", "FLOAT", "HOVER", "NONE"],
+      "poseTypes": ["STAND", "FLOAT", "HOVER","FLY", "NONE"],
       "isBattle": true,
       "animations": [
         "q.bedrock('hatterene_twilight', 'battle_idle')"
       ]
-    },
-    "walking": {
-      "poseTypes": ["WALK", "SWIM", "FLY"],
-      "condition": "q.has_entity ? !q.is_ridden && !q.is_sprinting : 1.0",
-      "animations": ["q.bedrock('hatterene_twilight', 'ground_walk')"]
-    },
-    "running": {
-      "poseTypes": ["WALK", "SWIM", "FLY"],
-      "condition": "q.has_entity ? !q.is_ridden && q.is_sprinting : 0.0",
-      "animations": ["q.bedrock('hatterene_twilight', 'ground_run')"]
-    },
-    "mount-walking": {
-      "poseTypes": ["WALK", "SWIM", "FLY"],
-      "condition": "q.has_entity ? q.is_ridden && !q.is_sprinting : 0.0",
-      "animations": ["q.bedrock('hatterene_twilight', 'mount_walk')", "q.bedrock('hatterene_twilight', 'ride_mount_walk')"]
-    },
-    "mount-running": {
-      "poseTypes": ["WALK", "SWIM", "FLY"],
-      "condition": "q.has_entity ? q.is_ridden && q.is_sprinting : 0.0",
-      "animations": ["q.bedrock('hatterene_twilight', 'mount_run')", "q.bedrock('hatterene_twilight', 'ride_mount_run')"]
     }
   }
 }

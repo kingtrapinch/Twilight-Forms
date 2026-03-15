@@ -6,7 +6,7 @@
       "aspects": ["twilight"],
       "nationalPokedexNumber": 856,
       "name": "Twilight",
-      "primaryType": "ice",
+      "primaryType": "psychic",
       "maleRatio": 0,
       "height": 4,
       "weight": 34,
@@ -153,6 +153,15 @@
               "minLevel": 32
             }
           ]
+        },
+        {
+          "id": "hatenna_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "hatenna twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "behaviour": {
@@ -187,5 +196,16 @@
         }
       }
     }
-  ]
+  ],
+    "evolutions": [
+        {
+          "id": "hatenna_to_twilight",
+          "variant": "item_interact",
+          "result": "hatenna twilight=true",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
 }

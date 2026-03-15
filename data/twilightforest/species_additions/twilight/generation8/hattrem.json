@@ -7,8 +7,8 @@
       "implemented": true,
       "nationalPokedexNumber": 857,
       "name": "Twilight",
-      "primaryType": "ice",
-      "secondaryType": "psychic",
+      "primaryType": "psychic",
+      "secondaryType": "ice",
       "maleRatio": 0,
       "height": 6,
       "weight": 48,
@@ -158,6 +158,15 @@
               "minLevel": 42
             }
           ]
+        },
+        {
+          "id": "hattrem_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "hattrem twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "behaviour": {
@@ -189,5 +198,16 @@
         }
       }
     }
-  ]
+  ],
+  "evolutions": [
+      {
+        "id": "hattrem_to_twilight",
+        "variant": "item_interact",
+        "result": "hattrem twilight=true",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [],
+        "requiredContext": "twilightforest:transformation_powder"
+      }
+    ]
 }
