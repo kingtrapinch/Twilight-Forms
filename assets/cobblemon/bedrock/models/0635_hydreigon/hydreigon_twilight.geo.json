@@ -12,12 +12,12 @@
 			},
 			"bones": [
 				{
-					"name": "hydreigon",
+					"name": "hydreigon_twilight",
 					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "body",
-					"parent": "hydreigon",
+					"parent": "hydreigon_twilight",
 					"pivot": [0, 16, 0]
 				},
 				{
@@ -637,25 +637,22 @@
 					"name": "neck",
 					"parent": "chest",
 					"pivot": [0, 25.5, 0],
-					"rotation": [10, 0, 0],
 					"cubes": [
-						{"origin": [-4.5, 22.5, -4.5], "size": [9, 9, 9], "inflate": -2, "uv": [51, 108]}
+						{"origin": [-4.5, 22.5, -4.5], "size": [9, 9, 9], "inflate": -2, "uv": [51, 110]}
 					]
 				},
 				{
 					"name": "neck2",
 					"parent": "neck",
 					"pivot": [0, 29.5, 2],
-					"rotation": [20, 0, 0],
 					"cubes": [
-						{"origin": [-4.5, 27.5, -4], "size": [9, 9, 8], "inflate": -2.01, "uv": [52, 108]}
+						{"origin": [-4.5, 27.5, -4], "size": [9, 9, 8], "inflate": -2.01, "uv": [52, 109]}
 					]
 				},
 				{
 					"name": "neck3",
 					"parent": "neck2",
 					"pivot": [0, 34.5, 2],
-					"rotation": [30, 0, 0],
 					"cubes": [
 						{"origin": [-2.5, 34.5, -2], "size": [5, 5, 4], "uv": [12, 22]},
 						{"origin": [-4.5, 32.5, -4], "size": [9, 9, 8], "inflate": -2, "uv": [52, 111]}
@@ -665,7 +662,7 @@
 					"name": "head",
 					"parent": "neck3",
 					"pivot": [0, 39.5, 2],
-					"rotation": [-60, 0, 0]
+					"rotation": [-90, 0, 0]
 				},
 				{
 					"name": "head_ai",
@@ -932,6 +929,18 @@
 						{"origin": [2.5, 45.4, -2.4], "size": [0, 1, 1], "pivot": [2, 45.5, -3], "rotation": [45, 0, 0], "uv": [27, 11]},
 						{"origin": [-2.5, 45.4, -2.4], "size": [0, 1, 1], "pivot": [-2, 45.5, -3], "rotation": [45, 0, 0], "uv": [31, 11], "mirror": true}
 					]
+				},
+				{
+					"name": "locator_seat_1",
+					"parent": "chest",
+					"pivot": [0, 23.1, 8.25],
+					"rotation": [-75, 0, 0],
+					"locators": {
+						"seat_1": {
+							"offset": [0, 23.1, 8.25],
+							"rotation": [5, 0, 0]
+						}
+					}
 				},
 				{
 					"name": "tail",
