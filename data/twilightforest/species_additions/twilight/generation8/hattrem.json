@@ -146,18 +146,14 @@
       "evolutions": [
         {
           "id": "hattrem_hatterene_twilight",
-          "variant": "level_up",
+          "variant": "item_interact",
           "result": "hatterene twilight",
           "consumeHeldItem": false,
           "learnableMoves": [
-            "heavyslam"
+            "icehammer"
           ],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": 42
-            }
-          ]
+          "requirements": [],
+          "requiredContext": "cobblemon:ice_stone"
         },
         {
           "id": "hattrem_twilight_to_normal",
