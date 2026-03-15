@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"animation.pinsir.ground_idle": {
+		"animation.pinsir_twilight.ground_idle": {
 			"loop": true,
 			"animation_length": 8,
 			"bones": {
@@ -142,7 +142,7 @@
 				}
 			}
 		},
-		"animation.pinsir.sleep": {
+		"animation.pinsir_twilight.sleep": {
 			"loop": true,
 			"animation_length": 8,
 			"bones": {
@@ -303,7 +303,7 @@
 				}
 			}
 		},
-		"animation.pinsir.ground_walk": {
+		"animation.pinsir_twilight.ground_walk": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -920,7 +920,7 @@
 				}
 			}
 		},
-		"animation.pinsir.battle_idle": {
+		"animation.pinsir_twilight.battle_idle": {
 			"loop": true,
 			"animation_length": 4,
 			"bones": {
@@ -1095,7 +1095,7 @@
 				}
 			}
 		},
-		"animation.pinsir.blink": {
+		"animation.pinsir_twilight.blink": {
 			"animation_length": 0.1667,
 			"bones": {
 				"eyelid_left": {
@@ -1114,7 +1114,7 @@
 				}
 			}
 		},
-		"animation.pinsir.cry": {
+		"animation.pinsir_twilight.cry": {
 			"animation_length": 3,
 			"bones": {
 				"torso": {
