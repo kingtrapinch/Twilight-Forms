@@ -19,19 +19,34 @@
             "id": "spinarak-twilight-2",
             "pokemon": "spinarak",
             "presets": [
-                "lich_tower"
+                "lich_tower_courtyard"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "10-25",
-            "weight": 50.0,
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": false
             }
         },
         {
             "id": "spinarak-twilight-3",
+            "pokemon": "spinarak",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-25",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "spinarak-twilight-4",
             "pokemon": "spinarak",
             "presets": [
                 "natural"
@@ -49,7 +64,7 @@
             }
         },
         {
-            "id": "spinarak-twilight-4",
+            "id": "spinarak-twilight-5",
             "pokemon": "spinarak",
             "presets": [
                 "natural"

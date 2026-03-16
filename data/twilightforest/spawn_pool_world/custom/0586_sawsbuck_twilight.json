@@ -7,7 +7,7 @@
             "id": "sawsbuck-twilight-1",
             "pokemon": "sawsbuck twilight",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

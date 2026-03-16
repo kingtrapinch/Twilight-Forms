@@ -7,7 +7,7 @@
             "id": "exeggutor-alolan-twilight-1",
             "pokemon": "exeggutor alolan",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -25,7 +25,7 @@
             "id": "exeggutor-alolan-twilight-2",
             "pokemon": "exeggutor alolan",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

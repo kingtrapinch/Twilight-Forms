@@ -4,20 +4,18 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "scovillain-twilight",
-            "pokemon": "scovillain",
+            "id": "shuppet-twilight-1",
+            "pokemon": "shuppet",
             "presets": [
-                "natural"
+                "lich-tower"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "35-50",
+            "level": "13-24",
             "weight": 10.0,
             "condition": {
-                "biomes": [
-                    "twilightforest:fire_swamp"
-                ]
+                "canSeeSky": false
             }
         }
     ]

@@ -7,7 +7,7 @@
             "id": "tropius-twilight-1",
             "pokemon": "tropius twilight",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -25,7 +25,7 @@
             "id": "tropius-twilight-2",
             "pokemon": "tropius twilight",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

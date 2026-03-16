@@ -8,7 +8,7 @@
             "pokemon": "poltchageist matcha_authenticity=counterfeit",
             "level": "8-23",            
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -26,7 +26,7 @@
             "pokemon": "poltchageist matcha_authenticity=artisan",
             "level": "8-23",            
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

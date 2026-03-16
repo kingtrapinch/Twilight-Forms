@@ -7,7 +7,7 @@
             "id": "phantump-twilight-1",
             "pokemon": "phantump",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

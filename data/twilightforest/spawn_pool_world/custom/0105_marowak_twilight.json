@@ -7,15 +7,18 @@
             "id": "marowak-twilight-1",
             "pokemon": "marowak twilight",
             "presets": [
-                "druid_hut"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
             "level": "17-32",
-            "weight": 100.0
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
         },
-        {
+                {
             "id": "marowak-twilight-2",
             "pokemon": "marowak twilight",
             "presets": [
@@ -23,11 +26,12 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "17-32",
-            "weight": 100.0,
+            "weight": 10.0,
             "condition": {
-                "canSeeSky": false
+                "canSeeSky": false,
+                "minY": 40
             }
         },
         {

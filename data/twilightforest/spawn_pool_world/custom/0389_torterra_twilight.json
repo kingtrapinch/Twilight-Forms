@@ -7,7 +7,7 @@
             "id": "torterra-twilight-canopy",
             "pokemon": "torterra tree=canopy",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -16,9 +16,7 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:forest",
-                    "twilightforest:dense_forest",
-                    "twilightforest:firefly_forest"
+                    "#cobblemon:is_twilight_forest"
                 ]
             }
         },
@@ -26,7 +24,7 @@
             "id": "torterra-twilight-twilightoak",
             "pokemon": "torterra tree=twilightoak",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -35,9 +33,7 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                    "twilightforest:oak_savannah",
-                    "twilightforest:mushroom_forest",
-                    "twilightforest:dense_mushroom_forest"
+                    "twilightforest:oak_savannah"
                 ]
             }
         },

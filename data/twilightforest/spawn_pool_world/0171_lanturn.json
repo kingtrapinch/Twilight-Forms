@@ -11,11 +11,12 @@
             ],
             "type": "pokemon",
             "context": "submerged",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "27-46",
             "weight": 10.0,
             "condition": {
                 "biomes": [
+                    "#cobblemon:is_twilight_forest",
                     "twilightforest:stream",
                     "twilightforest:lake"
                 ]

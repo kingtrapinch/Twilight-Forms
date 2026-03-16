@@ -7,23 +7,16 @@
             "id": "pumpkaboo-twilight-1",
             "pokemon": "pumpkaboo",
             "presets": [
-                "natural"
+                "lich_Wtower_courtyard"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "9-24",
-            "weight": 50.0,
+            "weight": 40.0,
             "condition": {
-                "biomes": [
-                    "#cobblemon:is_twilight_forest"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:pumpkin",
-                    "minecraft:carved_pumpkin",
-                    "minecraft:jack_o_lantern"
-                ]
-            }
+                "canSeeSky": true
+                }
         },
         {
             "id": "pumpkaboo-twilight-2",

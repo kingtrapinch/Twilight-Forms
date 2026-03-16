@@ -7,7 +7,7 @@
             "id": "volbeat-twilight",
             "pokemon": "volbeat",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

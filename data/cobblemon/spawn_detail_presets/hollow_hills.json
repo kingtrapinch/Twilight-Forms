@@ -1,5 +1,6 @@
 {
     "condition": {
+      "canSeeSky": false,
       "structures": [
         "twilightforest:small_hollow_hill",
         "twilightforest:medium_hollow_hill",
@@ -8,7 +9,6 @@
       "maxY": 0,
       "neededBaseBlocks": [
         "minecraft:stone",
-        "minecraft:dirt",      
         "minecraft:glowstone",
         "minecraft:copper_ore",
         "minecraft:coal_ore",
@@ -17,18 +17,6 @@
         "minecraft:redstone_ore",
         "minecraft:emerald_ore",
         "minecraft:diamond_ore"
-    ],
-      "neededNearbyBlocks": [
-        "minecraft:stone",
-        "minecraft:dirt",
-        "minecraft:glowstone",
-        "minecraft:copper_ore",
-        "minecraft:coal_ore",
-        "minecraft:iron_ore",
-        "minecraft:lapis_ore",
-        "minecraft:redstone_ore",
-        "minecraft:emerald_ore",
-        "minecraft:diamond_ore"
-      ]
+    ]
     }
   }

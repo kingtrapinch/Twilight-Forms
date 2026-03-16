@@ -7,7 +7,7 @@
             "id": "dubwool-twilight-1",
             "pokemon": "dubwool twilight",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -26,7 +26,7 @@
             "id": "dubwool-twilight-2",
             "pokemon": "dubwool twilight",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

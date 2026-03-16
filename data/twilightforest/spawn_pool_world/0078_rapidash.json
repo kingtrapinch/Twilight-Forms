@@ -7,7 +7,7 @@
             "id": "rapidash-galarian-1",
             "pokemon": "rapidash galarian",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -24,7 +24,7 @@
             "id": "rapidash-galarian-2",
             "pokemon": "rapidash galarian",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

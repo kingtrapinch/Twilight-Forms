@@ -7,22 +7,15 @@
             "id": "gourgeist-twilight-1",
             "pokemon": "gourgeist",
             "presets": [
-                "natural"
+                "lich_tower_courtyard"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "uncommon",
-            "level": "15-30",
-            "weight": 50.0,
+            "level": "30-40",
+            "weight": 40.0,
             "condition": {
-                "biomes": [
-                    "#cobblemon:is_twilight_forest"
-                ],
-                "neededNearbyBlocks": [
-                    "minecraft:pumpkin",
-                    "minecraft:carved_pumpkin",
-                    "minecraft:jack_o_lantern"
-                ]
+                "canSeeSky": true
             }
         },
         {
@@ -34,7 +27,7 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "14-30",
+            "level": "20-40",
             "weight": 10.0,
             "condition": {
                 "biomes": [

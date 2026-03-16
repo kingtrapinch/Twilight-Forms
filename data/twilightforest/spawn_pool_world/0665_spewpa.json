@@ -7,7 +7,7 @@
             "id": "spewpa-twilight-1",
             "pokemon": "spewpa",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

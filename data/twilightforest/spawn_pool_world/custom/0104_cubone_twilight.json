@@ -4,18 +4,6 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "cubone-twilight-1",
-            "pokemon": "cubone twilight",
-            "presets": [
-                "druid_hut"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "common",
-            "level": "7-20",
-            "weight": 100.0
-        },
-        {
             "id": "cubone-twilight-2",
             "pokemon": "cubone twilight",
             "presets": [
@@ -24,8 +12,8 @@
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
-            "level": "7-20",
-            "weight": 100.0,
+            "level": "15-30",
+            "weight": 10.0,
             "condition": {
                 "canSeeSky": false
             }

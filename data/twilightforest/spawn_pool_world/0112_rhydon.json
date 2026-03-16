@@ -7,7 +7,7 @@
             "id": "rhydon-twilight-1",
             "pokemon": "rhydon",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -24,7 +24,7 @@
             "id": "rhydon-twilight-2",
             "pokemon": "rhydon",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

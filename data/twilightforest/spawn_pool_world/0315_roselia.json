@@ -7,7 +7,7 @@
             "id": "roselia-twilight-1",
             "pokemon": "roselia",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

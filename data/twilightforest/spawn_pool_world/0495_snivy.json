@@ -19,7 +19,7 @@
             "id": "snivy-twilight-2",
             "pokemon": "snivy",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

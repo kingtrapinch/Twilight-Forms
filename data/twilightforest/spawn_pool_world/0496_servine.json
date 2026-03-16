@@ -19,7 +19,7 @@
             "id": "servine-twilight-2",
             "pokemon": "servine",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

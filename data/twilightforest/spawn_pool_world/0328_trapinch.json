@@ -7,7 +7,7 @@
             "id": "trapinch-twilight-1",
             "pokemon": "trapinch",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

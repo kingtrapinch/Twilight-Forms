@@ -7,7 +7,7 @@
             "id": "shiinotic-twilight-1",
             "pokemon": "shiinotic",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

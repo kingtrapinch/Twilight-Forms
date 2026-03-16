@@ -11,11 +11,12 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "uncommon",
-            "level": "30-50",
+            "bucket": "common",
+            "level": "16-30",
             "weight": 100.0,
             "condition": {
-                "canSeeSky": false
+                "canSeeSky": false,
+                "minY": 30
             }
         }
     ]

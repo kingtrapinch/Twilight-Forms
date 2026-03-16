@@ -7,7 +7,7 @@
             "id": "leafeon-twilight",
             "pokemon": "leafeon",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

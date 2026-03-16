@@ -7,7 +7,7 @@
             "id": "clefable-twilight-1",
             "pokemon": "clefable",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

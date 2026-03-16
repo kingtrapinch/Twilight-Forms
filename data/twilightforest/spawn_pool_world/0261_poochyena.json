@@ -7,7 +7,7 @@
             "id": "poochyena-twilight-1",
             "pokemon": "poochyena",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

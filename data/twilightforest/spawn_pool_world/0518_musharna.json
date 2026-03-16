@@ -7,7 +7,7 @@
             "id": "musharna-twilight-1",
             "pokemon": "musharna",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -16,8 +16,6 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
-                      "twilightforest:mushroom_forest",
-                      "twilightforest:dense_mushroom_forest",
                       "twilightforest:enchanted_forest"
                 ]
             }

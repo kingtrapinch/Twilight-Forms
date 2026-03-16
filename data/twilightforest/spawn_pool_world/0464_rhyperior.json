@@ -7,7 +7,7 @@
             "id": "rhyperior-twilight-1",
             "pokemon": "rhyperior",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -24,7 +24,7 @@
             "id": "rhyperior-twilight-2",
             "pokemon": "rhyperior",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

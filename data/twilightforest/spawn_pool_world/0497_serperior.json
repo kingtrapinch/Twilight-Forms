@@ -19,7 +19,7 @@
             "id": "serperior-twilight-2",
             "pokemon": "serperior",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

@@ -26,6 +26,21 @@
             "id": "murkrow-twilight-2",
             "pokemon": "murkrow",
             "presets": [
+                "lich_tower_courtyard"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-25",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "murkrow-twilight-3",
+            "pokemon": "murkrow",
+            "presets": [
                 "natural"
             ],
             "type": "pokemon",

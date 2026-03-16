@@ -11,7 +11,7 @@
             ],
             "type": "pokemon",
             "context": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "35-45",
             "weight": 10.0,
             "condition": {

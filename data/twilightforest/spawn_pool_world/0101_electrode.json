@@ -7,7 +7,7 @@
             "id": "electrode-twilight-1",
             "pokemon": "electrode hisuian",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

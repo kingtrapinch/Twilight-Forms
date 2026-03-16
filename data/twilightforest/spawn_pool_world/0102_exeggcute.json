@@ -7,7 +7,7 @@
             "id": "exeggcute-twilight-1",
             "pokemon": "exeggcute",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

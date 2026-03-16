@@ -8,7 +8,7 @@
             "pokemon": "sinistcha matcha_authenticity=unremarkable",
             "level": "24-35",            
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -26,7 +26,7 @@
             "pokemon": "sinistcha matcha_authenticity=masterpiece",
             "level": "28-35",            
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

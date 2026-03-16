@@ -7,7 +7,7 @@
             "id": "shroomish-twilight-1",
             "pokemon": "shroomish",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -24,7 +24,7 @@
             "id": "shroomish-twilight-2",
             "pokemon": "shroomish",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

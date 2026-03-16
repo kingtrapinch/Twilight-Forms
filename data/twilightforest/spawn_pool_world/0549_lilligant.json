@@ -7,7 +7,7 @@
             "id": "lilligant-twilight-1",
             "pokemon": "lilligant hisuian",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
@@ -25,7 +25,7 @@
             "id": "lilligant-twilight-2",
             "pokemon": "lilligant hisuian",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

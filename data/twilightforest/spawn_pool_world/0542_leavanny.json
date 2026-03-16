@@ -7,7 +7,7 @@
             "id": "leavanny-twilight-1",
             "pokemon": "leavanny",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

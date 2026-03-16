@@ -1,0 +1,17 @@
+{
+  "condition": {
+    "neededBaseBlocks": [
+      "#cobblemon:natural"
+    ]
+  },
+  "anticondition": {
+	  "neededBaseBlocks": [
+      	"minecraft:farmland"
+	  ],
+    "structures": [
+      "twilightforest:lich_tower",
+      "twilightforest:naga_courtyard",
+      "twilightforest:hedge_maze"
+    ]
+  }
+}

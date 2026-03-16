@@ -16,6 +16,7 @@
             "weight": 10.0,
             "condition": {
                 "biomes": [
+                    "#cobblemon:is_twilight_forest",
                     "twilightforest:stream",
                     "twilightforest:lake"
                 ]

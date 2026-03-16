@@ -7,7 +7,7 @@
             "id": "turtwig-twilight-1",
             "pokemon": "turtwig",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",

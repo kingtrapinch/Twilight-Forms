@@ -7,13 +7,13 @@
             "id": "clefairy-twilight-1",
             "pokemon": "clefairy",
             "presets": [
-                "natural"
+                "natural_twilight"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "4-16",
-            "weight": 10.0,
+            "weight": 30.0,
             "condition": {
                 "biomes": [
                     "twilightforest:clearing"
