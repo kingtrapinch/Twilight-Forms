@@ -7,7 +7,7 @@
             "id": "shuppet-twilight-1",
             "pokemon": "shuppet",
             "presets": [
-                "lich-tower"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",

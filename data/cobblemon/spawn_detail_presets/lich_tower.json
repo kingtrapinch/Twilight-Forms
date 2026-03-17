@@ -3,7 +3,8 @@
       "structures": [
         "twilightforest:lich_tower"
       ],
-      "minY": 5
+      "minY": 0,
+      "maxSkyLight": 8
     },
     "anticondition": {
       "neededBaseBlocks": [

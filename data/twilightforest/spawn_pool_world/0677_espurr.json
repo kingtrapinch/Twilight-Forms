@@ -7,7 +7,7 @@
             "id": "espurr-twilight-1",
             "pokemon": "espurr",
             "presets": [
-                "lich-tower"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",

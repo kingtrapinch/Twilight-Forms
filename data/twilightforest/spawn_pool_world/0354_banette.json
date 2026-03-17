@@ -7,7 +7,7 @@
             "id": "banette-twilight-1",
             "pokemon": "banette",
             "presets": [
-                "lich-tower"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",

@@ -7,7 +7,7 @@
             "id": "meowstic-twilight-1",
             "pokemon": "meowstic",
             "presets": [
-                "lich-tower"
+                "lich_tower"
             ],
             "type": "pokemon",
             "context": "grounded",

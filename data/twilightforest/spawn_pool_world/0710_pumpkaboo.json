@@ -7,16 +7,14 @@
             "id": "pumpkaboo-twilight-1",
             "pokemon": "pumpkaboo",
             "presets": [
-                "lich_Wtower_courtyard"
+                "lich_tower_courtyard"
             ],
             "type": "pokemon",
             "context": "grounded",
             "bucket": "common",
             "level": "9-24",
             "weight": 40.0,
-            "condition": {
-                "canSeeSky": true
-                }
+            "condition": {}
         },
         {
             "id": "pumpkaboo-twilight-2",

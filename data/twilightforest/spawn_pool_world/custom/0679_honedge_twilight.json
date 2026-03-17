@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "honedge-twilight-1",
-            "pokemon": "honedge",
+            "pokemon": "honedge twilight",
             "presets": [
                 "lich_tower"
             ],
