@@ -1,0 +1,65 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ralts_twilight_herd",
+            "presets": [
+                "knight_stronghold"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "levelRange": "10-40",
+            "weight": 10.0,
+            "maxHerdSize": 5,
+            "minDistanceBetweenSpawns": 1.5,
+            "herdablePokemon": [
+                {
+                    "pokemon": "ralts twilight",
+                    "levelRange": "10-30",
+                    "weight": 5,
+                    "levelRangeOffset": "-3-3"
+                },
+                {
+                    "pokemon": "kirlia twilight",
+                    "weight": 5,
+                    "isLeader": false,
+                    "levelRange": "21-40",
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "kirlia twilight",
+                    "weight": 2,
+                    "isLeader": true,
+                    "levelRange": "31-50",
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "gallade twilight",
+                    "isLeader": true,
+                    "levelRange": "31-50",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                }
+            ],
+            "condition": {
+                "structures": [
+                    "twilightforest:knight_stronghold"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "twilightforest:underbrick",
+                    "twilightforest:mossy_underbrick",
+                    "twilightforest:cracked_underbrick",
+                    "minecraft:stone_brick_stairs"
+                ],
+                "maxSkyLight": 1
+            }
+        }
+    ]
+}

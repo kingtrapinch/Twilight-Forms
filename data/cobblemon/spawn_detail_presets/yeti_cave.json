@@ -6,8 +6,7 @@
       "neededBaseBlocks": [
         "minecraft:packed_ice"
       ],
-      "canSeeSky": false,
-      "maxSkyLight": "1"
+      "canSeeSky": false
     },
     "anticondition": {
       "neededNearbyBlocks": [

@@ -4,7 +4,7 @@
         "twilightforest:hedge_maze"
       ],
       "neededBaseBlocks": [
-        "minecraft:grass_block"
+        "#cobblemon:natural"
       ],
       "neededNearbyBlocks": [
         "twilightforest:hedge"
