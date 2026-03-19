@@ -5,10 +5,7 @@
     {
       "name": "Twilight",
       "primaryType": "ice",
-      "abilities": [
-        "sheerforce",
-        "h:zenmode"
-      ],
+      "abilities": ["sheerforce", "h:zenmode"],
       "baseStats": {
         "hp": 105,
         "attack": 140,
@@ -29,11 +26,137 @@
         "special_defence": 0,
         "speed": 0
       },
+      "riding": {
+        "behaviours": {
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "45-65",
+              "JUMP": "35-45",
+              "SKILL": "15-25",
+              "SPEED": "40-50",
+              "STAMINA": "35-60"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.0283693,
+                  "z": 0.81891286
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": -0.015338191,
+                  "y": -1.0352079,
+                  "z": 0.86715484
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": 0.009587893,
+                  "y": -0.98346996,
+                  "z": 0.82437676
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.009587893,
+                  "y": -0.98346996,
+                  "z": 0.82437676
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": -0.015338191,
+                  "y": -1.0352079,
+                  "z": 0.86715484
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": -0.015338191,
+                  "y": -1.0352079,
+                  "z": 0.86715484
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": 0.009587893,
+                  "y": -0.98346996,
+                  "z": 0.82437676
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          }
+        ]
+      },
+      "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "fireImmune": false,
+        "herd": {
+          "maxSize": "5",
+          "toleratedLeaders": [
+            {
+              "pokemon": "darmanitan twilight",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          },
+          "walk": {
+            "walkSpeed": 0.3
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        }
+      },
+      "ai": [
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:golbat twilight'"
+              }
+            ]
+          }
+        }
+      ],
       "experienceGroup": "medium_slow",
       "eggCycles": 20,
-      "eggGroups": [
-        "field"
-      ],
+      "eggGroups": ["field"],
       "moves": [
         "1:bite",
         "1:powdersnow",
@@ -110,13 +233,8 @@
         "tutor:burningjealousy",
         "tutor:lashout"
       ],
-      "labels": [
-        "gen8",
-        "galar_regional"
-      ],
-      "aspects": [
-        "twilight"
-      ],
+      "labels": ["gen8", "galar_regional"],
+      "aspects": ["twilight"],
       "height": 17,
       "weight": 1200,
       "preEvolution": "darumaka galarian",
@@ -148,9 +266,7 @@
       "name": "Twilight-Zen",
       "primaryType": "ice",
       "secondaryType": "psychic",
-      "abilities": [
-        "zenmode"
-      ],
+      "abilities": ["zenmode"],
       "baseStats": {
         "hp": 105,
         "attack": 30,
@@ -249,17 +365,9 @@
       ],
       "experienceGroup": "medium_slow",
       "eggCycles": 20,
-      "eggGroups": [
-        "field"
-      ],
-      "labels": [
-        "gen8",
-        "galar_regional"
-      ],
-      "aspects": [
-        "twilight",
-        "zen_mode"
-      ],
+      "eggGroups": ["field"],
+      "labels": ["gen8", "galar_regional"],
+      "aspects": ["twilight", "zen_mode"],
       "height": 17,
       "weight": 1200,
       "cannotDynamax": false,

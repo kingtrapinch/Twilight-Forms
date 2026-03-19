@@ -9,11 +9,7 @@
       "nationalPokedexNumber": 828,
       "primaryType": "dark",
       "secondaryType": "ghost",
-      "abilities": [
-        "infiltrator",
-        "clearbody",
-        "h:shadowshield"
-      ],
+      "abilities": ["infiltrator", "clearbody", "h:shadowshield"],
       "drops": {
         "amount": 7,
         "entries": [
@@ -41,14 +37,39 @@
       "baseExperienceYield": 159,
       "experienceGroup": "fast",
       "eggCycles": 15,
-      "eggGroups": [
-        "field"
-      ],
+      "eggGroups": ["field"],
       "behaviour": {
         "resting": {
-          "canSleep": false
+          "canSleep": true,
+          "light": "0-4",
+          "times": ["day"],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "mightyena",
+              "tier": 1
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
         }
       },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:pokemon_fox"]
+        }
+      ],
       "moves": [
         "1:beatup",
         "1:honeclaws",
@@ -105,12 +126,8 @@
         "tutor:burningjealousy",
         "tutor:lashout"
       ],
-      "labels": [
-        "gen8"
-      ],
-      "pokedex": [
-        "cobblemon.species.thievul-twilight.desc"
-      ],
+      "labels": ["gen8"],
+      "pokedex": ["cobblemon.species.thievul-twilight.desc"],
       "preEvolution": "nickit twilight",
       "evolutions": [
         {
@@ -145,14 +162,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "thievul_to_twilight",
-          "variant": "item_interact",
-          "result": "thievul twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "thievul_to_twilight",
+      "variant": "item_interact",
+      "result": "thievul twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

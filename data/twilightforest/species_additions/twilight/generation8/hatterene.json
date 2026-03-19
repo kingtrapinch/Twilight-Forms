@@ -280,7 +280,6 @@
             }
           ]
         },
-
       "behaviour": {
         "herd": {
           "maxSize": "4"
@@ -304,7 +303,7 @@
         },
         "resting": {
           "times": [
-            "day"
+            "any"
           ],
           "drowsyChance": 0.0033,
           "rouseChance": 0.0042

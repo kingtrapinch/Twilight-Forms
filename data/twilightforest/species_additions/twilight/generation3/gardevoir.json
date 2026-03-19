@@ -13,6 +13,52 @@
         "queenlymajesty",
         "h:competitive"
       ],
+      "behaviour": {
+          "resting": {
+            "canSleep": true,
+            "times": [
+              "any"
+            ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+          },
+          "moving": {
+            "walk": {
+              "walkSpeed": 0.15
+            },
+            "swim": {
+              "avoidsWater": true
+            }
+          },
+          "herd": {
+            "maxSize": "2",
+            "toleratedLeaders": [
+              {
+                "pokemon": "gardevoir",
+                "tier": 1
+              }
+            ]
+          },
+          "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+          }
+        },
+        "ai": [
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:kingambit'"
+              }
+            ]
+          }
+        }
+      ],
       "drops": {
         "amount": 6,
         "entries": [

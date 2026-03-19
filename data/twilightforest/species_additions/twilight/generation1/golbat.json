@@ -75,15 +75,15 @@
           "maxSize": "9",
           "toleratedLeaders": [
             {
-              "pokemon": "swoobat",
+              "pokemon": "golbat twilight",
               "tier": 1
             },
             {
-              "pokemon": "golbat",
+              "pokemon": "crobat twilight",
               "tier": 2
             },
             {
-              "pokemon": "crobat",
+              "pokemon": "darmanitan twilight",
               "tier": 3
             }
           ]

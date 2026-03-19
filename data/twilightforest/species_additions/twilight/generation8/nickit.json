@@ -9,11 +9,7 @@
       "nationalPokedexNumber": 827,
       "primaryType": "dark",
       "secondaryType": "ghost",
-      "abilities": [
-        "infiltrator",
-        "clearbody",
-        "h:shadowshield"
-      ],
+      "abilities": ["infiltrator", "clearbody", "h:shadowshield"],
       "drops": {
         "amount": 5,
         "entries": [
@@ -41,14 +37,40 @@
       "baseExperienceYield": 49,
       "experienceGroup": "fast",
       "eggCycles": 15,
-      "eggGroups": [
-        "field"
-      ],
+      "eggGroups": ["field"],
       "behaviour": {
         "resting": {
           "canSleep": false
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "poochyena",
+              "tier": 1
+            },
+            {
+              "pokemon": "thievul twilight",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true,
+          "willFlee": true
         }
       },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:pokemon_fox"]
+        }
+      ],
       "moves": [
         "1:shadowsneak",
         "1:leer",
@@ -93,21 +115,15 @@
         "tm:thief",
         "tutor:lashout"
       ],
-      "labels": [
-        "gen8"
-      ],
-      "pokedex": [
-        "cobblemon.species.nickit-twilight.desc"
-      ],
+      "labels": ["gen8"],
+      "pokedex": ["cobblemon.species.nickit-twilight.desc"],
       "evolutions": [
         {
           "id": "nickit_thievul_twilight",
           "variant": "level_up",
           "result": "thievul",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "thief"
-          ],
+          "learnableMoves": ["thief"],
           "requirements": [
             {
               "variant": "level",
@@ -147,14 +163,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "nickit_to_twilight",
-          "variant": "item_interact",
-          "result": "nickit twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "nickit_to_twilight",
+      "variant": "item_interact",
+      "result": "nickit twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

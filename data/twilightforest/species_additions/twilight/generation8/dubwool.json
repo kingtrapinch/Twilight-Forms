@@ -32,6 +32,51 @@
         "special_defence": 90,
         "speed": 38
       },
+      "behaviour": {
+        "herd": {
+          "maxSize": "9",
+          "toleratedLeaders": [
+            {
+              "pokemon": "rapidash galarian",
+              "tier": 1
+            },
+            {
+              "pokemon": "dubwool twilight",
+              "tier": 2
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:pokemon_eats_grass"]
+        },
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:mightyena'"
+              }
+            ]
+          }
+        }
+      ],
       "catchRate": 255,
       "maleRatio": 0.5,
       "baseExperienceYield": 82,

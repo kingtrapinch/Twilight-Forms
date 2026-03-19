@@ -234,6 +234,30 @@
       "weight": 3600,
       "aspects": ["twilight"],
       "cannotDynamax": false,
+        "behaviour": {
+          "moving": {
+            "swim": {
+              "avoidsWater": true,
+              "canSwimInLava": false
+            }
+          },
+          "herd": {
+            "maxSize": "7"
+          },
+          "resting": {
+            "times": [
+              "any"
+            ],
+            "drowsyChance": 0.0014,
+            "rouseChance": 0.0042
+          },
+          "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
+          },
+          "fireImmune": false
+        },
       "drops": {
         "amount": 9,
         "entries": [

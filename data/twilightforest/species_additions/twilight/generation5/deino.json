@@ -9,9 +9,7 @@
       "nationalPokedexNumber": 633,
       "primaryType": "dragon",
       "secondaryType": "fire",
-      "abilities": [
-        "multiscale"
-      ],
+      "abilities": ["multiscale"],
       "drops": {
         "amount": 2,
         "entries": [
@@ -33,15 +31,44 @@
         "special_defence": 50,
         "speed": 38
       },
+      "behaviour": {
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "deino twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "zweilous twilight",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": false,
+          "willDefendOwner": true,
+          "willFlee": true
+        }
+      },
       "catchRate": 45,
       "maleRatio": 0.5,
       "shoulderMountable": false,
       "baseExperienceYield": 60,
       "experienceGroup": "slow",
       "eggCycles": 40,
-      "eggGroups": [
-        "dragon"
-      ],
+      "eggGroups": ["dragon"],
       "moves": [
         "1:dragonrage",
         "1:focusenergy",
@@ -143,12 +170,8 @@
         "tutor:uproar",
         "tutor:zenheadbutt"
       ],
-      "labels": [
-        "gen5"
-      ],
-      "pokedex": [
-        "cobblemon.species.deino-twilight.desc"
-      ],
+      "labels": ["gen5"],
+      "pokedex": ["cobblemon.species.deino-twilight.desc"],
       "evolutions": [
         {
           "id": "deino_zweilous_twilight",
@@ -192,17 +215,17 @@
       "weight": 173,
       "aspects": ["twilight"],
       "cannotDynamax": false
-    }    
+    }
   ],
   "evolutions": [
-        {
-          "id": "deino_to_twilight",
-          "variant": "item_interact",
-          "result": "deino twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "deino_to_twilight",
+      "variant": "item_interact",
+      "result": "deino twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

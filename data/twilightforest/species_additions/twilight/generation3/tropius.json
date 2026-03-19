@@ -8,11 +8,7 @@
       "nationalPokedexNumber": 357,
       "primaryType": "grass",
       "secondaryType": "dragon",
-      "abilities": [
-        "sheerforce",
-        "harvest",
-        "h:longreach"
-      ],
+      "abilities": ["sheerforce", "harvest", "h:longreach"],
       "baseStats": {
         "hp": 125,
         "attack": 90,
@@ -21,29 +17,212 @@
         "special_defence": 115,
         "speed": 60
       },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/bird",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": false,
+                "playForPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind.stereo",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "playForPassengers": false,
+                "soundLocation": "cobblemon:ride.loop.wind.mono",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "30-55",
+              "JUMP": "80-95",
+              "SKILL": "30-50",
+              "SPEED": "30-55",
+              "STAMINA": "80-140"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "stats": {
+              "ACCELERATION": "30-60",
+              "JUMP": "10-30",
+              "SKILL": "30-60",
+              "SPEED": "15-35",
+              "STAMINA": "55-95"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.8254058,
+                  "z": 0.15769657
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": 0.013345428,
+                  "y": -1.732322,
+                  "z": -0.06867646
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -2.1942434,
+                  "z": 0.5235736
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -2.1268878,
+                  "z": -0.2481366
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.8254058,
+                  "z": 0.15769657
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": 0.013345428,
+                  "y": -1.732322,
+                  "z": -0.06867646
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.8254058,
+                  "z": 0.15769657
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.6761794,
+                  "z": 1.0199684
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": 0.044901088,
+                  "y": -1.7613883,
+                  "z": 0.8053606
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.5974064,
+                  "z": 1.1635473
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -2.2107234,
+                  "z": 0.6229276
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.6761794,
+                  "z": 1.0199684
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": 0.044901088,
+                  "y": -1.7613883,
+                  "z": 0.8053606
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.6761794,
+                  "z": 1.0199684
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          }
+        ]
+      },
       "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "depth": "normal",
-          "light": "0-4",
-          "willSleepOnBed": false
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": "6",
+          "toleratedLeaders": [
+            {
+              "pokemon": "tropius twilight",
+              "tier": 1
+            }
+          ]
         },
         "moving": {
-          "canLook": true,
-          "walk": {
-            "canWalk": true,
-            "avoidsLand": false
+          "fly": {
+            "canFly": true
           },
           "swim": {
-            "swimSpeed": 0.2,
-            "canSwimInWater": false,
-            "canBreatheUnderwater": false
+            "avoidsWater": true
           },
-          "fly": {
-            "canFly": true,
-            "flySpeedHorizontal": 0.5
-          },
-          "wanderChance": 75
+          "walk": {
+            "walkSpeed": 0.147
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "times": ["any"],
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
         }
       },
       "catchRate": 200,
@@ -52,10 +231,7 @@
       "baseExperienceYield": 161,
       "experienceGroup": "slow",
       "eggCycles": 25,
-      "eggGroups": [
-        "monster",
-        "grass"
-      ],
+      "eggGroups": ["monster", "grass"],
       "moves": [
         "1:leafstorm",
         "1:moonblast",
@@ -190,12 +366,8 @@
         "tutor:twister",
         "tutor:worryseed"
       ],
-      "labels": [
-        "gen3"
-      ],
-      "pokedex": [
-        "cobblemon.species.tropius-twilight.desc"
-      ],
+      "labels": ["gen3"],
+      "pokedex": ["cobblemon.species.tropius-twilight.desc"],
       "aspects": ["twilight"],
       "evolutions": [
         {
@@ -229,14 +401,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "tropius_to_twilight",
-          "variant": "item_interact",
-          "result": "tropius twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "tropius_to_twilight",
+      "variant": "item_interact",
+      "result": "tropius twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

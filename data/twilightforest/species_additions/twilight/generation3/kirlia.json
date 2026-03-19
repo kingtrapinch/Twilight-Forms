@@ -9,11 +9,7 @@
       "nationalPokedexNumber": 281,
       "primaryType": "ghost",
       "secondaryType": "fighting",
-      "abilities": [
-        "hustle",
-        "battlearmor",
-        "h:telepathy"
-      ],
+      "abilities": ["hustle", "battlearmor", "h:telepathy"],
       "drops": {
         "amount": 4,
         "entries": [
@@ -35,7 +31,7 @@
           }
         ]
       },
-       "behaviour": {
+      "behaviour": {
         "resting": {
           "canSleep": false
         },
@@ -48,7 +44,7 @@
           }
         },
         "herd": {
-          "maxSize": "3",
+          "maxSize": "5",
           "toleratedLeaders": [
             {
               "pokemon": "kirlia twilight",
@@ -60,14 +56,30 @@
             },
             {
               "pokemon": "gardevoir twilight",
-              "tier": 4
+              "tier": 3
             }
           ]
         },
         "combat": {
-          "willDefendOwner": true
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
         }
       },
+      "ai": [
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:pawniard'"
+              }
+            ]
+          }
+        }
+      ],
       "baseStats": {
         "hp": 38,
         "attack": 65,
@@ -82,10 +94,7 @@
       "baseExperienceYield": 97,
       "experienceGroup": "slow",
       "eggCycles": 20,
-      "eggGroups": [
-        "human_like",
-        "amorphous"
-      ],
+      "eggGroups": ["human_like", "amorphous"],
       "moves": [
         "1:lowkick",
         "1:astonish",
@@ -222,12 +231,8 @@
         "tutor:wonderroom",
         "tutor:zenheadbutt"
       ],
-      "labels": [
-        "gen3"
-      ],
-      "pokedex": [
-        "cobblemon.species.kirlia-twilight.desc"
-      ],
+      "labels": ["gen3"],
+      "pokedex": ["cobblemon.species.kirlia-twilight.desc"],
       "preEvolution": "ralts form=twilight",
       "evolutions": [
         {
@@ -235,9 +240,7 @@
           "variant": "level_up",
           "result": "gallade form=twilight",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "sacredsword"
-          ],
+          "learnableMoves": ["sacredsword"],
           "requirements": [
             {
               "variant": "level",
@@ -291,14 +294,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "kirlia_to_twilight",
-          "variant": "item_interact",
-          "result": "kirlia twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "kirlia_to_twilight",
+      "variant": "item_interact",
+      "result": "kirlia twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

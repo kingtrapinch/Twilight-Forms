@@ -9,10 +9,7 @@
       "nationalPokedexNumber": 545,
       "primaryType": "psychic",
       "secondaryType": "dark",
-      "abilities": [
-        "wonderskin",
-        "h:speedboost"
-      ],
+      "abilities": ["wonderskin", "h:speedboost"],
       "drops": {
         "amount": 5,
         "entries": [
@@ -42,24 +39,37 @@
         "moving": {
           "walk": {
             "walkSpeed": 0.24
+          },
+          "swim": {
+            "avoidsWater": true
           }
         },
         "resting": {
-          "canSleep": false,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "11-15"
+          "canSleep": true,
+          "light": "11-15",
+          "times": ["any"],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": false,
+          "willFlee": false
         }
       },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:fights_melee"]
+        }
+      ],
       "catchRate": 45,
       "maleRatio": 0.5,
       "shoulderMountable": false,
       "baseExperienceYield": 243,
       "experienceGroup": "medium_slow",
       "eggCycles": 20,
-      "eggGroups": [
-        "bug"
-      ],
+      "eggGroups": ["bug"],
       "moves": [
         "1:batonpass",
         "1:defensecurl",
@@ -152,12 +162,8 @@
         "tutor:throatchop",
         "tutor:toxicspikes"
       ],
-      "labels": [
-        "gen5"
-      ],
-      "pokedex": [
-        "cobblemon.species.scolipede-twilight.desc"
-      ],
+      "labels": ["gen5"],
+      "pokedex": ["cobblemon.species.scolipede-twilight.desc"],
       "preEvolution": "whirlipede form=twilight",
       "evolutions": [
         {
@@ -187,21 +193,19 @@
       },
       "height": 25,
       "weight": 2005,
-      "aspects": [
-        "twilight"
-      ],
+      "aspects": ["twilight"],
       "cannotDynamax": false
     }
   ],
   "evolutions": [
-        {
-          "id": "scolipede_to_twilight",
-          "variant": "item_interact",
-          "result": "scolipede twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "scolipede_to_twilight",
+      "variant": "item_interact",
+      "result": "scolipede twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

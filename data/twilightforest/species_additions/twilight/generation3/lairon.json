@@ -8,11 +8,7 @@
       "nationalPokedexNumber": 305,
       "primaryType": "steel",
       "secondaryType": "grass",
-      "abilities": [
-        "regenerator",
-        "rockhead",
-        "h:heavymetal"
-      ],
+      "abilities": ["regenerator", "rockhead", "h:heavymetal"],
       "baseStats": {
         "hp": 60,
         "attack": 90,
@@ -27,9 +23,50 @@
       "baseExperienceYield": 151,
       "experienceGroup": "slow",
       "eggCycles": 35,
-      "eggGroups": [
-        "monster"
-      ],
+      "eggGroups": ["monster"],
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "itemInteract": {
+          "desiredItems": [
+            {
+              "item": "twilightforest:raw_ironwood",
+              "pickupPriority": 1,
+              "fullnessValue": 1,
+              "onUseEffect": "q.entity.heal(1)"
+            }
+          ]
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "lairon",
+              "tier": 1
+            },
+            {
+              "pokemon": "aggron twilight mega=false",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "fireImmune": false
+      },
       "moves": [
         "1:harden",
         "1:metalclaw",
@@ -133,12 +170,8 @@
         "tutor:uproar",
         "tutor:waterpulse"
       ],
-      "labels": [
-        "gen3"
-      ],
-      "pokedex": [
-        "cobblemon.species.lairon-twilight.desc"
-      ],
+      "labels": ["gen3"],
+      "pokedex": ["cobblemon.species.lairon-twilight.desc"],
       "preEvolution": "aron",
       "evolutions": [
         {
@@ -199,14 +232,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "lairon_to_twilight",
-          "variant": "item_interact",
-          "result": "lairon twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "lairon_to_twilight",
+      "variant": "item_interact",
+      "result": "lairon twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

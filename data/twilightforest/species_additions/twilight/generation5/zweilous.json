@@ -9,9 +9,7 @@
       "nationalPokedexNumber": 634,
       "primaryType": "dragon",
       "secondaryType": "fire",
-      "abilities": [
-        "multiscale"
-      ],
+      "abilities": ["multiscale"],
       "drops": {
         "amount": 3,
         "entries": [
@@ -33,15 +31,45 @@
         "special_defence": 70,
         "speed": 58
       },
+      "behaviour": {
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "deino twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "zweilous twilight",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        },
+        "fireImmune": true
+      },
       "catchRate": 45,
       "maleRatio": 0.5,
       "shoulderMountable": false,
       "baseExperienceYield": 147,
       "experienceGroup": "slow",
       "eggCycles": 40,
-      "eggGroups": [
-        "dragon"
-      ],
+      "eggGroups": ["dragon"],
       "moves": [
         "1:firefang",
         "1:doublehit",
@@ -135,12 +163,8 @@
         "tutor:uproar",
         "tutor:zenheadbutt"
       ],
-      "labels": [
-        "gen5"
-      ],
-      "pokedex": [
-        "cobblemon.species.zweilous-twilight.desc"
-      ],
+      "labels": ["gen5"],
+      "pokedex": ["cobblemon.species.zweilous-twilight.desc"],
       "preEvolution": "deino",
       "evolutions": [
         {
@@ -185,17 +209,17 @@
       "weight": 500,
       "aspects": ["twilight"],
       "cannotDynamax": false
-    }    
+    }
   ],
   "evolutions": [
-        {
-          "id": "zweilous_to_twilight",
-          "variant": "item_interact",
-          "result": "zweilous twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "zweilous_to_twilight",
+      "variant": "item_interact",
+      "result": "zweilous twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

@@ -167,11 +167,19 @@
       ],
       "behaviour": {
         "herd": {
-          "maxSize": "3",
+          "maxSize": "4",
           "toleratedLeaders": [
             {
               "pokemon": "hatterene",
               "tier": 1
+            },
+            {
+              "pokemon": "jynx",
+              "tier": 2
+            },
+            {
+              "pokemon": "hatterene twilight",
+              "tier": 3
             }
           ]
         },
@@ -187,7 +195,7 @@
         },
         "resting": {
           "times": [
-            "day"
+            "any"
           ],
           "drowsyChance": 0.0033,
           "rouseChance": 0.0042

@@ -32,14 +32,48 @@
           "human_like",
           "amorphous"
         ],
-        "behaviour": {
+      "behaviour": {
           "resting": {
-            "canSleep": true,
-            "willSleepOnBed": false,
-            "depth": "normal",
-            "light": "0-4"
+            "canSleep": false
+          },
+          "moving": {
+            "swim": {
+              "avoidsWater": true
+            }
+          },
+          "herd": {
+            "maxSize": "6",
+            "toleratedLeaders": [
+            {
+              "pokemon": "gallade twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "gardevoir twilight",
+              "tier": 2
+            }
+            ]
+          },
+          "combat": {
+            "willDefendSelf": true,
+            "willDefendOwner": true,
+            "willFlee": false
           }
         },
+        "ai": [
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:bisharp'"
+              }
+            ]
+          }
+        }
+      ],
         "moves": [
           "1:nightslash",
           "1:aquacutter",

@@ -5,10 +5,7 @@
     {
       "name": "Twilight",
       "primaryType": "ice",
-      "abilities": [
-        "hustle",
-        "h:innerfocus"
-      ],
+      "abilities": ["hustle", "h:innerfocus"],
       "baseStats": {
         "hp": 70,
         "attack": 90,
@@ -29,11 +26,45 @@
         "special_defence": 0,
         "speed": 0
       },
+      "behaviour": {
+          "resting": {
+            "canSleep": true,
+            "times": [
+              "any"
+            ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+          },
+        "moving": {
+          "walk": {
+            "walkSpeed": 0.2
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "darumaka twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "darmanitan twilight",
+              "tier": 2
+            }
+          ]
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "fireImmune": false
+      },
       "experienceGroup": "medium_slow",
       "eggCycles": 20,
-      "eggGroups": [
-        "field"
-      ],
+      "eggGroups": ["field"],
       "moves": [
         "1:powdersnow",
         "1:tackle",
@@ -102,13 +133,8 @@
         "tm:workup",
         "tm:zenheadbutt"
       ],
-      "labels": [
-        "gen8",
-        "galar_regional"
-      ],
-      "aspects": [
-        "twilight"
-      ],
+      "labels": ["gen8", "galar_regional"],
+      "aspects": ["twilight"],
       "height": 7,
       "weight": 400,
       "evolutions": [
@@ -117,9 +143,7 @@
           "variant": "level_up",
           "result": "darmanitan twilight blazing_mode=standard",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "hammerarm"
-          ],
+          "learnableMoves": ["hammerarm"],
           "requirements": [
             {
               "variant": "level",

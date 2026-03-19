@@ -9,10 +9,7 @@
       "nationalPokedexNumber": 543,
       "primaryType": "psychic",
       "secondaryType": "dark",
-      "abilities": [
-        "wonderskin",
-        "h:speedboost"
-      ],
+      "abilities": ["wonderskin", "h:speedboost"],
       "drops": {
         "amount": 2,
         "entries": [
@@ -40,21 +37,36 @@
       },
       "behaviour": {
         "resting": {
-          "canSleep": false,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "11-15"
+          "canSleep": true,
+          "light": "11-15",
+          "times": ["any"],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": false,
+          "willFlee": false
         }
       },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:fights_melee"]
+        }
+      ],
       "catchRate": 255,
       "maleRatio": 0.5,
       "shoulderMountable": false,
       "baseExperienceYield": 52,
       "experienceGroup": "medium_slow",
       "eggCycles": 15,
-      "eggGroups": [
-        "bug"
-      ],
+      "eggGroups": ["bug"],
       "moves": [
         "1:defensecurl",
         "1:powertrip",
@@ -124,24 +136,16 @@
         "tutor:snore",
         "tutor:steelroller"
       ],
-      "labels": [
-        "gen5"
-      ],
-      "pokedex": [
-        "cobblemon.species.venipede-twilight.desc"
-      ],
-      "aspects": [
-        "twilight"
-      ],
+      "labels": ["gen5"],
+      "pokedex": ["cobblemon.species.venipede-twilight.desc"],
+      "aspects": ["twilight"],
       "evolutions": [
         {
           "id": "venipede_whirlipede_twilight",
           "variant": "level_up",
           "result": "whirlipede form=twilight",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "irondefense"
-          ],
+          "learnableMoves": ["irondefense"],
           "requirements": [
             {
               "variant": "level",
@@ -180,14 +184,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "venipede_to_twilight",
-          "variant": "item_interact",
-          "result": "venipede twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "venipede_to_twilight",
+      "variant": "item_interact",
+      "result": "venipede twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

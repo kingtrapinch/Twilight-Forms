@@ -9,11 +9,7 @@
       "nationalPokedexNumber": 623,
       "primaryType": "electric",
       "secondaryType": "grass",
-      "abilities": [
-        "ironfist",
-        "flashfire",
-        "h:noguard"
-      ],
+      "abilities": ["ironfist", "flashfire", "h:noguard"],
       "drops": {
         "amount": 5,
         "entries": [
@@ -35,28 +31,312 @@
         "special_defence": 80,
         "speed": 55
       },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/rocket",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": false,
+                "playForPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind.stereo",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "playForPassengers": false,
+                "soundLocation": "cobblemon:ride.loop.wind.mono",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.driver_input() / 1.5, 1.0),2))",
+                "playForNonPassengers": false,
+                "playForPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.rocket.stereo",
+                "volumeExpr": "math.pow(math.min((q.driver_input() / 1.5) + (q.ride_velocity() / 1.5), 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.driver_input() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "playForPassengers": false,
+                "soundLocation": "cobblemon:ride.loop.rocket.mono",
+                "volumeExpr": "math.pow(math.min((q.driver_input() / 1.5) + (q.ride_velocity() / 1.5), 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "10-35",
+              "JUMP": "25-40",
+              "SKILL": "15-30",
+              "SPEED": "45-75",
+              "STAMINA": "30-50"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": true,
+            "stats": {
+              "ACCELERATION": "65-80",
+              "JUMP": "40-60",
+              "SKILL": "40-65",
+              "SPEED": "35-50",
+              "STAMINA": "60-85"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.0069884723,
+                  "y": -4.8332925,
+                  "z": 0.713007
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": 0.009686413,
+                  "y": -4.746398,
+                  "z": 0.38281527
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": 0.0034906503,
+                  "y": -4.624994,
+                  "z": 0.62499994
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.0069812573,
+                  "y": -4.6249757,
+                  "z": 0.625
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -4.85,
+                  "z": 0.61875
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": -0.8680348,
+                  "y": -4.8281674,
+                  "z": 0.9003285
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": -0.8579975,
+                  "y": -4.7733426,
+                  "z": 0.60002506
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": -0.871504,
+                  "y": -4.628048,
+                  "z": 0.81249994
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": -0.86799747,
+                  "y": -4.6310844,
+                  "z": 0.8125
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": -0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 0.8819546,
+                  "y": -4.822059,
+                  "z": 0.9003285
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": 0.89080614,
+                  "y": -4.7519755,
+                  "z": 0.5389509
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": 0.87848526,
+                  "y": -4.6219397,
+                  "z": 0.81249994
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.88196,
+                  "y": -4.618867,
+                  "z": 0.8125
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": 0.875,
+                  "y": -4.85,
+                  "z": 0.80625
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          }
+        ]
+      },
       "behaviour": {
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": "3"
+        },
         "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInWater": false
+          },
           "walk": {
-            "walkSpeed": 0.25
+            "walkSpeed": 0.35
           }
         },
         "resting": {
           "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-4"
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042,
+          "times": ["any"]
         }
       },
+      "ai": [
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:galvantula'"
+              }
+            ]
+          }
+        }
+      ],
       "catchRate": 90,
       "maleRatio": -1,
       "shoulderMountable": false,
       "baseExperienceYield": 169,
       "experienceGroup": "medium_fast",
       "eggCycles": 25,
-      "eggGroups": [
-        "mineral"
-      ],
+      "eggGroups": ["mineral"],
       "moves": [
         "1:strengthsap",
         "1:highhorsepower",
@@ -184,15 +464,9 @@
         "tutor:thunderpunch",
         "tutor:zenheadbutt"
       ],
-      "labels": [
-        "gen5"
-      ],
-      "pokedex": [
-        "cobblemon.species.golurk-twilight.desc"
-      ],
-      "aspects": [
-        "twilight"
-      ],
+      "labels": ["gen5"],
+      "pokedex": ["cobblemon.species.golurk-twilight.desc"],
+      "aspects": ["twilight"],
       "preEvolution": "golett form=twilight",
       "evolutions": [
         {
@@ -225,14 +499,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "golurk_to_twilight",
-          "variant": "item_interact",
-          "result": "golurk twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "golurk_to_twilight",
+      "variant": "item_interact",
+      "result": "golurk twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

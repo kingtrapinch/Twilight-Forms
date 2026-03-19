@@ -8,11 +8,7 @@
       "nationalPokedexNumber": 304,
       "primaryType": "steel",
       "secondaryType": "grass",
-      "abilities": [
-        "regenerator",
-        "rockhead",
-        "h:heavymetal"
-      ],
+      "abilities": ["regenerator", "rockhead", "h:heavymetal"],
       "baseStats": {
         "hp": 50,
         "attack": 70,
@@ -27,9 +23,48 @@
       "baseExperienceYield": 66,
       "experienceGroup": "slow",
       "eggCycles": 35,
-      "eggGroups": [
-        "monster"
-      ],
+      "eggGroups": ["monster"],
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "avoidsWater": false,
+            "canSwimInLava": false
+          }
+        },
+        "itemInteract": {
+          "desiredItems": [
+            {
+              "item": "twilightforest:raw_ironwood",
+              "pickupPriority": 1,
+              "fullnessValue": 1,
+              "onUseEffect": "q.entity.heal(1)"
+            }
+          ]
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "lairon twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "aggron twilight mega=false",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "fireImmune": false
+      },
       "moves": [
         "1:harden",
         "1:tackle",
@@ -143,12 +178,8 @@
         "tutor:uproar",
         "tutor:waterpulse"
       ],
-      "labels": [
-        "gen3"
-      ],
-      "pokedex": [
-        "cobblemon.species.aron-twilight.desc"
-      ],
+      "labels": ["gen3"],
+      "pokedex": ["cobblemon.species.aron-twilight.desc"],
       "evolutions": [
         {
           "id": "aron_lairon_twilight",
@@ -208,14 +239,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "aron_to_twilight",
-          "variant": "item_interact",
-          "result": "aron twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "aron_to_twilight",
+      "variant": "item_interact",
+      "result": "aron twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

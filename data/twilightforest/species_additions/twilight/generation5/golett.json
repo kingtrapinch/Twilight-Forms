@@ -9,11 +9,7 @@
       "nationalPokedexNumber": 622,
       "primaryType": "electric",
       "secondaryType": "grass",
-      "abilities": [
-        "ironfist",
-        "flashfire",
-        "h:noguard"
-      ],
+      "abilities": ["ironfist", "flashfire", "h:noguard"],
       "drops": {
         "amount": 3,
         "entries": [
@@ -38,20 +34,52 @@
       "behaviour": {
         "resting": {
           "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-4"
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": false,
+            "canSwimInWater": true
+          }
+        },
+        "herd": {
+          "maxSize": "2",
+          "toleratedLeaders": [
+            {
+              "pokemon": "golurk",
+              "tier": 1
+            }
+          ]
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
         }
       },
+      "ai": [
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:joltik'"
+              }
+            ]
+          }
+        }
+      ],
       "catchRate": 190,
       "maleRatio": -1,
       "shoulderMountable": false,
       "baseExperienceYield": 61,
       "experienceGroup": "medium_fast",
       "eggCycles": 25,
-      "eggGroups": [
-        "mineral"
-      ],
+      "eggGroups": ["mineral"],
       "moves": [
         "1:strengthsap",
         "1:branchpoke",
@@ -156,24 +184,16 @@
         "tutor:telekinesis",
         "tutor:thunderpunch"
       ],
-      "labels": [
-        "gen5"
-      ],
-      "pokedex": [
-        "cobblemon.species.golett-twilight.desc"
-      ],
-      "aspects": [
-        "twilight"
-      ],
+      "labels": ["gen5"],
+      "pokedex": ["cobblemon.species.golett-twilight.desc"],
+      "aspects": ["twilight"],
       "evolutions": [
         {
           "id": "golett_golurk_twilight",
           "variant": "level_up",
           "result": "golurk form=twilight",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "thunderpunch"
-          ],
+          "learnableMoves": ["thunderpunch"],
           "requirements": [
             {
               "variant": "level",
@@ -212,14 +232,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "golett_to_twilight",
-          "variant": "item_interact",
-          "result": "golett twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "golett_to_twilight",
+      "variant": "item_interact",
+      "result": "golett twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

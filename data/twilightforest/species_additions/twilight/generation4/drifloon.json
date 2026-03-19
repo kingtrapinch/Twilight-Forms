@@ -49,11 +49,9 @@
           }
         },
         "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-4"
-        }
+          "canSleep": false
+        },
+        "fireImmune": false
       },
       "moves": [
         "1:hex",

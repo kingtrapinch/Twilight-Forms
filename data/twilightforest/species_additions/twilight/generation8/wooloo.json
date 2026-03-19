@@ -7,11 +7,7 @@
       "name": "Twilight",
       "primaryType": "fairy",
       "secondaryType": "fighting",
-      "abilities": [
-        "fluffy",
-        "steadfast",
-        "h:bulletproof"
-      ],
+      "abilities": ["fluffy", "steadfast", "h:bulletproof"],
       "drops": {
         "amount": 3,
         "entries": [
@@ -32,6 +28,59 @@
         "special_defence": 45,
         "speed": 48
       },
+      "behaviour": {
+        "herd": {
+          "maxSize": "9",
+          "toleratedLeaders": [
+            {
+              "pokemon": "ponyta twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "wooloo twilight",
+              "tier": 2
+            },
+            {
+              "pokemon": "rapidash galarian",
+              "tier": 2
+            },
+            {
+              "pokemon": "dubwool twilight",
+              "tier": 3
+            }
+          ]
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "resting": {
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        }
+      },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:pokemon_eats_grass"]
+        },
+        {
+          "type": "cobblemon:add_tasks_to_activity",
+          "activity": "idle",
+          "tasksByPriority": {
+            "7": [
+              {
+                "type": "cobblemon:hate_entity",
+                "entityCondition": "q.entity.is_pokemon && q.entity.species.identifier == 'cobblemon:poochyena'"
+              }
+            ]
+          }
+        }
+      ],
       "catchRate": 255,
       "maleRatio": 0.5,
       "baseExperienceYield": 82,
@@ -46,9 +95,7 @@
       },
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
-      "eggGroups": [
-        "field"
-      ],
+      "eggGroups": ["field"],
       "moves": [
         "1:craftyshield",
         "1:tackle",
@@ -119,12 +166,8 @@
         "tutor:tackle",
         "tutor:grassyglide"
       ],
-      "labels": [
-        "gen8"
-      ],
-      "aspects": [
-        "twilight"
-      ],
+      "labels": ["gen8"],
+      "aspects": ["twilight"],
       "height": 6,
       "weight": 60,
       "evolutions": [
@@ -133,9 +176,7 @@
           "variant": "level_up",
           "result": "dubwool form=twilight",
           "consumeHeldItem": false,
-          "learnableMoves": [
-            "playrough"
-          ],
+          "learnableMoves": ["playrough"],
           "requirements": [
             {
               "variant": "level",
@@ -158,14 +199,14 @@
     }
   ],
   "evolutions": [
-        {
-          "id": "wooloo_to_twilight",
-          "variant": "item_interact",
-          "result": "wooloo twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "wooloo_to_twilight",
+      "variant": "item_interact",
+      "result": "wooloo twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }

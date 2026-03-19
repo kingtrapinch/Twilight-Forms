@@ -180,9 +180,11 @@
                 }
               ]
             },
-            "combat": {
-              "willDefendOwner": true
-            },
+        "combat": {
+          "willDefendSelf": false,
+          "willDefendOwner": true,
+          "willFlee": true
+        },
             "fireImmune": true
 
         },

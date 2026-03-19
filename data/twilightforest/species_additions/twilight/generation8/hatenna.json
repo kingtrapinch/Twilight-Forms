@@ -166,7 +166,7 @@
       ],
       "behaviour": {
         "herd": {
-          "maxSize": "2",
+          "maxSize": "4",
           "toleratedLeaders": [
             {
               "pokemon": "hattrem",
@@ -175,13 +175,29 @@
             {
               "pokemon": "hatterene",
               "tier": 2
+            },
+            {
+              "pokemon": "smoochum",
+              "tier": 3
+            },
+            {
+              "pokemon": "jynx",
+              "tier": 4
+            },
+            {
+              "pokemon": "hattrem twilight",
+              "tier": 5
+            },
+            {
+              "pokemon": "hatterene twilight",
+              "tier": 6
             }
           ]
         },
         "resting": {
           "willSleepOnBed": true,
           "times": [
-            "day"
+            "any"
           ],
           "drowsyChance": 0.0033,
           "rouseChance": 0.0042
@@ -192,7 +208,9 @@
           }
         },
         "combat": {
-          "willDefendOwner": true
+          "willDefendOwner": true,
+          "willFlee": true
+
         }
       }
     }

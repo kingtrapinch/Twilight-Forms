@@ -42,15 +42,32 @@
         "moving": {
           "walk": {
             "walkSpeed": 0.47
+          },
+          "swim": {
+            "avoidsWater": true
           }
         },
         "resting": {
-          "canSleep": false,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "11-15"
+          "canSleep": true,
+          "light": "11-15",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": false,
+          "willFlee": false
         }
       },
+      "ai": [
+        {
+          "type": "apply_behaviours",
+          "behaviours": ["cobblemon:fights_melee"]
+        }
+      ],
       "catchRate": 120,
       "maleRatio": 0.5,
       "shoulderMountable": false,

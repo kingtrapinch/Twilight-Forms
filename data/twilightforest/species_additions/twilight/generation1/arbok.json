@@ -22,10 +22,12 @@
       },
       "behaviour": {
         "resting": {
-          "canSleep": true,
-          "willSleepOnBed": false,
-          "depth": "normal",
-          "light": "0-4"
+          "canSleep": false
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
         }
       },
       "standingEyeHeight": 1,

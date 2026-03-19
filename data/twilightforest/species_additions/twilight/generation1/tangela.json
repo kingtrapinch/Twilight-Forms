@@ -43,6 +43,16 @@
           }
         ]
       },
+      "behaviour": {
+        "resting": {
+          "canSleep": false
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": true,
+          "willFlee": false
+        }
+      },
       "moves": [
         "1:branchpoke",
         "1:bind",

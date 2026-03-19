@@ -9,9 +9,7 @@
       "nationalPokedexNumber": 635,
       "primaryType": "dragon",
       "secondaryType": "fire",
-      "abilities": [
-        "multiscale"
-      ],
+      "abilities": ["multiscale"],
       "drops": {
         "amount": 4,
         "entries": [
@@ -33,17 +31,223 @@
         "special_defence": 90,
         "speed": 98
       },
+      "riding": {
+        "behaviours": {
+          "AIR": {
+            "key": "cobblemon:air/bird",
+            "rideSounds": [
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": false,
+                "playForPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.wind.stereo",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "playForPassengers": false,
+                "soundLocation": "cobblemon:ride.loop.wind.mono",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": false,
+                "playForPassengers": true,
+                "soundLocation": "cobblemon:ride.loop.leather.stereo",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              },
+              {
+                "muffleEnabled": true,
+                "pitchExpr": "math.max(1.0 ,0.2 + math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2))",
+                "playForNonPassengers": true,
+                "playForPassengers": false,
+                "soundLocation": "cobblemon:ride.loop.leather.mono",
+                "volumeExpr": "math.pow(math.min(q.ride_velocity() / 1.5, 1.0),2)"
+              }
+            ],
+            "stats": {
+              "ACCELERATION": "35-55",
+              "JUMP": "5-10",
+              "SKILL": "30-60",
+              "SPEED": "45-60",
+              "STAMINA": "75-100"
+            }
+          },
+          "LAND": {
+            "key": "cobblemon:land/horse",
+            "rideSounds": [],
+            "canJump": false,
+            "canSprint": false,
+            "stats": {
+              "ACCELERATION": "10-40",
+              "JUMP": "10-40",
+              "SKILL": "80-100",
+              "SPEED": "10-40",
+              "STAMINA": "10-40"
+            }
+          }
+        },
+        "seats": [
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": 8.215185e-5,
+                  "y": -2.4957511,
+                  "z": 0.10059106
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -2.350149,
+                  "z": -0.12232086
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": 8.215185e-5,
+                  "y": -2.4957511,
+                  "z": 0.10059106
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -2.350149,
+                  "z": -0.12232086
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": -0.14792234,
+                  "y": -2.248415,
+                  "z": 0.18036754
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": -0.14792234,
+                  "y": -2.248415,
+                  "z": 0.18036754
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": -0.14792234,
+                  "y": -2.248415,
+                  "z": 0.18036754
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          },
+          {
+            "offset": {
+              "x": 0.0,
+              "y": 0.0,
+              "z": 0.0
+            },
+            "poseOffsets": [
+              {
+                "offset": {
+                  "x": -0.0018294463,
+                  "y": -1.9147544,
+                  "z": 0.66856575
+                },
+                "poseTypes": ["STAND"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.9790326,
+                  "z": 0.529425
+                },
+                "poseTypes": ["WALK"]
+              },
+              {
+                "offset": {
+                  "x": -0.0018294463,
+                  "y": -1.9147544,
+                  "z": 0.66856575
+                },
+                "poseTypes": ["HOVER"]
+              },
+              {
+                "offset": {
+                  "x": 0.0,
+                  "y": -1.9790326,
+                  "z": 0.529425
+                },
+                "poseTypes": ["FLY"]
+              },
+              {
+                "offset": {
+                  "x": -0.39855194,
+                  "y": -1.6268008,
+                  "z": 0.5169395
+                },
+                "poseTypes": ["FLOAT"]
+              },
+              {
+                "offset": {
+                  "x": -0.39855194,
+                  "y": -1.6268008,
+                  "z": 0.5169395
+                },
+                "poseTypes": ["SWIM"]
+              },
+              {
+                "offset": {
+                  "x": -0.39855194,
+                  "y": -1.6268008,
+                  "z": 0.5169395
+                },
+                "poseTypes": ["GLIDE"]
+              }
+            ]
+          }
+        ]
+      },
       "behaviour": {
-        "resting": {
-          "canSleep": true,
-          "depth": "normal",
-          "light": "0-4"
+        "combat": {
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": "5"
         },
         "moving": {
           "fly": {
             "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": true
           }
-        }
+        },
+        "resting": {
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "fireImmune": true
       },
       "catchRate": 45,
       "maleRatio": 0.5,
@@ -51,9 +255,7 @@
       "baseExperienceYield": 300,
       "experienceGroup": "slow",
       "eggCycles": 40,
-      "eggGroups": [
-        "dragon"
-      ],
+      "eggGroups": ["dragon"],
       "moves": [
         "1:flameburst",
         "1:heatwave",
@@ -199,13 +401,8 @@
         "tutor:uproar",
         "tutor:zenheadbutt"
       ],
-      "labels": [
-        "gen5",
-        "pseudo_legendary"
-      ],
-      "pokedex": [
-        "cobblemon.species.hydreigon-twilight.desc"
-      ],
+      "labels": ["gen5", "pseudo_legendary"],
+      "pokedex": ["cobblemon.species.hydreigon-twilight.desc"],
       "preEvolution": "zweilous twilight",
       "evolutions": [
         {
@@ -237,17 +434,17 @@
       "weight": 1600,
       "aspects": ["twilight"],
       "cannotDynamax": false
-    }    
+    }
   ],
   "evolutions": [
-        {
-          "id": "hydreigon_to_twilight",
-          "variant": "item_interact",
-          "result": "hydreigon twilight=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+    {
+      "id": "hydreigon_to_twilight",
+      "variant": "item_interact",
+      "result": "hydreigon twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
 }
