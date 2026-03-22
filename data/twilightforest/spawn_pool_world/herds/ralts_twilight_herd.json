@@ -19,7 +19,7 @@
                 {
                     "pokemon": "ralts twilight",
                     "levelRange": "10-30",
-                    "weight": 5,
+                    "weight": 1,
                     "levelRangeOffset": "-3-3"
                 },
                 {
@@ -38,9 +38,17 @@
                 },
                 {
                     "pokemon": "gallade twilight",
+                    "isLeader": false,
+                    "levelRange": "31-40",
+                    "weight": 2,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "gallade twilight",
                     "isLeader": true,
                     "levelRange": "31-50",
-                    "weight": 1,
+                    "weight": 5,
                     "maxTimes": 1,
                     "levelRangeOffset": "4-7"
                 }
