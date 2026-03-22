@@ -6,6 +6,11 @@
   "cobblemon.ui.pokedex.info.form.tree-fireswamp": "Fire Swamp",
   "cobblemon.ui.pokedex.info.form.tree-darkwood": "Darkwood",
 
+  "cobblemon.ui.pokedex.info.form.torterra-canopy": "Canopy",
+  "cobblemon.ui.pokedex.info.form.torterra-twilightoak": "Twilight Oak",
+  "cobblemon.ui.pokedex.info.form.torterra-fireswamp": "Fire Swamp",
+  "cobblemon.ui.pokedex.info.form.torterra-darkwood": "Darkwood",
+
   "cobblemon.pokedex.variation.brick": "Brick",
   "cobblemon.ui.pokedex.info.form.brick-underbrick": "Underbrick",
   "cobblemon.ui.pokedex.info.form.brick-mazestone": "Mazestone",
@@ -20,6 +25,8 @@
 
   "cobblemon.species.dwebble-twilight.desc": "These Pokémon are thought to have derived from the Helmet Crab. Rather than use discarded helmets, this Pokémon has adapted to use the bricks of the stronghold.",
   "cobblemon.species.crustle-twilight.desc": "The Underbricks used for their shells are especially resilient against magic attacks. There have been rumors of some Crustle using Labyrinth Bricks to achieve an even stronger exterior.",
+
+  "cobblemon.species.torterra-twilight.desc": "Imbued with the energy of the Twilight Forest, this Pokémon has taken on new abilities. Ancient people imagined that beneath the Twilight Forest, a gigantic Torterra dwelled.",
 
   "cobblemon.species.wooloo-twilight.desc": "Their technicolor wool shines a briliant blue in direct moonlight. Their natural enemy is Poochyena.",
   "cobblemon.species.dubwool-twilight.desc": "Their large horns and thick wool can protect them against most attacks. Even a fully grown Mightyena leave these Pokémon alone. ",

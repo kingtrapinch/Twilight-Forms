@@ -34,10 +34,6 @@
       "displayName": "cobblemon.pokedex.variation.wood",
       "icon": "cobblemon:textures/gui/pokedex/variation/wood.png",
       "aspects": [
-        "tree-canopy",
-        "tree-twilightoak",
-        "tree-fireswamp",
-        "tree-darkwood"
       ]
     }
   ]
