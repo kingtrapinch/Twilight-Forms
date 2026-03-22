@@ -20,6 +20,23 @@
                     "twilightforest:lake"
                 ]
             }
+        },
+        {
+            "id": "frillish-twilight-2",
+            "pokemon": "frillish",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "submerged",
+            "bucket": "common",
+            "level": "35-40",
+            "weight": 100.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest_center"
+                ]
+            }
         }
     ]
 }

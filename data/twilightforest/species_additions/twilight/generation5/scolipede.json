@@ -1,11 +1,10 @@
 {
   "target": "cobblemon:scolipede",
   "implemented": true,
-  "name": "Scolipede",
   "forms": [
     {
       "implemented": true,
-      "name": "Twilight Scolipede",
+      "name": "Twilight",
       "nationalPokedexNumber": 545,
       "primaryType": "psychic",
       "secondaryType": "dark",
