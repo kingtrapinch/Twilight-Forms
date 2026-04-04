@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#cobblemon:is_island",
-	  "#cobblemon:is_peak" ,
-    "twilightforest:underground"
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-	"#cobblemon:is_desert",
-	"#cobblemon:is_thermal",
-	"#cobblemon:is_volcanic",
-  "twilightforest:fire_swamp"
-  ]
-}
