@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:pinsir-twilight",
+  "speciesId": "cobblemon:pinsir",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

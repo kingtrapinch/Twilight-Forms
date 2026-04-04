@@ -1,0 +1,234 @@
+{
+  "target": "cobblemon:shellos",
+  "forms": [
+    {
+      "implemented": true,
+      "aspects": [
+        "twilight"
+      ],
+      "nationalPokedexNumber": 422,
+      "name": "Twilight",
+      "primaryType": "fire",
+      "maleRatio": 0.5,
+      "height": 3,
+      "weight": 63,
+      "pokedex": [
+        "cobblemon.species.shellos-twilight.desc"
+      ],
+      "labels": [
+        "gen4"
+      ],
+      "abilities": [
+        "dryskin",
+        "solarpower",
+        "h:watercompaction"
+      ],
+      "eggGroups": [
+        "water_1",
+        "amorphous"
+      ],
+      "baseStats": {
+        "hp": 76,
+        "attack": 48,
+        "defence": 48,
+        "special_attack": 57,
+        "special_defence": 62,
+        "speed": 34
+      },
+      "evYield": {
+        "hp": 1,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseExperienceYield": 65,
+      "experienceGroup": "medium_fast",
+      "catchRate": 190,
+      "eggCycles": 20,
+      "baseFriendship": 50,
+      "baseScale": 0.55,
+      "hitbox": {
+        "width": 0.9,
+        "height": 1.15,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "walk": {
+            "avoidsLand": false,
+            "walkSpeed": "0.5"
+          },
+          "swim": {
+            "canBreatheUnderlava": true,
+            "canSwimInLava": true,
+            "canWalkOnLava": false,
+            "avoidsWater": true,
+            "canBreatheUnderwater": false,
+            "canWalkOnWater": false
+          }
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
+      "drops": {
+        "amount": 2,
+        "entries": [
+          {
+            "item": "minecraft:clay_ball",
+            "quantityRange": "0-1"
+          },
+          {
+            "item": "cobblemon:rindo_berry",
+            "percentage": 2.5
+          }
+        ]
+      },
+      "moves": [
+        "1:mudslap",
+        "1:mudsport",
+        "1:ember",
+        "5:harden",
+        "10:recover",
+        "15:incinerate",
+        "20:ancientpower",
+        "25:bodyslam",
+        "31:lavaplume",
+        "35:earthpower",
+        "40:willowisp",
+        "45:memento",
+        "egg:acidarmor",
+        "egg:clearsmog",
+        "egg:counter",
+        "egg:curse",
+        "egg:fissure",
+        "egg:mirrorcoat",
+        "egg:mist",
+        "egg:mudbomb",
+        "egg:sludge",
+        "egg:spitup",
+        "egg:stockpile",
+        "egg:swallow",
+        "egg:trumpcard",
+        "egg:yawn",
+        "tm:amnesia",
+        "tm:ancientpower",
+        "tm:blizzard",
+        "tm:bodyslam",
+        "tm:brine",
+        "tm:bulldoze",
+        "tm:chillingwater",
+        "tm:curse",
+        "tm:dive",
+        "tm:earthpower",
+        "tm:endure",
+        "tm:facade",
+        "tm:hail",
+        "tm:headbutt",
+        "tm:helpinghand",
+        "tm:hydropump",
+        "tm:icebeam",
+        "tm:icywind",
+        "tm:infestation",
+        "tm:liquidation",
+        "tm:muddywater",
+        "tm:mudshot",
+        "tm:mudslap",
+        "tm:painsplit",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:rockslide",
+        "tm:rocktomb",
+        "tm:sandstorm",
+        "tm:skittersmack",
+        "tm:sleeptalk",
+        "tm:snowscape",
+        "tm:stealthrock",
+        "tm:stoneedge",
+        "tm:stringshot",
+        "tm:substitute",
+        "tm:surf",
+        "tm:takedown",
+        "tm:terablast",
+        "tm:waterfall",
+        "tm:waterpulse",
+        "tm:whirlpool",
+        "tutor:ancientpower",
+        "tutor:bulldoze",
+        "tutor:dive",
+        "tutor:earthpower",
+        "tutor:helpinghand",
+        "tutor:icebeam",
+        "tutor:icywind",
+        "tutor:liquidation",
+        "tutor:mudslap",
+        "tutor:painsplit",
+        "tutor:rest",
+        "tutor:rockslide",
+        "tutor:skittersmack",
+        "tutor:sleeptalk",
+        "tutor:stealthrock",
+        "tutor:stoneedge",
+        "tutor:stringshot",
+        "tutor:waterpulse",
+        "legacy:attract",
+        "legacy:captivate",
+        "legacy:confide",
+        "legacy:doubleteam",
+        "legacy:frustration",
+        "legacy:hiddenpower",
+        "legacy:naturalgift",
+        "legacy:return",
+        "legacy:round",
+        "legacy:scald",
+        "legacy:secretpower",
+        "legacy:snore",
+        "legacy:swagger",
+        "legacy:toxic"
+      ],
+      "evolutions": [
+        {
+          "id": "shellos_gastrodon_twilight",
+          "variant": "level_up",
+          "result": "gastrodon twilight",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 30
+            }
+          ]
+        },
+        {
+          "id": "shellos_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "shellos twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ]
+    }
+  ],
+  "evolutions": [
+    {
+      "id": "shellos_to_twilight",
+      "variant": "item_interact",
+      "result": "shellos twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
+}

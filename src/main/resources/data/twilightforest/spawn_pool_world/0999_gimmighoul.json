@@ -1,0 +1,45 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+                {
+            "id": "gimmighoul-twilight-1",
+            "pokemon": "gimmighoul",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-24",
+            "weight": 20.0,
+            "condition": {
+                "neededBaseBlocks": [
+                    "minecraft:magenta_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:pink_terracotta"
+                ]
+            }
+        },
+        {
+            "id": "gimmighoul-twilight-2",
+            "pokemon": "gimmighoul",
+            "presets": [
+                "knight_stronghold"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "25-33",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        }
+    ]
+}

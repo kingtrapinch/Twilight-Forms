@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:torterra",
+  "order": 11,
+  "variations": [
+    {
+      "aspects": [
+        "tree-fireswamp"
+      ],
+      "poser": "cobblemon:torterra",
+      "model": "cobblemon:torterra_fireswamp.geo",
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_fireswamp.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "tree-fireswamp",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_fireswamp_shiny.png"
+    }
+  ]
+}

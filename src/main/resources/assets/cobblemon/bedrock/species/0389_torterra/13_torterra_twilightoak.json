@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:torterra",
+  "order": 13,
+  "variations": [
+    {
+      "aspects": ["tree-twilightoak"],
+      "model": "cobblemon:torterra_twilightoak.geo",
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_twilightoak.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "tree-twilightoak"
+      ],
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_twilightoak_shiny.png"
+    }
+  ]
+}

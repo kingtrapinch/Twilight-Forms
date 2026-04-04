@@ -1,0 +1,41 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "breloom-twilight-1",
+            "pokemon": "breloom",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "14-30",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "breloom-twilight-2",
+            "pokemon": "breloom",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "24-39",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:mushroom_forest"
+                ]
+            }
+        }
+    ]
+}

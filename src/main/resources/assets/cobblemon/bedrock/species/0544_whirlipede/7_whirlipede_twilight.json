@@ -1,0 +1,33 @@
+{
+  "species": "cobblemon:whirlipede",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:whirlipede",
+      "model": "cobblemon:whirlipede.geo",
+      "texture": "cobblemon:textures/pokemon/0544_whirlipede/whirlipede_twilight.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0544_whirlipede/whirlipede_twilight_emissive.png",
+          "emissive": true
+        }
+        ]
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0544_whirlipede/whirlipede_twilight_shiny.png",
+      "layers": [
+        {
+          "name": "glow",
+          "texture": "cobblemon:textures/pokemon/0544_whirlipede/whirlipede_twilight_shiny_emissive.png",
+          "emissive": true
+        }
+        ]
+    }
+  ]
+}

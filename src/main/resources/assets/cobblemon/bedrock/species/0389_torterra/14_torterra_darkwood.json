@@ -1,0 +1,18 @@
+{
+  "species": "cobblemon:torterra",
+  "order": 14,
+  "variations": [
+    {
+      "aspects": ["tree-darkwood"],
+      "model": "cobblemon:torterra_darkwood.geo",
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_darkwood.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "shiny", "tree-darkwood"
+      ],
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_darkwood_shiny.png"
+    }
+  ]
+}

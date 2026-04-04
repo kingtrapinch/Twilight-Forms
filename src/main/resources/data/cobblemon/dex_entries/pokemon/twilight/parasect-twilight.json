@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:parasect-twilight",
+  "speciesId": "cobblemon:parasect",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

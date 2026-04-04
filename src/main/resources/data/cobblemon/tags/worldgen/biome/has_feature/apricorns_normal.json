@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_hills",
+    "#cobblemon:is_grassland",
+    "minecraft:sparse_jungle",
+    "twilightforest:enchanted_forest",
+    "twilightforest:oak_savannah",
+    "twilightforest:clearing"
+  ]
+}

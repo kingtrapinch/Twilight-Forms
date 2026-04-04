@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "arbok-twilight",
+            "pokemon": "arbok twilight",
+            "presets": [
+                "naga_courtyard"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        }
+    ]
+}

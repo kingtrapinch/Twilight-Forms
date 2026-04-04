@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:aron",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:aron",
+      "model": "cobblemon:aron.geo",
+      "texture": "cobblemon:textures/pokemon/0304_aron/aron_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [ "twilight","shiny" ],
+      "texture": "cobblemon:textures/pokemon/0304_aron/aron_twilight_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "cobblemon:torterra-twilight",
+  "speciesId": "cobblemon:torterra",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Canopy",
+      "unlockForms": [
+        "Canopy"
+      ]
+    },
+    {
+      "displayForm": "TwilightOak",
+      "unlockForms": [
+        "TwilightOak"
+      ]
+    },
+    {
+      "displayForm": "Darkwood",
+      "unlockForms": [
+        "Darkwood"
+      ]
+    },
+    {
+      "displayForm": "Fireswamp",
+      "unlockForms": [
+        "Fireswamp"
+      ]
+    }
+  ],
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.wood",
+      "icon": "cobblemon:textures/gui/pokedex/variation/wood.png",
+      "aspects": [
+      ]
+    }
+  ]
+}

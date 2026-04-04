@@ -1,0 +1,58 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "misdreavus-twilight-1",
+            "pokemon": "misdreavus",
+            "presets": [
+                "labyrinth"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-twilight-2",
+            "pokemon": "misdreavus",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
+        },
+        {
+            "id": "misdreavus-twilight-3",
+            "pokemon": "misdreavus",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "common",
+            "level": "30-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:swamp"
+                ]
+            }
+        }
+    ]
+}

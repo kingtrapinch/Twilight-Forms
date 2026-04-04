@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:aegislash-twilight",
+  "speciesId": "cobblemon:aegislash",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -1,0 +1,22 @@
+{
+  "species": "cobblemon:torterra",
+  "order": 12,
+  "variations": [
+    {
+      "aspects": [
+        "tree-canopy"
+      ],
+      "poser": "cobblemon:torterra",
+      "model": "cobblemon:torterra_canopy.geo",
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_canopy.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "tree-canopy",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0389_torterra/torterra_canopy_shiny.png"
+    }
+  ]
+}

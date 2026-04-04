@@ -1,0 +1,31 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "roserade-twilight-1",
+            "pokemon": "roserade",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "25-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:oak_savannah",
+                    "twilightforest:enchanted_forest"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        }
+    ]
+}

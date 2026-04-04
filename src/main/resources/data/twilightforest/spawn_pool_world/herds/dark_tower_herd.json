@@ -1,0 +1,64 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "dark_tower_herd",
+            "presets": [
+                "dark_tower"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "levelRange": "10-40",
+            "weight": 20.0,
+            "maxHerdSize": 7,
+            "minDistanceBetweenSpawns": 0.5,
+            "herdablePokemon": [
+                {
+                    "pokemon": "joltik",
+                    "levelRange": "5-20",
+                    "weight": 3,
+                    "levelRangeOffset": "-3-3"
+                },
+                {
+                    "pokemon": "galvantula",
+                    "levelRange": "31-36",
+                    "weight": 2,
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "golett twilight",
+                    "levelRange": "31-40",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "golett twilight",
+                    "levelRange": "31-50",
+                    "weight": 5,
+                    "isLeader": true,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                }
+            ],
+            "condition": {
+                "structures": [
+                    "twilightforest:dark_tower"
+                ],
+                "biomes": [
+                    "twilightforest:dark_forest_center"
+                ],
+                "neededBaseBlocks": [
+                "twilightforest:encased_towerwood",
+                "twilightforest:towerwood",
+                "twilightforest:cracked_towerwood",
+                "twilightforest:mossy_towerwood",
+                "twilightforest:infested_towerwood"
+                ]
+            }
+        }
+    ]
+}

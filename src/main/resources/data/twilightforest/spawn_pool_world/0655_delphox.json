@@ -1,0 +1,39 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "delphox-twilight-1",
+            "pokemon": "delphox",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-65",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "delphox-twilight-2",
+            "pokemon": "delphox",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "45-65",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        }
+    ]
+}

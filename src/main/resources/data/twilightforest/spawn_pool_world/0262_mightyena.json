@@ -1,0 +1,47 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "mightyena-twilight-1",
+            "pokemon": "mightyena",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "15-34",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_twilight_forest",
+                    "twilightforest:oak_savannah"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "twilightforest:firefly_forest"
+                ]
+            }
+        },
+        {
+            "id": "mightyena-twilight-2",
+            "pokemon": "mightyena",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "32-42",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

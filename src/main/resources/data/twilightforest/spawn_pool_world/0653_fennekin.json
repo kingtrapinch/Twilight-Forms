@@ -1,0 +1,39 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "fennekin-twilight-1",
+            "pokemon": "fennekin",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "fennekin-twilight-2",
+            "pokemon": "fennekin",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "5-20",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:enchanted_forest"
+                ]
+            }
+        }
+    ]
+}

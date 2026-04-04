@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:ralts",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:ralts",
+      "model": "cobblemon:ralts_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0280_ralts/ralts_twilight_shiny.png"
+    }
+  ]
+}

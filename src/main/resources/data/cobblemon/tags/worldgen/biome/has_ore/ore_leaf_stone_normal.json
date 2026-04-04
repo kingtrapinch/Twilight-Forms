@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_forest",
+	"#cobblemon:is_jungle",
+	"#cobblemon:is_lush",
+  "twilightforest:forest",
+  "twilightforest:firefly_forest",
+  "twilightforest:mushroom_forest",
+  "twilightforest:dense_forest",
+  "twilightforest:dense_mushroom_forest"
+  ]
+}

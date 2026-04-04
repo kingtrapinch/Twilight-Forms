@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_hills",
+    "#cobblemon:is_twilight"
+  ]
+}

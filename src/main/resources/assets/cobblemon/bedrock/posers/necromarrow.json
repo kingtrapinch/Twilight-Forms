@@ -1,0 +1,62 @@
+{
+  "head": "head",
+  "portraitScale": 1.7,
+  "portraitTranslation": [0.0, 0.15, 0],
+  "profileScale": 0.85,
+  "profileTranslation": [0, 0.48, 0],
+  "cry": "bedrock(necromarrow, cry)",
+  "poses": {
+    "battle-idle": {
+      "poseName": "battle-idle",
+      "transformTicks": 10,
+      "poseTypes": ["STAND"],
+      "isBattle": true,
+      "animations": ["bedrock(necromarrow, battle_idle)"],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": ["bedrock(necromarrow, blink)"]
+        }
+      ]
+    },
+    "standing": {
+      "poseName": "standing",
+      "transformTicks": 10,
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "isBattle": false,
+      "animations": [
+        "bedrock(necromarrow, ground_idle)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(necromarrow, blink)"
+          ]
+        }
+      ]
+    },
+    "walking": {
+      "poseName": "walking",
+      "poseTypes": ["WALK"],
+      "animations": [
+        "look",
+        "bedrock(necromarrow, ground_idle)",
+        "bedrock(necromarrow, ground_walk)"
+      ],
+      "quirks": [
+        {
+          "name": "blink",
+          "animations": [
+            "bedrock(necromarrow, blink)"
+          ]
+        }
+      ]
+    }
+  }
+ }

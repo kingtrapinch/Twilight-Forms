@@ -1,0 +1,56 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rhydon-twilight-1",
+            "pokemon": "rhydon",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "20-35",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:oak_savannah"
+                ]
+            }
+        },
+                {
+            "id": "rhydon-twilight-2",
+            "pokemon": "rhydon",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "55-70",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:highlands"
+                ]
+            }
+        },
+        {
+            "id": "rhydon-twilight-3",
+            "pokemon": "rhydon",
+            "presets": [
+                "troll_cave"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "60-75",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        }
+    ]
+}

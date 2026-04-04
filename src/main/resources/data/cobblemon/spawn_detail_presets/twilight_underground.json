@@ -1,0 +1,37 @@
+{
+    "condition": {
+      "maxY": 0,
+      "neededBaseBlocks": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:rooted_dirt",
+        "twilightforest:root",
+        "twilightforest:liveroot_block"
+    ],
+      "neededNearbyBlocks": [
+        "minecraft:stone",
+        "minecraft:dirt",
+        "minecraft:rooted_dirt",
+        "twilightforest:root",
+        "twilightforest:liveroot_block",
+        "twilightforest:root_strand",
+        "twilightforest:torchberry_plant",
+        "minecraft:copper_ore",
+        "minecraft:coal_ore",
+        "minecraft:iron_ore",
+        "minecraft:lapis_ore",
+        "minecraft:redstone_ore",
+        "minecraft:emerald_ore",
+        "minecraft:diamond_ore"
+      ]
+    },
+    "anticondition": {
+      "structures": [
+        "twilightforest:small_hollow_hill",
+        "twilightforest:medium_hollow_hill",
+        "twilightforest:large_hollow_hill",
+        "twilightforest:yeti_cave",
+        "twilightforest:labyrinth"
+    ]
+    }
+  }

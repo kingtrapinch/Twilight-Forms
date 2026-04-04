@@ -1,0 +1,72 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "aron-twilight-1",
+            "pokemon": "aron twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "10-30",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:highlands"
+                ]
+            }
+        },
+        {
+            "id": "aron-twilight-2",
+            "pokemon": "aron twilight",
+            "presets": [
+                "troll_cave"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-40",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        },
+        {
+            "id": "aron-twilight-3",
+            "pokemon": "aron twilight",
+            "presets": [
+                "twilight_underground"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "5-30",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:underground"
+                ]
+            }
+        },
+        {
+            "id": "aron-twilight-4",
+            "pokemon": "aron twilight",
+            "presets": [
+                "hollow_hills"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "15-30",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        }
+    ]
+}

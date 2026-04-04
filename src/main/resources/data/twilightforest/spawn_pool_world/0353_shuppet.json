@@ -1,0 +1,22 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shuppet-twilight-1",
+            "pokemon": "shuppet",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "13-24",
+            "weight": 10.0,
+            "condition": {
+                "canSeeSky": false
+            }
+        }
+    ]
+}

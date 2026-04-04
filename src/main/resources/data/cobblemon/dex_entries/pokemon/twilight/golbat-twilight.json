@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:golbat-twilight",
+  "speciesId": "cobblemon:golbat",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

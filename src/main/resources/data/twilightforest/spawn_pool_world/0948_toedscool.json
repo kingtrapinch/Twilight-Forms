@@ -1,0 +1,41 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "toedscool-twilight-1",
+            "pokemon": "toedscool",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-20",
+            "weight": 20.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        },
+        {
+            "id": "toedscool-twilight-2",
+            "pokemon": "toedscool",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "4-29",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:mushroom_forest"
+                ]
+            }
+        }
+    ]
+}

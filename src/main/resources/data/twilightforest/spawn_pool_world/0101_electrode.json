@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "electrode-twilight-1",
+            "pokemon": "electrode hisuian",
+            "presets": [
+                "natural_twilight"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "21-39",
+            "weight": 10,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dense_forest",
+                    "twilightforest:dense_mushroom_forest"
+                ]
+            }
+        }
+    ]
+}

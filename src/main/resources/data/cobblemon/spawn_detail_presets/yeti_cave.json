@@ -1,0 +1,19 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:yeti_cave"
+      ],
+      "neededBaseBlocks": [
+        "minecraft:packed_ice"
+      ],
+      "canSeeSky": false
+    },
+    "anticondition": {
+      "neededNearbyBlocks": [
+        "minecraft:snow",
+        "minecraft:snow_block",
+        "minecraft:spruce_log",
+        "minecraft:spruce_leaves"
+      ]
+    }
+  }

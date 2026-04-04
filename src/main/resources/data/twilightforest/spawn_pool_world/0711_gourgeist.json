@@ -1,0 +1,56 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gourgeist-twilight-1",
+            "pokemon": "gourgeist",
+            "presets": [
+                "lich_tower_courtyard"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "30-40",
+            "weight": 40.0,
+            "condition": {
+                "canSeeSky": true
+            }
+        },
+        {
+            "id": "gourgeist-twilight-2",
+            "pokemon": "gourgeist",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:spooky_forest"
+                ]
+            }
+        },
+        {
+            "id": "gourgeist-twilight-3",
+            "pokemon": "gourgeist",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "40-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:dark_forest"
+                ]
+            }
+        }
+    ]
+}

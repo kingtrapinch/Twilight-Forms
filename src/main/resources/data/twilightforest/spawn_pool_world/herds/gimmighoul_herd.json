@@ -1,0 +1,112 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "gimmighoul_herd_1",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "levelRange": "10-40",
+            "weight": 100.0,
+            "maxHerdSize": 5,
+            "minDistanceBetweenSpawns": 2.5,
+            "herdablePokemon": [
+                {
+                    "pokemon": "gimmighoul",
+                    "levelRange": "5-20",
+                    "weight": 5,
+                    "levelRangeOffset": "-3-3"
+                },
+                {
+                    "pokemon": "gimmighoul roaming",
+                    "levelRange": "5-20",
+                    "weight": 3,
+                    "levelRangeOffset": "-3-3"
+                },
+                {
+                    "pokemon": "gimmighoul",
+                    "isLeader": true,
+                    "levelRange": "21-30",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "sableye",
+                    "isLeader": true,
+                    "levelRange": "21-30",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                }
+            ],
+            "condition": {
+                "structures": [
+                    "twilightforest:lich_tower"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:magenta_terracotta",
+                    "minecraft:red_terracotta",
+                    "minecraft:purple_terracotta",
+                    "minecraft:pink_terracotta"
+                ]
+            }
+        },
+         {
+            "id": "gimmighoul_herd_2",
+            "presets": [
+                "knight_stronghold"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "levelRange": "10-40",
+            "weight": 10.0,
+            "maxHerdSize": 5,
+            "minDistanceBetweenSpawns": 0.5,
+            "herdablePokemon": [
+                {
+                    "pokemon": "gimmighoul roaming",
+                    "levelRange": "15-30",
+                    "weight": 5,
+                    "levelRangeOffset": "-3-3"
+                },
+                {
+                    "pokemon": "gimmighoul",
+                    "isLeader": true,
+                    "levelRange": "31-40",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "dusclops",
+                    "isLeader": true,
+                    "levelRange": "51-60",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                }
+            ],
+            "condition": {
+                "structures": [
+                    "twilightforest:knight_stronghold"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:stone_bricks",
+                    "minecraft:mossy_stone_bricks",
+                    "minecraft:cracked_stone_bricks",
+                    "twilightforest:underbrick",
+                    "twilightforest:mossy_underbrick",
+                    "twilightforest:cracked_underbrick",
+                    "minecraft:stone_brick_stairs"
+                ]
+            }
+        }
+    ]
+}

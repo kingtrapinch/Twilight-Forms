@@ -1,0 +1,17 @@
+{
+    "condition": {
+      "structures": [
+        "twilightforest:lich_tower"
+      ],
+      "minY": 0,
+      "maxSkyLight": 8
+    },
+    "anticondition": {
+      "neededBaseBlocks": [
+        "minecraft:rooted_dirt",
+        "minecraft:coarse_dirt",
+        "minecraft:dirt",
+        "minecraft:grass"
+      ]
+    }
+  }

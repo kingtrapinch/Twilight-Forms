@@ -1,0 +1,23 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "honedge-twilight-1",
+            "pokemon": "honedge twilight",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "16-30",
+            "weight": 100.0,
+            "condition": {
+                "canSeeSky": false,
+                "minY": 30
+            }
+        }
+    ]
+}

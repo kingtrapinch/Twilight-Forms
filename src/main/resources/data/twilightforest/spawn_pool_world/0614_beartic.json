@@ -1,0 +1,25 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+		{
+            "id": "beartic-twilight-1",
+            "pokemon": "beartic",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-55",
+            "weight": 10.0,
+            "condition": {
+                "maxY": 30,
+                "biomes": [
+                    "twilightforest:snowy_forest"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#cobblemon:is_glacial",
+	"#cobblemon:is_snowy_forest",
+	"#cobblemon:is_tundra",
+  "twilightforest:snowy_forest"
+  ]
+}

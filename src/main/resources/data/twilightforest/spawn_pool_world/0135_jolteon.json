@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "jolteon-twilight",
+            "pokemon": "jolteon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-50",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:highlands"
+                ]
+            }
+        }
+    ]
+}

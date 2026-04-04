@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bagon-twilight-1",
+            "pokemon": "bagon",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "35-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:highlands"
+                ]
+            }
+        }
+    ]
+}

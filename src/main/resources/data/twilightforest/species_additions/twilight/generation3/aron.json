@@ -1,0 +1,252 @@
+{
+  "target": "cobblemon:aron",
+  "implemented": true,
+  "forms": [
+    {
+      "implemented": true,
+      "name": "Twilight",
+      "nationalPokedexNumber": 304,
+      "primaryType": "steel",
+      "secondaryType": "grass",
+      "abilities": ["regenerator", "rockhead", "h:heavymetal"],
+      "baseStats": {
+        "hp": 50,
+        "attack": 70,
+        "defence": 100,
+        "special_attack": 40,
+        "special_defence": 40,
+        "speed": 30
+      },
+      "catchRate": 180,
+      "maleRatio": 0.5,
+      "shoulderMountable": false,
+      "baseExperienceYield": 66,
+      "experienceGroup": "slow",
+      "eggCycles": 35,
+      "eggGroups": ["monster"],
+      "behaviour": {
+        "moving": {
+          "swim": {
+            "avoidsWater": false,
+            "canSwimInLava": false
+          }
+        },
+        "itemInteract": {
+          "desiredItems": [
+            {
+              "item": "twilightforest:raw_ironwood",
+              "pickupPriority": 1,
+              "fullnessValue": 1,
+              "onUseEffect": "q.entity.heal(1)"
+            }
+          ]
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "lairon twilight",
+              "tier": 1
+            },
+            {
+              "pokemon": "aggron twilight mega=false",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": ["any"],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "fireImmune": false
+      },
+      "moves": [
+        "1:harden",
+        "1:tackle",
+        "4:metalclaw",
+        "4:tickle",
+        "8:vinewhip",
+        "12:ingrain",
+        "16:headbutt",
+        "20:spikyshield",
+        "24:hornleech",
+        "28:ironhead",
+        "33:growth",
+        "36:powerwhip",
+        "40:autotomize",
+        "44:irontail",
+        "48:irondefense",
+        "52:heavyslam",
+        "56:woodhammer",
+        "60:metalburst",
+        "egg:bodyslam",
+        "egg:curse",
+        "egg:dragonrush",
+        "egg:endeavor",
+        "egg:headsmash",
+        "egg:ironhead",
+        "egg:mudslap",
+        "egg:reversal",
+        "egg:screech",
+        "egg:smellingsalts",
+        "egg:stealthrock",
+        "egg:stomp",
+        "egg:superpower",
+        "tm:aerialace",
+        "tm:attract",
+        "tm:bodypress",
+        "tm:bodyslam",
+        "tm:bulldoze",
+        "tm:captivate",
+        "tm:confide",
+        "tm:cut",
+        "tm:dig",
+        "tm:doubleteam",
+        "tm:earthpower",
+        "tm:earthquake",
+        "tm:endure",
+        "tm:facade",
+        "tm:frustration",
+        "tm:heavyslam",
+        "tm:hiddenpower",
+        "tm:honeclaws",
+        "tm:irondefense",
+        "tm:ironhead",
+        "tm:irontail",
+        "tm:naturalgift",
+        "tm:protect",
+        "tm:raindance",
+        "tm:rest",
+        "tm:return",
+        "tm:reversal",
+        "tm:roar",
+        "tm:rockpolish",
+        "tm:rockslide",
+        "tm:rocksmash",
+        "tm:rocktomb",
+        "tm:round",
+        "tm:sandstorm",
+        "tm:screech",
+        "tm:secretpower",
+        "tm:shadowclaw",
+        "tm:shockwave",
+        "tm:sleeptalk",
+        "tm:snore",
+        "tm:stealthrock",
+        "tm:strength",
+        "tm:substitute",
+        "tm:sunnyday",
+        "tm:superpower",
+        "tm:swagger",
+        "tm:toxic",
+        "tm:uproar",
+        "tm:waterpulse",
+        "tutor:ancientpower",
+        "tutor:bodyslam",
+        "tutor:defensecurl",
+        "tutor:doubleedge",
+        "tutor:earthpower",
+        "tutor:endeavor",
+        "tutor:endure",
+        "tutor:furycutter",
+        "tutor:harden",
+        "tutor:headbutt",
+        "tutor:headsmash",
+        "tutor:irondefense",
+        "tutor:ironhead",
+        "tutor:irontail",
+        "tutor:magnetrise",
+        "tutor:mimic",
+        "tutor:mudslap",
+        "tutor:rockslide",
+        "tutor:rollout",
+        "tutor:shockwave",
+        "tutor:sleeptalk",
+        "tutor:snore",
+        "tutor:spite",
+        "tutor:stealthrock",
+        "tutor:steelbeam",
+        "tutor:steelroller",
+        "tutor:substitute",
+        "tutor:superpower",
+        "tutor:swagger",
+        "tutor:uproar",
+        "tutor:waterpulse"
+      ],
+      "labels": ["gen3"],
+      "pokedex": ["cobblemon.species.aron-twilight.desc"],
+      "evolutions": [
+        {
+          "id": "aron_lairon_twilight",
+          "variant": "level_up",
+          "result": "lairon twilight",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": 32
+            }
+          ]
+        },
+        {
+          "id": "aron_twilight_to_normal",
+          "variant": "item_interact",
+          "result": "aron twilight=false",
+          "consumeHeldItem": false,
+          "learnableMoves": [],
+          "requirements": [],
+          "requiredContext": "twilightforest:transformation_powder"
+        }
+      ],
+      "baseScale": 1,
+      "hitbox": {
+        "width": 1,
+        "height": 1,
+        "fixed": false
+      },
+      "baseFriendship": 35,
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "height": 4,
+      "weight": 600,
+      "aspects": ["twilight"],
+      "cannotDynamax": false,
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "twilightforest:raw_ironwood",
+            "quantityRange": "1-2"
+          },
+          {
+            "item": "cobblemon:occa_berry",
+            "percentage": 2.5
+          }
+        ]
+      }
+    }
+  ],
+  "evolutions": [
+    {
+      "id": "aron_to_twilight",
+      "variant": "item_interact",
+      "result": "aron twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
+    }
+  ]
+}

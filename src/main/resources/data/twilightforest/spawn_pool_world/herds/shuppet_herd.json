@@ -1,0 +1,51 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "shuppet_herd",
+            "presets": [
+                "lich_tower"
+            ],
+            "type": "pokemon-herd",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "levelRange": "10-40",
+            "weight": 50.0,
+            "maxHerdSize": 5,
+            "minDistanceBetweenSpawns": 0.5,
+            "herdablePokemon": [
+                {
+                    "pokemon": "shuppet",
+                    "levelRange": "5-20",
+                    "weight": 5,
+                    "levelRangeOffset": "-3-3"
+                },
+                {
+                    "pokemon": "shuppet",
+                    "isLeader": true,
+                    "levelRange": "21-30",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                },
+                {
+                    "pokemon": "banette",
+                    "isLeader": true,
+                    "levelRange": "21-40",
+                    "weight": 1,
+                    "maxTimes": 1,
+                    "levelRangeOffset": "4-7"
+                }
+            ],
+            "condition": {
+                "structures": [
+                    "twilightforest:lich_tower"
+                ],
+                "minY": 30,
+                "maxSkyLight": 2
+            }
+        }
+    ]
+}

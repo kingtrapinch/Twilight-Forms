@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:dwebble",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["brick-underbrick"],
+      "poser": "cobblemon:dwebble",
+      "model": "cobblemon:dwebble.geo",
+      "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_underbrick.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "brick-underbrick",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0557_dwebble/dwebble_underbrick_shiny.png"
+    }
+  ]
+}

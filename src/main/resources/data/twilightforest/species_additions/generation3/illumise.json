@@ -1,0 +1,28 @@
+{
+  "target": "cobblemon:illumise",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.illumise.desc"
+  ],
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "twilightforest:moonworm",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:bright_powder",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 5.0
+      },
+      {
+        "item": "twilightforest:moonworm_queen",
+        "percentage": 5.0
+      }
+    ]
+  }
+}

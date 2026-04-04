@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:honedge-twilight",
+  "speciesId": "cobblemon:honedge",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Twilight",
+      "unlockForms": [
+        "Twilight"
+      ]
+    }
+  ],
+  "variations": []
+}

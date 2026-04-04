@@ -1,0 +1,25 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cryogonal-twilight-1",
+            "pokemon": "cryogonal",
+            "presets": [
+                "aurora_palace"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "30-50",
+            "weight": 20.0,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "twilightforest:glacier"
+                ]
+            }
+        }
+    ]
+}

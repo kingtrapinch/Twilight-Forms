@@ -1,0 +1,17 @@
+{
+  "species": "cobblemon:hattrem",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:hattrem",
+      "model": "cobblemon:hattrem.geo",
+      "texture": "cobblemon:textures/pokemon/0857_hattrem/hattrem_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": ["twilight","shiny"],
+      "texture": "cobblemon:textures/pokemon/0857_hattrem/hattrem_twilight_shiny.png"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+    "enabled": "true",
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "deino-twilight",
+            "pokemon": "deino twilight",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "35-45",
+            "weight": 10.0,
+            "condition": {
+                "biomes": [
+                    "twilightforest:fire_swamp"
+                ]
+            }
+        }
+    ]
+}

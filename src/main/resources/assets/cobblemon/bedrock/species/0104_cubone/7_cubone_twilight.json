@@ -1,0 +1,20 @@
+{
+  "species": "cobblemon:cubone",
+  "order": 7,
+  "variations": [
+    {
+      "aspects": ["twilight"],
+      "poser": "cobblemon:cubone",
+      "model": "cobblemon:cubone_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0104_cubone/cubone_twilight.png",
+      "layers": []
+    },
+    {
+      "aspects": [
+        "twilight",
+        "shiny"
+      ],
+      "texture": "cobblemon:textures/pokemon/0104_cubone/cubone_twilight_shiny.png"
+    }
+  ]
+}

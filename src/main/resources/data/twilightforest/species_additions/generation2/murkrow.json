@@ -1,0 +1,24 @@
+{
+  "target": "cobblemon:murkrow",
+  "implemented": true,
+  "pokedex": [
+    "cobblemon.species.murkrow.desc"
+  ],
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:chicken",
+        "quantityRange": "0-1"
+      },
+      {
+        "item": "twilightforest:raven_feather",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "cobblemon:bluk_berry",
+        "percentage": 2.5
+      }
+    ]
+  }
+}
