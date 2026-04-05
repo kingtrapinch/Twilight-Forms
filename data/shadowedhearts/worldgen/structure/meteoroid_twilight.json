@@ -1,0 +1,13 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "shadowedhearts"
+    }
+  ],
+  "type": "shadowedhearts:meteoroid",
+  "biomes": "#cobblemon:has_meteoroid",
+  "step": "surface_structures",
+  "spawn_overrides": {},
+  "terrain_adaptation": "none"
+}

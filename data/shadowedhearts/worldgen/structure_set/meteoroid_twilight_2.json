@@ -1,0 +1,24 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "shadowedhearts"
+    }
+  ],
+  "structures": [
+    {
+      "structure": "shadowedhearts:meteoroid_twilight",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "exclusion_zone": {
+      "chunk_count": 4,
+      "other_set": "twilightforest:final_castle"
+    },
+    "type": "minecraft:random_spread",
+    "spacing": 4,
+    "separation": 2,
+    "salt": 19345231
+  }
+}

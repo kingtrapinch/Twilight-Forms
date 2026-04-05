@@ -1,0 +1,21 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "shadowedhearts"
+    }
+  ],
+  "structures": [
+    {
+      "structure": "shadowedhearts:relic_shrine_twilight",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 8,
+    "salt": 16101905,
+    "spread_type": "linear"
+  }
+}
