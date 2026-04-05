@@ -1,0 +1,49 @@
+modLoader = "javafml"
+loaderVersion = "[2,)"
+#issueTrackerURL = ""
+license = "MIT"
+
+[[mods]]
+modId = "twilightforms"
+version = "4.0"
+displayName = "Twilight Forms by KingTrapinch"
+authors = "KingTrapinch"
+description = '''
+A Minecraft Cobblemon datapack that adds 50+ custom Twilight Forest forms and over 250+ spawns to the Twilight Forest dimension. Requires the Cobblemon and Twilight Forest mods.
+'''
+logoFile = "pack.png"
+
+[[dependencies.twilight_forms]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.214,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.twilight_forms]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.twilight_forms]]
+modId = "cobblemon"
+type = "required"
+versionRange = "[1.7.0, )"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.twilight_forms]]
+modId = "twilightforest"
+type = "required"
+versionRange = "[4.6.2780,)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.twilight_forms]]
+modId = "shadowedhearts"
+type = "optional"
+versionRange = "[1.0-SNAPSHOT-NeoForge, )"
+ordering = "AFTER"
+side = "BOTH"
