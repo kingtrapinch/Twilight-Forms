@@ -94,6 +94,7 @@
       "eggGroups": [
         "field"
       ],
+      "pokedex": ["cobblemon.species.dubwool-twilight.desc"],
       "moves": [
         "1:wideguard",
         "1:craftyshield",

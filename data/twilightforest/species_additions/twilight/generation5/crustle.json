@@ -12,6 +12,7 @@
         "shellarmor",
         "h:weakarmor"
       ],
+      "pokedex": ["cobblemon.species.crustle-twilight.desc"],
       "drops": {
         "amount": 3,
         "entries": [
@@ -165,6 +166,7 @@
         "shellarmor",
         "h:solidrock"
       ],
+      "pokedex": ["cobblemon.species.crustle-twilight.desc"],
       "drops": {
         "amount": 1,
         "entries": [

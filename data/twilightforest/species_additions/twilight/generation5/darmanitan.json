@@ -157,6 +157,7 @@
       "experienceGroup": "medium_slow",
       "eggCycles": 20,
       "eggGroups": ["field"],
+      "pokedex": ["cobblemon.species.darmanitan-twilight.desc"],
       "moves": [
         "1:bite",
         "1:powdersnow",
@@ -372,6 +373,17 @@
       "weight": 1200,
       "cannotDynamax": false,
       "battleOnly": true
+    }
+  ],
+  "evolutions": [
+    {
+      "id": "darmanitan_to_twilight",
+      "variant": "item_interact",
+      "result": "darmanitan twilight=true",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

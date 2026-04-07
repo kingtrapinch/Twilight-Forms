@@ -96,6 +96,7 @@
       "experienceGroup": "medium_fast",
       "eggCycles": 20,
       "eggGroups": ["field"],
+      "pokedex": ["cobblemon.species.wooloo-twilight.desc"],
       "moves": [
         "1:craftyshield",
         "1:tackle",
