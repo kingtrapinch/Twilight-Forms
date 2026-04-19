@@ -5,7 +5,7 @@
     "cobblemon.species.galvantula.desc"
   ],
   "drops": {
-    "amount": 7,
+    "amount": 8,
     "entries": [
       {
         "item": "minecraft:string",
@@ -17,7 +17,7 @@
       },
       {
         "item": "twilightforest:borer_essence",
-        "quantityRange": "0-2"
+        "quantityRange": "2-3"
       },
       {
         "item": "cobblemon:nanab_berry",

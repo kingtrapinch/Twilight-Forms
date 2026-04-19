@@ -112,7 +112,7 @@
         "id": "doublade_aegislash_twilight",
         "variant": "trade",
         "result": "aegislash",
-        "consumeHeldItem": false,
+        "consumeHeldItem": true,
         "learnableMoves": [
           "flamewheel"
         ],
