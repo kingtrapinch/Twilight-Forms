@@ -243,7 +243,7 @@
         {
           "id": "darmanitan_twilight_to_normal",
           "variant": "item_interact",
-          "result": "darmanitan galarian=false",
+          "result": "darmanitan twilight=false galarian=false",
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
@@ -379,7 +379,7 @@
     {
       "id": "darmanitan_to_twilight",
       "variant": "item_interact",
-      "result": "darmanitan twilight=true",
+      "result": "darmanitan twilight=true galarian=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

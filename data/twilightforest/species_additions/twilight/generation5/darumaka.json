@@ -179,7 +179,7 @@
     {
       "id": "darumaka_to_twilight",
       "variant": "item_interact",
-      "result": "darumaka twilight=true",
+      "result": "darumaka twilight=true galarian=false",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

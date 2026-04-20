@@ -120,7 +120,7 @@
         "requirements": [
           {
             "variant": "held_item",
-            "itemCondition": "twilightforest:glass_sword"
+            "itemCondition": "twilightforest:aurora_block"
           }
         ]
       },
