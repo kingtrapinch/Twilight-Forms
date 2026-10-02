@@ -5,11 +5,11 @@ license = "MIT"
 
 [[mods]]
 modId = "twilightforms"
-version = "4.0"
+version = "4.1"
 displayName = "Twilight Forms by KingTrapinch"
 authors = "KingTrapinch"
 description = '''
-A Minecraft Cobblemon datapack that adds 50+ custom Twilight Forest forms and over 250+ spawns to the Twilight Forest dimension. Requires the Cobblemon and Twilight Forest mods.
+A Minecraft Cobblemon mod that adds 50+ custom Twilight Forest forms and over 250+ spawns to the Twilight Forest dimension. Requires the Cobblemon and Twilight Forest mods.
 '''
 logoFile = "pack.png"
 
@@ -30,7 +30,7 @@ side = "BOTH"
 [[dependencies.twilight_forms]]
 modId = "cobblemon"
 type = "required"
-versionRange = "[1.7.0, )"
+versionRange = "[1.8, )"
 ordering = "AFTER"
 side = "BOTH"
 
