@@ -21,6 +21,18 @@
         "shiny"
       ],
       "texture": "cobblemon:textures/pokemon/0105_necromarrow/necromarrow_shiny.png"
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0105_necromarrow/necromarrow_alpha.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }
