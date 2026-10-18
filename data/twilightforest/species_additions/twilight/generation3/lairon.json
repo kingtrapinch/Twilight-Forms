@@ -190,10 +190,15 @@
         {
           "id": "lairon_twilight_to_normal",
           "variant": "item_interact",
-          "result": "lairon twilight=false",
+          "result": "lairon twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -235,7 +240,7 @@
     {
       "id": "lairon_to_twilight",
       "variant": "item_interact",
-      "result": "lairon twilight=true",
+      "result": "lairon twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

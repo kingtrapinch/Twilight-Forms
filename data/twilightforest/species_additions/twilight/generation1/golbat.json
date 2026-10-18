@@ -244,10 +244,15 @@
         {
           "id": "golbat_twilight_to_normal",
           "variant": "item_interact",
-          "result": "golbat twilight=false",
+          "result": "golbat twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]
@@ -257,10 +262,15 @@
         {
           "id": "golbat_to_twilight",
           "variant": "item_interact",
-          "result": "golbat twilight=true",
+          "result": "golbat twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

@@ -183,10 +183,15 @@
         {
           "id": "zweilous_twilight_to_normal",
           "variant": "item_interact",
-          "result": "zweilous twilight=false",
+          "result": "zweilous twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -215,7 +220,7 @@
     {
       "id": "zweilous_to_twilight",
       "variant": "item_interact",
-      "result": "zweilous twilight=true",
+      "result": "zweilous twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

@@ -211,10 +211,15 @@
         {
           "id": "shellos_twilight_to_normal",
           "variant": "item_interact",
-          "result": "shellos twilight=false",
+          "result": "shellos twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]
@@ -224,7 +229,7 @@
     {
       "id": "shellos_to_twilight",
       "variant": "item_interact",
-      "result": "shellos twilight=true",
+      "result": "shellos twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

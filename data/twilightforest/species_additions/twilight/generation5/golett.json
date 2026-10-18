@@ -204,10 +204,15 @@
         {
           "id": "golett_twilight_to_normal",
           "variant": "item_interact",
-          "result": "golett twilight=false",
+          "result": "golett twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -235,7 +240,7 @@
     {
       "id": "golett_to_twilight",
       "variant": "item_interact",
-      "result": "golett twilight=true",
+      "result": "golett twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

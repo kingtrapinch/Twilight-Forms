@@ -168,10 +168,15 @@
         {
           "id": "scolipede_twilight_to_normal",
           "variant": "item_interact",
-          "result": "scolipede twilight=false",
+          "result": "scolipede twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -200,7 +205,7 @@
     {
       "id": "scolipede_to_twilight",
       "variant": "item_interact",
-      "result": "scolipede twilight=true",
+      "result": "scolipede twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

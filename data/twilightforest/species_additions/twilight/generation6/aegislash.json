@@ -136,10 +136,15 @@
         {
           "id": "aegislash_twilight_to_normal",
           "variant": "item_interact",
-          "result": "aegislash twilight=false",
+          "result": "aegislash twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -270,7 +275,7 @@
     {
       "id": "aegislash_to_twilight",
       "variant": "item_interact",
-      "result": "aegislash twilight=true",
+      "result": "aegislash twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

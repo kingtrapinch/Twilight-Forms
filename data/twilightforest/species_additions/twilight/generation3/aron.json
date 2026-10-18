@@ -197,10 +197,15 @@
         {
           "id": "aron_twilight_to_normal",
           "variant": "item_interact",
-          "result": "aron twilight=false",
+          "result": "aron twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -242,7 +247,7 @@
     {
       "id": "aron_to_twilight",
       "variant": "item_interact",
-      "result": "aron twilight=true",
+      "result": "aron twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

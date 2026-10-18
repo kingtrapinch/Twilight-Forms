@@ -177,10 +177,15 @@
         {
           "id": "hatterene_twilight_to_normal",
           "variant": "item_interact",
-          "result": "hatterene twilight=false",
+          "result": "hatterene twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -315,10 +320,15 @@
         {
           "id": "hatterene_to_twilight",
           "variant": "item_interact",
-          "result": "hatterene twilight=true",
+          "result": "hatterene twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

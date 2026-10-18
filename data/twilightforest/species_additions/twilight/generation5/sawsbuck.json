@@ -143,10 +143,15 @@
         {
           "id": "sawsbuck_twilight_to_normal",
           "variant": "item_interact",
-          "result": "sawsbuck twilight=false",
+          "result": "sawsbuck twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -177,10 +182,15 @@
         {
           "id": "sawsbuck_to_twilight",
           "variant": "item_interact",
-          "result": "sawsbuck twilight=true",
+          "result": "sawsbuck twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

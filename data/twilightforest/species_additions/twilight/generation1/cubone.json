@@ -243,10 +243,15 @@
         {
           "id": "cubone_twilight_to_normal",
           "variant": "item_interact",
-          "result": "cubone twilight=false",
+          "result": "cubone twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -275,10 +280,15 @@
         {
           "id": "cubone_to_twilight",
           "variant": "item_interact",
-          "result": "cubone twilight=true",
+          "result": "cubone twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

@@ -186,10 +186,15 @@
         {
           "id": "drifblim_twilight_to_normal",
           "variant": "item_interact",
-          "result": "drifblim twilight=false",
+          "result": "drifblim twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -218,7 +223,7 @@
     {
       "id": "drifblim_to_twilight",
       "variant": "item_interact",
-      "result": "drifblim twilight=true",
+      "result": "drifblim twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

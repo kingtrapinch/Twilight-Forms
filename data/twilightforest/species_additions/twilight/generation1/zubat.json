@@ -249,10 +249,15 @@
         {
           "id": "zubat_twilight_to_normal",
           "variant": "item_interact",
-          "result": "zubat twilight=false",
+          "result": "zubat twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]
@@ -262,10 +267,15 @@
         {
           "id": "zubat_to_twilight",
           "variant": "item_interact",
-          "result": "zubat twilight=true",
+          "result": "zubat twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

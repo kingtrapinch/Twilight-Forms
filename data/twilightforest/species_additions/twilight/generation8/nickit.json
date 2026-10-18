@@ -134,10 +134,15 @@
         {
           "id": "nickit_twilight_to_normal",
           "variant": "item_interact",
-          "result": "nickit twilight=false",
+          "result": "nickit twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -166,7 +171,7 @@
     {
       "id": "nickit_to_twilight",
       "variant": "item_interact",
-      "result": "nickit twilight=true",
+      "result": "nickit twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

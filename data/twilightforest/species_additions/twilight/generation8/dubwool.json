@@ -178,10 +178,15 @@
         {
           "id": "dubwool_twilight_to_normal",
           "variant": "item_interact",
-          "result": "dubwool twilight=false",
+          "result": "dubwool twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -193,10 +198,15 @@
         {
           "id": "dubwool_to_twilight",
           "variant": "item_interact",
-          "result": "dubwool twilight=true",
+          "result": "dubwool twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]
