@@ -234,39 +234,7 @@
         "legacy:swagger",
         "legacy:takedown"
       ],
-      "preEvolution": "golbat",
-      "evolutions": [
-        {
-          "id": "crobat_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "crobat twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+      "preEvolution": "golbat"
     }
-  ],
-  "evolutions": [
-        {
-          "id": "crobat_to_twilight",
-          "variant": "item_interact",
-          "result": "crobat twilight=true powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+  ]
 }

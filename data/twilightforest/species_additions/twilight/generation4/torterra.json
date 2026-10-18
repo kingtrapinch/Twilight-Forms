@@ -55,7 +55,6 @@
         "cobblemon.species.torterra-twilight.desc"
       ],
       "preEvolution": "grotle",
-      "evolutions": [],
       "baseScale": 1,
       "hitbox": {
         "width": 1,
@@ -129,7 +128,6 @@
         "cobblemon.species.torterra-twilight.desc"
       ],
       "preEvolution": "grotle",
-      "evolutions": [],
       "baseScale": 1,
       "hitbox": {
         "width": 1,
@@ -305,7 +303,6 @@
     "cobblemon.species.torterra-twilight.desc"
   ],
   "preEvolution": "grotle",
-  "evolutions": [],
   "baseScale": 1,
   "hitbox": {
     "width": 1,

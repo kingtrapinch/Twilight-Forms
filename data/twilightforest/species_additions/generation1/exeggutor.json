@@ -236,22 +236,6 @@
       "height": 109,
       "weight": 4156,
       "preEvolution": "exeggcute region_bias=alola",
-      "evolutions": [
-        {
-          "id": "exeggutor_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "exeggutor alolan=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
       "cannotDynamax": false,
       "battleOnly": false
     }
@@ -461,17 +445,6 @@
     "alolan"
   ],
   "preEvolution": "exeggcute",
-  "evolutions": [
-    {
-      "id": "exeggutor_to_twilight",
-      "variant": "item_interact",
-      "result": "exeggutor alolan=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
-    }
-  ],
   "baseScale": 0.85,
   "hitbox": {
     "width": 1.8,

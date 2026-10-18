@@ -139,22 +139,6 @@
         "cobblemon.species.sawsbuck-twilight.desc"
       ],
       "preEvolution": "deerling form=twilight",
-      "evolutions": [
-        {
-          "id": "sawsbuck_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "sawsbuck twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
       "baseScale": 1.05,
       "hitbox": {
         "width": 1,
@@ -177,21 +161,5 @@
       ],      
       "cannotDynamax": false
     }
-  ],
-  "evolutions": [
-        {
-          "id": "sawsbuck_to_twilight",
-          "variant": "item_interact",
-          "result": "sawsbuck twilight=true powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+  ]
 }

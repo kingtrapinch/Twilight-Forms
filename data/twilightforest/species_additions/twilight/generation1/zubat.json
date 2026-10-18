@@ -245,38 +245,8 @@
               "minLevel": 22
             }
           ]
-        },
-        {
-          "id": "zubat_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "zubat twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ]
     }
-  ],
-  "evolutions": [
-        {
-          "id": "zubat_to_twilight",
-          "variant": "item_interact",
-          "result": "zubat twilight=true powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+  ]
 }

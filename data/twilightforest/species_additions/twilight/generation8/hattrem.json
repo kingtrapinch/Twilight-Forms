@@ -154,20 +154,6 @@
           ],
           "requirements": [],
           "requiredContext": "cobblemon:ice_stone"
-        },
-        {
-          "id": "hattrem_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "hattrem twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "behaviour": {
@@ -207,16 +193,5 @@
         }
       }
     }
-  ],
-  "evolutions": [
-      {
-        "id": "hattrem_to_twilight",
-        "variant": "item_interact",
-        "result": "hattrem twilight=true powdered=true",
-        "consumeHeldItem": false,
-        "learnableMoves": [],
-        "requirements": [],
-        "requiredContext": "twilightforest:transformation_powder"
-      }
     ]
 }

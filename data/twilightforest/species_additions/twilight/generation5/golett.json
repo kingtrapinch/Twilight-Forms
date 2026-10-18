@@ -200,20 +200,6 @@
               "minLevel": 43
             }
           ]
-        },
-        {
-          "id": "golett_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "golett twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 0.9,
@@ -234,17 +220,6 @@
       "height": 10,
       "weight": 920,
       "cannotDynamax": false
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "golett_to_twilight",
-      "variant": "item_interact",
-      "result": "golett twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

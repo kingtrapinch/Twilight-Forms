@@ -136,20 +136,6 @@
           ],
           "requirements": [],
           "requiredContext": "cobblemon:leaf_stone"
-        },
-        {
-          "id": "voltorb_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "voltorb hisuian=false",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "cannotDynamax": false,
@@ -322,15 +308,6 @@
           "minLevel": 30
         }
       ]
-    },
-    {
-      "id": "voltorb_to_twilight",
-      "variant": "item_interact",
-      "result": "voltorb hisuian=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ],
   "baseScale": 0.9,

@@ -369,22 +369,6 @@
       "labels": ["gen3"],
       "pokedex": ["cobblemon.species.tropius-twilight.desc"],
       "aspects": ["twilight"],
-      "evolutions": [
-        {
-          "id": "tropius_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "tropius twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
       "baseScale": 1.6,
       "hitbox": {
         "width": 2.2,
@@ -403,17 +387,6 @@
       "height": 40,
       "weight": 2000,
       "cannotDynamax": false
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "tropius_to_twilight",
-      "variant": "item_interact",
-      "result": "tropius twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

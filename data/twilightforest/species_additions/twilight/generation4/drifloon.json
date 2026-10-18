@@ -206,20 +206,6 @@
               "minLevel": 28
             }
           ]
-        },
-        {
-          "id": "drifloon_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "drifloon twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 0.90,
@@ -242,21 +228,5 @@
       "aspects": ["twilight"],
       "cannotDynamax": false
     }    
-  ],
-  "evolutions": [
-        {
-          "id": "drifloon_to_twilight",
-          "variant": "item_interact",
-          "result": "drifloon twilight=true powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+  ]
 }

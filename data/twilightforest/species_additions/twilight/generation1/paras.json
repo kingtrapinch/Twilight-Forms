@@ -217,20 +217,6 @@
               "minLevel": 24
             }
           ]
-        },
-        {
-          "id": "paras_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "paras twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 0.7,
@@ -252,21 +238,5 @@
       "weight": 54,
       "cannotDynamax": false
     }
-  ],
-  "evolutions": [
-        {
-          "id": "paras_to_twilight",
-          "variant": "item_interact",
-          "result": "paras twilight=true powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+  ]
 }

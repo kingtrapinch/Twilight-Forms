@@ -185,20 +185,6 @@
               "minLevel": 50
             }
           ]
-        },
-        {
-          "id": "deino_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "deino twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ],
       "baseScale": 0.75,
@@ -220,17 +206,6 @@
       "weight": 173,
       "aspects": ["twilight"],
       "cannotDynamax": false
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "deino_to_twilight",
-      "variant": "item_interact",
-      "result": "deino twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

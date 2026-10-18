@@ -404,22 +404,6 @@
       "labels": ["gen5", "pseudo_legendary"],
       "pokedex": ["cobblemon.species.hydreigon-twilight.desc"],
       "preEvolution": "zweilous twilight",
-      "evolutions": [
-        {
-          "id": "hydreigon_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "hydreigon twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
       "baseScale": 1.3,
       "hitbox": {
         "width": 1.5,
@@ -439,17 +423,6 @@
       "weight": 1600,
       "aspects": ["twilight"],
       "cannotDynamax": false
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "hydreigon_to_twilight",
-      "variant": "item_interact",
-      "result": "hydreigon twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

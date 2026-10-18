@@ -131,24 +131,7 @@
         "tutor:spite",
         "tutor:steelbeam",
         "tutor:wideguard"
-      ],
-      "evolutions": [
-        {
-          "id": "aegislash_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "aegislash twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
-      "battleOnly": false
+      ]
     },
     {
       "name": "Blade Twilight",
@@ -267,19 +250,7 @@
         "tutor:steelbeam",
         "tutor:wideguard"
       ],
-      "evolutions": [],
       "battleOnly": true
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "aegislash_to_twilight",
-      "variant": "item_interact",
-      "result": "aegislash twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

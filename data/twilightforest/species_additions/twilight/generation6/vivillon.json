@@ -149,7 +149,6 @@
         "cobblemon.species.vivillon-twilight.desc"
       ],
       "preEvolution": "spewpa",
-      "evolutions": [],
       "baseScale": 0.7,
       "hitbox": {
         "width": 0.4,

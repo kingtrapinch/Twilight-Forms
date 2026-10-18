@@ -270,17 +270,6 @@
           "cobblemon.species.gallade-twilight.desc"
         ],
         "preEvolution": "kirlia form=twilight",
-        "evolutions": [
-          {
-            "id": "gallade_twilight_to_normal",
-            "variant": "item_interact",
-            "result": "gallade twilight=false powdered=true",
-            "consumeHeldItem": false,
-            "learnableMoves": [],
-            "requirements": [],
-            "requiredContext": "twilightforest:transformation_powder"
-          }
-        ],
         "baseScale": 1,
         "hitbox": {
           "width": 0.6,
@@ -322,16 +311,5 @@
           ]
         }
       }
-    ],
-    "evolutions": [
-          {
-            "id": "gallade_to_twilight",
-            "variant": "item_interact",
-            "result": "gallade twilight=true powdered=true",
-            "consumeHeldItem": false,
-            "learnableMoves": [],
-            "requirements": [],
-            "requiredContext": "twilightforest:transformation_powder"
-          }
-        ]
+    ]
   }

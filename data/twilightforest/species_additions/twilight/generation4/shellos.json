@@ -207,33 +207,8 @@
               "minLevel": 30
             }
           ]
-        },
-        {
-          "id": "shellos_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "shellos twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
         }
       ]
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "shellos_to_twilight",
-      "variant": "item_interact",
-      "result": "shellos twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

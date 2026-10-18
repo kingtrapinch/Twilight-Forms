@@ -204,22 +204,6 @@
         "cobblemon.species.aggron-twilight.desc"
       ],
       "preEvolution": "lairon twilight",
-      "evolutions": [
-        {
-          "id": "aggron_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "aggron twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
       "baseScale": 1,
       "hitbox": {
         "width": 1,
@@ -277,21 +261,5 @@
         ]
       }
     }
-  ],
-  "evolutions": [
-        {
-          "id": "aggron_to_twilight",
-          "variant": "item_interact",
-          "result": "aggron twilight=true powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ]
+  ]
 }

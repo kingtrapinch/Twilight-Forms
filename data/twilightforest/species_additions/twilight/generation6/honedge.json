@@ -123,15 +123,6 @@
             "itemCondition": "twilightforest:aurora_block"
           }
         ]
-      },
-      {
-        "id": "honedge_twilight_to_normal",
-        "variant": "item_interact",
-        "result": "honedge twilight=false powdered=true",
-        "consumeHeldItem": false,
-        "learnableMoves": [],
-        "requirements": [],
-        "requiredContext": "twilightforest:transformation_powder"
       }
     ],
     "baseScale": 0.7,
@@ -154,16 +145,5 @@
     "aspects": ["twilight"],
     "cannotDynamax": false
   }
-],
-"evolutions": [
-      {
-        "id": "honedge_to_twilight",
-        "variant": "item_interact",
-        "result": "honedge twilight=true powdered=true",
-        "consumeHeldItem": false,
-        "learnableMoves": [],
-        "requirements": [],
-        "requiredContext": "twilightforest:transformation_powder"
-      }
-    ]
+]
 }

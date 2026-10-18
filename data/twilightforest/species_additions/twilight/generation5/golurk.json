@@ -468,22 +468,6 @@
       "pokedex": ["cobblemon.species.golurk-twilight.desc"],
       "aspects": ["twilight"],
       "preEvolution": "golett form=twilight",
-      "evolutions": [
-        {
-          "id": "golurk_twilight_to_normal",
-          "variant": "item_interact",
-          "result": "golurk twilight=false powdered=true",
-          "consumeHeldItem": false,
-          "learnableMoves": [],
-          "requirements": [
-              {
-                "variant": "properties",
-                "target": "powdered=false"
-              }
-            ],
-          "requiredContext": "twilightforest:transformation_powder"
-        }
-      ],
       "hitbox": {
         "width": 1.4,
         "height": 3.5,
@@ -501,17 +485,6 @@
       "height": 28,
       "weight": 3300,
       "cannotDynamax": false
-    }
-  ],
-  "evolutions": [
-    {
-      "id": "golurk_to_twilight",
-      "variant": "item_interact",
-      "result": "golurk twilight=true powdered=true",
-      "consumeHeldItem": false,
-      "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "twilightforest:transformation_powder"
     }
   ]
 }

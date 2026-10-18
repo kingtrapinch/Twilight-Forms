@@ -210,7 +210,6 @@
     "cobblemon.species.necromarrow.desc"
   ],
   "preEvolution": "marowak twilight",
-  "evolutions": [],
   "baseScale": 0.8,
   "hitbox": {
     "width": 0.9,
