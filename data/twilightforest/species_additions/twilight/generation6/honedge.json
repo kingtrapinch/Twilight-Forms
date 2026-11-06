@@ -127,7 +127,7 @@
       {
         "id": "honedge_twilight_to_normal",
         "variant": "item_interact",
-        "result": "honedge twilight=false",
+        "result": "honedge twilight=false powdered=true",
         "consumeHeldItem": false,
         "learnableMoves": [],
         "requirements": [],
@@ -159,7 +159,7 @@
       {
         "id": "honedge_to_twilight",
         "variant": "item_interact",
-        "result": "honedge twilight=true",
+        "result": "honedge twilight=true powdered=true",
         "consumeHeldItem": false,
         "learnableMoves": [],
         "requirements": [],

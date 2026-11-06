@@ -274,7 +274,7 @@
           {
             "id": "gallade_twilight_to_normal",
             "variant": "item_interact",
-            "result": "gallade twilight=false",
+            "result": "gallade twilight=false powdered=true",
             "consumeHeldItem": false,
             "learnableMoves": [],
             "requirements": [],
@@ -327,7 +327,7 @@
           {
             "id": "gallade_to_twilight",
             "variant": "item_interact",
-            "result": "gallade twilight=true",
+            "result": "gallade twilight=true powdered=true",
             "consumeHeldItem": false,
             "learnableMoves": [],
             "requirements": [],

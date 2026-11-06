@@ -208,10 +208,15 @@
         {
           "id": "aggron_twilight_to_normal",
           "variant": "item_interact",
-          "result": "aggron twilight=false",
+          "result": "aggron twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -277,10 +282,15 @@
         {
           "id": "aggron_to_twilight",
           "variant": "item_interact",
-          "result": "aggron twilight=true",
+          "result": "aggron twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

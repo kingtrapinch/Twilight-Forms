@@ -126,7 +126,7 @@
       {
         "id": "doublade_twilight_to_normal",
         "variant": "item_interact",
-        "result": "doublade twilight=false",
+        "result": "doublade twilight=false powdered=true",
         "consumeHeldItem": false,
         "learnableMoves": [],
         "requirements": [],
@@ -158,7 +158,7 @@
       {
         "id": "doublade_to_twilight",
         "variant": "item_interact",
-        "result": "doublade twilight=true",
+        "result": "doublade twilight=true powdered=true",
         "consumeHeldItem": false,
         "learnableMoves": [],
         "requirements": [],

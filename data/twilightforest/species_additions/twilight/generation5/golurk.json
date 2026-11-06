@@ -472,10 +472,15 @@
         {
           "id": "golurk_twilight_to_normal",
           "variant": "item_interact",
-          "result": "golurk twilight=false",
+          "result": "golurk twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -502,7 +507,7 @@
     {
       "id": "golurk_to_twilight",
       "variant": "item_interact",
-      "result": "golurk twilight=true",
+      "result": "golurk twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

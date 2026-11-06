@@ -142,10 +142,15 @@
         {
           "id": "fidough_twilight_to_normal",
           "variant": "item_interact",
-          "result": "fidough twilight=false",
+          "result": "fidough twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -159,10 +164,15 @@
         {
           "id": "fidough_to_twilight",
           "variant": "item_interact",
-          "result": "fidough twilight=true",
+          "result": "fidough twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

@@ -133,10 +133,15 @@
         {
           "id": "thievul_twilight_to_normal",
           "variant": "item_interact",
-          "result": "thievul twilight=false",
+          "result": "thievul twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -165,7 +170,7 @@
     {
       "id": "thievul_to_twilight",
       "variant": "item_interact",
-      "result": "thievul twilight=true",
+      "result": "thievul twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

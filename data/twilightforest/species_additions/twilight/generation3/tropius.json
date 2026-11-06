@@ -373,10 +373,15 @@
         {
           "id": "tropius_twilight_to_normal",
           "variant": "item_interact",
-          "result": "tropius twilight=false",
+          "result": "tropius twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -404,7 +409,7 @@
     {
       "id": "tropius_to_twilight",
       "variant": "item_interact",
-      "result": "tropius twilight=true",
+      "result": "tropius twilight=true powdered=true",
       "consumeHeldItem": false,
       "learnableMoves": [],
       "requirements": [],

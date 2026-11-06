@@ -166,10 +166,15 @@
         {
           "id": "whirlipede_twilight_to_normal",
           "variant": "item_interact",
-          "result": "whirlipede twilight=false",
+          "result": "whirlipede twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -197,10 +202,15 @@
         {
           "id": "whirlipede_to_twilight",
           "variant": "item_interact",
-          "result": "whirlipede twilight=true",
+          "result": "whirlipede twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

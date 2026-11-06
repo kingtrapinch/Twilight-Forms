@@ -162,10 +162,15 @@
         {
           "id": "tangrowth_twilight_to_normal",
           "variant": "item_interact",
-          "result": "tangrowth twilight=false",
+          "result": "tangrowth twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -194,10 +199,15 @@
         {
           "id": "tangrowth_to_twilight",
           "variant": "item_interact",
-          "result": "tangrowth twilight=true",
+          "result": "tangrowth twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

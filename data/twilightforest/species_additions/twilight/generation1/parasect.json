@@ -196,10 +196,15 @@
         {
           "id": "parasect_twilight_to_normal",
           "variant": "item_interact",
-          "result": "parasect twilight=false",
+          "result": "parasect twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -227,10 +232,15 @@
         {
           "id": "parasect_to_twilight",
           "variant": "item_interact",
-          "result": "parasect twilight=true",
+          "result": "parasect twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]

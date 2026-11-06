@@ -225,10 +225,15 @@
         {
           "id": "tangela_twilight_to_normal",
           "variant": "item_interact",
-          "result": "tangela twilight=false",
+          "result": "tangela twilight=false powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ],
@@ -257,10 +262,15 @@
         {
           "id": "tangela_to_twilight",
           "variant": "item_interact",
-          "result": "tangela twilight=true",
+          "result": "tangela twilight=true powdered=true",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
+          "requirements": [
+              {
+                "variant": "properties",
+                "target": "powdered=false"
+              }
+            ],
           "requiredContext": "twilightforest:transformation_powder"
         }
       ]
