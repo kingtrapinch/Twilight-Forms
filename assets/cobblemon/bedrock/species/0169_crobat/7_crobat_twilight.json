@@ -7,14 +7,41 @@
       "poser": "cobblemon:crobat_twilight",
       "model": "cobblemon:crobat_twilight.geo",
       "texture": "cobblemon:textures/pokemon/0169_crobat/crobat_twilight.png",
-      "layers": []
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0169_crobat/crobat_twilight_emissive.png",
+          "translucent": true
+        }
+      ]
+    },
+    {
+      "aspects": ["twilight","shiny"],
+      "poser": "cobblemon:crobat_twilight",
+      "model": "cobblemon:crobat_twilight.geo",
+      "texture": "cobblemon:textures/pokemon/0169_crobat/crobat_twilight_shiny.png",
+      "layers": [
+        {
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/0169_crobat/crobat_twilight_emissive.png",
+          "translucent": true
+        }
+      ]
     },
     {
       "aspects": [
         "twilight",
-        "shiny"
+        "alpha_eyes"
       ],
-      "texture": "cobblemon:textures/pokemon/0169_crobat/crobat_twilight_shiny.png"
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/0169_crobat/crobat_twilight_alpha.png",
+          "emissive": true
+        }
+      ]
     }
   ]
 }
